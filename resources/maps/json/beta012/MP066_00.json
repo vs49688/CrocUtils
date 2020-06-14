@@ -1,0 +1,269 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old_noambient",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND6\\BOSS\\LAIR3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss6",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	26,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.62451171875,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	2
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"DanteColm",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[5, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[4, 1.29998779296875, 4],
+			"colour":	[255, 251, 251],
+			"fade_from":	0.00390625,
+			"fade_to":	0.0078125
+		}, {
+			"position":	[-13311.98828125, -26367.998046875, -255.97813415527344],
+			"colour":	[187, 51, 0],
+			"fade_from":	-16384,
+			"fade_to":	0
+		}, {
+			"position":	[19660, -26215, -17409],
+			"colour":	[51, 0, 192],
+			"fade_from":	192,
+			"fade_to":	1280
+		}, {
+			"position":	[76.796875, 1433.59765625, 13243.99609375],
+			"colour":	[0, 192, 0],
+			"fade_from":	0.75,
+			"fade_to":	5.8499908447265625
+		}, {
+			"position":	[0.29998779296875, 5.1999969482421875, 51.734359741210938],
+			"colour":	[192, 0, 0],
+			"fade_from":	-26367.99609375,
+			"fade_to":	-13311.9736328125
+		}, {
+			"position":	[13056.0009765625, -255.98359680175781, -16383.7978515625],
+			"colour":	[0, 0, 0],
+			"fade_from":	9830,
+			"fade_to":	19660
+		}, {
+			"position":	[13107, -17409, 192.00077819824219],
+			"colour":	[0, 0, 192],
+			"fade_from":	550.3984375,
+			"fade_to":	76.796875
+		}, {
+			"position":	[1331.19921875, 13243.99609375, 0.75],
+			"colour":	[0, 192, 0],
+			"fade_from":	4096,
+			"fade_to":	0
+		}],
+	"direct_lights":	[{
+			"position":	[3.717529296875, 0.014404296875, 0],
+			"colour":	[219, 13, 0]
+		}, {
+			"position":	[7.60009765625, 0.010498046875, 0],
+			"colour":	[255, 255, 0]
+		}, {
+			"position":	[1.201904296875, 0.014404296875, 1.694091796875],
+			"colour":	[124, 78, 0]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

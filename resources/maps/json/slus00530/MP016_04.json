@@ -1,0 +1,189 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	15765
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL6\\MAP5.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	128,
+	"cd_track":	8,
+	"background":	16,
+	"effect":	2,
+	"wait":	0,
+	"ambience":	"nght",
+	"start_rotation":	0.015869140625,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	79
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	43
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	43
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	133
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	138
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.75,
+			"index":	43
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	43
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 80],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 55.15966796875],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 109.5],
+			"rotation":	[0, 0, 0],
+			"name":	"WaterSplash",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 2],
+			"level":	16,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 3],
+			"level":	16,
+			"sublevel":	2,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 6],
+			"level":	16,
+			"sublevel":	5,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 6],
+			"level":	16,
+			"sublevel":	5,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 7],
+			"level":	16,
+			"sublevel":	5,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 7],
+			"level":	16,
+			"sublevel":	5,
+			"flags":	["floor"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[3.5, -0.666656494140625, 6.5],
+			"colour":	[123, 227, 255],
+			"fade_from":	2,
+			"fade_to":	2.5
+		}, {
+			"position":	[2.75, 0.5, 5],
+			"colour":	[128, 128, 128],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

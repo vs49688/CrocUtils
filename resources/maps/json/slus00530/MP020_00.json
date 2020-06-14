@@ -1,0 +1,362 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	48301
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\LEVEL1\\MAP1.MAP",
+	"name":	"The Ice of Life",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	4,
+	"cd_track":	60,
+	"background":	3,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"ice1",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	16
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	17
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	44
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	45
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	30
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	30
+		}, {
+			"position":	[0, 0, 6],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	34
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	9
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	32
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	31
+		}, {
+			"position":	[0, 0, 7],
+			"yr":	0.25,
+			"index":	19
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.75,
+			"index":	30
+		}, {
+			"position":	[0, 0, 8],
+			"yr":	0.25,
+			"index":	51
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	66
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.25,
+			"index":	32
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.75,
+			"index":	9
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.5,
+			"index":	32
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.5,
+			"index":	31
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.25,
+			"index":	45
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0.75,
+			"index":	44
+		}, {
+			"position":	[3, 0, 10],
+			"yr":	0.5,
+			"index":	16
+		}, {
+			"position":	[4, 0, 10],
+			"yr":	0.5,
+			"index":	76
+		}, {
+			"position":	[5, 0, 10],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[4, 0, 11],
+			"yr":	0.5,
+			"index":	73
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 1310720, 39320, 0, 0, 0],
+			"position":	[64, 0, 77.2998046875],
+			"rotation":	[0, 0.3330078125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 1310720, 39320, 0, 0, 0],
+			"position":	[64, 0, 77.2998046875],
+			"rotation":	[0, 0.666015625, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 1310720, 39320, 0, 0, 0],
+			"position":	[64, 0, 77.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 76.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62.399658203125, 8.799560546875, 112],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[50.4794921875, 8.799560546875, 111.97998046875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[38.5595703125, 8.799560546875, 112],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.279541015625, 8.799560546875, 112.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[29.679443359375, 8.799560546875, 111.97998046875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[26214, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[26214, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.199462890625, -0.7998046875, 112],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 168.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.999755859375, 1.43994140625, 142.419921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[26214, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 0, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[76, 0, 84.5],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWater",
+			"waypoints":	[{
+					"position":	[76, 0, 78],
+					"var":	0
+				}, {
+					"position":	[62, 0, 70],
+					"var":	0
+				}, {
+					"position":	[58, 0, 83.5],
+					"var":	0
+				}, {
+					"position":	[48, 0, 96.5],
+					"var":	0
+				}, {
+					"position":	[46, 0, 109],
+					"var":	0
+				}, {
+					"position":	[74, 0, 111.5],
+					"var":	0
+				}, {
+					"position":	[70, 0, 126],
+					"var":	0
+				}, {
+					"position":	[56, 0, 123],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[70, 11.199951171875, 112.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniStomp",
+			"waypoints":	[{
+					"position":	[70, 11.199951171875, 112.5],
+					"var":	0
+				}, {
+					"position":	[52, 11.199951171875, 112],
+					"var":	0
+				}, {
+					"position":	[32, 11.199951171875, 111],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[3, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[4, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 10],
+			"level":	20,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 11],
+			"level":	20,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

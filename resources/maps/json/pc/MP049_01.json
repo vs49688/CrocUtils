@@ -1,0 +1,263 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	36927
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BONUS2\\MAP2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	13,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.23583984375,
+	"tracks":	[{
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	102
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	16
+		}, {
+			"position":	[11, 0, 2],
+			"yr":	0.75,
+			"index":	19
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	52
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[11, 0, 3],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[12, 0, 3],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	19
+		}, {
+			"position":	[11, 0, 4],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.5,
+			"index":	102
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[144, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[160, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 0, 47.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 47.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[144, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[152, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[160, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[184.639892578125, 0, 47.85986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[7.039794921875, 0, 49],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[0, 0, 3],
+			"level":	49,
+			"sublevel":	3,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[1, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[12, 0, 3],
+			"level":	49,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

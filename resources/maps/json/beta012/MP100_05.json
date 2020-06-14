@@ -1,0 +1,149 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\ISLANDS\\ISLE1.MAP",
+	"name":	"Default New Map",
+	"width":	2,
+	"height":	2,
+	"depth":	1,
+	"style":	"boss9",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	40,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	2
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCamera",
+			"waypoints":	[{
+					"position":	[-1.5, 0, 16.5],
+					"var":	0
+				}, {
+					"position":	[-2, 0, 4],
+					"var":	0
+				}, {
+					"position":	[5.5, 0, -2],
+					"var":	0
+				}, {
+					"position":	[12.5, 0, 0],
+					"var":	0
+				}, {
+					"position":	[19, 0, 0],
+					"var":	0
+				}, {
+					"position":	[21, 0, 5],
+					"var":	0
+				}, {
+					"position":	[19, 0, 19],
+					"var":	0
+				}, {
+					"position":	[10, 0, 17.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[18.2998046875, 0.47998046875, 17.260009765625],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree01",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.5, 1.599853515625, 17.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree01",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17, 1.599853515625, 17.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree01",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17, 1.599853515625, 18],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree02",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.5, 1.599853515625, 16.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree03",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17, 1.599853515625, 16.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree03",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.5, 1.599853515625, 20.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree04",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.5, 3.199951171875, 20.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree04",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.5, 1.599853515625, 21.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree04",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-0.860107421875, 4.7998046875, 14.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree05",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-1.02001953125, 4.7998046875, 16],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree06",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

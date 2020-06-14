@@ -1,0 +1,88 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	7,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\RICHARD\\RICKY.MAP",
+	"name":	"Music Dept.",
+	"width":	3,
+	"height":	3,
+	"depth":	1,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	25,
+	"background":	0,
+	"effect":	"none",
+	"wait":	24,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	13
+		}],
+	"strats":	[{
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[14, 0, 16.5],
+			"rotation":	[0, 0, 0],
+			"name":	"RedFly",
+			"waypoints":	[{
+					"position":	[0, 0, 33],
+					"var":	0
+				}, {
+					"position":	[32, 0, 32.5],
+					"var":	0
+				}, {
+					"position":	[30, 0, 0],
+					"var":	0
+				}]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 182]
+}

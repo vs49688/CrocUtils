@@ -1,0 +1,65 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	9094
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\INTRO\\J1-ISLES.MAP",
+	"name":	"Default New Map",
+	"width":	2,
+	"height":	2,
+	"depth":	1,
+	"style":	"island1",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	43,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.258056640625,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 1.599853515625, 8],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[0, 0, 0],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

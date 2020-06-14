@@ -1,0 +1,249 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	39604
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL5\\MAP2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.2275390625,
+	"tracks":	[{
+			"position":	[5, 2, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 5, 6],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[7, 8, 8],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[4, 111, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 119, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[3, 127, 1],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 127, 1],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[7, 127, 1],
+			"yr":	0,
+			"index":	67
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 240, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"CastleEngine",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 240, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"CastleEngine",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 240, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"CastleEngine",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 240, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"CastleEngine",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 240, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"CastleEngine",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 252.7998046875, 33.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 252.7998046875, 33.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 252.7998046875, 33.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 222.93310546875, 63.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 224, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[131072000, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95.999755859375, 225.066650390625, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 254.1865234375, 17],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 254.93310546875, 16.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 254.93310546875, 17],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 240, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 240, 80.31982421875],
+			"rotation":	[0, 0, 0],
+			"name":	"SwipeFall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 240, 80.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"SwipeFall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 120.699951171875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 240, 79.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_O",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[127.97998046875, 240, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallWarp",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[6, 1, 8],
+			"level":	45,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 15, 5],
+			"level":	45,
+			"sublevel":	6,
+			"flags":	["ceiling"],
+			"id":	0
+		}, {
+			"position":	[2, 16, 3],
+			"level":	45,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

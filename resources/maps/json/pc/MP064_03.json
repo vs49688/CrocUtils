@@ -1,0 +1,221 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND6\\LEVEL5\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	16,
+	"cd_track":	0,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[1, 0, 9],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[2, 0, 9],
+			"yr":	0.5,
+			"index":	69
+		}, {
+			"position":	[3, 8, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 8, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 8, 10],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[7, 8, 10],
+			"yr":	0.5,
+			"index":	69
+		}, {
+			"position":	[8, 16, 9],
+			"yr":	0.25,
+			"index":	87
+		}, {
+			"position":	[12, 16, 9],
+			"yr":	0.75,
+			"index":	19
+		}, {
+			"position":	[8, 16, 10],
+			"yr":	0.75,
+			"index":	70
+		}, {
+			"position":	[10, 16, 10],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[12, 16, 10],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[13, 16, 10],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[8, 16, 11],
+			"yr":	0.5,
+			"index":	88
+		}, {
+			"position":	[12, 16, 11],
+			"yr":	0.75,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[2621440, 196608, 0, 0, 0, 0, 0, 0],
+			"position":	[15.479736328125, 2.13330078125, 97.39990234375],
+			"rotation":	[0, 0, 0.249755859375],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[3276800, 131072, 0, 0, 0, 0, 0, 0],
+			"position":	[15.119873046875, 2.13330078125, 97.31982421875],
+			"rotation":	[0, 0, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 655360, 65536, 0, 0, 0],
+			"position":	[15, -1.066650390625, 97],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.7998046875, -1.066650390625, 96.93994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58.5, 15.35986328125, 144.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"PlatformBridge",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62.39990234375, 32, 144],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"SpikeBall",
+			"waypoints":	[]
+		}, {
+			"params":	[1310720, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.599853515625, 32, 144],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"SpikeBall",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[74.379638671875, 15.146484375, 144.47998046875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"PlatformBridge",
+			"waypoints":	[]
+		}, {
+			"params":	[9830400, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[152.719970703125, 34.13330078125, 152.739990234375],
+			"rotation":	[0, 0, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[9830400, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[166.83984375, 34.13330078125, 152.81982421875],
+			"rotation":	[0, 0.749267578125, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[9830400, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167, 34.13330078125, 167.039794921875],
+			"rotation":	[0, 0.49951171875, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[9830400, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[152.93994140625, 34.13330078125, 167.019775390625],
+			"rotation":	[0, 0.249755859375, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[159.5, 32, 160.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 655360, 75366, 0, 0, 0],
+			"position":	[159, 30.61328125, 160],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[200.639892578125, 32, 159.85986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[3, 1, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[1, 2, 4],
+			"level":	64,
+			"sublevel":	0,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[13, 2, 10],
+			"level":	64,
+			"sublevel":	0,
+			"flags":	["normal"],
+			"id":	1
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[30, 32, 32]
+}

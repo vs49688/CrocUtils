@@ -1,0 +1,302 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	29571
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL1\\MAP6.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	4,
+	"cd_track":	8,
+	"background":	29,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"bird",
+	"start_rotation":	0.02490234375,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	34
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	34
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[0, 0, 6],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0,
+			"index":	34
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.25,
+			"index":	34
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[0, 8, 0],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[2, 8, 0],
+			"yr":	0,
+			"index":	92
+		}, {
+			"position":	[4, 8, 0],
+			"yr":	0.25,
+			"index":	55
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	91
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[1, 8, 2],
+			"yr":	0.25,
+			"index":	153
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.25,
+			"index":	35
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.75,
+			"index":	153
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 6],
+			"yr":	0.5,
+			"index":	131
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0,
+			"index":	131
+		}, {
+			"position":	[2, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 16, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 16, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 16, 0],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.159912109375, 30.66650390625, 32.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForCageFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 96.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 6.5],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 16, 32.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 32.539794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[150732, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 17.333251953125, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[144179, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 17.333251953125, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[137625, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 17.333251953125, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[150732, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[144179, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[137625, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.19970703125, 16, 103.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 116.699951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 96.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 52],
+			"rotation":	[0, 0, 0],
+			"name":	"DeathSlide",
+			"waypoints":	[{
+					"position":	[32, 2.66650390625, 52],
+					"var":	0
+				}, {
+					"position":	[32, 16, 84.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 0],
+			"level":	10,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1, 1.25, 2],
+			"colour":	[255, 123, 255],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[3, 1.25, 2],
+			"colour":	[255, 123, 255],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[2, 1.5, 7.04998779296875],
+			"colour":	[128, 128, 128],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

@@ -1,0 +1,177 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	35336
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL5\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	8,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.244140625,
+	"tracks":	[{
+			"position":	[2, 0, 12],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 0, 12],
+			"yr":	0,
+			"index":	67
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 6553600, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 13107200, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 19660800, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 26214400, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 79.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 32768000, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 39321600, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 45875200, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 96.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 52428800, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 112.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 58982400, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 65536000, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 128.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 72089600, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 128.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 78643200, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 144.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 85196800, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 160.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 91750400, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 160.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 98304000, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 159.919921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 192.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.97998046875, 0, 192.019775390625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 192.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 104857600, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 176],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaftUp",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 6, 3],
+			"level":	45,
+			"sublevel":	4,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

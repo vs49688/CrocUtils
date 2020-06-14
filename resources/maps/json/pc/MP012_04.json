@@ -1,0 +1,103 @@
+{
+	"_meta":	{
+		"version":	21,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	13079
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTEL\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	35,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"drip",
+	"start_rotation":	0.013671875,
+	"tracks":	[{
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	94
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	93
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31.679931640625, 0, 34.099853515625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ShellGame",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -1.006103515625, 3.719970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"UpExit",
+			"waypoints":	[{
+					"position":	[32, 9.142578125, 5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 1],
+			"level":	12,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.9375, -0.142852783203125, 1.4375],
+			"colour":	[230, 233, 255],
+			"fade_from":	2,
+			"fade_to":	3
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 48, 48]
+		}],
+	"ambient_colour":	[112, 96, 96]
+}

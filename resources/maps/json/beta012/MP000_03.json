@@ -1,0 +1,287 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\MICK\\ROCKTEST.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	2,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	54
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	138
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	132
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[6, 0, 0],
+			"yr":	0,
+			"index":	133
+		}, {
+			"position":	[7, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[8, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[9, 0, 0],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	49
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	137
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	134
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	123
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	129
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[8, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[9, 0, 1],
+			"yr":	0.75,
+			"index":	49
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	49
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	126
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	127
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0,
+			"index":	126
+		}, {
+			"position":	[8, 0, 2],
+			"yr":	0.75,
+			"index":	134
+		}, {
+			"position":	[9, 0, 2],
+			"yr":	0.75,
+			"index":	132
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	49
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	125
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	128
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	135
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0,
+			"index":	123
+		}, {
+			"position":	[9, 0, 3],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	133
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	123
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	131
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	125
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	130
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	137
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	49
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	129
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.5,
+			"index":	49
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	91
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	49
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	92
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[4, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

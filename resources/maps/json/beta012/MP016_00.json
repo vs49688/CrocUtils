@@ -1,0 +1,321 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND1\\LEVEL6\\MAP1.MAP",
+	"name":	"Dangerous Sports",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	8,
+	"cd_track":	22,
+	"background":	1,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"bird",
+	"start_rotation":	-0.04248046875,
+	"tracks":	[{
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	55
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.75,
+			"index":	55
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	26
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.25,
+			"index":	55
+		}, {
+			"position":	[0, 0, 5],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	58
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	32
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	58
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	28
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	26
+		}, {
+			"position":	[0, 0, 7],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.5,
+			"index":	61
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	90
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	61
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	92
+		}, {
+			"position":	[0, 8, 7],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[1, 8, 7],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[1, 8, 8],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[2, 8, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[1, 8, 9],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[2, 8, 9],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[3, 8, 9],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 9],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 8, 9],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[3, 8, 10],
+			"yr":	0.5,
+			"index":	79
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[49.099853515625, -1.866455078125, 79.999755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[46.89990234375, 16, 135.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34, 0, 64.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[61, 0, 64.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.2998046875, 0, 100.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60, 12, 107.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SceneryButterfly",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 120.719970703125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 155.139892578125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66, 0, 84.5],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaBlubs",
+			"waypoints":	[{
+					"position":	[72, 0, 82.5],
+					"var":	0
+				}, {
+					"position":	[74, 0, 70.5],
+					"var":	0
+				}, {
+					"position":	[76, 0, 91.5],
+					"var":	0
+				}, {
+					"position":	[38, 0, 79.5],
+					"var":	0
+				}, {
+					"position":	[24, 0, 73],
+					"var":	0
+				}, {
+					"position":	[14, 0, 82.5],
+					"var":	0
+				}, {
+					"position":	[20, 0, 91.5],
+					"var":	0
+				}, {
+					"position":	[28, 0, 82.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 8],
+			"level":	16,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	1
+		}, {
+			"position":	[3, 1, 10],
+			"level":	16,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

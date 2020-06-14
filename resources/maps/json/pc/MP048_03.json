@@ -1,0 +1,251 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	43797
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BONUS1\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	51,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.23583984375,
+	"tracks":	[{
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[8, 0, 10],
+			"yr":	0,
+			"index":	67
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, -2.23974609375, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogAntiCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, -2.773193359375, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[26.719970703125, -3.519775390625, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -3.519775390625, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[37.27978515625, -3.519775390625, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[106.719970703125, -3.519775390625, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, -3.519775390625, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[117.27978515625, -3.519775390625, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, -3.62646484375, 106.719970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, -3.62646484375, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, -3.62646484375, 117.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[44, 0, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[36, 0, 48],
+					"var":	0
+				}, {
+					"position":	[32, 0, 48],
+					"var":	0
+				}, {
+					"position":	[26, 0, 48],
+					"var":	0
+				}, {
+					"position":	[18, 0, 48],
+					"var":	0
+				}, {
+					"position":	[26, 0, 48],
+					"var":	0
+				}, {
+					"position":	[32, 0, 47.5],
+					"var":	0
+				}, {
+					"position":	[36, 0, 47.5],
+					"var":	0
+				}, {
+					"position":	[44, 0, 47.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[106, 0, 48],
+					"var":	0
+				}, {
+					"position":	[112, 0, 48],
+					"var":	0
+				}, {
+					"position":	[116, 0, 48],
+					"var":	0
+				}, {
+					"position":	[124, 0, 48],
+					"var":	0
+				}, {
+					"position":	[116, 0, 48],
+					"var":	0
+				}, {
+					"position":	[112, 0, 48],
+					"var":	0
+				}, {
+					"position":	[106, 0, 48],
+					"var":	0
+				}, {
+					"position":	[98, 0, 48],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 125],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[128, 0, 117],
+					"var":	0
+				}, {
+					"position":	[128, 0, 112.5],
+					"var":	0
+				}, {
+					"position":	[128, 0, 108.599853515625],
+					"var":	0
+				}, {
+					"position":	[128, 0, 100],
+					"var":	0
+				}, {
+					"position":	[128, 0, 108.5],
+					"var":	0
+				}, {
+					"position":	[128, 0, 112.5],
+					"var":	0
+				}, {
+					"position":	[128, 0, 117],
+					"var":	0
+				}, {
+					"position":	[128, 0, 124],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 144.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 160.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Jigsaw",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[8, 0, 9],
+			"level":	48,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 2, 3],
+			"level":	48,
+			"sublevel":	2,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

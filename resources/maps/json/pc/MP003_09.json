@@ -1,0 +1,161 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	9,
+		"checksum":	15382
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\TONY\\SEEDTEST.MAP",
+	"name":	"Seed And Waypoint Test",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedBlue",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22.5, 0, 33],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedYellow",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[26, 0, 13],
+			"rotation":	[0, 0, 0],
+			"name":	"RedFly",
+			"waypoints":	[{
+					"position":	[27, 5.8798828125, 2.5],
+					"var":	0
+				}, {
+					"position":	[42, 4.599853515625, 3.5],
+					"var":	0
+				}, {
+					"position":	[37.5, 4.599853515625, 15.5],
+					"var":	0
+				}, {
+					"position":	[21, 6.199951171875, 17],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[26, 0, 45],
+			"rotation":	[0, 0, 0],
+			"name":	"RedFly",
+			"waypoints":	[{
+					"position":	[27, 5.8798828125, 50.5],
+					"var":	0
+				}, {
+					"position":	[42, 4.599853515625, 51.5],
+					"var":	0
+				}, {
+					"position":	[37.5, 4.599853515625, 63.5],
+					"var":	0
+				}, {
+					"position":	[21, 6.199951171875, 65],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

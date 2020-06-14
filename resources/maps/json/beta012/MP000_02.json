@@ -1,0 +1,163 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\TONY\\ICESLIDE.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"iceslide",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	-0.041259765625,
+	"tracks":	[{
+			"position":	[4, 110, 13],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[5, 110, 13],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[6, 110, 13],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[4, 110, 14],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[5, 110, 14],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[6, 110, 14],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[5, 108, 15],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 108, 15],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 119, 4],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 119, 4],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 118, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 118, 5],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 117, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 117, 6],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 116, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 116, 7],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 115, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 115, 8],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 114, 9],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 114, 9],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 113, 10],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 113, 10],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[3, 112, 11],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[4, 112, 11],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[5, 112, 11],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[3, 112, 12],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[4, 112, 12],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[5, 112, 12],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[3, 120, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 120, 3],
+			"yr":	0,
+			"index":	26
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[3, 15, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[200, 200, 255]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

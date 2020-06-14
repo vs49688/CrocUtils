@@ -1,0 +1,115 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	12,
+		"checksum":	10075
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\FEEBLE\\FEEBLE1.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	40,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	17
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[59.199951171875, 1.066650390625, 22.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

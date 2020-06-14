@@ -1,0 +1,309 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	36374
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CRYSTAL\\LEVEL3\\MAP1.MAP",
+	"name":	"Trial on the Nile",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	4,
+	"cd_track":	28,
+	"background":	20,
+	"effect":	"none",
+	"wait":	3,
+	"ambience":	"des1",
+	"start_rotation":	0.75634765625,
+	"tracks":	[{
+			"position":	[4, 8, 5],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0,
+			"index":	146
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0,
+			"index":	144
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0,
+			"index":	144
+		}, {
+			"position":	[8, 8, 5],
+			"yr":	0,
+			"index":	144
+		}, {
+			"position":	[9, 8, 5],
+			"yr":	0,
+			"index":	145
+		}, {
+			"position":	[10, 8, 5],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[11, 8, 5],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[8, 8, 6],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[9, 8, 6],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[10, 8, 6],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[11, 8, 6],
+			"yr":	0.75,
+			"index":	5
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[7, 8, 7],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[8, 8, 7],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[9, 8, 7],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[10, 8, 7],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[11, 8, 7],
+			"yr":	0.75,
+			"index":	75
+		}, {
+			"position":	[12, 8, 7],
+			"yr":	0.75,
+			"index":	91
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[7, 8, 8],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[8, 8, 8],
+			"yr":	0,
+			"index":	93
+		}, {
+			"position":	[9, 8, 8],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[10, 8, 8],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[11, 8, 8],
+			"yr":	0.75,
+			"index":	5
+		}, {
+			"position":	[4, 8, 9],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[5, 8, 9],
+			"yr":	0.5,
+			"index":	145
+		}, {
+			"position":	[6, 8, 9],
+			"yr":	0.5,
+			"index":	144
+		}, {
+			"position":	[7, 8, 9],
+			"yr":	0.5,
+			"index":	144
+		}, {
+			"position":	[8, 8, 9],
+			"yr":	0.5,
+			"index":	144
+		}, {
+			"position":	[9, 8, 9],
+			"yr":	0.5,
+			"index":	146
+		}, {
+			"position":	[10, 8, 9],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[11, 8, 9],
+			"yr":	0.75,
+			"index":	6
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[180.959716796875, 15.83984375, 112.019775390625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[152, 16, 112.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DeathSlide",
+			"waypoints":	[{
+					"position":	[152, 0, 112.5],
+					"var":	0
+				}, {
+					"position":	[88, 6.39990234375, 112],
+					"var":	0
+				}]
+		}, {
+			"params":	[85196, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 1.599853515625, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[104, 1.599853515625, 96],
+					"var":	0
+				}]
+		}, {
+			"params":	[85196, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 1.599853515625, 128.599853515625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[104, 1.599853515625, 128.599853515625],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 1.599853515625, 95.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 1.599853515625, 128.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 9.599853515625, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 3.199951171875, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForLockedDoorFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.079833984375, 3.19970703125, 111.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 1.599853515625, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 4.7998046875, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 6.39990234375, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120, 8, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136, 11.199951171875, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatNathDrop",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[10, 1, 7],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[12, 1, 7],
+			"level":	52,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

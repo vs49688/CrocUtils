@@ -1,0 +1,155 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\SCOTT\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	110
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	110
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	108
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	111
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	111
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0,
+			"index":	116
+		}, {
+			"position":	[6, 0, 0],
+			"yr":	0,
+			"index":	116
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	112
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	109
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	107
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	114
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	115
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	113
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	106
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	1
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[3, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

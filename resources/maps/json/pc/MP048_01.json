@@ -1,0 +1,371 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	60547
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BONUS1\\MAP2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.238525390625,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	67
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	69
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[7, 8, 8],
+			"yr":	0.25,
+			"index":	40
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42.719970703125, -3.519775390625, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, -3.519775390625, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[53.27978515625, -3.519775390625, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.159912109375, -3.519775390625, 42.739990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.159912109375, -3.519775390625, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.159912109375, -3.519775390625, 53.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42.639892578125, -3.519775390625, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, -3.519775390625, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[53.27978515625, -3.519775390625, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -3.519775390625, 42.659912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -3.519775390625, 47.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -3.519775390625, 53.27978515625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 12.47998046875, 90.679931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 12.47998046875, 95.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 12.47998046875, 101.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockLode",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62, 0, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[54, 0, 32],
+					"var":	0
+				}, {
+					"position":	[48, 0, 32],
+					"var":	0
+				}, {
+					"position":	[42, 0, 32],
+					"var":	0
+				}, {
+					"position":	[34, 0, 32],
+					"var":	0
+				}, {
+					"position":	[42, 0, 32],
+					"var":	0
+				}, {
+					"position":	[48, 0, 32],
+					"var":	0
+				}, {
+					"position":	[54, 0, 32],
+					"var":	0
+				}, {
+					"position":	[62, 0, 32],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 62],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[64, 0, 52.5],
+					"var":	0
+				}, {
+					"position":	[64, 0, 47.5],
+					"var":	0
+				}, {
+					"position":	[64, 0, 42.5],
+					"var":	0
+				}, {
+					"position":	[64, 0, 36],
+					"var":	0
+				}, {
+					"position":	[64, 0, 42.5],
+					"var":	0
+				}, {
+					"position":	[64, 0, 47],
+					"var":	0
+				}, {
+					"position":	[64, 0, 52.5],
+					"var":	0
+				}, {
+					"position":	[64, 0, 61.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60, 0, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[54, 0, 65],
+					"var":	0
+				}, {
+					"position":	[48, 0, 65],
+					"var":	0
+				}, {
+					"position":	[42, 0, 65],
+					"var":	0
+				}, {
+					"position":	[34, 0, 64.5],
+					"var":	0
+				}, {
+					"position":	[42, 0, 65],
+					"var":	0
+				}, {
+					"position":	[48, 0, 65],
+					"var":	0
+				}, {
+					"position":	[54, 0, 65],
+					"var":	0
+				}, {
+					"position":	[60, 0, 65],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 62],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[32, 0, 53],
+					"var":	0
+				}, {
+					"position":	[32, 0, 47.5],
+					"var":	0
+				}, {
+					"position":	[32, 0, 43],
+					"var":	0
+				}, {
+					"position":	[32, 0, 35],
+					"var":	0
+				}, {
+					"position":	[32, 0, 42.5],
+					"var":	0
+				}, {
+					"position":	[32, 0, 47.5],
+					"var":	0
+				}, {
+					"position":	[32, 0, 53],
+					"var":	0
+				}, {
+					"position":	[32, 0, 62.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 83.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniLode",
+			"waypoints":	[{
+					"position":	[96, 16, 92],
+					"var":	0
+				}, {
+					"position":	[96, 16, 96.5],
+					"var":	0
+				}, {
+					"position":	[96, 16, 100.5],
+					"var":	0
+				}, {
+					"position":	[96, 16, 109],
+					"var":	0
+				}, {
+					"position":	[96, 16, 100.5],
+					"var":	0
+				}, {
+					"position":	[96, 16, 96],
+					"var":	0
+				}, {
+					"position":	[96, 16, 91.5],
+					"var":	0
+				}, {
+					"position":	[96, 16, 83],
+					"var":	0
+				}]
+		}, {
+			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95.5, 16, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"LodeKey",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95.97998046875, 16, 121],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[6, 1, 8],
+			"level":	48,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 2, 2],
+			"level":	48,
+			"sublevel":	0,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

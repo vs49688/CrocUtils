@@ -1,0 +1,251 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	36347
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\BOSSMAIN\\MAP1.MAP",
+	"name":	"Fight Night with Flibby",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	19,
+	"background":	26,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"nght",
+	"start_rotation":	0.00830078125,
+	"tracks":	[{
+			"position":	[0, 8, 0],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[5, 8, 0],
+			"yr":	0.25,
+			"index":	140
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0,
+			"index":	143
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	151
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0,
+			"index":	141
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.75,
+			"index":	142
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0,
+			"index":	142
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.5,
+			"index":	142
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.25,
+			"index":	142
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0.75,
+			"index":	142
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0,
+			"index":	142
+		}, {
+			"position":	[2, 8, 5],
+			"yr":	0.5,
+			"index":	142
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.25,
+			"index":	142
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.75,
+			"index":	142
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0,
+			"index":	142
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0.5,
+			"index":	142
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.25,
+			"index":	142
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0.5,
+			"index":	141
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0.5,
+			"index":	133
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0.5,
+			"index":	91
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0.5,
+			"index":	143
+		}, {
+			"position":	[2, 8, 9],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[5, 8, 9],
+			"yr":	0.5,
+			"index":	92
+		}, {
+			"position":	[7, 8, 9],
+			"yr":	0.5,
+			"index":	140
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 655360, 91749, 0, 0, 0],
+			"position":	[72, 13.86669921875, 56.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 655360, 91749, 0, 0, 0],
+			"position":	[72, 14, 56.159912109375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 655360, 91749, 0, 0, 0],
+			"position":	[40, 13.86669921875, 88.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 655360, 91749, 0, 0, 0],
+			"position":	[40, 13.86669921875, 88.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[66, 16, 114],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[66, 16, 114],
+					"var":	0
+				}, {
+					"position":	[76, 16, 113],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 16, 136.659912109375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[62, 16, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[62, 16, 56],
+					"var":	0
+				}, {
+					"position":	[70, 16, 47.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 88],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[48, 16, 88],
+					"var":	0
+				}, {
+					"position":	[40, 16, 79.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[73.599853515625, 20, 57.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[37.599853515625, 20, 90],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 11.733154296875, 18.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"WarpSparkle",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.8798828125, 16.13330078125, 18.65966796875],
+			"rotation":	[0, 0, 0],
+			"name":	"SecretRock",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[5, 1, 9],
+			"level":	17,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 2, 2],
+			"level":	17,
+			"sublevel":	3,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

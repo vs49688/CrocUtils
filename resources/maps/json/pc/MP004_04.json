@@ -1,0 +1,208 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	9516
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\PAULM\\MP004_04.MAP",
+	"name":	"Paul Test 4",
+	"width":	6,
+	"height":	6,
+	"depth":	1,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[0, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[327, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[36, 7.466552734375, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Ghost",
+			"waypoints":	[{
+					"position":	[36, 0, 48],
+					"var":	0
+				}, {
+					"position":	[64, 0, 48],
+					"var":	0
+				}, {
+					"position":	[48, 0, 24],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[23.199951171875, 3.199951171875, 56.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

@@ -1,0 +1,575 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL3\\MAP52_01.MAP",
+	"name":	"whales is a plaice",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	0.044921875,
+	"tracks":	[{
+			"position":	[6, 5, 1],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[7, 5, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[8, 5, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[9, 5, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[6, 5, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[7, 5, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[8, 5, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[9, 5, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 5, 3],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[7, 5, 3],
+			"yr":	0.5,
+			"index":	46
+		}, {
+			"position":	[8, 5, 3],
+			"yr":	0.25,
+			"index":	46
+		}, {
+			"position":	[9, 5, 3],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[10, 5, 3],
+			"yr":	0.75,
+			"index":	53
+		}, {
+			"position":	[4, 5, 4],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[6, 5, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[7, 5, 4],
+			"yr":	0.75,
+			"index":	46
+		}, {
+			"position":	[8, 5, 4],
+			"yr":	0,
+			"index":	46
+		}, {
+			"position":	[9, 5, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 5, 5],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 5, 5],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[5, 5, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 5, 5],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[7, 5, 5],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[8, 5, 5],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[9, 5, 5],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 5, 6],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 5, 6],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 5, 6],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 5, 6],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[7, 5, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 5, 7],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 5, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 5, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 5, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[7, 5, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 5, 8],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[4, 5, 8],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[5, 5, 8],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[6, 5, 8],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[7, 5, 8],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[6, 8, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[8, 8, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[9, 8, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 2],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 2],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[8, 8, 2],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[9, 8, 2],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[8, 8, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[9, 8, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[8, 8, 4],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[9, 8, 4],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[8, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[9, 8, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 7],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[7, 8, 8],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 16, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[8, 16, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[9, 16, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 2],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 2],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[8, 16, 2],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[9, 16, 2],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 3],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 3],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[8, 16, 3],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[9, 16, 3],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 4],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 4],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[8, 16, 4],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[9, 16, 4],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[3, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[4, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[5, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[8, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[9, 16, 5],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[3, 16, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[4, 16, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[5, 16, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[3, 16, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[4, 16, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[5, 16, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[3, 16, 8],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[4, 16, 8],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[5, 16, 8],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[6, 16, 8],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 16, 8],
+			"yr":	0.25,
+			"index":	25
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[109.5, 11.24560546875, 34],
+			"rotation":	[0, 0.096923828125, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[114.5, 11.885498046875, 74.5],
+			"rotation":	[0, 0.83251953125, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[97, 10.605712890625, 123],
+			"rotation":	[0, 0.388427734375, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 98304, 654, 5, 0, 0, 0, 0],
+			"position":	[96, 9.874267578125, 78.5],
+			"rotation":	[0, 0, 0],
+			"name":	"VertBolt",
+			"waypoints":	[{
+					"position":	[96, 9.874267578125, 78.5],
+					"var":	0
+				}, {
+					"position":	[108.5, 9.965576171875, 85.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[122, 19.19970703125, 55],
+			"rotation":	[0, 0, 0],
+			"name":	"VampireFish",
+			"waypoints":	[{
+					"position":	[122, 19.291259765625, 55.5],
+					"var":	0
+				}, {
+					"position":	[106, 15.542724609375, 46.5],
+					"var":	0
+				}, {
+					"position":	[128.5, 16.45703125, 30],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56.5, 18.6513671875, 118.89990234375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"GobboWater",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62, 0, 119],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboWater",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[10, 0, 3],
+			"level":	52,
+			"sublevel":	0,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 1, 4],
+			"level":	52,
+			"sublevel":	3,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[-1.0999908447265625, 160, 72],
+			"colour":	[255, 155, 4],
+			"fade_from":	0.00390625,
+			"fade_to":	0.0078125
+		}],
+	"direct_lights":	[{
+			"position":	[0, 0.00390625, 0],
+			"colour":	[64, 64, 0]
+		}, {
+			"position":	[0, -2.310546875, 0.003173828125],
+			"colour":	[255, 128, 0]
+		}, {
+			"position":	[0, -0.060546875, 0.062255859375],
+			"colour":	[43, 43, 0]
+		}],
+	"ambient_colour":	[32, 32, 0]
+}

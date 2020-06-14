@@ -1,0 +1,323 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	21661
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FRONTEND\\MAP4.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	33
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	28
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	28
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	28
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	33
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	33
+		}, {
+			"position":	[0, 8, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[2, 8, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 8, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 8, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[6, 8, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 8, 1],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[6, 8, 1],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 8, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[6, 8, 2],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 8, 3],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[6, 8, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 8, 4],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 8, 5],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 8, 6],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[1, 8, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0.75,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.5, 9.599853515625, 49.5],
+			"rotation":	[0, 0, 0],
+			"name":	"TitleCamera",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 0, 29.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"MrFrBall",
+			"waypoints":	[{
+					"position":	[24, 0, 29.599853515625],
+					"var":	0
+				}, {
+					"position":	[40, 0, 28.599853515625],
+					"var":	0
+				}, {
+					"position":	[55.97998046875, 0, 28.599853515625],
+					"var":	0
+				}, {
+					"position":	[72.5, 0, 28.599853515625],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 0, 67],
+			"rotation":	[0, 0, 0],
+			"name":	"MrFrBall",
+			"waypoints":	[{
+					"position":	[72, 0, 67],
+					"var":	0
+				}, {
+					"position":	[56.019775390625, 0, 66.5],
+					"var":	0
+				}, {
+					"position":	[40, 0, 66],
+					"var":	0
+				}, {
+					"position":	[24, 0, 66.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[28, 0, 72],
+			"rotation":	[0, 0, 0],
+			"name":	"MrFrBall",
+			"waypoints":	[{
+					"position":	[28, 0, 72],
+					"var":	0
+				}, {
+					"position":	[27.5, 0, 56.5],
+					"var":	0
+				}, {
+					"position":	[27.5, 0, 40.5],
+					"var":	0
+				}, {
+					"position":	[28, 0, 24],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.5, 0, 24.5],
+			"rotation":	[0, 0, 0],
+			"name":	"MrFrBall",
+			"waypoints":	[{
+					"position":	[67.5, 0, 24.5],
+					"var":	0
+				}, {
+					"position":	[67, 0, 40],
+					"var":	0
+				}, {
+					"position":	[68, 0, 56],
+					"var":	0
+				}, {
+					"position":	[67.47998046875, 0, 72],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

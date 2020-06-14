@@ -1,0 +1,164 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	44798
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\ISLANDS\\ISLE5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"island5",
+	"flags":	0,
+	"cd_track":	3,
+	"background":	47,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 8.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCamera",
+			"waypoints":	[{
+					"position":	[-3, 0.959716796875, 17],
+					"var":	0
+				}, {
+					"position":	[14.5, 3.039794921875, 19],
+					"var":	0
+				}, {
+					"position":	[19.6796875, 2.8798828125, -3.919921875],
+					"var":	0
+				}, {
+					"position":	[-5.740234375, 7.999755859375, -3.719970703125],
+					"var":	0
+				}, {
+					"position":	[10.219970703125, 9.43994140625, 5.4599609375],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-6, 1.27978515625, 16.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSheep1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[1.599853515625, 1.119873046875, 19.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSheep2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-0.400146484375, 1.119873046875, 18.679931640625],
+			"rotation":	[0, 0.00830078125, 0],
+			"name":	"IslandSheep1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-4.64013671875, 1.27978515625, 12.800048828125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-0.400146484375, 1.27978515625, 20.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-2.960205078125, 1.27978515625, 14.8798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.599853515625, 2.8798828125, 18.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[18.7197265625, 4.9599609375, 2],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCactus",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13.039794921875, 2.7197265625, 0.97998046875],
+			"rotation":	[0, 0.86865234375, 0],
+			"name":	"IslandCacti",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[0, 23.199951171875, -4],
+			"rotation":	[0, 0, 0],
+			"name":	"Bats",
+			"waypoints":	[{
+					"position":	[0, 23.199462890625, -3.980224609375],
+					"var":	0
+				}]
+		}, {
+			"params":	[16384, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-11.759765625, 17.919677734375, 3],
+			"rotation":	[0, 0, 0],
+			"name":	"Bats",
+			"waypoints":	[{
+					"position":	[-11.759765625, 17.919921875, 3.179931640625],
+					"var":	0
+				}]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-3.60009765625, 24, 3.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Bats",
+			"waypoints":	[{
+					"position":	[-3.60009765625, 24, 3.559814453125],
+					"var":	0
+				}]
+		}, {
+			"params":	[9830, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-10.6396484375, 23.35986328125, -4.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Bats",
+			"waypoints":	[{
+					"position":	[-10.559814453125, 23.35986328125, -4.460205078125],
+					"var":	0
+				}]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

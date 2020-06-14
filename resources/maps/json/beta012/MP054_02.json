@@ -1,0 +1,235 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL5\\MAP54_02.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	-0.04296875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	50
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	28
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	28
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	29
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	29
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	50
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	28
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	28
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.5,
+			"index":	50
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.5,
+			"index":	51
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58.5, 0, 84.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 65536, 32768, 32768000, 0, 0, 0, 0],
+			"position":	[133.3798828125, 1.828369140625, 86.039794921875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"Spear",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 65536, 32768, 32768000, 0, 0, 0, 0],
+			"position":	[122.719970703125, 5.028564453125, 86.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"Spear",
+			"waypoints":	[]
+		}, {
+			"params":	[2621440, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[46, 7.314208984375, 88],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[3932160, 2621440, 0, 0, 0, 0, 0, 0],
+			"position":	[109.5, 7.314208984375, 72.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.5, 8.228515625, 9.5],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboWater",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[54, 0, 30.679931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.639892578125, 0, 16],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[5, 0, 1],
+			"level":	56,
+			"sublevel":	0,
+			"flags":	["final"],
+			"id":	0
+		}, {
+			"position":	[2, 0, 4],
+			"level":	54,
+			"sublevel":	1,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[8, 0, 6],
+			"level":	54,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

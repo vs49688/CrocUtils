@@ -1,0 +1,334 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	70514
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL1\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	68,
+	"cd_track":	51,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	68
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	69
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 2, 8],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 6, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 4, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 0, 11],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[1, 0, 12],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[3, 0, 12],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 13],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[3, 0, 13],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[0, 8, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 8, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 8, 12],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[1, 8, 13],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 8, 13],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[3, 8, 13],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[6, 16, 6],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 16, 13],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[524288, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[29.439697265625, 0, 63.999755859375],
+			"rotation":	[0, 0.063720703125, 0],
+			"name":	"PuzzleBigCog",
+			"waypoints":	[]
+		}, {
+			"params":	[524288, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[72.31982421875, 0, 64],
+			"rotation":	[0, 0.063720703125, 0],
+			"name":	"PuzzleBigCog",
+			"waypoints":	[]
+		}, {
+			"params":	[524288, 131072, 0, 0, 0, 0, 0, 0],
+			"position":	[71.83984375, 0, 108.639892578125],
+			"rotation":	[0, 0.063720703125, 0],
+			"name":	"PuzzleBigCog",
+			"waypoints":	[]
+		}, {
+			"params":	[524288, 196608, 0, 0, 0, 0, 0, 0],
+			"position":	[27.679931640625, 0, 108.639892578125],
+			"rotation":	[0, 0.063720703125, 0],
+			"name":	"PuzzleBigCog",
+			"waypoints":	[]
+		}, {
+			"params":	[1048576, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[50.8798828125, 13.492919921875, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockCog",
+			"waypoints":	[{
+					"position":	[50.8798828125, 0, 64],
+					"var":	0
+				}]
+		}, {
+			"params":	[1048576, 131072, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 29.1728515625, 86.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockCog",
+			"waypoints":	[{
+					"position":	[72, 0, 86.8798828125],
+					"var":	0
+				}]
+		}, {
+			"params":	[1048576, 196608, 0, 0, 0, 0, 0, 0],
+			"position":	[49.919921875, 13.066162109375, 108.639892578125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockCog",
+			"waypoints":	[{
+					"position":	[49.919921875, 0, 108.639892578125],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13.35986328125, 16, 63.919677734375],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[43.119873046875, 16, 63.999755859375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22.239990234375, 16, 63.979736328125],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 15728640, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 7864320, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 0, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 19660800, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 11796480, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 655360, 98304, 3932160, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[110, 16, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.919921875, 32, 94.439697265625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 32, 94.35986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[77.999755859375, 32, 94.439697265625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarSngl",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 131.93994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58, 16, 108.31982421875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32.159912109375, 16, 200.85986328125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34.159912109375, 16, 63.999755859375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 145],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 123.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 114.119873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarSngl",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 108.239990234375],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarCorner",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 129],
+			"rotation":	[0, 0, 0],
+			"name":	"PuzzleCogs",
+			"waypoints":	[{
+					"position":	[32, 0, 129],
+					"var":	0
+				}, {
+					"position":	[32, 14.93310546875, 177.599853515625],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 1, 13],
+			"level":	40,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 3, 2],
+			"level":	40,
+			"sublevel":	2,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

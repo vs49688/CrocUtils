@@ -1,0 +1,341 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	41970
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\LEVEL6\\MAP1.MAP",
+	"name":	"Life's a Beach",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	0,
+	"cd_track":	63,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"dcav",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[7, 0, 2],
+			"yr":	0,
+			"index":	74
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	38
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.25,
+			"index":	73
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.25,
+			"index":	38
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.5,
+			"index":	101
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0,
+			"index":	100
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	38
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	100
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.5,
+			"index":	99
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.25,
+			"index":	99
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.25,
+			"index":	101
+		}, {
+			"position":	[10, 0, 5],
+			"yr":	0.25,
+			"index":	38
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	74
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[9, 0, 6],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[10, 0, 6],
+			"yr":	0,
+			"index":	73
+		}, {
+			"position":	[11, 0, 6],
+			"yr":	0.75,
+			"index":	74
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	101
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.75,
+			"index":	99
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0,
+			"index":	99
+		}, {
+			"position":	[9, 0, 7],
+			"yr":	0.75,
+			"index":	100
+		}, {
+			"position":	[10, 0, 7],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.5,
+			"index":	100
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0,
+			"index":	101
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[8, 0, 9],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[7, 0, 10],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[8, 0, 10],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[0, 8, 0],
+			"yr":	0,
+			"index":	26
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 95.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[123.5, 0, 109],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[99, 0, 108.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[123.5, 0, 85.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[99.5, 0, 85.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[121.599853515625, 0.31982421875, 144.999755859375],
+			"rotation":	[0, 0.885498046875, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.49951171875, 0.31982421875, 145.999755859375],
+			"rotation":	[0, 0.138671875, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[123.27978515625, 6.39990234375, 85.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[123.27978515625, 6.39990234375, 108.699951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[99.039794921875, 6.39990234375, 108.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 2.719970703125, 95.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[99.519775390625, 4.639892578125, 85.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 2.559814453125, 95.519775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 43.5],
+			"rotation":	[0, 0, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 96],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[168, 0, 96.019775390625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[111.83984375, 0, 119.959716796875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 72.359619140625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 0, 96.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136, 0, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[7, 0, 2],
+			"level":	36,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 6],
+			"level":	36,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[11, 0, 6],
+			"level":	36,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 9],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

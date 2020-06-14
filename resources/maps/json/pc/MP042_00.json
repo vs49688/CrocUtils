@@ -1,0 +1,262 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	29406
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP1.MAP",
+	"name":	"Dungeon of DeFright",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	5,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"dngn",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	4
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.7998046875, 0, 32.039794921875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForLockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[61.199951171875, 0, 93.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"BlockerKnight",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 103.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 112.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 112.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[52, 0, 107.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42, 0, 107.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42, 0, 117.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[52, 0, 117.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 112.039794921875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"SpookySpider",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 120.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[44, 0, 57.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"Grimmy",
+			"waypoints":	[{
+					"position":	[44, 0, 57.5],
+					"var":	0
+				}, {
+					"position":	[50, 0, 57.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 2],
+			"level":	42,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[2.125, 0, 3],
+			"colour":	[126, 187, 94],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0, 3.0625],
+			"colour":	[145, 99, 210],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[2, 0, 1.03125],
+			"colour":	[168, 59, 77],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4.125, 0, 1],
+			"colour":	[66, 107, 175],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0, 4.5625],
+			"colour":	[154, 91, 199],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[2, 0, 6],
+			"colour":	[255, 155, 57],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0, 5.90625],
+			"colour":	[103, 163, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0, 8.09375],
+			"colour":	[255, 255, 76],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[1.875, 0, 8.1875],
+			"colour":	[187, 47, 39],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[47, 47, 47]
+}

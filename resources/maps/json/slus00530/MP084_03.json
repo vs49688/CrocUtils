@@ -1,0 +1,111 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	9708
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\OUTRO\\GAMEO4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[1, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 8, 1],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.5, 16, 18.599853515625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

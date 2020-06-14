@@ -1,0 +1,248 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL6\\MAP5.MAP",
+	"name":	"trapped under ice 5",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"torch_big",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	-0.042236328125,
+	"tracks":	[{
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[6, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[7, 8, 3],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0.5,
+			"index":	48
+		}, {
+			"position":	[7, 8, 7],
+			"yr":	0.5,
+			"index":	48
+		}],
+	"strats":	[{
+			"params":	[32768, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[97.599853515625, 5.576904296875, 101.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Hammy",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 4.5712890625, 104.5],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForLockedDoorFloat",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 2],
+			"level":	55,
+			"sublevel":	2,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[-1.0999908447265625, 14.3997802734375, 284.5],
+			"colour":	[255, 205, 116],
+			"fade_from":	-26367.998046875,
+			"fade_to":	0.0062408447265625
+		}],
+	"direct_lights":	[{
+			"position":	[0, 0.00390625, 0],
+			"colour":	[64, 64, 0]
+		}, {
+			"position":	[0, -2.310546875, 0.003173828125],
+			"colour":	[255, 128, 0]
+		}, {
+			"position":	[0, -0.060546875, 0.062255859375],
+			"colour":	[43, 43, 0]
+		}],
+	"ambient_colour":	[41, 16, 0]
+}

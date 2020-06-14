@@ -1,0 +1,215 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	35149
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL6\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	18,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[1, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[0, 8, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 8, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[6, 9, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 9, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 9, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[5, 9, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 9, 8],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 16, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 17, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[6, 17, 7],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[5, 17, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 17, 8],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[7, 17, 8],
+			"yr":	0.25,
+			"index":	40
+		}],
+	"strats":	[{
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 16, 73.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"MalletMan",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[30, 16, 33],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[51.199951171875, 24.533203125, 33.27978515625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[59.199951171875, 24.533203125, 33.139892578125],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.159912109375, 24.533203125, 55.039794921875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.31982421875, 24.533203125, 62.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[93.119873046875, 33.066650390625, 62.059814453125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[93.599853515625, 33.066650390625, 68.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[93.679931640625, 33.066650390625, 99.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PetePlatSection3",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[111.679931640625, 34.559814453125, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.83984375, 16, 23.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.159912109375, 34.13330078125, 120.519775390625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 1, 1],
+			"level":	46,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[6, 2, 8],
+			"level":	46,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

@@ -1,0 +1,228 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND4\\BOSS\\MAP1.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss4",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[0, 8, 1],
+			"yr":	0.25,
+			"index":	7
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31, -11.199951171875, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BalloonBoss",
+			"waypoints":	[{
+					"position":	[16, -4.7998046875, 48],
+					"var":	65536
+				}, {
+					"position":	[48, -1.759765625, 52],
+					"var":	131072
+				}, {
+					"position":	[48, -4.7998046875, 16],
+					"var":	196608
+				}, {
+					"position":	[16, -2.879638671875, 12],
+					"var":	262144
+				}, {
+					"position":	[32, 0, 4],
+					"var":	327680
+				}, {
+					"position":	[60, 0, 32],
+					"var":	393216
+				}, {
+					"position":	[32, 0, 60],
+					"var":	458752
+				}, {
+					"position":	[4, 0, 32],
+					"var":	524288
+				}, {
+					"position":	[32, 32.159912109375, 12],
+					"var":	589824
+				}, {
+					"position":	[8, 31.999755859375, 32],
+					"var":	655360
+				}, {
+					"position":	[32, 27.99951171875, 56],
+					"var":	720896
+				}, {
+					"position":	[55.519775390625, 28.7998046875, 32],
+					"var":	786432
+				}, {
+					"position":	[32, 28.9599609375, 32],
+					"var":	851968
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.5, 6.39990234375, 15],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[7.5, 12.639892578125, 25],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13.5, 19.039794921875, 13.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[5, 25.27978515625, 23],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13, 32, 15],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[7.5, 41.599853515625, 25],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[83, 83, 83]
+}

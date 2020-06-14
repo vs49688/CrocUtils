@@ -1,0 +1,285 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	22701
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LEWIS\\COLLMAP.MAP",
+	"name":	"Default Blank Map",
+	"width":	32,
+	"height":	32,
+	"depth":	3,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	21
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 8, 0],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[2, 8, 0],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[4, 8, 0],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[0, 8, 1],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[0, 8, 2],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[0, 8, 3],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[0, 8, 4],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0.75,
+			"index":	25
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -4, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[30.5, 0, 20.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39, 0, 24.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42.5, 0, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39, 0, 39.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31, 0, 44],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 0, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[19, 0, 31],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[23.5, 0, 24],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.5, 0, 16],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.5, 0, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"IceTornado",
+			"waypoints":	[{
+					"position":	[42.3798828125, 0, 66],
+					"var":	0
+				}, {
+					"position":	[65, 0, 65.5],
+					"var":	0
+				}, {
+					"position":	[63.5, 0, 41.399658203125],
+					"var":	0
+				}, {
+					"position":	[46.499755859375, 0, 42.7998046875],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.5, 4.5, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"TiltPlatform",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

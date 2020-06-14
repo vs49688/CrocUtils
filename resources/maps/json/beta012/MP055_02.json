@@ -1,0 +1,292 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL6\\MAP3.MAP",
+	"name":	"trapped under ice 3",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	24,
+	"effect":	2,
+	"wait":	16,
+	"ambience":	"ice1",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	116
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	105
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	23
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	23
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	23
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.75,
+			"index":	105
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	116
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	35
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	23
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	23
+		}, {
+			"position":	[0, 0, 6],
+			"yr":	0.25,
+			"index":	116
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	105
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	23
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	23
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	23
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.75,
+			"index":	22
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 0, 81.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IceTornado",
+			"waypoints":	[{
+					"position":	[20.7998046875, 0, 81.5],
+					"var":	65536
+				}, {
+					"position":	[22.079833984375, 0, 116],
+					"var":	65536
+				}, {
+					"position":	[29, 0, 115],
+					"var":	0
+				}, {
+					"position":	[26.5, 0, 81.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[97.5, 0, 57.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IceTornado",
+			"waypoints":	[{
+					"position":	[97.5, 0, 57.5],
+					"var":	65536
+				}, {
+					"position":	[61, 0, 57.5],
+					"var":	65536
+				}, {
+					"position":	[60, 0, 62],
+					"var":	0
+				}, {
+					"position":	[97, 0, 61],
+					"var":	0
+				}]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[36.5, 0, 120.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[25, 0, 58.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 87.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 39.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[7.199951171875, 0, 96.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 2],
+			"level":	55,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[8, 0, 4],
+			"level":	55,
+			"sublevel":	1,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[0, 0, 6],
+			"level":	55,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[317, 5.59991455078125, 232],
+			"colour":	[255, 169, 55],
+			"fade_from":	0.00390625,
+			"fade_to":	26368.0078125
+		}, {
+			"position":	[-768.0042724609375, 0.0156097412109375, -254.732421875],
+			"colour":	[169, 55, 0],
+			"fade_from":	1.52587890625e-05,
+			"fade_to":	3.0517578125e-05
+		}, {
+			"position":	[-3.9989776611328125, -6553, -22016],
+			"colour":	[55, 0, 0],
+			"fade_from":	512,
+			"fade_to":	0
+		}],
+	"direct_lights":	[{
+			"position":	[0.00390625, 0, 4],
+			"colour":	[0, 0, 0]
+		}, {
+			"position":	[-2.310546875, 0.003173828125, -0.0625],
+			"colour":	[0, 0, 0]
+		}, {
+			"position":	[-0.060546875, 0.062255859375, 2.6875],
+			"colour":	[0, 9, 14]
+		}],
+	"ambient_colour":	[0, 106, 101]
+}

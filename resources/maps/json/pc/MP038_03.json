@@ -1,0 +1,293 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	31839
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\BONUS1\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	15,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"drip",
+	"start_rotation":	0.00830078125,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	72
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	73
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	72
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	72
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	73
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	72
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	73
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	72
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	73
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.5,
+			"index":	72
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	72
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.75,
+			"index":	73
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.75,
+			"index":	72
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	73
+		}, {
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	50
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 5],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 8, 7],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 8],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[3, 8, 9],
+			"yr":	0.5,
+			"index":	50
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 16, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 16, 48],
+			"rotation":	[0, 0.3330078125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 16, 47.97998046875],
+			"rotation":	[0, 0.666015625, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 18.74267578125, 48.019775390625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[48, 18.74267578125, 48.019775390625],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 96.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 4293984256, 45875, 0, 0, 0],
+			"position":	[48, 16, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 4293984256, 45875, 0, 0, 0],
+			"position":	[48, 16, 96],
+			"rotation":	[0, 0.3330078125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 4293984256, 45875, 0, 0, 0],
+			"position":	[48, 16, 96],
+			"rotation":	[0, 0.666015625, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 18.74267578125, 96],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[48, 18.74267578125, 95.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 7],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 137],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 0],
+			"level":	38,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 1, 9],
+			"level":	38,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 48, 48]
+		}],
+	"ambient_colour":	[112, 96, 96]
+}

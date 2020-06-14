@@ -1,0 +1,206 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	21818
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\LEVEL4\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"icecave",
+	"flags":	0,
+	"cd_track":	8,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"drip",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	50
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	71
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 23],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 63.97998046875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120, 0, 64],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 65536, 6553600, 0, 0, 0, 0, 0],
+			"position":	[28, 0, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Dantini__Thief",
+			"waypoints":	[{
+					"position":	[28, 0, 46.89990234375],
+					"var":	0
+				}, {
+					"position":	[36, 0, 46.89990234375],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 1],
+			"level":	24,
+			"sublevel":	4,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.75, 0.3428497314453125, 4.25],
+			"colour":	[156, 163, 251],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3.25, 0.3428497314453125, 2.75],
+			"colour":	[255, 144, 197],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[6.5, 0.3428497314453125, 3.5],
+			"colour":	[135, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[7.5, 0.3428497314453125, 4.5],
+			"colour":	[255, 157, 255],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[7.25, 0.3428497314453125, 4],
+			"colour":	[128, 128, 128],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 72]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[128, 255, 255]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 56]
+		}],
+	"ambient_colour":	[96, 96, 112]
+}

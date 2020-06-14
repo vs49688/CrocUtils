@@ -1,0 +1,972 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND3\\LEVEL2\\MAP2.MAP",
+	"name":	"Mud Pit 2",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	4,
+	"cd_track":	0,
+	"background":	23,
+	"effect":	"torch_big",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.02978515625,
+	"tracks":	[{
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	86
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[8, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[9, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[10, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[11, 0, 1],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[12, 0, 1],
+			"yr":	0,
+			"index":	86
+		}, {
+			"position":	[13, 0, 1],
+			"yr":	0,
+			"index":	87
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[8, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[9, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[10, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[11, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[12, 0, 2],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[13, 0, 2],
+			"yr":	0,
+			"index":	86
+		}, {
+			"position":	[14, 0, 2],
+			"yr":	0,
+			"index":	87
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[9, 0, 3],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[10, 0, 3],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[11, 0, 3],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[12, 0, 3],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[13, 0, 3],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[14, 0, 3],
+			"yr":	0,
+			"index":	86
+		}, {
+			"position":	[15, 0, 3],
+			"yr":	0,
+			"index":	87
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0,
+			"index":	62
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[10, 0, 4],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[11, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[12, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[13, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 4],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[15, 0, 4],
+			"yr":	0,
+			"index":	86
+		}, {
+			"position":	[0, 0, 5],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	58
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	58
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	58
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.25,
+			"index":	58
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[10, 0, 5],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[11, 0, 5],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[12, 0, 5],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[13, 0, 5],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[14, 0, 5],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[15, 0, 5],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[0, 0, 6],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	94
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	94
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[9, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[10, 0, 6],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[11, 0, 6],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[12, 0, 6],
+			"yr":	0.75,
+			"index":	58
+		}, {
+			"position":	[13, 0, 6],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[14, 0, 6],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[15, 0, 6],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[0, 0, 7],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[9, 0, 7],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[10, 0, 7],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[11, 0, 7],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[12, 0, 7],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[13, 0, 7],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[14, 0, 7],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[15, 0, 7],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[0, 0, 8],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[9, 0, 8],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[10, 0, 8],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[11, 0, 8],
+			"yr":	0.75,
+			"index":	57
+		}, {
+			"position":	[12, 0, 8],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[13, 0, 8],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 8],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[15, 0, 8],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[0, 0, 9],
+			"yr":	0.25,
+			"index":	85
+		}, {
+			"position":	[1, 0, 9],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[2, 0, 9],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[8, 0, 9],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[9, 0, 9],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[10, 0, 9],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[11, 0, 9],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[12, 0, 9],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[13, 0, 9],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 9],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[15, 0, 9],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[0, 0, 10],
+			"yr":	0.5,
+			"index":	86
+		}, {
+			"position":	[1, 0, 10],
+			"yr":	0.5,
+			"index":	88
+		}, {
+			"position":	[2, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[3, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[5, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[7, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[8, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[9, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[10, 0, 10],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[11, 0, 10],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[12, 0, 10],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[13, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 10],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[15, 0, 10],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[1, 0, 11],
+			"yr":	0.5,
+			"index":	87
+		}, {
+			"position":	[2, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[3, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[4, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[5, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[6, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[7, 0, 11],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[8, 0, 11],
+			"yr":	0.5,
+			"index":	88
+		}, {
+			"position":	[9, 0, 11],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[10, 0, 11],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[11, 0, 11],
+			"yr":	0.25,
+			"index":	57
+		}, {
+			"position":	[12, 0, 11],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[13, 0, 11],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 11],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[15, 0, 11],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[7, 0, 12],
+			"yr":	0.5,
+			"index":	87
+		}, {
+			"position":	[8, 0, 12],
+			"yr":	0.5,
+			"index":	86
+		}, {
+			"position":	[9, 0, 12],
+			"yr":	0.5,
+			"index":	88
+		}, {
+			"position":	[10, 0, 12],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[11, 0, 12],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[12, 0, 12],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[13, 0, 12],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[14, 0, 12],
+			"yr":	0.75,
+			"index":	88
+		}, {
+			"position":	[15, 0, 12],
+			"yr":	0.75,
+			"index":	86
+		}, {
+			"position":	[8, 0, 13],
+			"yr":	0.5,
+			"index":	87
+		}, {
+			"position":	[9, 0, 13],
+			"yr":	0.5,
+			"index":	86
+		}, {
+			"position":	[10, 0, 13],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[11, 0, 13],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[12, 0, 13],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[13, 0, 13],
+			"yr":	0.5,
+			"index":	85
+		}, {
+			"position":	[14, 0, 13],
+			"yr":	0.75,
+			"index":	86
+		}, {
+			"position":	[15, 0, 13],
+			"yr":	0.75,
+			"index":	87
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[198.5, 0, 104],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167.2998046875, 9.119873046875, 135.699951171875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[158.419921875, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[146.419921875, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[134.559814453125, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[122.85986328125, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[110.85986328125, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.85986328125, 9.119873046875, 135.659912109375],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarCorner",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.89990234375, 9.119873046875, 126.77978515625],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.81982421875, 9.119873046875, 114.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.7998046875, 9.119873046875, 94.019775390625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.7998046875, 9.119873046875, 102.93994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[92, -4.7998046875, 76],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[89.5, -4.7998046875, 67.579833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88.31982421875, -4.959716796875, 59],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[57.419921875, 20.7998046875, 123.47998046875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[46.199951171875, 20.7998046875, 123.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[37.31982421875, 20.7998046875, 123.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[26, 8, 122.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
+			"position":	[166, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[166, 0, 64],
+					"var":	65536
+				}, {
+					"position":	[166, 0, 93],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[134, 10.079833984375, 135.5],
+			"rotation":	[0, 0.25244140625, 0],
+			"name":	"Geronimo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66.31982421875, 20.7998046875, 123.4599609375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ForestMonkBarCorner",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 131072, 131072, 0, 0, 0, 0, 0],
+			"position":	[98, 0, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66.239990234375, 20.7998046875, 114.559814453125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66.239990234375, 20.7998046875, 105.599853515625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[6, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[13, 0, 6],
+			"level":	31,
+			"sublevel":	3,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[11, 0, 10],
+			"level":	31,
+			"sublevel":	2,
+			"flags":	["floor", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[0.9000091552734375, 32, 319.7000732421875],
+			"colour":	[107, 51, 25],
+			"fade_from":	0.00390625,
+			"fade_to":	0.0078125
+		}],
+	"direct_lights":	[{
+			"position":	[0, 0.00390625, 0],
+			"colour":	[32, 44, 0]
+		}, {
+			"position":	[0, -2.310546875, 0.003173828125],
+			"colour":	[255, 128, 0]
+		}, {
+			"position":	[0, -0.060546875, 0.062255859375],
+			"colour":	[19, 9, 0]
+		}],
+	"ambient_colour":	[63, 63, 0]
+}

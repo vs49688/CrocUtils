@@ -1,0 +1,197 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND1\\LEVEL1\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"lava",
+	"start_rotation":	-0.044677734375,
+	"tracks":	[{
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	47
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 78.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 63],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 52],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 43],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 34.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 4.5712890625, 78.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_U",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 6.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[44, 0, 51],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaBlubs",
+			"waypoints":	[{
+					"position":	[44, 0, 41.5],
+					"var":	0
+				}, {
+					"position":	[26, 0, 36],
+					"var":	0
+				}, {
+					"position":	[16, 0, 41.5],
+					"var":	0
+				}, {
+					"position":	[22, 0, 54.5],
+					"var":	0
+				}, {
+					"position":	[28, 0, 64],
+					"var":	0
+				}, {
+					"position":	[40, 0, 64],
+					"var":	0
+				}, {
+					"position":	[42, 0, 54],
+					"var":	0
+				}, {
+					"position":	[16, 0, 63.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 0],
+			"level":	10,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

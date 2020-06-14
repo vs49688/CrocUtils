@@ -1,0 +1,407 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	33153
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\NATHAN\\DESTEST.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.7548828125,
+	"tracks":	[{
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	127
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	125
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	115
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.25,
+			"index":	111
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0,
+			"index":	112
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	127
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	113
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0,
+			"index":	126
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	109
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	117
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	135
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	113
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	117
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	129
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	91
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	109
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	117
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.75,
+			"index":	113
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	135
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	117
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0,
+			"index":	117
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.75,
+			"index":	109
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0.75,
+			"index":	141
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0.75,
+			"index":	138
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0,
+			"index":	109
+		}, {
+			"position":	[4, 17, 0],
+			"yr":	0.5,
+			"index":	38
+		}, {
+			"position":	[5, 17, 0],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[6, 17, 0],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[7, 17, 0],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[8, 17, 0],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[9, 17, 0],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[10, 17, 0],
+			"yr":	0.25,
+			"index":	38
+		}, {
+			"position":	[8, 17, 1],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[9, 17, 1],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[10, 17, 1],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[8, 17, 2],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[9, 17, 2],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[10, 17, 2],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[5, 17, 10],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[6, 17, 10],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[5, 17, 11],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[6, 17, 11],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[5, 17, 12],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[6, 17, 12],
+			"yr":	0,
+			"index":	73
+		}, {
+			"position":	[7, 17, 12],
+			"yr":	0.75,
+			"index":	74
+		}, {
+			"position":	[5, 17, 13],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[6, 17, 13],
+			"yr":	0,
+			"index":	38
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[106, 0, 54],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90, 0, 52.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 0, 57.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[50, 0, 75.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 0, 38],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66, 0, 30],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60, 0, 24],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 23.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 0, 36.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[78, 0, 98.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
+			"position":	[88, 0, 129.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[88, 0, 129.5],
+					"var":	65536
+				}, {
+					"position":	[88, 32, 129.5],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
+			"position":	[86, 0, 30],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[86, 0, 30],
+					"var":	65536
+				}, {
+					"position":	[86, 32, 30],
+					"var":	65536
+				}]
+		}],
+	"doors":	[{
+			"position":	[8, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

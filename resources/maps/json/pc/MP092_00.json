@@ -1,0 +1,209 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	21552
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FRONTEND\\MAP3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	4
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.93994140625, 0, 22.3798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[73.599853515625, 0, 48.019775390625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 73.639892578125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22.3798828125, 0, 48.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 22.3798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22.3798828125, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 73.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[73.579833984375, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.5, 0, 44.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[47.5, 0, 44.5],
+					"var":	0
+				}, {
+					"position":	[43, 0, 48.5],
+					"var":	0
+				}, {
+					"position":	[47.7998046875, 0, 53.27978515625],
+					"var":	0
+				}, {
+					"position":	[53.2197265625, 0, 48.47998046875],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"TitleCamera",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

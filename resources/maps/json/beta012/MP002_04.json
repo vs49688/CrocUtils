@@ -1,0 +1,159 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LEWIS\\COLLMAP5.MAP",
+	"name":	"Big Cogs",
+	"width":	32,
+	"height":	32,
+	"depth":	8,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	12
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60, 8, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"PeliX",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 8, 64],
+			"rotation":	[0, -2.677490234375, 0],
+			"name":	"PeliX",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58, 0, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86, 0, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogAntiCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58, 0, 6],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogAntiCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86, 0, 6],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogCW",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86, 0, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 0, 6],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90, 0, 4],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 0, 2],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86, 0, 0],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 0, 2],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[82, 0, 4],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 0, 6],
+			"rotation":	[0, 0, 0],
+			"name":	"Seed",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

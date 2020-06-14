@@ -1,0 +1,356 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	47448
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\LEVEL4\\MAP5.MAP",
+	"name":	"Cold Comfort",
+	"width":	13,
+	"height":	12,
+	"depth":	4,
+	"style":	"ice",
+	"flags":	130,
+	"cd_track":	40,
+	"background":	3,
+	"effect":	"none",
+	"wait":	24,
+	"ambience":	"ice1",
+	"start_rotation":	0.749267578125,
+	"tracks":	[{
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0.25,
+			"index":	49
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.25,
+			"index":	26
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0.75,
+			"index":	75
+		}, {
+			"position":	[8, 8, 6],
+			"yr":	0.75,
+			"index":	78
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	60
+		}, {
+			"position":	[7, 8, 7],
+			"yr":	0,
+			"index":	61
+		}, {
+			"position":	[3, 16, 2],
+			"yr":	0,
+			"index":	78
+		}, {
+			"position":	[2, 16, 3],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[3, 16, 3],
+			"yr":	0,
+			"index":	75
+		}, {
+			"position":	[4, 16, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[5, 16, 3],
+			"yr":	0,
+			"index":	45
+		}, {
+			"position":	[6, 16, 3],
+			"yr":	0,
+			"index":	44
+		}, {
+			"position":	[7, 16, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[8, 16, 3],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[2, 16, 4],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[3, 16, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[8, 16, 4],
+			"yr":	0.75,
+			"index":	21
+		}, {
+			"position":	[9, 16, 4],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[2, 16, 5],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[3, 16, 5],
+			"yr":	0.25,
+			"index":	21
+		}, {
+			"position":	[8, 16, 5],
+			"yr":	0.5,
+			"index":	21
+		}, {
+			"position":	[9, 16, 5],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[3, 16, 6],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[8, 16, 6],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[3, 16, 7],
+			"yr":	0,
+			"index":	60
+		}, {
+			"position":	[8, 16, 7],
+			"yr":	0,
+			"index":	61
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[140.919677734375, 31.35986328125, 72.2998046875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120.7998046875, 16, 95.8798828125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 131072, 65536, 131072, 0, 0, 0, 0],
+			"position":	[88, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformTimer",
+			"waypoints":	[{
+					"position":	[68, 16, 103.5],
+					"var":	0
+				}, {
+					"position":	[88, 32, 72],
+					"var":	65536
+				}, {
+					"position":	[88, 16, 72],
+					"var":	65536
+				}]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 16, 72],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.919677734375, 31.83984375, 38.439697265625],
+			"rotation":	[0, 0, 0],
+			"name":	"BonusDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 32, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90, 16, 93],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWater",
+			"waypoints":	[{
+					"position":	[90, 16, 93],
+					"var":	0
+				}, {
+					"position":	[84, 16, 92],
+					"var":	0
+				}, {
+					"position":	[86, 16, 75],
+					"var":	0
+				}, {
+					"position":	[92, 16, 68.5],
+					"var":	0
+				}, {
+					"position":	[82, 16, 69],
+					"var":	0
+				}, {
+					"position":	[90, 16, 85.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88, 16, 60.5],
+			"rotation":	[0, 0, 0],
+			"name":	"WaterFall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 36.7998046875, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloatGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[98304, 65536, 3932160, 0, 0, 0, 0, 0],
+			"position":	[50, 32, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniThrow",
+			"waypoints":	[{
+					"position":	[50, 32, 64.5],
+					"var":	0
+				}, {
+					"position":	[50, 32, 72.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[7, 1, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[8, 1, 6],
+			"level":	24,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 2, 2],
+			"level":	24,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[3, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[4, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[6, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[7, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8, -0.79998779296875, 7.5],
+			"colour":	[0, 0, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

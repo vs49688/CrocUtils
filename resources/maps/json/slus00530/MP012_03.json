@@ -1,0 +1,207 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	19485
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL3\\MAP4.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	31,
+	"background":	29,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"bird",
+	"start_rotation":	0.02197265625,
+	"tracks":	[{
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	34
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.25,
+			"index":	34
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	79
+		}, {
+			"position":	[5, 8, 0],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0,
+			"index":	147
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0,
+			"index":	147
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0,
+			"index":	147
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 47.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"WackJumpyGame",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 7],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 66],
+			"rotation":	[0, 0, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 11.7333984375, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 0],
+			"level":	12,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[3, 1.5, 4],
+			"colour":	[128, 128, 128],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[4, 1.666656494140625, 3],
+			"colour":	[251, 155, 155],
+			"fade_from":	0.75,
+			"fade_to":	1
+		}, {
+			"position":	[3, 1.666656494140625, 3],
+			"colour":	[155, 251, 155],
+			"fade_from":	0.75,
+			"fade_to":	1
+		}, {
+			"position":	[2, 1.666656494140625, 3],
+			"colour":	[155, 155, 251],
+			"fade_from":	0.75,
+			"fade_to":	1
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

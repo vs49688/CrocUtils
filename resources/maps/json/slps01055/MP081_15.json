@@ -1,0 +1,82 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	15,
+		"checksum":	17898
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\ICEBOSS\\ICEBOSS2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss2",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	42,
+	"effect":	"snow_small",
+	"wait":	0,
+	"ambience":	"slde",
+	"start_rotation":	0.05419921875,
+	"tracks":	[{
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	21
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	22
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 56.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 2],
+			"level":	27,
+			"sublevel":	1,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[5.149993896484375, 1.1999969482421875, 6.5],
+			"colour":	[115, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.4499969482421875, 0.5, 6.3499908447265625],
+			"colour":	[189, 171, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.459991455078125, -0.79998779296875, 6.3699951171875],
+			"colour":	[110, 187, 243],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.2499847412109375, 2.5999908447265625, 7.04998779296875],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.399993896484375,
+			"fade_to":	0.5499725341796875
+		}, {
+			"position":	[5.259979248046875, -0.4999847412109375, 7.04998779296875],
+			"colour":	[67, 178, 255],
+			"fade_from":	0.399993896484375,
+			"fade_to":	0.5499725341796875
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[59, 59, 91]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[115, 235, 243]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[59, 75, 123]
+		}],
+	"ambient_colour":	[11, 35, 67]
+}

@@ -1,0 +1,287 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	31978
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\LEVEL3\\MAP1.MAP",
+	"name":	"Riot Brrrrr",
+	"width":	32,
+	"height":	32,
+	"depth":	8,
+	"style":	"ice",
+	"flags":	130,
+	"cd_track":	60,
+	"background":	13,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"ice1",
+	"start_rotation":	0.699462890625,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	88
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	70
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	86
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	69
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	34
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	87
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	66
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.5,
+			"index":	45
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	75
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.75,
+			"index":	78
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	88
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	44
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.75,
+			"index":	65
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.25,
+			"index":	30
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.75,
+			"index":	30
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.25,
+			"index":	45
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0.75,
+			"index":	44
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.5,
+			"index":	46
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.5,
+			"index":	76
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0.75,
+			"index":	46
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[12, 8, 8],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.39990234375, 0, 55.999755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 39.3798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136.639892578125, 0, 64.039794921875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"LockedDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 137],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 119.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 32768, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 61],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"HuskyDoo",
+			"waypoints":	[{
+					"position":	[56, 0, 61],
+					"var":	0
+				}, {
+					"position":	[56, 0, 53.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120, 0, 120],
+			"rotation":	[0, 0, 0],
+			"name":	"SwitchPlatforms",
+			"waypoints":	[{
+					"position":	[142, 0, 127.5],
+					"var":	0
+				}, {
+					"position":	[112, 0, 109.5],
+					"var":	0
+				}, {
+					"position":	[112, 0, 96.5],
+					"var":	0
+				}, {
+					"position":	[112, 0, 84.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[122.5, 0, 53.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 2],
+			"level":	22,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[6, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[7, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[9, 0, 4],
+			"level":	22,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 9],
+			"level":	22,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.5, -0.79998779296875, 2],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[1.5, -0.79998779296875, 3],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[1.5, -0.79998779296875, 4],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[1.5, -0.79998779296875, 5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

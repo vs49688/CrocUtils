@@ -1,0 +1,317 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	48275
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BOSSMAIN\\MAP1.MAP",
+	"name":	"Baron Dante's Funky Inferno",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.8076171875,
+	"tracks":	[{
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	68
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	69
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[1, 8, 5],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[2, 8, 5],
+			"yr":	0.5,
+			"index":	69
+		}, {
+			"position":	[4, 16, 4],
+			"yr":	0.75,
+			"index":	69
+		}, {
+			"position":	[3, 16, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 16, 5],
+			"yr":	0.75,
+			"index":	68
+		}, {
+			"position":	[6, 16, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[7, 16, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 16, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 16, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[7, 16, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[4, 24, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[7, 24, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[6, 24, 7],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[7, 24, 7],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[7, 24, 8],
+			"yr":	0,
+			"index":	40
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 48, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallCastlePlatform",
+			"waypoints":	[{
+					"position":	[80, 48, 111.919921875],
+					"var":	0
+				}]
+		}, {
+			"params":	[301464, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[301465, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[301465, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[301465, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 87.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[301465, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 95.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104.719970703125, 48, 111.85986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 32, 64.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SpikeBall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 48, 80],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"SpikeBall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 64, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"SpikeBall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 16, 52],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 16, 45.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 16, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 16, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 16, 27.519775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[18, 16, 27.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 16, 27.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34, 32, 83.8798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[28, 32, 83.8798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 32, 83.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.43994140625, 32, 83.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.599853515625, 32, 83.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.599853515625, 32, 79.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.599853515625, 32, 76],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.919921875, 48, 58.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.919921875, 48, 64.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.919921875, 48, 71.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.919921875, 48, 78.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[67.919921875, 48, 83.93994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[{
+					"position":	[10, 48, 79.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62.639892578125, 48, 83.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[58.39990234375, 48, 83.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[7, 3, 7],
+			"level":	47,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

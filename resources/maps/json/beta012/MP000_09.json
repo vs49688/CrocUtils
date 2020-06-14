@@ -1,0 +1,117 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	9,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\NIC\\DEMO5.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	8,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	61
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	61
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[0, 8, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

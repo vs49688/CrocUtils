@@ -1,0 +1,373 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\NIC\\BEBALL.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.241455078125,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	87
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	84
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.5,
+			"index":	87
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	89
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	90
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	83
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	83
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.5,
+			"index":	91
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	92
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0,
+			"index":	87
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.75,
+			"index":	84
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	85
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.25,
+			"index":	87
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 9],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 33.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BeBlockBlue",
+			"waypoints":	[{
+					"position":	[32, 0, 48.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"BeBlockGreen",
+			"waypoints":	[{
+					"position":	[96, 0, 50],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94, 0, 129.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BeBlockRed",
+			"waypoints":	[{
+					"position":	[32, 0, 113],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34, 0, 128],
+			"rotation":	[0, 0, 0],
+			"name":	"BeBlockYellow",
+			"waypoints":	[{
+					"position":	[96, 0, 112],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 114],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[48, 0, 113],
+					"var":	0
+				}, {
+					"position":	[48, 0, 97.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 62.5],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniWalk",
+			"waypoints":	[{
+					"position":	[80, 0, 62.5],
+					"var":	0
+				}, {
+					"position":	[80, 0, 49],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 81.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BeBlockCage",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 81.139892578125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 5],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 5],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

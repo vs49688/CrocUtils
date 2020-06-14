@@ -1,0 +1,115 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	16728
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\TONY\\BONUS.MAP",
+	"name":	"Bonus Texture Test",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.019287109375,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[5.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_B",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_O",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_N",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[21.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_U",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[25.5, 0, -0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Letter_S",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

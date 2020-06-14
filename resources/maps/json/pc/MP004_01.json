@@ -1,0 +1,205 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	9540
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\PAULM\\MP004_01.MAP",
+	"name":	"Swipe Swiftly's Dojo",
+	"width":	8,
+	"height":	8,
+	"depth":	64,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.25,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 52],
+			"rotation":	[0, 0, 0],
+			"name":	"SwipeSwiftly",
+			"waypoints":	[{
+					"position":	[64, 0, 52],
+					"var":	0
+				}, {
+					"position":	[68, 0, 80],
+					"var":	0
+				}, {
+					"position":	[36, 0, 76],
+					"var":	0
+				}, {
+					"position":	[36, 0, 52],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

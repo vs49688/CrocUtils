@@ -1,0 +1,573 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	46369
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\BONUS1\\MAP2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	15,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"drip",
+	"start_rotation":	0.013671875,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	72
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	73
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	72
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	72
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	73
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	72
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	73
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.5,
+			"index":	82
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.5,
+			"index":	50
+		}, {
+			"position":	[2, 16, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 16, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 16, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 16, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 16, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 16, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 16, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 16, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 24, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 24, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 24, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 24, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 24, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 24, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 24, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 24, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 32, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 32, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 32, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 32, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 32, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 32, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 32, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 32, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 40, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 40, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 40, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 40, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 40, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 40, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 40, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 40, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 48, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 48, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 48, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 48, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 48, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 48, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 48, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 48, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 56, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 56, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 56, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 56, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 56, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 56, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 56, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 56, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 64, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 64, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 64, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 64, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 64, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 64, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 64, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 64, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 72, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 72, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 72, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 72, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 72, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 72, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 72, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 72, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[2, 80, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 80, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 80, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 80, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 80, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 80, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 80, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 80, 4],
+			"yr":	0,
+			"index":	6
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 56.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 73],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[163840, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[229376, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.659912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[294912, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[360448, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[425984, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[458752, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[491520, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[524288, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[557056, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[589824, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[622592, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[655360, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[688128, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[753664, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[786432, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[819200, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[851968, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[884736, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.9599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[917504, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 47.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 5],
+			"level":	38,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 10, 3],
+			"level":	38,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 48, 48]
+		}],
+	"ambient_colour":	[112, 96, 96]
+}

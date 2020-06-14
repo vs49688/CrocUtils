@@ -1,0 +1,863 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND4\\BONUS2\\SECRET01.MAP",
+	"name":	"Bonkers Bonus",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	0,
+	"effect":	6,
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[6, 0, 0],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	77
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.25,
+			"index":	62
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	62
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	77
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[5, 8, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[6, 8, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[7, 8, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[7, 8, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[5, 16, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[6, 16, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[7, 16, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[5, 16, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[7, 16, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 16, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[6, 16, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[7, 16, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[5, 24, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[6, 24, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[7, 24, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[5, 24, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[7, 24, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 24, 4],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[6, 24, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[7, 24, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[4, 32, 1],
+			"yr":	0,
+			"index":	45
+		}, {
+			"position":	[3, 32, 2],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 32, 2],
+			"yr":	0,
+			"index":	46
+		}, {
+			"position":	[5, 32, 2],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[6, 32, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[7, 32, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 32, 3],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[3, 32, 3],
+			"yr":	0.5,
+			"index":	47
+		}, {
+			"position":	[4, 32, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[5, 32, 3],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[7, 32, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 32, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[4, 32, 4],
+			"yr":	0.5,
+			"index":	46
+		}, {
+			"position":	[5, 32, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[6, 32, 4],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[7, 32, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[4, 32, 5],
+			"yr":	0.5,
+			"index":	45
+		}],
+	"strats":	[{
+			"params":	[491520, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[82.39990234375, 64, 48.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[478412, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86.39990234375, 64, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[465304, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[91.599853515625, 64, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[465304, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.7998046875, 64, 50.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[452197, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.599853515625, 64, 52.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[452198, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.539794921875, 64, 47.8798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.699951171875, 3.83984375, 48.02001953125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 7.58837890625, 42.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.539794921875, 11.3369140625, 54.260009765625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.739990234375, 15.085693359375, 48.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 18.834228515625, 42.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.619873046875, 22.582763671875, 54.260009765625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.739990234375, 26.331298828125, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.559814453125, 30.079833984375, 42.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.619873046875, 33.919921875, 54.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.659912109375, 37.66845703125, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 41.4169921875, 42.119873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.559814453125, 45.16552734375, 54.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.659912109375, 48.9140625, 47.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 52.754150390625, 42.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.539794921875, 56.502685546875, 54.27978515625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.739990234375, 60.251220703125, 47.999755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[439091, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.539794921875, 64, 44.419921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[425984, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98.35986328125, 64, 44.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[412876, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.719970703125, 64, 45.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[399769, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.89990234375, 48, 50.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[386661, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.639892578125, 48, 52.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[373555, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 48, 47.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[360448, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.539794921875, 48, 44.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[347340, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98.33984375, 48, 44.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[334233, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.659912109375, 48, 45.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[321125, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.7197265625, 48, 50.239990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[308019, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.639892578125, 48, 52.079833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[281804, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.519775390625, 32, 47.8798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[268697, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.539794921875, 32, 44.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[255590, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98.33984375, 32, 44.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[242483, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.659912109375, 32, 45.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[229376, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.739990234375, 32, 50.280029296875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[216268, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.519775390625, 32, 52.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[203161, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.519775390625, 16, 47.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[190053, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.539794921875, 16, 44.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[176947, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98.33984375, 16, 44.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[163840, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.659912109375, 16, 45.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[150732, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.739990234375, 16, 50.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[137624, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.519775390625, 16, 52.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[124517, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[103.5, 0, 47.919921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[111411, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[102.559814453125, 0, 44.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[98304, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[98.33984375, 0, 44.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[85196, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.659912109375, 0, 45.81982421875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[72088, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.719970703125, 0, 50.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[58982, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[100.639892578125, 0, 52.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[425984, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.019775390625, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[360448, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.019775390625, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[294912, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.039794921875, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[229376, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.039794921875, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[163840, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[98304, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.019775390625, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.97998046875, 64, 39.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.9599609375, 64, 39.9599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56.019775390625, 64, 56.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.97998046875, 64, 56.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[75.5, 0, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83, 0, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90.81982421875, 0, 95],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95.639892578125, 0, 90.619873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.139892578125, 0, 83.919921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 76.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 70.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[77.5, 0, 0.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84.2998046875, 0, 0.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[91.599853515625, 0, 1.81982421875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.139892578125, 0, 6.43994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.139892578125, 0, 12.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.039794921875, 0, 19.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 26.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104.5, 0, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88.5, 0, 40.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88.5, 0, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104.5, 0, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[107, 0, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96.519775390625, 0, 37.5],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[85, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 59],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.81982421875, 64, 35],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.5, 64, 60],
+			"rotation":	[0, 0, 0],
+			"name":	"RedCrystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40.519775390625, 64, 48],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 0],
+			"level":	47,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 0, 6],
+			"level":	47,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 4, 1],
+			"level":	47,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	1
+		}, {
+			"position":	[2, 4, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["final"],
+			"id":	0
+		}, {
+			"position":	[4, 4, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[4, 4, 5],
+			"level":	47,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	1
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

@@ -1,0 +1,314 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND7\\BOSS\\ARENA1.MAP",
+	"name":	"Secret Sentinal",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss7",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	25,
+	"effect":	"none",
+	"wait":	4,
+	"ambience":	"none",
+	"start_rotation":	0.230224609375,
+	"tracks":	[{
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.75,
+			"index":	7
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.75,
+			"index":	5
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[9, 0, 6],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	7
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.5,
+			"index":	2
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95, 0, 79],
+			"rotation":	[0, 0, 0],
+			"name":	"CrystalBoss",
+			"waypoints":	[{
+					"position":	[88, 0.31982421875, 80],
+					"var":	0
+				}, {
+					"position":	[104, 6.399658203125, 88],
+					"var":	0
+				}, {
+					"position":	[96, 0.47998046875, 76],
+					"var":	0
+				}, {
+					"position":	[96, 6.39990234375, 80],
+					"var":	0
+				}, {
+					"position":	[92, 0.159912109375, 88],
+					"var":	0
+				}, {
+					"position":	[104, 1.599853515625, 80],
+					"var":	0
+				}, {
+					"position":	[104, 0, 72],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0.7998046875, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatCrys",
+			"waypoints":	[{
+					"position":	[80, 19.35986328125, 64],
+					"var":	0
+				}, {
+					"position":	[80, 0.7998046875, 64],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0.7998046875, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatCrys",
+			"waypoints":	[{
+					"position":	[112, 19.35986328125, 96],
+					"var":	0
+				}, {
+					"position":	[112, 0.7998046875, 96],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 19.35986328125, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatCrys",
+			"waypoints":	[{
+					"position":	[112, 0.7998046875, 64],
+					"var":	0
+				}, {
+					"position":	[112, 19.35986328125, 64],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 19.35986328125, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatCrys",
+			"waypoints":	[{
+					"position":	[80, 0.7998046875, 96],
+					"var":	0
+				}, {
+					"position":	[80, 19.35986328125, 96],
+					"var":	0
+				}]
+		}, {
+			"params":	[39321600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[52, 0, 80],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"CrysGong",
+			"waypoints":	[]
+		}, {
+			"params":	[39321600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 36],
+			"rotation":	[0, 0, 0],
+			"name":	"CrysGong",
+			"waypoints":	[]
+		}, {
+			"params":	[39321600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[140, 0, 80],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"CrysGong",
+			"waypoints":	[]
+		}, {
+			"params":	[39321600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 124],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"CrysGong",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 3.199951171875, 92],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 3.199951171875, 68],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 3.199951171875, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[108, 3.199951171875, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136, 3.199951171875, 68],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136, 3.199951171875, 92],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84, 3.199951171875, 120],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[108, 3.199951171875, 120],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[4, 0, 5],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 7],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

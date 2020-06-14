@@ -1,0 +1,212 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	20380
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FRONTEND\\TITLE2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	53
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	52
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	53
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	51
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	53
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	51
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 8, 4],
+			"yr":	0.25,
+			"index":	54
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[0, 8, 5],
+			"yr":	0.25,
+			"index":	54
+		}, {
+			"position":	[1, 8, 5],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0.5,
+			"index":	54
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.5, -1.119873046875, 55.5],
+			"rotation":	[0, 0.138671875, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.5, -1.119873046875, 88],
+			"rotation":	[0, 0.610595703125, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.5, -0.799560546875, 88.019775390625],
+			"rotation":	[0, 0.610595703125, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 72],
+			"rotation":	[0, 0, 0],
+			"name":	"TitleCamera",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.5, 0, 88],
+			"rotation":	[0, 0.346923828125, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[70, 0, 54],
+			"rotation":	[0, 0.124755859375, 0],
+			"name":	"HuskyDoo",
+			"waypoints":	[{
+					"position":	[70, 0, 54],
+					"var":	0
+				}, {
+					"position":	[73.5, 0, 57.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[],
+	"point_lights":	[{
+			"position":	[3.5, 0, 4.5],
+			"colour":	[137, 185, 255],
+			"fade_from":	1,
+			"fade_to":	3
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

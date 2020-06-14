@@ -1,0 +1,184 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	26076
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\BONUS1\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	0,
+	"cd_track":	53,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"dcav",
+	"start_rotation":	0.010986328125,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	127
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	124
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	127
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	76
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.5,
+			"index":	124
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	124
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	127
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.75,
+			"index":	124
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.75,
+			"index":	127
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 72],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 0, 72],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 0, 72],
+			"rotation":	[0, 0.3330078125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
+			"position":	[48, 0, 72],
+			"rotation":	[0, 0.666015625, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 3.199951171875, 72],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[48, 3.199951171875, 72],
+					"var":	0
+				}]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Jigsaw",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 92.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 92.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 100.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 2, 3],
+			"level":	38,
+			"sublevel":	2,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

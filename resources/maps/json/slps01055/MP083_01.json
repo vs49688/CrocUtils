@@ -1,0 +1,107 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	9892
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\OUTRO\\JIG2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	24,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	57
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	58
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	63
+		}, {
+			"position":	[3, 3, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 3, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 3, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	55
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 6.7197265625, 42.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

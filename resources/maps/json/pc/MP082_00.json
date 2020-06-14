@@ -1,0 +1,103 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	9859
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\OUTRO\\OUTRO1.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	29,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	35
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	40
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 3.199951171875, 47.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

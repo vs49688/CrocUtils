@@ -1,0 +1,187 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	19293
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\BOSSMAIN\\MAP3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss2",
+	"flags":	0,
+	"cd_track":	45,
+	"background":	42,
+	"effect":	"snow_small",
+	"wait":	0,
+	"ambience":	"slde",
+	"start_rotation":	0.05419921875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	19
+		}, {
+			"position":	[7, 0, 0],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[0, 0, 7],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.75,
+			"index":	19
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 80],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"IceBoss",
+			"waypoints":	[{
+					"position":	[56.320068359375, 0, 56.320068359375],
+					"var":	0
+				}, {
+					"position":	[56, 0, 68],
+					"var":	65536
+				}, {
+					"position":	[56, 0, 60],
+					"var":	131072
+				}, {
+					"position":	[64, 0, 56],
+					"var":	196608
+				}, {
+					"position":	[72, 0, 52],
+					"var":	262144
+				}, {
+					"position":	[68, 0, 44],
+					"var":	327680
+				}, {
+					"position":	[60, 0, 44],
+					"var":	393216
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 2],
+			"level":	27,
+			"sublevel":	1,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[5.149993896484375, 1.1999969482421875, 6.5],
+			"colour":	[115, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.4499969482421875, 0.5, 6.3499908447265625],
+			"colour":	[189, 171, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.459991455078125, -0.79998779296875, 6.3699951171875],
+			"colour":	[110, 187, 243],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5.2499847412109375, 2.5999908447265625, 7.04998779296875],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.399993896484375,
+			"fade_to":	0.5499725341796875
+		}, {
+			"position":	[5.259979248046875, -0.4999847412109375, 7.04998779296875],
+			"colour":	[67, 178, 255],
+			"fade_from":	0.399993896484375,
+			"fade_to":	0.5499725341796875
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[59, 59, 91]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[115, 235, 243]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[59, 75, 123]
+		}],
+	"ambient_colour":	[11, 35, 67]
+}

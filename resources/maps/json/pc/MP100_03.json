@@ -1,0 +1,167 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	42603
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\ISLANDS\\ISLE3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"island3",
+	"flags":	0,
+	"cd_track":	2,
+	"background":	46,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 9],
+			"rotation":	[0, 0.99365234375, 0],
+			"name":	"IslandCamera",
+			"waypoints":	[{
+					"position":	[10.619873046875, 0.15966796875, 17.719970703125],
+					"var":	0
+				}, {
+					"position":	[16.699951171875, 3.6796875, 6.739990234375],
+					"var":	0
+				}, {
+					"position":	[14.099853515625, 2.5595703125, -0.1201171875],
+					"var":	0
+				}, {
+					"position":	[5.5, 7.999755859375, 1.85986328125],
+					"var":	0
+				}, {
+					"position":	[17.83935546875, 14.239501953125, 7.659912109375],
+					"var":	0
+				}, {
+					"position":	[-2.96044921875, 6.39990234375, 6.519775390625],
+					"var":	0
+				}, {
+					"position":	[0.739990234375, 7.519775390625, 12.379638671875],
+					"var":	0
+				}, {
+					"position":	[1.759521484375, 10.079833984375, 17.479736328125],
+					"var":	0
+				}, {
+					"position":	[8.639892578125, 8.15966796875, 9.31982421875],
+					"var":	0
+				}, {
+					"position":	[1.760009765625, 14.559326171875, 1.159912109375],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.27978515625, 0, 15.5],
+			"rotation":	[0, 0.99365234375, 0],
+			"name":	"IslandCacti",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[7.519775390625, -0.159912109375, 18.459716796875],
+			"rotation":	[0, 0.030517578125, 0],
+			"name":	"IslandCactus",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[4.800048828125, -0.159912109375, 13.39990234375],
+			"rotation":	[0, 0.988037109375, 0],
+			"name":	"IslandDesertTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[1.519775390625, 7.519775390625, 10.099853515625],
+			"rotation":	[0, 0.865966796875, 0],
+			"name":	"IslandCacti",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-2.400146484375, 0.159912109375, 1.9599609375],
+			"rotation":	[0, 0.94921875, 0],
+			"name":	"IslandDesertTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[4, 0.159912109375, -5.460205078125],
+			"rotation":	[0, 0.963134765625, 0],
+			"name":	"IslandCacti",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.759521484375, 11.999755859375, 7.619873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret5",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.8798828125, 12.479736328125, 8.659912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret5",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[1.599853515625, 12.31982421875, 0.999755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret9",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[2.7998046875, 12.47998046875, 2.719970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret9",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[4.47998046875, 14.39990234375, 4.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret6",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[18.31982421875, 9.599853515625, 7.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"HiddenIsland",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[1.679931640625, 9.919921875, 1.119873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"HiddenIsland",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

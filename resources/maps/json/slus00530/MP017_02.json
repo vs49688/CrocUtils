@@ -1,0 +1,193 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	21090
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\BOSSMAIN\\MAP3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss1",
+	"flags":	0,
+	"cd_track":	39,
+	"background":	26,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"crwd",
+	"start_rotation":	0.13037109375,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.25,
+			"index":	7
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.75,
+			"index":	7
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	11
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 80],
+			"rotation":	[0, 0.62451171875, 0],
+			"name":	"BossFlibby",
+			"waypoints":	[{
+					"position":	[40, 0, 40],
+					"var":	0
+				}, {
+					"position":	[72, 0, 72],
+					"var":	0
+				}, {
+					"position":	[55.199951171875, 0, 56],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 2, 2],
+			"level":	17,
+			"sublevel":	1,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[2, 0.5999908447265625, 2],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5, 0.5999908447265625, 2],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[5, 0.5999908447265625, 5],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[2, 0.5999908447265625, 5],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[2.899993896484375, 0.399993896484375, 2.899993896484375],
+			"colour":	[3, 3, 251],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[2.899993896484375, 0.399993896484375, 4.0999908447265625],
+			"colour":	[3, 251, 3],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[3.5, 0.399993896484375, 3.5],
+			"colour":	[251, 3, 251],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[4.0999908447265625, 0.399993896484375, 2.899993896484375],
+			"colour":	[251, 3, 3],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}, {
+			"position":	[4.0999908447265625, 0.29998779296875, 4.0999908447265625],
+			"colour":	[251, 251, 3],
+			"fade_from":	0.5,
+			"fade_to":	0.75
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[43, 35, 35]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[107, 100, 19]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[27, 19, 19]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

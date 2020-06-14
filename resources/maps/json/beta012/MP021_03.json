@@ -1,0 +1,279 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND2\\LEVEL2\\MAP4.MAP",
+	"name":	"Polar Playtime",
+	"width":	13,
+	"height":	10,
+	"depth":	3,
+	"style":	"ice",
+	"flags":	4,
+	"cd_track":	26,
+	"background":	3,
+	"effect":	"none",
+	"wait":	3,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	80
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	87
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	88
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0.75,
+			"index":	80
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	104
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	9
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.75,
+			"index":	43
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	79
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.25,
+			"index":	9
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0,
+			"index":	104
+		}, {
+			"position":	[9, 0, 3],
+			"yr":	0.75,
+			"index":	80
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	9
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.75,
+			"index":	107
+		}, {
+			"position":	[10, 0, 4],
+			"yr":	0.75,
+			"index":	108
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	43
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	9
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	7
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.5,
+			"index":	26
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.5,
+			"index":	80
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	80
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	109
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	104
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	43
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.5,
+			"index":	80
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.5,
+			"index":	110
+		}, {
+			"position":	[5, 8, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[6, 8, 0],
+			"yr":	0.75,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 1638400, 32768, 0, 0, 0],
+			"position":	[87.5, 0, 37],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[70.2998046875, 0, 22],
+			"rotation":	[0, 0.096923828125, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120.2197265625, -0.7998046875, 87.579345703125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104.2998046875, -0.7998046875, 23.5595703125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[110.519775390625, 9.439697265625, 71.039794921875],
+			"rotation":	[0, 0.638427734375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[101.299560546875, 9.439697265625, 63.359619140625],
+			"rotation":	[0, 0.638427734375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[66.5, 0, 24.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[74, 0, 19.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[117.2998046875, 9.439697265625, 76.699951171875],
+			"rotation":	[0, 0.138671875, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94.4599609375, 9.439697265625, 57.659912109375],
+			"rotation":	[0, 0.638427734375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 32768, 0, 0, 0, 0, 0, 0],
+			"position":	[131.5, 0, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"HuskyDoo",
+			"waypoints":	[{
+					"position":	[126.89990234375, 0, 74.5],
+					"var":	0
+				}, {
+					"position":	[119.7998046875, 0, 78],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.5, 0, 72.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.1796875, -0.639892578125, 100.47998046875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[152.7998046875, 0, 64.019775390625],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[10, 0, 4],
+			"level":	21,
+			"sublevel":	1,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 7],
+			"level":	22,
+			"sublevel":	0,
+			"flags":	["final"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

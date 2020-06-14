@@ -1,0 +1,267 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old_noambient",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND6\\LEVEL1\\MAP3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"dngn",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.25,
+			"index":	16
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.5,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[6553600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56.07958984375, 6.39990234375, 60.199951171875],
+			"rotation":	[0.49951171875, 0, 0.249755859375],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[6553600, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.919677734375, 2.23974609375, 60.199951171875],
+			"rotation":	[0.49951171875, 0, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[4587520, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 1.599853515625, 86.099853515625],
+			"rotation":	[0.49951171875, 0, 0.249755859375],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[4587520, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.83984375, 5.919921875, 85.83984375],
+			"rotation":	[0.49951171875, 0, 0.749267578125],
+			"name":	"BoltShooter2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 111.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"BalloonMan",
+			"waypoints":	[{
+					"position":	[48, 0, 99.5],
+					"var":	0
+				}, {
+					"position":	[72.15966796875, 0, 111.859619140625],
+					"var":	65536
+				}, {
+					"position":	[47.99951171875, 0, 135.97998046875],
+					"var":	0
+				}, {
+					"position":	[23.519775390625, 0, 111.899658203125],
+					"var":	196608
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 7.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	60,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[1, 0, 7],
+			"level":	60,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 7],
+			"level":	60,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 9],
+			"level":	60,
+			"sublevel":	6,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.875, 0.79998779296875, 0.9375],
+			"colour":	[255, 255, 255],
+			"fade_from":	0.00390625,
+			"fade_to":	0.0078125
+		}, {
+			"position":	[-13311.984375, 0.00311279296875, -255.9967041015625],
+			"colour":	[255, 255, 0],
+			"fade_from":	1.52587890625e-05,
+			"fade_to":	3.0517578125e-05
+		}, {
+			"position":	[-19661, -32768, 879.00006103515625],
+			"colour":	[7, 0, 0],
+			"fade_from":	512,
+			"fade_to":	480
+		}, {
+			"position":	[179.19921875, 1528, 891.73046875],
+			"colour":	[0, 128, 0],
+			"fade_from":	1,
+			"fade_to":	4.125
+		}, {
+			"position":	[0.6999969482421875, 5.9375, 3.4833831787109375],
+			"colour":	[128, 0, 0],
+			"fade_from":	0.00390625,
+			"fade_to":	13056.0078125
+		}, {
+			"position":	[0.0027313232421875, 768.0318603515625, -32767.986328125],
+			"colour":	[0, 0, 0],
+			"fade_from":	10485,
+			"fade_to":	-19661
+		}, {
+			"position":	[16547, 29443, 128.00004577636719],
+			"colour":	[0, 0, 0],
+			"fade_from":	768,
+			"fade_to":	256
+		}, {
+			"position":	[1800, 30719.99609375, 1],
+			"colour":	[0, 0, 2],
+			"fade_from":	4096,
+			"fade_to":	0
+		}],
+	"direct_lights":	[{
+			"position":	[4.015625, 0.015625, 0],
+			"colour":	[219, 13, 0]
+		}, {
+			"position":	[-0.000244140625, 0.03125, 0],
+			"colour":	[255, 255, 0]
+		}, {
+			"position":	[2.697998046875, 0.010498046875, 1.192138671875],
+			"colour":	[177, 121, 0]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

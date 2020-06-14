@@ -1,0 +1,215 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	68222
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\ISLANDS\\ISLE2.MAP",
+	"name":	"Default New Map",
+	"width":	2,
+	"height":	2,
+	"depth":	1,
+	"style":	"island2",
+	"flags":	0,
+	"cd_track":	9,
+	"background":	45,
+	"effect":	"snow_island",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	1
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCamera",
+			"waypoints":	[{
+					"position":	[-5.98046875, 0.639892578125, 1.2998046875],
+					"var":	0
+				}, {
+					"position":	[-3.440185546875, 2.39990234375, 10.719970703125],
+					"var":	0
+				}, {
+					"position":	[3.73974609375, 4.959716796875, 15.60009765625],
+					"var":	0
+				}, {
+					"position":	[12.019775390625, 7.35986328125, 14.39990234375],
+					"var":	0
+				}, {
+					"position":	[7.800048828125, 24.6396484375, 2.719970703125],
+					"var":	0
+				}, {
+					"position":	[13.800048828125, 9.759765625, 6.759765625],
+					"var":	0
+				}, {
+					"position":	[12.280029296875, 11.35986328125, 2.999755859375],
+					"var":	0
+				}, {
+					"position":	[4.559814453125, 13.919921875, 4.059814453125],
+					"var":	0
+				}, {
+					"position":	[8.719970703125, 14.879638671875, 8.860107421875],
+					"var":	0
+				}, {
+					"position":	[-2.320068359375, 28.639892578125, 11.73974609375],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[2.159912109375, -1.27978515625, 28],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandIceBerg1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-19.439697265625, -1.43994140625, -2.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandIceBerg1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[27.52001953125, -1.27978515625, -10.919921875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandIceBerg1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[30.9599609375, -1.119873046875, 9.239990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandBerg2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[0.8798828125, -0.7998046875, 33.579833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandBerg2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-9.759765625, -0.639892578125, -11.939697265625],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandBerg2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[5.19970703125, 5.27978515625, 16.23974609375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnowTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-4.239990234375, 3.039794921875, 8.919921875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCog",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-3.1201171875, 3.039794921875, 13.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCog",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[9.83984375, 0.9599609375, 21.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[12, 0.9599609375, 22.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnowTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0.9599609375, 23.199951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnowTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[13.599853515625, 9.919921875, 8.4599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnowTree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[3.679931640625, 13.919921875, 5.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[6.159912109375, 13.919921875, 3.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[6.7998046875, 13.919921875, 4.659912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[5.039794921875, 13.919921875, 6.119873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSnow2Tree",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8.31982421875, 18.719970703125, 3.4599609375],
+			"rotation":	[0, 0.94921875, 0],
+			"name":	"Secret3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-2.400146484375, 22.559814453125, 8.83984375],
+			"rotation":	[0, 0.1220703125, 0],
+			"name":	"Secret4",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8.559814453125, 15.35986328125, 3.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"HiddenIsland",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-2, 19.199951171875, 11.7197265625],
+			"rotation":	[0, 0, 0],
+			"name":	"HiddenIsland",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

@@ -1,0 +1,466 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND1\\LEVEL4\\MAP1.MAP",
+	"name":	"All Together Now",
+	"width":	16,
+	"height":	16,
+	"depth":	2,
+	"style":	"wood",
+	"flags":	4,
+	"cd_track":	22,
+	"background":	16,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"nght",
+	"start_rotation":	0.0859375,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	54
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	49
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[6, 0, 0],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	26
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	31
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0.75,
+			"index":	79
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	32
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.5,
+			"index":	55
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.5,
+			"index":	33
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	31
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	86
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	51
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	115
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	115
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	32
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	26
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	33
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.25,
+			"index":	55
+		}, {
+			"position":	[7, 8, 3],
+			"yr":	0,
+			"index":	119
+		}, {
+			"position":	[7, 8, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.39990234375, 11.999755859375, 63.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56.31982421875, 11.999755859375, 63.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[68.2998046875, 11.999755859375, 63.47998046875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.259521484375, 11.999755859375, 63.539794921875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarCorner",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.279541015625, 11.999755859375, 75.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 65536, 65536, 0, 0, 0, 0, 0],
+			"position":	[29.39990234375, 0, 63.69970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104.7998046875, 0, 15.999755859375],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 65536, 0, 131072, 0, 131072, 0],
+			"position":	[78.5, 0, 31.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[78.5, 0, 31.39990234375],
+					"var":	65536
+				}, {
+					"position":	[78, 0, 65.099853515625],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.279541015625, 11.999755859375, 69.3798828125],
+			"rotation":	[0, 0, 0],
+			"name":	"ForestMonkBarSngl",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 97.15966796875],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[81.19970703125, 0, 84.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[81.19970703125, 4, 84.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[81.19970703125, 8, 84.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[77.27978515625, 12, 63.47998046875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarSngl",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[52, 16, 63],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[78, 16, 63.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_O",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[94, 0, 47],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaBlubs",
+			"waypoints":	[{
+					"position":	[80, 0, 35],
+					"var":	0
+				}, {
+					"position":	[56, 0, 30],
+					"var":	0
+				}, {
+					"position":	[52, 0, 20.5],
+					"var":	0
+				}, {
+					"position":	[14, 0, 30],
+					"var":	0
+				}, {
+					"position":	[2, 0, 19.5],
+					"var":	0
+				}, {
+					"position":	[10, 0, 36.5],
+					"var":	0
+				}, {
+					"position":	[32, 0, 96.5],
+					"var":	0
+				}, {
+					"position":	[60, 0, 81.5],
+					"var":	0
+				}, {
+					"position":	[66, 0, 55],
+					"var":	0
+				}, {
+					"position":	[66, 0, 45],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 52.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Worm",
+			"waypoints":	[{
+					"position":	[40, 0, 52.5],
+					"var":	0
+				}, {
+					"position":	[30, 0, 52.5],
+					"var":	0
+				}, {
+					"position":	[22, 0, 58],
+					"var":	0
+				}, {
+					"position":	[18, 0, 66],
+					"var":	0
+				}, {
+					"position":	[24, 0, 74.5],
+					"var":	0
+				}, {
+					"position":	[34, 0, 77],
+					"var":	0
+				}, {
+					"position":	[44, 0, 77],
+					"var":	0
+				}, {
+					"position":	[50, 0, 74.5],
+					"var":	0
+				}, {
+					"position":	[54, 0, 68.5],
+					"var":	0
+				}, {
+					"position":	[54, 0, 59.5],
+					"var":	0
+				}, {
+					"position":	[48, 0, 52.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 1],
+			"level":	13,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 6],
+			"level":	13,
+			"sublevel":	3,
+			"flags":	["floor"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[55, 55, 55]
+}

@@ -1,0 +1,556 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	96768
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\BONUS1\\MAP1.MAP",
+	"name":	"Clouds of Ice",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	2,
+	"cd_track":	12,
+	"background":	13,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"slde",
+	"start_rotation":	0.01318359375,
+	"tracks":	[{
+			"position":	[4, 0, 1],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[8, 0, 1],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[8, 0, 2],
+			"yr":	0.25,
+			"index":	37
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.75,
+			"index":	87
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.25,
+			"index":	86
+		}, {
+			"position":	[10, 0, 3],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[11, 0, 3],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	88
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.25,
+			"index":	88
+		}, {
+			"position":	[10, 0, 4],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[11, 0, 4],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	86
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.25,
+			"index":	87
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.25,
+			"index":	37
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[9, 2, 7],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[10, 2, 7],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[11, 2, 7],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.25,
+			"index":	38
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[9, 2, 8],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[10, 2, 8],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[11, 2, 8],
+			"yr":	0.25,
+			"index":	37
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.75,
+			"index":	87
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0.5,
+			"index":	71
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0.25,
+			"index":	86
+		}, {
+			"position":	[9, 2, 9],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[10, 2, 9],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[11, 2, 9],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[4, 0, 10],
+			"yr":	0.75,
+			"index":	88
+		}, {
+			"position":	[5, 0, 10],
+			"yr":	0.5,
+			"index":	70
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0.25,
+			"index":	88
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[119.099853515625, 0, 126.279541015625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136.199951171875, 0, 137.279541015625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 1310720, 0, 0, 0, 0, 0],
+			"position":	[114.5, 0, 116.799560546875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 4293656576, 0, 0, 0, 0, 0],
+			"position":	[126.2998046875, 0, 135.499755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167.5, 1.599853515625, 87.199951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167.5, -0.9599609375, 74.099609375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[145.199951171875, 0, 39.619873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[153.399658203125, 0, 47.19970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136.439697265625, 0, 35],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 144179, 65536, 0, 0, 0, 0, 0],
+			"position":	[61, 0, 47],
+			"rotation":	[0, 0.916015625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[7864320, 144179, 65536, 0, 0, 0, 0, 0],
+			"position":	[61, 0, 47],
+			"rotation":	[0, 0.916015625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[15728640, 144179, 65536, 0, 0, 0, 0, 0],
+			"position":	[61, 0, 47],
+			"rotation":	[0, 0.916015625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[23592960, 144179, 65536, 0, 0, 0, 0, 0],
+			"position":	[61, 0, 47],
+			"rotation":	[0, 0.916015625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 19660, 65536, 0, 0, 0, 0, 0],
+			"position":	[37.39990234375, 0, 113.5],
+			"rotation":	[0, 0.152587890625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[4128768, 19660, 65536, 0, 0, 0, 0, 0],
+			"position":	[51.03955078125, 1.599609375, 123.77978515625],
+			"rotation":	[0, 0.152587890625, 0],
+			"name":	"PlatformUnderOver",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 32768, 0, 0, 0, 0, 0, 0],
+			"position":	[100.5, 0, 22.5],
+			"rotation":	[0, 0, 0],
+			"name":	"HuskyDoo",
+			"waypoints":	[{
+					"position":	[115.5, 0, 37],
+					"var":	0
+				}, {
+					"position":	[105, 0, 27.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167.659912109375, -0.639892578125, 57.77978515625],
+			"rotation":	[0, 0.971435546875, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[85, 0, 24],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[78, 0, 25.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[73, 0, 29.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[70.5, 0, 36.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39, 0, 88.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31, 0, 89],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[25, 0, 93],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24.5, 0, 101.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[79, -0.639892578125, 136],
+			"rotation":	[0, 0.95751953125, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[160, 3.039794921875, 120],
+			"rotation":	[0, 0, 0],
+			"name":	"HuskyDoo",
+			"waypoints":	[{
+					"position":	[160, 2.719970703125, 120],
+					"var":	0
+				}, {
+					"position":	[160, 3.039794921875, 135.5],
+					"var":	0
+				}, {
+					"position":	[152, 2.8798828125, 128.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[167.35986328125, 1.599853515625, 101.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, -1.27978515625, 153],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[7, 0, 5],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[7, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 10],
+			"level":	28,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[3.75, -0.79998779296875, 0.75],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[6.4999847412109375, -0.79998779296875, 0.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.25999450683594, -0.79998779296875, 0.75],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.5, -0.79998779296875, 2.29998779296875],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.5, -0.79998779296875, 4],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5.5, -0.79998779296875, 4],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5.5, -0.79998779296875, 2.489990234375],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5.5, -0.79998779296875, 5.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.5, -0.79998779296875, 5.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5.75, -0.79998779296875, 7.25],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.25, -0.79998779296875, 7.25],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[3.5, -0.79998779296875, 6.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[3.25, -0.79998779296875, 4.75],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[10, -0.79998779296875, 6.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[9.5, -0.79998779296875, 3.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[3.75, 0, 3.25],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

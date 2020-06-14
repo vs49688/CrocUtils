@@ -1,0 +1,161 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	17485
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	32,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"wind",
+	"start_rotation":	0.00537109375,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 7.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 56.35986328125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 42.599609375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"ShellGame",
+			"waypoints":	[]
+		}, {
+			"params":	[52428, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 32.5],
+			"rotation":	[0, 0.43017578125, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[40, 0, 32.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[52428, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 32.5],
+			"rotation":	[0, 0.582763671875, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[56, 0, 32.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	42,
+			"sublevel":	0,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 4],
+			"level":	42,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 0, 7],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[2, 0, 3.03125],
+			"colour":	[95, 163, 100],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4.125, 0, 3.09375],
+			"colour":	[177, 83, 67],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0, 1],
+			"colour":	[191, 27, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[2, 0, 1],
+			"colour":	[75, 124, 219],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[35, 35, 35]
+}

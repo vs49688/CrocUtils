@@ -1,0 +1,100 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	7653
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\ROGER\\BIGMUNKI.MAP",
+	"name":	"big munki",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.3662109375,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 32],
+			"rotation":	[0, 0.00537109375, 0],
+			"name":	"BigMunki",
+			"waypoints":	[{
+					"position":	[64.31982421875, 0, 32],
+					"var":	0
+				}, {
+					"position":	[44, 0, 32],
+					"var":	0
+				}, {
+					"position":	[32, 0, 44],
+					"var":	0
+				}, {
+					"position":	[48, 0, 52],
+					"var":	0
+				}, {
+					"position":	[64, 0, 48],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

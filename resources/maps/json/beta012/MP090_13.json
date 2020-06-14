@@ -1,0 +1,278 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	13,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CREDITS\\MAP14.MAP",
+	"name":	"CREDITS 1",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	1,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[6, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	35
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	38
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	62
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	14
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.75,
+			"index":	62
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	62
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.25,
+			"index":	16
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	62
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.5,
+			"index":	79
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.639892578125, -0.746337890625, 96.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.9794921875, 0.133056640625, 8.03955078125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.97998046875, 0, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0.133056640625, 32.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashLid",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.5, 8, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Credit90_0",
+			"waypoints":	[{
+					"position":	[41.43994140625, 6.66650390625, 77.83984375],
+					"var":	0
+				}, {
+					"position":	[63.5, 8, 104.099853515625],
+					"var":	0
+				}, {
+					"position":	[74.39990234375, 8, 80],
+					"var":	0
+				}, {
+					"position":	[63.5, 8, 47.5],
+					"var":	0
+				}, {
+					"position":	[62, 10, 25],
+					"var":	0
+				}, {
+					"position":	[72, 8.333251953125, 15.7998046875],
+					"var":	0
+				}, {
+					"position":	[59.2998046875, 8, 10.5],
+					"var":	0
+				}, {
+					"position":	[34, 10.66650390625, 27.699951171875],
+					"var":	0
+				}, {
+					"position":	[47, 8, 47],
+					"var":	0
+				}]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

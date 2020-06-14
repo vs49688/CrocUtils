@@ -1,0 +1,305 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	21449
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\LEVEL3\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	56,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	0.250732421875,
+	"tracks":	[{
+			"position":	[2, 8, 1],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[0, 8, 4],
+			"yr":	0.25,
+			"index":	53
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0.25,
+			"index":	52
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 5],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[2, 8, 5],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0.5,
+			"index":	1
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 7],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 16, 1],
+			"yr":	0.5,
+			"index":	60
+		}, {
+			"position":	[3, 16, 1],
+			"yr":	0.25,
+			"index":	59
+		}, {
+			"position":	[4, 16, 1],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[2, 16, 2],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[3, 16, 2],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[4, 16, 2],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[1, 16, 3],
+			"yr":	0.5,
+			"index":	60
+		}, {
+			"position":	[2, 16, 3],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[3, 16, 3],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[4, 16, 3],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[5, 16, 3],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[1, 16, 4],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[2, 16, 4],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[3, 16, 4],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[4, 16, 4],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[5, 16, 4],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[1, 16, 5],
+			"yr":	0.75,
+			"index":	60
+		}, {
+			"position":	[2, 16, 5],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[3, 16, 5],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[4, 16, 5],
+			"yr":	0.75,
+			"index":	20
+		}, {
+			"position":	[5, 16, 5],
+			"yr":	0,
+			"index":	60
+		}, {
+			"position":	[2, 16, 6],
+			"yr":	0.5,
+			"index":	59
+		}, {
+			"position":	[3, 16, 6],
+			"yr":	0,
+			"index":	20
+		}, {
+			"position":	[4, 16, 6],
+			"yr":	0,
+			"index":	59
+		}, {
+			"position":	[2, 16, 7],
+			"yr":	0.75,
+			"index":	60
+		}, {
+			"position":	[3, 16, 7],
+			"yr":	0.75,
+			"index":	59
+		}, {
+			"position":	[4, 16, 7],
+			"yr":	0,
+			"index":	60
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 22.39990234375, 104.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"KeyForCageFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 24.228515625, 25.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonusFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 98304, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 21.485595703125, 88],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"DantiniSwim",
+			"waypoints":	[{
+					"position":	[48, 21.485595703125, 88.5],
+					"var":	0
+				}, {
+					"position":	[40.39990234375, 21.485595703125, 77.5],
+					"var":	0
+				}, {
+					"position":	[55.599853515625, 21.485595703125, 76.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 98304, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 21.485595703125, 39],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniSwim",
+			"waypoints":	[{
+					"position":	[48, 21.485595703125, 39],
+					"var":	0
+				}, {
+					"position":	[40, 21.485595703125, 48.5],
+					"var":	0
+				}, {
+					"position":	[55.599853515625, 21.485595703125, 48.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[0, 1, 4],
+			"level":	32,
+			"sublevel":	4,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

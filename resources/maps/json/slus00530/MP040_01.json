@@ -1,0 +1,260 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	29122
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL1\\MAP2.MAP",
+	"name":	"Gobbo Gobbo Let Down Your Ware",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	30,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.246826171875,
+	"tracks":	[{
+			"position":	[1, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[2, 8, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0.75,
+			"index":	117
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0.25,
+			"index":	52
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[1, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[1, 8, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 8, 7],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[2, 16, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 16, 7],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32.159912109375, 16, 104.659912109375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 32, 20.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"SwitchPlatforms",
+			"waypoints":	[{
+					"position":	[32, 1.066650390625, 32.5],
+					"var":	0
+				}, {
+					"position":	[32, 16, 81],
+					"var":	0
+				}, {
+					"position":	[32, 16, 71.5],
+					"var":	0
+				}, {
+					"position":	[32, 16, 62],
+					"var":	0
+				}, {
+					"position":	[32, 16, 53.5],
+					"var":	0
+				}, {
+					"position":	[32, 16, 44.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[45875, 3276800, 0, 0, 0, 0, 0, 0],
+			"position":	[26, 16, 91],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[26, 16, 91],
+					"var":	0
+				}, {
+					"position":	[38, 16, 91],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 32, 13.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[117964, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 44.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[117964, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 52.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[117964, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 70.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[117964, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 79.579833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[117964, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 61.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_O",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.539794921875, 16, 16.199951171875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.699951171875, 16, 17],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlockTower",
+			"waypoints":	[{
+					"position":	[11.5, 16, 37],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 1],
+			"level":	40,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[2, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 1, 7],
+			"level":	40,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

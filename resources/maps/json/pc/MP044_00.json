@@ -1,0 +1,313 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	33525
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL4\\MAP1.MAP",
+	"name":	"Ballistic Meg's Fairway",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	59,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	99
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	53
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	96
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.75,
+			"index":	97
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.25,
+			"index":	96
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[0, 0, 8],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[0, 0, 9],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0,
+			"index":	99
+		}, {
+			"position":	[1, 0, 10],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[2, 0, 10],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[3, 0, 10],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.5,
+			"index":	52
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[1, 8, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 9],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 8, 9],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 9],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 14.93310546875, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatSwitchPlatform",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.9599609375, 14.93310546875, 128.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatSwitchPlatform",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 14.93310546875, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatSwitchPlatform",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.97998046875, 16, 144],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSwitch",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 16, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSwitch",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.099853515625, 16, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSwitch",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.159912109375, 16, 88.659912109375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.999755859375, 16, 128.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.079833984375, 16, 112.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.079833984375, 16, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[10.31982421875, 16, 42.439697265625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[10.31982421875, 16, 149.579833984375],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[1703936, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 16, 49],
+			"rotation":	[0, 0, 0],
+			"name":	"BMeg",
+			"waypoints":	[{
+					"position":	[16, 16, 145.5],
+					"var":	0
+				}, {
+					"position":	[66, 16, 145],
+					"var":	0
+				}, {
+					"position":	[16, 16, 144.5],
+					"var":	0
+				}, {
+					"position":	[16, 16, 49],
+					"var":	0
+				}, {
+					"position":	[64, 16, 48],
+					"var":	0
+				}, {
+					"position":	[16, 16, 48.5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[4, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[4, 1, 6],
+			"level":	44,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

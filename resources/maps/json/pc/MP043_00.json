@@ -1,0 +1,291 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	32430
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BOSSSUB\\MAP1.MAP",
+	"name":	"Fosley's freaky donut",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	18,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.48291015625,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	72
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[7, 0, 1],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[8, 0, 1],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[8, 0, 2],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.75,
+			"index":	30
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	30
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.75,
+			"index":	72
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	30
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.5,
+			"index":	52
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 32.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 64.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 64.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 80.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 95.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 88.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[104, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[13107, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock_Red",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[128, 0, 49],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[124, 0, 61],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[124, 0, 61],
+					"var":	0
+				}, {
+					"position":	[124, 0, 68.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[131072, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[76, 0, 68],
+			"rotation":	[0, 0, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[76, 0, 68],
+					"var":	0
+				}, {
+					"position":	[76, 0, 60],
+					"var":	0
+				}, {
+					"position":	[86, 0, 59.5],
+					"var":	0
+				}, {
+					"position":	[86, 0, 68],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.159912109375, 0, 120.699951171875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 8],
+			"level":	43,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

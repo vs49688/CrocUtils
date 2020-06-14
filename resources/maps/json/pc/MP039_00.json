@@ -1,0 +1,303 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	29976
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\BONUS2\\MAP1.MAP",
+	"name":	"Defeato Burrito",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	8,
+	"cd_track":	42,
+	"background":	25,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cica",
+	"start_rotation":	0.00537109375,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	23
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0.5,
+			"index":	23
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	79
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.25,
+			"index":	23
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 8, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 16, 3],
+			"yr":	0.5,
+			"index":	80
+		}, {
+			"position":	[2, 16, 3],
+			"yr":	0.5,
+			"index":	81
+		}, {
+			"position":	[3, 16, 3],
+			"yr":	0.25,
+			"index":	80
+		}, {
+			"position":	[1, 16, 4],
+			"yr":	0.5,
+			"index":	89
+		}, {
+			"position":	[2, 16, 4],
+			"yr":	0.5,
+			"index":	79
+		}, {
+			"position":	[3, 16, 4],
+			"yr":	0.5,
+			"index":	90
+		}, {
+			"position":	[1, 16, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 16, 5],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 16, 6],
+			"yr":	0.75,
+			"index":	23
+		}, {
+			"position":	[2, 16, 6],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[3, 16, 6],
+			"yr":	0,
+			"index":	23
+		}, {
+			"position":	[1, 24, 4],
+			"yr":	0.5,
+			"index":	80
+		}, {
+			"position":	[2, 24, 4],
+			"yr":	0.5,
+			"index":	81
+		}, {
+			"position":	[3, 24, 4],
+			"yr":	0.25,
+			"index":	80
+		}, {
+			"position":	[1, 24, 5],
+			"yr":	0.75,
+			"index":	78
+		}, {
+			"position":	[2, 24, 5],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 24, 5],
+			"yr":	0.25,
+			"index":	78
+		}, {
+			"position":	[1, 24, 6],
+			"yr":	0.75,
+			"index":	80
+		}, {
+			"position":	[2, 24, 6],
+			"yr":	0,
+			"index":	78
+		}, {
+			"position":	[3, 24, 6],
+			"yr":	0,
+			"index":	80
+		}, {
+			"position":	[2, 32, 5],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 40, 5],
+			"yr":	0,
+			"index":	54
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 32, 52],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[14, 32, 47.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[14, 32, 47.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[50, 32, 48],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[50, 32, 48],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 48, 67.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[46, 48, 81],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 48, 95],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.599853515625, 48, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 48, 71],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42, 48, 71],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42, 48, 90],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 48, 90.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
+			"position":	[32, 56, 80.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 4293984256, 65536, 0, 0, 0],
+			"position":	[32, 64, 80],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 32, 54],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[42, 32, 53.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
+			"position":	[32, 72, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 5, 5],
+			"level":	39,
+			"sublevel":	3,
+			"flags":	["floor"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

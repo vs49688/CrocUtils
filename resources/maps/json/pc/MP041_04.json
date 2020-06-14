@@ -1,0 +1,232 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	43125
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL2\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	51,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.238525390625,
+	"tracks":	[{
+			"position":	[5, 9, 3],
+			"yr":	0.25,
+			"index":	87
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 9, 4],
+			"yr":	0.75,
+			"index":	70
+		}, {
+			"position":	[5, 9, 5],
+			"yr":	0.5,
+			"index":	88
+		}, {
+			"position":	[3, 16, 7],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 16, 13],
+			"yr":	0.5,
+			"index":	16
+		}, {
+			"position":	[3, 16, 13],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 16, 13],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[3, 16, 14],
+			"yr":	0.5,
+			"index":	52
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 13.760009765625, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BigCogAntiCW",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 18.026611328125, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SwitchPlatforms",
+			"waypoints":	[{
+					"position":	[30, 9.599853515625, 64],
+					"var":	0
+				}, {
+					"position":	[56, 19.199951171875, 83.2998046875],
+					"var":	0
+				}, {
+					"position":	[52.7998046875, 23.466552734375, 90.699951171875],
+					"var":	0
+				}, {
+					"position":	[49.599853515625, 27.733154296875, 97.599853515625],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 19.199951171875, 52.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 19.199951171875, 79.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 30.93310546875, 130],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 30.93310546875, 144.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 30.93310546875, 161],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 30.93310546875, 176],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 32, 209],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.999755859375, 32, 112.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 32, 208.5],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.159912109375, 32, 216.679931640625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"BonusDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 30.93310546875, 191],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 16, 64.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[163840, 7864320, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 18.13330078125, 64],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[112, 18.13330078125, 64],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 30.506591796875, 144.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 30.506591796875, 160.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[163840, 6553600, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 32, 144],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[16, 32, 144],
+					"var":	0
+				}]
+		}, {
+			"params":	[163840, 6553600, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 32, 160],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"DantiniZap",
+			"waypoints":	[{
+					"position":	[80, 32, 160],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 2, 13],
+			"level":	41,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 2, 14],
+			"level":	41,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 3, 4],
+			"level":	41,
+			"sublevel":	3,
+			"flags":	["ceiling"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

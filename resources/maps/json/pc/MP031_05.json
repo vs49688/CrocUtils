@@ -1,0 +1,269 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	31791
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\LEVEL2\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	56,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	0.7578125,
+	"tracks":	[{
+			"position":	[1, 0, 2],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	50
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	30
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	26
+		}, {
+			"position":	[1, 2, 6],
+			"yr":	0.5,
+			"index":	30
+		}, {
+			"position":	[2, 2, 6],
+			"yr":	0.5,
+			"index":	26
+		}, {
+			"position":	[5, 6, 6],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[6, 6, 6],
+			"yr":	0.25,
+			"index":	31
+		}, {
+			"position":	[7, 6, 6],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[1, 4, 7],
+			"yr":	0.5,
+			"index":	30
+		}, {
+			"position":	[2, 4, 7],
+			"yr":	0.5,
+			"index":	55
+		}, {
+			"position":	[3, 6, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[4, 6, 7],
+			"yr":	0.25,
+			"index":	31
+		}, {
+			"position":	[5, 6, 7],
+			"yr":	0.5,
+			"index":	28
+		}, {
+			"position":	[6, 6, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[7, 6, 7],
+			"yr":	0.75,
+			"index":	50
+		}, {
+			"position":	[8, 6, 7],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[1, 6, 8],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 6, 8],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[3, 6, 8],
+			"yr":	0.25,
+			"index":	39
+		}, {
+			"position":	[4, 6, 8],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[5, 6, 8],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[6, 6, 8],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[7, 6, 8],
+			"yr":	0.5,
+			"index":	29
+		}, {
+			"position":	[5, 6, 9],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[6, 6, 9],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[7, 6, 9],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[6, 14, 7],
+			"yr":	0.75,
+			"index":	62
+		}, {
+			"position":	[6, 14, 8],
+			"yr":	0.75,
+			"index":	62
+		}],
+	"strats":	[{
+			"params":	[1966080, 7864320, 0, 0, 0, 0, 0, 0],
+			"position":	[24.47998046875, 6.85693359375, 66.139892578125],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[1966080, 7864320, 0, 0, 0, 0, 0, 0],
+			"position":	[50, 19.108154296875, 119.039794921875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[1310, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24, 2.28564453125, 75.43994140625],
+			"rotation":	[0, 0, 0],
+			"name":	"JlyFsh",
+			"waypoints":	[{
+					"position":	[24, 2.28564453125, 75.43994140625],
+					"var":	0
+				}, {
+					"position":	[24, 11.428466796875, 75.43994140625],
+					"var":	0
+				}]
+		}, {
+			"params":	[1310, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24.39990234375, 14.07958984375, 98.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"JlyFsh",
+			"waypoints":	[{
+					"position":	[24.39990234375, 17.188232421875, 98.2998046875],
+					"var":	0
+				}, {
+					"position":	[24.39990234375, 9.873779296875, 98.2998046875],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22.7998046875, 11.885498046875, 121.2998046875],
+			"rotation":	[0, 0.11083984375, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[39320, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24.639892578125, 4.5712890625, 79],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[39321, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[24.639892578125, 6.39990234375, 85.699951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_S",
+			"waypoints":	[]
+		}, {
+			"params":	[85196, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[25.119873046875, 10.51416015625, 105.300048828125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[98304, 7864320, 0, 0, 0, 0, 0, 0],
+			"position":	[100.559814453125, 14.62841796875, 134.5],
+			"rotation":	[0, 0.638427734375, 0],
+			"name":	"DantiniSwimUp",
+			"waypoints":	[{
+					"position":	[100.639892578125, 14.62841796875, 135],
+					"var":	0
+				}, {
+					"position":	[100.47998046875, 19.656982421875, 135],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[105.27978515625, 17.096923828125, 137],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForCageFloat",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 3],
+			"level":	31,
+			"sublevel":	1,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[8, 0, 7],
+			"level":	31,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[8, 1, 7],
+			"level":	31,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

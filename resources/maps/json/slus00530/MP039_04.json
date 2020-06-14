@@ -1,0 +1,159 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	24683
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\BONUS2\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	0,
+	"cd_track":	42,
+	"background":	25,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cica",
+	"start_rotation":	0.011962890625,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	26
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 8, 6],
+			"yr":	0.75,
+			"index":	47
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0.25,
+			"index":	47
+		}, {
+			"position":	[6, 8, 10],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[2, 16, 1],
+			"yr":	0,
+			"index":	54
+		}, {
+			"position":	[2, 16, 4],
+			"yr":	0.25,
+			"index":	47
+		}, {
+			"position":	[0, 16, 6],
+			"yr":	0.5,
+			"index":	47
+		}, {
+			"position":	[4, 16, 6],
+			"yr":	0,
+			"index":	47
+		}, {
+			"position":	[2, 16, 8],
+			"yr":	0.75,
+			"index":	47
+		}],
+	"strats":	[{
+			"params":	[0, 65536, 0, 65536, 131072, 0, 0, 0],
+			"position":	[32, 30.39990234375, 28.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[32, 30.39990234375, 28.39990234375],
+					"var":	65536
+				}, {
+					"position":	[32, 30.39990234375, 48],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
+			"position":	[32, 30.399658203125, 96.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
+			"position":	[32, 30.399658203125, 96],
+			"rotation":	[0, 0.666015625, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
+			"position":	[32, 28.7998046875, 96],
+			"rotation":	[0, 0.3330078125, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 32, 96.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 32, 128.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[0, 32, 96.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 48, 96.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 14.39990234375, 112.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 14.39990234375, 144],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[6, 1, 10],
+			"level":	39,
+			"sublevel":	1,
+			"flags":	["floor"],
+			"id":	0
+		}, {
+			"position":	[2, 2, 1],
+			"level":	39,
+			"sublevel":	3,
+			"flags":	["floor", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

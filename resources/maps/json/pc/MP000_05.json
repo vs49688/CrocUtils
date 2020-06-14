@@ -1,0 +1,221 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	19112
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL5\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.019287109375,
+	"tracks":	[{
+			"position":	[1, 0, 0],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.75,
+			"index":	93
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[2, 0, 9],
+			"yr":	0.75,
+			"index":	94
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 32.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 64.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 95.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"BigWorm",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, -3.01708984375, 32.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Spring",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 9.142822265625, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 9.142822265625, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 9.142822265625, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 9.142822265625, 79.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 9.142822265625, 95.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

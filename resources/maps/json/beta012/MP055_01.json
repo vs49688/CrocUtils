@@ -1,0 +1,270 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL6\\MAP2.MAP",
+	"name":	"trapped under ice 2",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"torch_big",
+	"wait":	0,
+	"ambience":	"watr",
+	"start_rotation":	0.02294921875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.75,
+			"index":	29
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	50
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	50
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	29
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	28
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	39
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	39
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[0, 0, 5],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	28
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	29
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	28
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	29
+		}, {
+			"position":	[0, 0, 6],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	29
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[9, 8, 12],
+			"yr":	0,
+			"index":	22
+		}],
+	"strats":	[{
+			"params":	[0, 65536, 655, 6, 0, 0, 0, 0],
+			"position":	[61.5, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"VertBolt",
+			"waypoints":	[{
+					"position":	[61.5, 0, 80],
+					"var":	0
+				}, {
+					"position":	[75, 0, 92],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 65536, 655, 6, 0, 0, 0, 0],
+			"position":	[3.5, 0, 89.5],
+			"rotation":	[0, 0, 0],
+			"name":	"VertBolt",
+			"waypoints":	[{
+					"position":	[3.5, 0, 89.5],
+					"var":	0
+				}, {
+					"position":	[17.5, 0, 79.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55, 0, 8.5],
+			"rotation":	[0, 0.221923828125, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}, {
+			"params":	[655360, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[30, 7.771240234375, 88],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[1966080, 3932160, 0, 0, 0, 0, 0, 0],
+			"position":	[8.659912109375, 7.314208984375, 62],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[1310720, 5242880, 0, 0, 0, 0, 0, 0],
+			"position":	[71.659912109375, 7.314208984375, 50.5],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[3276800, 5242880, 0, 0, 0, 0, 0, 0],
+			"position":	[71.97998046875, 7.314208984375, 67],
+			"rotation":	[0, 0, 0],
+			"name":	"ElectricWall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88.7998046875, 0, 16],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 0, 23.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	55,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[6, 0, 1],
+			"level":	55,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[347, 9.599853515625, 374.5],
+			"colour":	[255, 222, 90],
+			"fade_from":	0.00390625,
+			"fade_to":	0.0078125
+		}, {
+			"position":	[-28671.7578125, 0.0374908447265625, -255.044921875],
+			"colour":	[222, 90, 0],
+			"fade_from":	1.52587890625e-05,
+			"fade_to":	-32768
+		}, {
+			"position":	[13096.00390625, 0.0001678466796875, -8448.9990234375],
+			"colour":	[90, 0, 0],
+			"fade_from":	512,
+			"fade_to":	0
+		}],
+	"direct_lights":	[{
+			"position":	[0.00390625, 0, 4],
+			"colour":	[0, 0, 0]
+		}, {
+			"position":	[-2.310546875, 0.003173828125, -0.0625],
+			"colour":	[0, 0, 0]
+		}, {
+			"position":	[-0.060546875, 0.062255859375, 2.6875],
+			"colour":	[0, 30, 22]
+		}],
+	"ambient_colour":	[0, 94, 110]
+}

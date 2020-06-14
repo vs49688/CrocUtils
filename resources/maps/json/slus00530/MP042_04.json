@@ -1,0 +1,184 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	15479
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	34,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"wind",
+	"start_rotation":	0.013671875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	14
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	14
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	14
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 7.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[88.639892578125, 0, 32.039794921875],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 62.419677734375],
+			"rotation":	[0, 0, 0],
+			"name":	"WackGrimGame",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	42,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[6, 0, 2],
+			"level":	42,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 6],
+			"level":	42,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.125, 0, 1.15625],
+			"colour":	[255, 115, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4.875, 0, 1.09375],
+			"colour":	[255, 255, 75],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[1.125, 0, 3],
+			"colour":	[119, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[5, 0, 3.03125],
+			"colour":	[255, 89, 35],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0, 2.0625],
+			"colour":	[163, 71, 171],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[47, 47, 47]
+}

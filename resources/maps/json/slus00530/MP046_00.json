@@ -1,0 +1,295 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	35632
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL6\\MAP1.MAP",
+	"name":	"Panic at Platform Pete's Lair",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	59,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.002685546875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	53
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	53
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[0, 0, 5],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	53
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	53
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[0, 0, 7],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	53
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.25,
+			"index":	53
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[8, 8, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[1, 8, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[7, 8, 5],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[8, 8, 5],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[8, 8, 6],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[1, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[8, 16, 5],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 14.506591796875, 30.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15, 14.506591796875, 64.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63, 14.506591796875, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31, 14.506591796875, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[31.2998046875, 14.506591796875, 113],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[95.7998046875, 14.506591796875, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.659912109375, 14.506591796875, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.119873046875, 14.506591796875, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PetePlatSection1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.5, 16, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"MalletMan",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.5, 16, 48.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[79, 16, 112.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[120.559814453125, 16, 79.85986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 16, 113],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[8, 1, 5],
+			"level":	46,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

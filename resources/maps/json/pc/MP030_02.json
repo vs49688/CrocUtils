@@ -1,0 +1,291 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	47470
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\LEVEL1\\MAP3.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"desert",
+	"flags":	4,
+	"cd_track":	49,
+	"background":	0,
+	"effect":	"none",
+	"wait":	2,
+	"ambience":	"dcav",
+	"start_rotation":	0.24755859375,
+	"tracks":	[{
+			"position":	[1, 8, 2],
+			"yr":	0.5,
+			"index":	38
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.25,
+			"index":	104
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.25,
+			"index":	97
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.25,
+			"index":	97
+		}, {
+			"position":	[5, 8, 2],
+			"yr":	0.25,
+			"index":	97
+		}, {
+			"position":	[6, 8, 2],
+			"yr":	0,
+			"index":	98
+		}, {
+			"position":	[0, 8, 3],
+			"yr":	0.25,
+			"index":	74
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.5,
+			"index":	57
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.5,
+			"index":	76
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.5,
+			"index":	76
+		}, {
+			"position":	[6, 8, 3],
+			"yr":	0,
+			"index":	102
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.75,
+			"index":	101
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.75,
+			"index":	97
+		}, {
+			"position":	[4, 8, 4],
+			"yr":	0.75,
+			"index":	97
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0.75,
+			"index":	99
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0,
+			"index":	97
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0.5,
+			"index":	104
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0,
+			"index":	101
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.25,
+			"index":	74
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.5,
+			"index":	73
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.75,
+			"index":	38
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0,
+			"index":	38
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[6.479736328125, 16, 48.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72, 16, 96.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 48.619873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_O",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[51.199951171875, 27.999755859375, 48.059814453125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.079833984375, 27.999755859375, 48.039794921875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[81.039794921875, 27.999755859375, 48.059814453125],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarSngl",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86.8798828125, 27.999755859375, 48.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarEnd",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90, 16, 104.5],
+			"rotation":	[0, 0.0693359375, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[90, 17.119873046875, 104],
+			"rotation":	[0, 0.56884765625, 0],
+			"name":	"GobboCage",
+			"waypoints":	[]
+		}, {
+			"params":	[1441792, 13107, 2883584, 0, 0, 0, 0, 0],
+			"position":	[88, 16, 72.47998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDip",
+			"waypoints":	[]
+		}, {
+			"params":	[1441792, 39320, 2883584, 1966080, 0, 0, 0, 0],
+			"position":	[88, 16, 56.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDip",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.760009765625, 22.23974609375, 47.999755859375],
+			"rotation":	[0, 0, 0],
+			"name":	"KeyForCageFloat",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34, 16, 49],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaBlubs",
+			"waypoints":	[{
+					"position":	[80, 16, 42.199951171875],
+					"var":	0
+				}, {
+					"position":	[80, 16, 59.5],
+					"var":	0
+				}, {
+					"position":	[92, 16, 62.5],
+					"var":	0
+				}, {
+					"position":	[82, 16, 74],
+					"var":	0
+				}, {
+					"position":	[40, 16, 51.5],
+					"var":	0
+				}, {
+					"position":	[36, 16, 39.2998046875],
+					"var":	0
+				}, {
+					"position":	[66, 16, 45],
+					"var":	0
+				}, {
+					"position":	[55.599853515625, 16, 60.7998046875],
+					"var":	0
+				}, {
+					"position":	[86, 16, 37],
+					"var":	0
+				}, {
+					"position":	[44, 16, 62],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[84.159912109375, 40.159912109375, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"DeathSlide",
+			"waypoints":	[{
+					"position":	[84.31982421875, 13.439697265625, 48],
+					"var":	0
+				}, {
+					"position":	[88, 30.39990234375, 90.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[87.999755859375, 20.7998046875, 64.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[34.23974609375, 16, 47.9599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60.159912109375, 28, 48],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"ForestMonkBarStr",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[0, 1, 3],
+			"level":	30,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 1, 6],
+			"level":	30,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 72, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 56, 48]
+		}],
+	"ambient_colour":	[144, 144, 128]
+}

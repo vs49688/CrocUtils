@@ -1,0 +1,251 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	23067
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LEWIS\\MAP2.MAP",
+	"name":	"Ooooh Dark",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	32,
+	"cd_track":	13,
+	"background":	0,
+	"effect":	"dark",
+	"wait":	16,
+	"ambience":	"none",
+	"start_rotation":	0.06640625,
+	"tracks":	[{
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	75
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.25,
+			"index":	14
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	14
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	14
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.5,
+			"index":	14
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[3, 0, 10],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[4, 0, 10],
+			"yr":	0.75,
+			"index":	14
+		}, {
+			"position":	[5, 0, 10],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[5, 0, 11],
+			"yr":	0.5,
+			"index":	75
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[87.5, 0, 56.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[87.5, 0, 88],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.5, 0, 88],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.5, 0, 55.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.5, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"LightPickup",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.5, 0, 152],
+			"rotation":	[0, 0, 0],
+			"name":	"LightPickup",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[71.5, 0, 98.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[79.5, 0, 109],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[85, 0, 119.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[76, 0, 126.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformDead",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[65, 0, 111.5],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaFireBall",
+			"waypoints":	[]
+		}, {
+			"params":	[1966080, 0, 1310, 0, 0, 0, 0, 0],
+			"position":	[90, 0, 98.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"LavaFireBall",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

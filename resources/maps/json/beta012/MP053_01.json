@@ -1,0 +1,328 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL4\\MAP2.MAP",
+	"name":	"Atlantis 2",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	-0.042236328125,
+	"tracks":	[{
+			"position":	[3, 8, 0],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0.25,
+			"index":	47
+		}, {
+			"position":	[4, 8, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[5, 8, 1],
+			"yr":	0.25,
+			"index":	9
+		}, {
+			"position":	[6, 8, 1],
+			"yr":	0.25,
+			"index":	71
+		}, {
+			"position":	[7, 8, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[2, 8, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[5, 8, 2],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[6, 8, 2],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[7, 8, 2],
+			"yr":	0,
+			"index":	74
+		}, {
+			"position":	[8, 8, 2],
+			"yr":	0.5,
+			"index":	75
+		}, {
+			"position":	[9, 8, 2],
+			"yr":	0,
+			"index":	75
+		}, {
+			"position":	[10, 8, 2],
+			"yr":	0,
+			"index":	75
+		}, {
+			"position":	[11, 8, 2],
+			"yr":	0.5,
+			"index":	76
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0.75,
+			"index":	7
+		}, {
+			"position":	[6, 8, 3],
+			"yr":	0.75,
+			"index":	74
+		}, {
+			"position":	[7, 8, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[6, 8, 4],
+			"yr":	0.75,
+			"index":	75
+		}, {
+			"position":	[6, 8, 5],
+			"yr":	0.25,
+			"index":	75
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0.75,
+			"index":	75
+		}, {
+			"position":	[5, 8, 7],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[6, 8, 7],
+			"yr":	0.25,
+			"index":	74
+		}, {
+			"position":	[7, 8, 7],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[5, 8, 8],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[6, 8, 8],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[7, 8, 8],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[5, 8, 9],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[6, 8, 9],
+			"yr":	0.75,
+			"index":	47
+		}, {
+			"position":	[7, 8, 9],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[6, 8, 10],
+			"yr":	0.5,
+			"index":	56
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[179.5, 17.6455078125, 33.89990234375],
+			"rotation":	[0, 0.735595703125, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[82.5, 14.90283203125, 21.85986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[83.5, 14.62841796875, 32.699951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[82, 14.811279296875, 43.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[109.33984375, 14.62841796875, 32.199951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 262144, 0, 0, 0, 0, 0],
+			"position":	[120.5, 16, 32.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[130.919921875, 15.177001953125, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[140.73974609375, 15.085693359375, 30.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[150, 14.2626953125, 35],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 196608, 0, 0, 0],
+			"position":	[157.5, 16, 34],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[157.5, 16, 34],
+					"var":	65536
+				}, {
+					"position":	[170.52001953125, 16, 33.5],
+					"var":	65536
+				}]
+		}, {
+			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[95, 16, 144],
+			"rotation":	[0, 0, 0],
+			"name":	"Mummy",
+			"waypoints":	[{
+					"position":	[95, 16, 144],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 16, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 7.199951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
+			"position":	[96, 16, 47.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformNormal",
+			"waypoints":	[{
+					"position":	[96, 16, 47.5],
+					"var":	65536
+				}, {
+					"position":	[96, 16, 71.5],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 93.2998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 107.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 121.199951171875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformStepStone",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 152.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 1, 0],
+			"level":	53,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[6, 1, 10],
+			"level":	53,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[63, 63, 63]
+}

@@ -1,0 +1,285 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	20922
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\BOSSSUB\\MAP1.MAP",
+	"name":	"Chumly's Snow Den",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	41,
+	"background":	25,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"ice2",
+	"start_rotation":	0.997314453125,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	85
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[1, 0, 8],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	74
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.5,
+			"index":	70
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 65],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 81.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 81.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 65.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Penguin",
+			"waypoints":	[{
+					"position":	[41.599853515625, 0, 53.7998046875],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 49],
+			"rotation":	[0, 0, 0],
+			"name":	"Penguin",
+			"waypoints":	[{
+					"position":	[57.599853515625, 0, 57.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 80.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Penguin",
+			"waypoints":	[{
+					"position":	[38.39990234375, 0, 89.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 96.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Penguin",
+			"waypoints":	[{
+					"position":	[54.39990234375, 0, 85.7998046875],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, -1.27978515625, 137],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[3, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 9],
+			"level":	23,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

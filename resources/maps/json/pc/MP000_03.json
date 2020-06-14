@@ -1,0 +1,187 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	8508
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FRONTEND\\options.map",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[8, 0, 1],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[9, 0, 1],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[10, 0, 1],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	68
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	69
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	69
+		}, {
+			"position":	[7, 0, 2],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[8, 0, 2],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[10, 0, 2],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[9, 0, 3],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[10, 0, 3],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	25
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

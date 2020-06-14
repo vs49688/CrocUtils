@@ -1,0 +1,235 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	6,
+		"checksum":	30100
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL1\\map7x.map",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	8,
+	"background":	24,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"moat",
+	"start_rotation":	0.380126953125,
+	"tracks":	[{
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.5,
+			"index":	140
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	140
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.25,
+			"index":	140
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	140
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	140
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	140
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.25,
+			"index":	140
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.25,
+			"index":	140
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	140
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	140
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.25,
+			"index":	153
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.75,
+			"index":	153
+		}, {
+			"position":	[2, 8, 3],
+			"yr":	0,
+			"index":	153
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0,
+			"index":	153
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	153
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0.5,
+			"index":	153
+		}, {
+			"position":	[3, 8, 5],
+			"yr":	0.25,
+			"index":	153
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0.75,
+			"index":	153
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 16, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"WarpSparkle",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 56.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32.019775390625, 16, 48],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 16, 63.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 16, 32.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.059814453125, 16, 32.059814453125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[63.93994140625, 16, 32.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.139892578125, 16, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.079833984375, 16, 48.099853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80.099853515625, 16, 64],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[55.97998046875, 16, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48.059814453125, 16, 80.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64.079833984375, 16, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[35, 16, 36.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock_Red",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[76.5, 16, 77],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock_Red",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[76.5, 16, 36.139892578125],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock_Red",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 2, 5],
+			"level":	10,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

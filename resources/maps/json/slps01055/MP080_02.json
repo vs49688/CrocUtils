@@ -1,0 +1,105 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	9787
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\INTRO\\J4-CROC.MAP",
+	"name":	"Intro map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	43,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	44
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	45
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	43
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	43
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	136
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[23.7998046875, 4, 103.15966796875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

@@ -1,0 +1,157 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND6\\LEVEL4\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	-0.04248046875,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	47
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	20
+		}, {
+			"position":	[1, 8, 0],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[1, 8, 1],
+			"yr":	0,
+			"index":	47
+		}, {
+			"position":	[2, 8, 1],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[1, 8, 2],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[1, 8, 3],
+			"yr":	0.25,
+			"index":	40
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[1, 8, 4],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[2, 8, 4],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 8, 4],
+			"yr":	0.75,
+			"index":	2
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.83984375, 0, 23.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.83984375, 16, 7.33984375],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 0, 50],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"SwipeSwiftly",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 16, 63.5],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"SwipeSwiftly",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16, 16, 17],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	63,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[1, 1, 0],
+			"level":	63,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[22, 27, 22]
+}

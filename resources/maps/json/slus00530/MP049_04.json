@@ -1,0 +1,153 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	20438
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\BONUS2\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	13,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.0166015625,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	52
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	19
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.5,
+			"index":	16
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0.5,
+			"index":	19
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0.5,
+			"index":	52
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 8],
+			"rotation":	[0, 0, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 63.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 64.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[80, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 80.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 0, 96.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 96.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 111.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"FallRaft3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 0, 136.81982421875],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	49,
+			"sublevel":	1,
+			"flags":	["normal", "start"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 9],
+			"level":	49,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

@@ -1,0 +1,163 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	11,
+		"checksum":	21066
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\CHUMLEY\\CHUMLEY2.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"boss9",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	25,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"ice2",
+	"start_rotation":	0.010986328125,
+	"tracks":	[{
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	5
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	6
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	8
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0,
+			"index":	25
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[86.39990234375, 1.43994140625, 73],
+			"rotation":	[0, 0.874267578125, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[5, 1, 4],
+			"level":	23,
+			"sublevel":	1,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[7.25, 1.5, 4.5],
+			"colour":	[123, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[6.75, 2, 6.5],
+			"colour":	[123, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3.25, 2.5, 6.5],
+			"colour":	[123, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3.1499786376953125, 1.79998779296875, 4.1999969482421875],
+			"colour":	[123, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[5.199981689453125, 2.0999908447265625, 2.6999969482421875],
+			"colour":	[123, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[5.149993896484375, 0.399993896484375, 3.5],
+			"colour":	[123, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[6.5, 0.399993896484375, 4.5999908447265625],
+			"colour":	[123, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[6.04998779296875, 0.399993896484375, 6],
+			"colour":	[123, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[4.17999267578125, 0.399993896484375, 5.779998779296875],
+			"colour":	[123, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[4, 0.399993896484375, 4.5999908447265625],
+			"colour":	[123, 255, 255],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[51, 51, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[109, 131, 35]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[27, 43, 43]
+		}],
+	"ambient_colour":	[11, 11, 19]
+}

@@ -1,0 +1,149 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	6,
+		"checksum":	17767
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL2\\MAP7.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	8,
+	"background":	11,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.00830078125,
+	"tracks":	[{
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.5,
+			"index":	68
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	69
+		}, {
+			"position":	[5, 8, 4],
+			"yr":	0.75,
+			"index":	69
+		}, {
+			"position":	[4, 8, 5],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 8, 5],
+			"yr":	0.75,
+			"index":	68
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[4, 16, 2],
+			"yr":	0,
+			"index":	69
+		}, {
+			"position":	[5, 16, 2],
+			"yr":	0,
+			"index":	68
+		}, {
+			"position":	[5, 16, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[7, 16, 3],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[3, 24, 0],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[3, 24, 2],
+			"yr":	0,
+			"index":	67
+		}],
+	"strats":	[{
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 16, 96.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[96, 32, 48.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 48, 15.97998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 17.066650390625, 112.039794921875],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[112, 33.066650390625, 48.019775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 49.066650390625, 0],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 48, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"WarpSparkle",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 0, 4],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[2, 1, 4],
+			"level":	41,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

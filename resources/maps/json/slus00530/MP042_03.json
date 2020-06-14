@@ -1,0 +1,142 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	14775
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	32,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"wind",
+	"start_rotation":	0.013671875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 7.179931640625],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 56.519775390625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 40.5],
+			"rotation":	[0, 0, 0],
+			"name":	"FallGame",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	42,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 4],
+			"level":	42,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[2, 0, 1],
+			"colour":	[71, 79, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3.9849853515625, 0, 1.125],
+			"colour":	[255, 255, 119],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[1.875, 0, 3.03125],
+			"colour":	[139, 255, 131],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0, 3.03125],
+			"colour":	[216, 59, 55],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0.29998779296875, 2],
+			"colour":	[251, 251, 251],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[39, 39, 39]
+}

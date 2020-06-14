@@ -1,0 +1,211 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND1\\BONUS1\\MAP1.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	29,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	-0.127685546875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	115
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	115
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	114
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	115
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 6],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0,
+			"index":	12
+		}],
+	"strats":	[{
+			"params":	[0, 0, 1310720, 39321, 0, 0, 0, 0],
+			"position":	[56, 0, 72.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 1310720, 39321, 15728640, 0, 0, 0],
+			"position":	[56, 0, 72.139892578125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 1310720, 39321, 7864320, 0, 0, 0],
+			"position":	[56, 0, 72.139892578125],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"PlatformRotate",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

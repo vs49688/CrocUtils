@@ -1,0 +1,217 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LYNSEY\\CASTLA18.MAP",
+	"name":	"Default Blank Map",
+	"width":	9,
+	"height":	6,
+	"depth":	3,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[6, 0, 1],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	28
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	20
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[1, 64, 0],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[2, 64, 0],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[3, 64, 0],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 64, 0],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[5, 64, 0],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[6, 64, 0],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[7, 64, 0],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[1, 64, 1],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[2, 64, 1],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[3, 64, 1],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[5, 64, 1],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[6, 64, 1],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[7, 64, 1],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[1, 64, 2],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[2, 64, 2],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[3, 64, 2],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[5, 64, 2],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[6, 64, 2],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[7, 64, 2],
+			"yr":	0.75,
+			"index":	39
+		}, {
+			"position":	[1, 64, 3],
+			"yr":	0.25,
+			"index":	10
+		}, {
+			"position":	[2, 64, 3],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[3, 64, 3],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[5, 64, 3],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[6, 64, 3],
+			"yr":	0.75,
+			"index":	17
+		}, {
+			"position":	[7, 64, 3],
+			"yr":	0.75,
+			"index":	10
+		}, {
+			"position":	[1, 64, 4],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[2, 64, 4],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[3, 64, 4],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[4, 64, 4],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[5, 64, 4],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[6, 64, 4],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[7, 64, 4],
+			"yr":	0.75,
+			"index":	11
+		}],
+	"strats":	[],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

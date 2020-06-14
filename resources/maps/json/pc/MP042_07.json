@@ -1,0 +1,196 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	7,
+		"checksum":	28451
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP8.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	128,
+	"cd_track":	51,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"wind",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 22.89990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 40.47998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 0, 33],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 33.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SeedRed",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 50.259765625],
+			"rotation":	[0, 0.5966796875, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 32.719970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"Gobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 56.679931640625],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"BonusDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 0, 7.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 0, 21.7998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[22, 0, 44.5],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 45],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[40, 0, 22.119873046875],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockBonus",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 0],
+			"level":	42,
+			"sublevel":	5,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 0, 4],
+			"level":	42,
+			"sublevel":	9,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[0.875, 0.79998779296875, 0.96875],
+			"colour":	[123, 3, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[3.125, 0.6999969482421875, 0.875],
+			"colour":	[123, 111, 95],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0.6999969482421875, 3.125],
+			"colour":	[126, 183, 112],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[0.8499908447265625, 0.6999969482421875, 3.1875],
+			"colour":	[127, 81, 35],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[1.875, 0.79998779296875, 2.03125],
+			"colour":	[79, 195, 119],
+			"fade_from":	1,
+			"fade_to":	3
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[39, 39, 39]
+}

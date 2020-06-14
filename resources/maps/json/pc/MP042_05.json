@@ -1,0 +1,273 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	27616
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL3\\MAP6.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"dungeon",
+	"flags":	0,
+	"cd_track":	4,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"dngn",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	16
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	15
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	13
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	13
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.75,
+			"index":	4
+		}, {
+			"position":	[1, 0, 7],
+			"yr":	0.25,
+			"index":	16
+		}, {
+			"position":	[2, 0, 7],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.75,
+			"index":	18
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.75,
+			"index":	16
+		}, {
+			"position":	[2, 0, 8],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[3, 0, 8],
+			"yr":	0.5,
+			"index":	18
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	4
+		}, {
+			"position":	[3, 0, 9],
+			"yr":	0.5,
+			"index":	16
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 111.5],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"BalloonMan",
+			"waypoints":	[{
+					"position":	[48, 0, 99.5],
+					"var":	0
+				}, {
+					"position":	[72.15966796875, 0, 111.859619140625],
+					"var":	65536
+				}, {
+					"position":	[47.99951171875, 0, 135.97998046875],
+					"var":	0
+				}, {
+					"position":	[23.519775390625, 0, 111.899658203125],
+					"var":	196608
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 7.31982421875],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 56],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.9599609375, 0, 63.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.9599609375, 0, 71.5],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 79],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.9599609375, 0, 87],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	42,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 6],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[1, 0, 7],
+			"level":	42,
+			"sublevel":	6,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[5, 0, 7],
+			"level":	42,
+			"sublevel":	7,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[3, 0, 9],
+			"level":	42,
+			"sublevel":	8,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[1.875, 0.79998779296875, 0.9375],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0.79998779296875, 0.84375],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0.6999969482421875, 4.5],
+			"colour":	[111, 3, 7],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[1.875, 0.6999969482421875, 5.96875],
+			"colour":	[187, 123, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[4.125, 0.6999969482421875, 5.9375],
+			"colour":	[191, 123, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[1.875, 0.6999969482421875, 8.15625],
+			"colour":	[3, 127, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[4.1599884033203125, 0.6999969482421875, 8.25248718261719],
+			"colour":	[3, 115, 3],
+			"fade_from":	0.5,
+			"fade_to":	1
+		}, {
+			"position":	[3, 1, 7.03125],
+			"colour":	[255, 255, 119],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[19, 19, 19]
+}

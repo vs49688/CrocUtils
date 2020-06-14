@@ -1,0 +1,155 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	36304
+	},
+	"path":	"C:\\MAPS\\ISLANDS\\ISLE1.MAP",
+	"name":	"Default New Map",
+	"width":	2,
+	"height":	2,
+	"depth":	1,
+	"style":	"island1",
+	"flags":	0,
+	"cd_track":	6,
+	"background":	40,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	4
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8, 0, 8.159912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandCamera",
+			"waypoints":	[{
+					"position":	[-3.26513671875, 1.759765625, 12.349853515625],
+					"var":	0
+				}, {
+					"position":	[8.319580078125, 2.7197265625, 18.3994140625],
+					"var":	65536
+				}, {
+					"position":	[17.199951171875, 4.159912109375, 10.68017578125],
+					"var":	131072
+				}, {
+					"position":	[14.559814453125, 5.919677734375, 3.579833984375],
+					"var":	0
+				}, {
+					"position":	[-5.919677734375, 0.7998046875, 25.239501953125],
+					"var":	65536
+				}, {
+					"position":	[7.27978515625, 7.35986328125, 0.81982421875],
+					"var":	0
+				}, {
+					"position":	[9.359619140625, 10.399658203125, 9.939697265625],
+					"var":	0
+				}, {
+					"position":	[1.199462890625, 10.079345703125, 7.059326171875],
+					"var":	0
+				}, {
+					"position":	[1.83984375, 14.5595703125, 3.2197265625],
+					"var":	0
+				}, {
+					"position":	[27.75927734375, 0.159912109375, 22.41943359375],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[15.27978515625, 4.466796875, 13.739990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSheep1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[17.679931640625, 4.545166015625, 9.39990234375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSheep1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[16.7998046875, 4.431640625, 12.659912109375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandSheep2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-0.080078125, 1.611572265625, 15.5],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[14.31982421875, 4.479736328125, 14.599853515625],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[8.7998046875, 7.519775390625, 1.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[5.60009765625, 7.35986328125, 1.519775390625],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[11.199951171875, 10.39990234375, 7.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[9.919921875, 10.39990234375, 8.219970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"IslandTree3",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[-3.040283203125, 0, 24.239501953125],
+			"rotation":	[0, 0.9130859375, 0],
+			"name":	"Secret1",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[25.839599609375, 0, 19.599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"Secret2",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

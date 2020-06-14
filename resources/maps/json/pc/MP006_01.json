@@ -1,0 +1,103 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	9892
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\NATHAN\\JONNYBEE.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.592041015625,
+	"tracks":	[{
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[18, 3.066650390625, 19.5],
+			"rotation":	[0, 0.063720703125, 0],
+			"name":	"JonnyBee",
+			"waypoints":	[{
+					"position":	[18, 3.733154296875, 19.5],
+					"var":	0
+				}, {
+					"position":	[14, 3.066650390625, 35.5],
+					"var":	0
+				}, {
+					"position":	[18, 5.333251953125, 47],
+					"var":	0
+				}, {
+					"position":	[36, 2.66650390625, 46.5],
+					"var":	0
+				}, {
+					"position":	[48, 5.333251953125, 29.5],
+					"var":	0
+				}, {
+					"position":	[32, 5.199951171875, 16],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

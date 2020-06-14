@@ -1,0 +1,157 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	21932
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\CASTLE\\LEVEL5\\MAP1.MAP",
+	"name":	"Swipe Swiftly's wicked ride",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"castle",
+	"flags":	0,
+	"cd_track":	18,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"cast",
+	"start_rotation":	0.244140625,
+	"tracks":	[{
+			"position":	[4, 0, 1],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 8, 1],
+			"yr":	0.5,
+			"index":	40
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.75,
+			"index":	6
+		}, {
+			"position":	[5, 8, 2],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[5, 8, 3],
+			"yr":	0,
+			"index":	40
+		}, {
+			"position":	[5, 16, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[1, 120, 2],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[5, 120, 2],
+			"yr":	0,
+			"index":	67
+		}],
+	"strats":	[{
+			"params":	[131072000, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 240, 32.03955078125],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"FallRaft",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[72.719970703125, 16, 31.85986328125],
+			"rotation":	[0, 0.749267578125, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[2621440, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 240, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"SwipeFall",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 240, 32],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"SwipeFall",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[32, 238.93310546875, 32.5],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformCrumble",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60.7998046875, 16, 28],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockGobbo",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60.7998046875, 16, 36],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 244.2666015625, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal_B",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[5, 1, 2],
+			"level":	45,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[1, 15, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[2, 15, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 104]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

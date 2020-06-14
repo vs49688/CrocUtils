@@ -1,0 +1,221 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\TONY\\X.MAP",
+	"name":	"Go With The Flow",
+	"width":	11,
+	"height":	11,
+	"depth":	1,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	108
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	106
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	17
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	18
+		}, {
+			"position":	[8, 0, 3],
+			"yr":	0,
+			"index":	103
+		}, {
+			"position":	[9, 0, 3],
+			"yr":	0.75,
+			"index":	40
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	14
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[8, 0, 4],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[9, 0, 4],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	4
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[8, 0, 5],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[9, 0, 5],
+			"yr":	0.75,
+			"index":	79
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.25,
+			"index":	18
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[9, 0, 6],
+			"yr":	0.75,
+			"index":	104
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.25,
+			"index":	17
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.25,
+			"index":	4
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	78
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.5,
+			"index":	8
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0.5,
+			"index":	6
+		}, {
+			"position":	[9, 0, 7],
+			"yr":	0.75,
+			"index":	107
+		}, {
+			"position":	[10, 0, 7],
+			"yr":	0.75,
+			"index":	108
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.25,
+			"index":	14
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0.5,
+			"index":	13
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0,
+			"index":	37
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[9, 0, 8],
+			"yr":	0.5,
+			"index":	26
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[68.5, 6.39990234375, 124.5],
+			"rotation":	[0, 0, 0],
+			"name":	"BlueFly",
+			"waypoints":	[{
+					"position":	[71.519775390625, 6.39990234375, 117.759765625],
+					"var":	0
+				}, {
+					"position":	[82.119873046875, 3.199951171875, 113],
+					"var":	0
+				}, {
+					"position":	[82, 0, 125],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[136.639892578125, 0, 122.039794921875],
+			"rotation":	[0, 0.6162109375, 0],
+			"name":	"BlueJumpy",
+			"waypoints":	[{
+					"position":	[100.10009765625, 0, 119.43994140625],
+					"var":	0
+				}, {
+					"position":	[116.73974609375, 0, 114.419921875],
+					"var":	0
+				}, {
+					"position":	[118.5, 0, 123.659912109375],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[5, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

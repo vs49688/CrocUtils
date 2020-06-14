@@ -1,0 +1,79 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	6351
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\TONY\\SNOWTEST.MAP",
+	"name":	"Snow Test",
+	"width":	3,
+	"height":	3,
+	"depth":	1,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"snow",
+	"wait":	16,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	22
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	5
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.75,
+			"index":	22
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	22
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	24
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[1, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

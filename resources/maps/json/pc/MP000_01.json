@@ -1,0 +1,143 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	7888
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FRONTEND\\OPTIONS.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.5,
+			"index":	7
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	11
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	9
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.5,
+			"index":	10
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.25,
+			"index":	8
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	8
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.5,
+			"index":	9
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	11
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	7
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[2, 0, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[63, 63, 63]
+}

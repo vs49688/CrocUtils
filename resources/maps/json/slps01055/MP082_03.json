@@ -1,0 +1,155 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	11325
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\OUTRO\\OUTRO4.MAP",
+	"name":	"Default Blank Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	8,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.49951171875,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	138
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[8, 4, 6],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[9, 4, 6],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[7, 4, 7],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[8, 4, 7],
+			"yr":	0,
+			"index":	127
+		}, {
+			"position":	[4, 4, 8],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[5, 4, 8],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[7, 4, 8],
+			"yr":	0.75,
+			"index":	12
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62.39990234375, 1.866455078125, 63.89990234375],
+			"rotation":	[0, 0.49951171875, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

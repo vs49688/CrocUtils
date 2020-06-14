@@ -1,0 +1,199 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	16872
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\FOREST\\LEVEL6\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	34,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"drip",
+	"start_rotation":	0.013671875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	94
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.25,
+			"index":	93
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.25,
+			"index":	12
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.25,
+			"index":	15
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	13
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	12
+		}, {
+			"position":	[1, 0, 5],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.75,
+			"index":	12
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	15
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 0, 55.5],
+			"rotation":	[0, 0, 0],
+			"name":	"ChaseMeBlock",
+			"waypoints":	[{
+					"position":	[26, 0, 24.5],
+					"var":	0
+				}, {
+					"position":	[72, 0, 72],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, -1.006103515625, 3.83984375],
+			"rotation":	[0, 0, 0],
+			"name":	"UpExit",
+			"waypoints":	[{
+					"position":	[48, 9.142578125, 5],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	[],
+			"id":	0
+		}, {
+			"position":	[3, 1, 1],
+			"level":	16,
+			"sublevel":	0,
+			"flags":	["ceiling", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[2, 0.3428497314453125, 2],
+			"colour":	[123, 255, 123],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0.3428497314453125, 2],
+			"colour":	[251, 123, 123],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[4, 0.3428497314453125, 4],
+			"colour":	[123, 123, 251],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[2, 0.3428497314453125, 4],
+			"colour":	[251, 123, 251],
+			"fade_from":	1,
+			"fade_to":	2
+		}, {
+			"position":	[3, 0.3428497314453125, 0.5],
+			"colour":	[255, 255, 255],
+			"fade_from":	1,
+			"fade_to":	1.25
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 48, 48]
+		}],
+	"ambient_colour":	[112, 96, 96]
+}

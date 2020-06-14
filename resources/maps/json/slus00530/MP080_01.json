@@ -1,0 +1,149 @@
+{
+	"_meta":	{
+		"version":	20,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	10050
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\INTROS\\INTRO\\J3-CRIB.MAP",
+	"name":	"Intro map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	43,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.352294921875,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	132
+		}, {
+			"position":	[5, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0,
+			"index":	134
+		}, {
+			"position":	[5, 0, 1],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	135
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.75,
+			"index":	133
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	43
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.25,
+			"index":	43
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	136
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.75,
+			"index":	43
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0,
+			"index":	43
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[60.599853515625, 0, 35.959716796875],
+			"rotation":	[0, 0, 0],
+			"name":	"IntroStart",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[4, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

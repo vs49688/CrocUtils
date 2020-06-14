@@ -1,0 +1,118 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	4,
+		"checksum":	13189
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ICE\\LEVEL2\\MAP5.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"ice",
+	"flags":	0,
+	"cd_track":	8,
+	"background":	3,
+	"effect":	"none",
+	"wait":	16,
+	"ambience":	"ice1",
+	"start_rotation":	0.010986328125,
+	"tracks":	[{
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	78
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0,
+			"index":	11
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0,
+			"index":	75
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	11
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	26
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	26
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.75,
+			"index":	65
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	31
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	30
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	31
+		}],
+	"strats":	[{
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 0, 60.19970703125],
+			"rotation":	[0, 0, 0],
+			"name":	"FallGame2",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[62.39990234375, 0, 20],
+			"rotation":	[0, 0.846435546875, 0],
+			"name":	"FinalExit",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[47.97998046875, 0, 7.47998046875],
+			"rotation":	[0, 0, 0],
+			"name":	"OneWayDoor",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 0],
+			"level":	21,
+			"sublevel":	3,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[3, 0.29998779296875, 3.1999969482421875],
+			"colour":	[251, 251, 251],
+			"fade_from":	1,
+			"fade_to":	2
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[176, 192, 192]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[48, 48, 48]
+		}],
+	"ambient_colour":	[128, 128, 128]
+}

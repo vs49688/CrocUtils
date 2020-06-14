@@ -1,0 +1,378 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	1,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND3\\LEVEL3\\MAP2.MAP",
+	"name":	"needle point 2",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"water",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0.02294921875,
+	"tracks":	[{
+			"position":	[5, 0, 1],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0.75,
+			"index":	27
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.25,
+			"index":	34
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	50
+		}, {
+			"position":	[6, 0, 2],
+			"yr":	0.5,
+			"index":	27
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.75,
+			"index":	34
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	35
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.75,
+			"index":	28
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0.5,
+			"index":	29
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.5,
+			"index":	29
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0,
+			"index":	29
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.75,
+			"index":	50
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0,
+			"index":	27
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.25,
+			"index":	27
+		}, {
+			"position":	[3, 8, 2],
+			"yr":	0.5,
+			"index":	33
+		}, {
+			"position":	[4, 8, 2],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[3, 8, 3],
+			"yr":	0.75,
+			"index":	33
+		}, {
+			"position":	[4, 8, 3],
+			"yr":	0,
+			"index":	33
+		}, {
+			"position":	[3, 16, 2],
+			"yr":	0.5,
+			"index":	33
+		}, {
+			"position":	[4, 16, 2],
+			"yr":	0.25,
+			"index":	33
+		}, {
+			"position":	[3, 16, 3],
+			"yr":	0.75,
+			"index":	33
+		}, {
+			"position":	[4, 16, 3],
+			"yr":	0,
+			"index":	33
+		}, {
+			"position":	[2, 24, 1],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[3, 24, 1],
+			"yr":	0.25,
+			"index":	49
+		}, {
+			"position":	[4, 24, 1],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[5, 24, 1],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[2, 24, 2],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 24, 2],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[4, 24, 2],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[5, 24, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[2, 24, 3],
+			"yr":	0.5,
+			"index":	0
+		}, {
+			"position":	[3, 24, 3],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[4, 24, 3],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[5, 24, 3],
+			"yr":	0.75,
+			"index":	52
+		}, {
+			"position":	[6, 24, 3],
+			"yr":	0,
+			"index":	53
+		}, {
+			"position":	[2, 24, 4],
+			"yr":	0.75,
+			"index":	3
+		}, {
+			"position":	[3, 24, 4],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[4, 24, 4],
+			"yr":	0.75,
+			"index":	49
+		}, {
+			"position":	[5, 24, 4],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[2, 32, 1],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[3, 32, 1],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[4, 32, 1],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[5, 32, 1],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[2, 32, 2],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[3, 32, 2],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[4, 32, 2],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[5, 32, 2],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[2, 32, 3],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[3, 32, 3],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[4, 32, 3],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[5, 32, 3],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[2, 32, 4],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[3, 32, 4],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[4, 32, 4],
+			"yr":	0.75,
+			"index":	48
+		}, {
+			"position":	[5, 32, 4],
+			"yr":	0.75,
+			"index":	48
+		}],
+	"strats":	[{
+			"params":	[131072, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[48, 56.9599609375, 10.419921875],
+			"rotation":	[0, 0, 0],
+			"name":	"UnderWaterFan",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[63.81982421875, 57.05126953125, 71],
+			"rotation":	[0, 0, 0],
+			"name":	"UnderWaterFan",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[50.5, 50.102783203125, 46.5],
+			"rotation":	[0, 0, 0],
+			"name":	"VampireFish",
+			"waypoints":	[{
+					"position":	[50, 49.828369140625, 46],
+					"var":	0
+				}, {
+					"position":	[52, 49.371337890625, 33],
+					"var":	0
+				}, {
+					"position":	[63.5, 49.096923828125, 37.5],
+					"var":	0
+				}, {
+					"position":	[61, 49.462646484375, 47.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[32768, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[58.5, 16, 47],
+			"rotation":	[0, 0, 0],
+			"name":	"VampireFish",
+			"waypoints":	[{
+					"position":	[58.5, 16, 47],
+					"var":	0
+				}, {
+					"position":	[62, 16, 38.5],
+					"var":	0
+				}, {
+					"position":	[49.5, 16, 38],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[91, 7.679931640625, 77],
+			"rotation":	[0, 0.513427734375, 0],
+			"name":	"Puffy",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[85, 2.74267578125, 67],
+			"rotation":	[0, 0.36083984375, 0],
+			"name":	"Puffy",
+			"waypoints":	[]
+		}, {
+			"params":	[32768, 65536, 0, 0, 0, 0, 0, 0],
+			"position":	[40.5, 10.05712890625, 40],
+			"rotation":	[0, 0, 0],
+			"name":	"VampireFish",
+			"waypoints":	[{
+					"position":	[40.5, 9.142822265625, 41],
+					"var":	0
+				}, {
+					"position":	[64.5, 8.228515625, 40.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[45, 48.82275390625, 22.5],
+			"rotation":	[0, 0, 0],
+			"name":	"GobboWater",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[87.7998046875, 0.54833984375, 85],
+			"rotation":	[0, 0.610595703125, 0],
+			"name":	"SmashOyster",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[5, 0, 1],
+			"level":	32,
+			"sublevel":	2,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 5],
+			"level":	32,
+			"sublevel":	0,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[4, 3, 2],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[6, 3, 3],
+			"level":	32,
+			"sublevel":	3,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

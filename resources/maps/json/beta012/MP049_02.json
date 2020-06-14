@@ -1,0 +1,507 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	2,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LYNSEY\\BOULD07.MAP",
+	"name":	"Default New Map",
+	"width":	12,
+	"height":	12,
+	"depth":	7,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[5, 0, 3],
+			"yr":	0,
+			"index":	51
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.5,
+			"index":	55
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.25,
+			"index":	67
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0.25,
+			"index":	64
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.25,
+			"index":	55
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.75,
+			"index":	55
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 2, 7],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 2, 7],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 4, 8],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 4, 8],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 6, 9],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 6, 9],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[0, 14, 9],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 14, 9],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 14, 9],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 14, 9],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 14, 10],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[1, 14, 10],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[2, 12, 10],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[3, 10, 10],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[4, 8, 10],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[5, 8, 10],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[6, 8, 10],
+			"yr":	0.25,
+			"index":	56
+		}, {
+			"position":	[7, 8, 10],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[8, 10, 10],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[9, 12, 10],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[10, 14, 10],
+			"yr":	0.5,
+			"index":	56
+		}, {
+			"position":	[11, 14, 10],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[0, 14, 11],
+			"yr":	0.75,
+			"index":	55
+		}, {
+			"position":	[1, 14, 11],
+			"yr":	0.75,
+			"index":	64
+		}, {
+			"position":	[2, 12, 11],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[3, 10, 11],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[4, 8, 11],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[5, 8, 11],
+			"yr":	0.75,
+			"index":	64
+		}, {
+			"position":	[6, 8, 11],
+			"yr":	0.75,
+			"index":	64
+		}, {
+			"position":	[7, 8, 11],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[8, 10, 11],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[9, 12, 11],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[10, 14, 11],
+			"yr":	0.75,
+			"index":	64
+		}, {
+			"position":	[11, 14, 11],
+			"yr":	0,
+			"index":	55
+		}, {
+			"position":	[0, 22, 5],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 22, 5],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 22, 5],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 22, 5],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 20, 6],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 20, 6],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 20, 6],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 20, 6],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 18, 7],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 18, 7],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 18, 7],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 18, 7],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 16, 8],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 16, 8],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 16, 8],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 16, 8],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 30, 0],
+			"yr":	0.5,
+			"index":	55
+		}, {
+			"position":	[1, 30, 0],
+			"yr":	0.25,
+			"index":	64
+		}, {
+			"position":	[2, 30, 0],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[9, 30, 0],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[10, 30, 0],
+			"yr":	0.25,
+			"index":	64
+		}, {
+			"position":	[11, 30, 0],
+			"yr":	0.25,
+			"index":	55
+		}, {
+			"position":	[0, 30, 1],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[1, 30, 1],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[2, 30, 1],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[9, 30, 1],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[10, 30, 1],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[11, 30, 1],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[0, 28, 2],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 28, 2],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 28, 2],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 28, 2],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 26, 3],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 26, 3],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 26, 3],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 26, 3],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[0, 24, 4],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[1, 24, 4],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[10, 24, 4],
+			"yr":	0,
+			"index":	42
+		}, {
+			"position":	[11, 24, 4],
+			"yr":	0,
+			"index":	41
+		}, {
+			"position":	[3, 32, 0],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[4, 34, 0],
+			"yr":	0.75,
+			"index":	42
+		}, {
+			"position":	[5, 36, 0],
+			"yr":	0.25,
+			"index":	64
+		}, {
+			"position":	[6, 36, 0],
+			"yr":	0.25,
+			"index":	64
+		}, {
+			"position":	[7, 34, 0],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[8, 32, 0],
+			"yr":	0.25,
+			"index":	41
+		}, {
+			"position":	[3, 32, 1],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[4, 34, 1],
+			"yr":	0.75,
+			"index":	41
+		}, {
+			"position":	[5, 36, 1],
+			"yr":	0.75,
+			"index":	56
+		}, {
+			"position":	[6, 36, 1],
+			"yr":	0,
+			"index":	56
+		}, {
+			"position":	[7, 34, 1],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[8, 32, 1],
+			"yr":	0.25,
+			"index":	42
+		}, {
+			"position":	[5, 36, 2],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 36, 2],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 38, 3],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 38, 3],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 40, 4],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 40, 4],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 42, 5],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 42, 5],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 44, 6],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 44, 6],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 46, 7],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[6, 46, 7],
+			"yr":	0.5,
+			"index":	42
+		}, {
+			"position":	[5, 48, 8],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[6, 48, 8],
+			"yr":	0,
+			"index":	64
+		}, {
+			"position":	[5, 48, 9],
+			"yr":	0.5,
+			"index":	64
+		}, {
+			"position":	[6, 48, 9],
+			"yr":	0,
+			"index":	67
+		}, {
+			"position":	[7, 48, 9],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[5, 48, 10],
+			"yr":	0.75,
+			"index":	55
+		}, {
+			"position":	[6, 48, 10],
+			"yr":	0,
+			"index":	55
+		}],
+	"strats":	[],
+	"doors":	[{
+			"position":	[5, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

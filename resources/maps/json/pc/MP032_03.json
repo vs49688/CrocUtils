@@ -1,0 +1,428 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"normal",
+		"level":	0,
+		"sublevel":	3,
+		"checksum":	55330
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\DESERT\\LEVEL3\\MAP4.MAP",
+	"name":	"Default New Map",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"cave",
+	"flags":	0,
+	"cd_track":	62,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"lava",
+	"start_rotation":	0.250732421875,
+	"tracks":	[{
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	25
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0.25,
+			"index":	37
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0.25,
+			"index":	37
+		}, {
+			"position":	[9, 0, 6],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	37
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[9, 0, 7],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 0, 8],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[5, 0, 8],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[9, 0, 8],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 0, 9],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[5, 0, 9],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[8, 0, 9],
+			"yr":	0,
+			"index":	22
+		}, {
+			"position":	[9, 0, 9],
+			"yr":	0,
+			"index":	10
+		}, {
+			"position":	[4, 0, 10],
+			"yr":	0.75,
+			"index":	25
+		}, {
+			"position":	[5, 0, 10],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[6, 0, 10],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[7, 0, 10],
+			"yr":	0.75,
+			"index":	37
+		}, {
+			"position":	[8, 0, 10],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[9, 0, 10],
+			"yr":	0,
+			"index":	25
+		}, {
+			"position":	[3, 8, 6],
+			"yr":	0.5,
+			"index":	15
+		}, {
+			"position":	[4, 8, 6],
+			"yr":	0.25,
+			"index":	5
+		}, {
+			"position":	[5, 8, 6],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[6, 8, 6],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[7, 8, 6],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[8, 8, 6],
+			"yr":	0.25,
+			"index":	1
+		}, {
+			"position":	[9, 8, 6],
+			"yr":	0.25,
+			"index":	6
+		}, {
+			"position":	[2, 8, 7],
+			"yr":	0.25,
+			"index":	50
+		}, {
+			"position":	[3, 8, 7],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[4, 8, 7],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[9, 8, 7],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 8],
+			"yr":	0.5,
+			"index":	12
+		}, {
+			"position":	[4, 8, 8],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[9, 8, 8],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[2, 8, 9],
+			"yr":	0.25,
+			"index":	50
+		}, {
+			"position":	[3, 8, 9],
+			"yr":	0.5,
+			"index":	41
+		}, {
+			"position":	[4, 8, 9],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[9, 8, 9],
+			"yr":	0,
+			"index":	1
+		}, {
+			"position":	[3, 8, 10],
+			"yr":	0.75,
+			"index":	15
+		}, {
+			"position":	[4, 8, 10],
+			"yr":	0.75,
+			"index":	0
+		}, {
+			"position":	[5, 8, 10],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[6, 8, 10],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[7, 8, 10],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[8, 8, 10],
+			"yr":	0.75,
+			"index":	1
+		}, {
+			"position":	[9, 8, 10],
+			"yr":	0,
+			"index":	6
+		}],
+	"strats":	[{
+			"params":	[5242880, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[79.839599609375, 14.2626953125, 128],
+			"rotation":	[0, 0, 0],
+			"name":	"GuidedPlatform",
+			"waypoints":	[{
+					"position":	[77.939697265625, 0, 146.219970703125],
+					"var":	0
+				}, {
+					"position":	[135, 0, 109.45947265625],
+					"var":	0
+				}]
+		}, {
+			"params":	[0, 0, 65536, 65536, 131072, 0, 11796480, 0],
+			"position":	[56.15966796875, 26.05712890625, 127.519287109375],
+			"rotation":	[0, 0, 0],
+			"name":	"Nathan_Platform",
+			"waypoints":	[{
+					"position":	[68, 16, 127.5],
+					"var":	524288
+				}, {
+					"position":	[119.760009765625, 16, 155.5],
+					"var":	524288
+				}, {
+					"position":	[88.559814453125, 16, 100.3798828125],
+					"var":	524288
+				}, {
+					"position":	[88.079833984375, 16, 156.739990234375],
+					"var":	524288
+				}, {
+					"position":	[119.999755859375, 16, 99.739990234375],
+					"var":	524288
+				}, {
+					"position":	[56, 26.05712890625, 127.35986328125],
+					"var":	65536
+				}, {
+					"position":	[56, 18.468505859375, 127.5],
+					"var":	65536
+				}]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 16, 104.5],
+			"rotation":	[0, 0.096923828125, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 16, 151.5],
+			"rotation":	[0, 0.37451171875, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.27978515625, 16, 144.019775390625],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[39.919921875, 16, 112.039794921875],
+			"rotation":	[0, 0.249755859375, 0],
+			"name":	"NormalDoor",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[56, 24.31982421875, 120],
+			"rotation":	[0, 0, 0],
+			"name":	"SmashBlockFloatGobbo",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 1, 7],
+			"level":	32,
+			"sublevel":	4,
+			"flags":	["normal"],
+			"id":	0
+		}, {
+			"position":	[2, 1, 9],
+			"level":	32,
+			"sublevel":	0,
+			"flags":	["normal", "start"],
+			"id":	0
+		}],
+	"point_lights":	[{
+			"position":	[4.25, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[4.25, -0.28570556640625, 7],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[4.25, -0.28570556640625, 8],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[4.25, -0.28570556640625, 9],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[4.25, -0.28570556640625, 9.75],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5, -0.28570556640625, 9.75],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[6, -0.28570556640625, 9.75],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[7, -0.28570556640625, 9.75],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8, -0.28570556640625, 9.72999572753906],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.75, -0.28570556640625, 9.75],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.75, -0.28570556640625, 9],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.75, -0.28570556640625, 8],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.75, -0.28570556640625, 7],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8.75, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[5, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[6, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[7.019989013671875, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}, {
+			"position":	[8, -0.28570556640625, 6.25],
+			"colour":	[255, 3, 3],
+			"fade_from":	1,
+			"fade_to":	1.5
+		}],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[72, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[56, 48, 48]
+		}],
+	"ambient_colour":	[112, 96, 96]
+}

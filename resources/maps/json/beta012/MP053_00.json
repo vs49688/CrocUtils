@@ -1,0 +1,322 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	0,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\GAME\\ISLAND5\\LEVEL4\\MAP1.MAP",
+	"name":	"Atlantis",
+	"width":	16,
+	"height":	16,
+	"depth":	32,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	16,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	-0.035400390625,
+	"tracks":	[{
+			"position":	[2, 0, 2],
+			"yr":	0.25,
+			"index":	98
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0,
+			"index":	60
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0,
+			"index":	58
+		}, {
+			"position":	[5, 0, 2],
+			"yr":	0,
+			"index":	98
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.25,
+			"index":	24
+		}, {
+			"position":	[5, 0, 3],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[6, 0, 3],
+			"yr":	0,
+			"index":	58
+		}, {
+			"position":	[7, 0, 3],
+			"yr":	0,
+			"index":	98
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.25,
+			"index":	58
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[5, 0, 4],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[6, 0, 4],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[7, 0, 4],
+			"yr":	0.75,
+			"index":	26
+		}, {
+			"position":	[2, 0, 5],
+			"yr":	0.25,
+			"index":	60
+		}, {
+			"position":	[3, 0, 5],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[4, 0, 5],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[5, 0, 5],
+			"yr":	0.5,
+			"index":	24
+		}, {
+			"position":	[6, 0, 5],
+			"yr":	0.25,
+			"index":	0
+		}, {
+			"position":	[7, 0, 5],
+			"yr":	0.75,
+			"index":	51
+		}, {
+			"position":	[2, 0, 6],
+			"yr":	0.5,
+			"index":	98
+		}, {
+			"position":	[3, 0, 6],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[4, 0, 6],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[5, 0, 6],
+			"yr":	0.75,
+			"index":	24
+		}, {
+			"position":	[6, 0, 6],
+			"yr":	0,
+			"index":	24
+		}, {
+			"position":	[7, 0, 6],
+			"yr":	0.5,
+			"index":	32
+		}, {
+			"position":	[8, 0, 6],
+			"yr":	0,
+			"index":	98
+		}, {
+			"position":	[3, 0, 7],
+			"yr":	0.5,
+			"index":	98
+		}, {
+			"position":	[4, 0, 7],
+			"yr":	0.5,
+			"index":	60
+		}, {
+			"position":	[5, 0, 7],
+			"yr":	0.5,
+			"index":	58
+		}, {
+			"position":	[6, 0, 7],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[7, 0, 7],
+			"yr":	0.5,
+			"index":	67
+		}, {
+			"position":	[8, 0, 7],
+			"yr":	0.75,
+			"index":	58
+		}, {
+			"position":	[6, 0, 8],
+			"yr":	0.25,
+			"index":	25
+		}, {
+			"position":	[7, 0, 8],
+			"yr":	0,
+			"index":	32
+		}, {
+			"position":	[8, 0, 8],
+			"yr":	0.75,
+			"index":	26
+		}, {
+			"position":	[6, 0, 9],
+			"yr":	0.5,
+			"index":	54
+		}, {
+			"position":	[7, 0, 9],
+			"yr":	0.5,
+			"index":	90
+		}, {
+			"position":	[8, 0, 9],
+			"yr":	0.75,
+			"index":	54
+		}, {
+			"position":	[7, 0, 10],
+			"yr":	0.5,
+			"index":	92
+		}],
+	"strats":	[{
+			"params":	[0, 0, 196608, 196608, 0, 0, 0, 0],
+			"position":	[47, 0, 78],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 196608, 196608, 0, 0, 0, 0],
+			"position":	[63, 0, 96],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 196608, 655360, 19660, 0, 0, 0],
+			"position":	[108.739990234375, 0, 104.9599609375],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[131072, 0, 196608, 1310720, 26214, 0, 0, 0],
+			"position":	[110.5, 0, 123.0595703125],
+			"rotation":	[0, 0, 0],
+			"name":	"PlatformSpin",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[45, 2.66650390625, 93],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[51, 2.93310546875, 98.35986328125],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[127, 1.466552734375, 112],
+			"rotation":	[0, 0, 0],
+			"name":	"Crystal",
+			"waypoints":	[]
+		}, {
+			"params":	[65536, 65536, 131072, 0, 0, 0, 0, 0],
+			"position":	[88, 11.599853515625, 76],
+			"rotation":	[0, 0.804931640625, 0],
+			"name":	"Pelicon",
+			"waypoints":	[{
+					"position":	[87, 10.7998046875, 76.5],
+					"var":	0
+				}, {
+					"position":	[72.5, 11.199951171875, 90.5],
+					"var":	0
+				}, {
+					"position":	[87.5, 10, 105],
+					"var":	0
+				}, {
+					"position":	[100.5, 14.39990234375, 88.5],
+					"var":	0
+				}]
+		}, {
+			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[108.699951171875, 0, 83.89990234375],
+			"rotation":	[0, 0.902099609375, 0],
+			"name":	"SmashBlock",
+			"waypoints":	[]
+		}, {
+			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
+			"position":	[64, 0, 80],
+			"rotation":	[0, 0, 0],
+			"name":	"LavaBlubs",
+			"waypoints":	[{
+					"position":	[80, 0, 48],
+					"var":	0
+				}, {
+					"position":	[98, 0, 59.5],
+					"var":	0
+				}, {
+					"position":	[70, 0, 70.5],
+					"var":	0
+				}, {
+					"position":	[38, 0, 78],
+					"var":	0
+				}, {
+					"position":	[34, 0, 53.5],
+					"var":	0
+				}, {
+					"position":	[76, 0, 110.5],
+					"var":	0
+				}, {
+					"position":	[108, 0, 99.5],
+					"var":	0
+				}, {
+					"position":	[96, 0, 113],
+					"var":	0
+				}, {
+					"position":	[122, 0, 106],
+					"var":	0
+				}, {
+					"position":	[68, 0, 93],
+					"var":	0
+				}, {
+					"position":	[60, 0, 36],
+					"var":	0
+				}]
+		}],
+	"doors":	[{
+			"position":	[3, 0, 3],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}, {
+			"position":	[7, 0, 10],
+			"level":	53,
+			"sublevel":	1,
+			"flags":	["normal"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.000244140625],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}

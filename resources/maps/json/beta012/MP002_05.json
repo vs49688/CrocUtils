@@ -1,0 +1,167 @@
+{
+	"_meta":	{
+		"version":	12,
+		"format":	"v12_old",
+		"level":	0,
+		"sublevel":	5,
+		"checksum":	0
+	},
+	"path":	"P:\\CROC\\EDITOR\\MAPS\\LEWIS\\COLLMAP6.MAP",
+	"name":	"Push Me",
+	"width":	32,
+	"height":	32,
+	"depth":	3,
+	"style":	"wood",
+	"flags":	0,
+	"cd_track":	0,
+	"background":	0,
+	"effect":	"none",
+	"wait":	0,
+	"ambience":	"none",
+	"start_rotation":	0,
+	"tracks":	[{
+			"position":	[0, 0, 0],
+			"yr":	0.25,
+			"index":	3
+		}, {
+			"position":	[1, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[2, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[3, 0, 0],
+			"yr":	0,
+			"index":	2
+		}, {
+			"position":	[4, 0, 0],
+			"yr":	0,
+			"index":	3
+		}, {
+			"position":	[0, 0, 1],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 1],
+			"yr":	0,
+			"index":	36
+		}, {
+			"position":	[2, 0, 1],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[3, 0, 1],
+			"yr":	0.75,
+			"index":	36
+		}, {
+			"position":	[4, 0, 1],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 0, 2],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 2],
+			"yr":	0,
+			"index":	35
+		}, {
+			"position":	[2, 0, 2],
+			"yr":	0,
+			"index":	0
+		}, {
+			"position":	[3, 0, 2],
+			"yr":	0.5,
+			"index":	35
+		}, {
+			"position":	[4, 0, 2],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 0, 3],
+			"yr":	0.25,
+			"index":	2
+		}, {
+			"position":	[1, 0, 3],
+			"yr":	0.25,
+			"index":	36
+		}, {
+			"position":	[2, 0, 3],
+			"yr":	0.75,
+			"index":	35
+		}, {
+			"position":	[3, 0, 3],
+			"yr":	0.5,
+			"index":	36
+		}, {
+			"position":	[4, 0, 3],
+			"yr":	0.75,
+			"index":	2
+		}, {
+			"position":	[0, 0, 4],
+			"yr":	0.5,
+			"index":	3
+		}, {
+			"position":	[1, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[2, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[3, 0, 4],
+			"yr":	0.5,
+			"index":	2
+		}, {
+			"position":	[4, 0, 4],
+			"yr":	0.75,
+			"index":	3
+		}],
+	"strats":	[{
+			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
+			"position":	[32, 0.062255859375, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlockFall",
+			"waypoints":	[]
+		}, {
+			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
+			"position":	[32, 16.062255859375, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlockFall",
+			"waypoints":	[]
+		}, {
+			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
+			"position":	[32, 32.062255859375, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlockFall",
+			"waypoints":	[]
+		}, {
+			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
+			"position":	[32, 48.062255859375, 32],
+			"rotation":	[0, 0, 0],
+			"name":	"PushBlockFall",
+			"waypoints":	[]
+		}],
+	"doors":	[{
+			"position":	[2, 0, 1],
+			"level":	0,
+			"sublevel":	0,
+			"flags":	["start"],
+			"id":	0
+		}],
+	"point_lights":	[],
+	"direct_lights":	[{
+			"position":	[0, 1, 0],
+			"colour":	[64, 64, 64]
+		}, {
+			"position":	[0, 0.5, 0.865966796875],
+			"colour":	[255, 255, 128]
+		}, {
+			"position":	[0, 0.5, -0.865966796875],
+			"colour":	[43, 43, 43]
+		}],
+	"ambient_colour":	[64, 64, 64]
+}
