@@ -1,0 +1,3 @@
+[submodule "vsclib"]
+	path = vsclib
+	url = https://github.com/vs49688/vsclib.git

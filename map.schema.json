@@ -1,0 +1,416 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+	"mapstring": {
+	  "type": "string",
+	  "maxLength": 255
+	},
+	"uint16": {
+	  "type": "integer",
+	  "minimum": 0,
+	  "maximum": 65535
+	},
+	"uint32": {
+	  "type": "integer",
+	  "minimum": 0,
+	  "maximum": 4294967295
+	},
+	"vector3": {
+	  "type": "array",
+	  "minLength": 3,
+	  "maxLength": 3,
+	  "items": {
+		"type": "number"
+	  }
+	},
+	"colour": {
+	  "type": "array",
+	  "minLength": 3,
+	  "maxLength": 3,
+	  "items": {
+		"type": "integer",
+		"minimum": 0,
+		"maximum": 255
+	  }
+	},
+	"track": {
+	  "type": "object",
+	  "properties": {
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"yr": {
+		  "type": "number"
+		},
+		"index": {
+		  "$ref": "#/definitions/uint16"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"position",
+		"yr",
+		"index"
+	  ]
+	},
+	"waypoint": {
+	  "type": "object",
+	  "properties": {
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"var": {
+		  "$ref": "#/definitions/uint32"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"position",
+		"var"
+	  ]
+	},
+	"strategy": {
+	  "type": "object",
+	  "properties": {
+		"params": {
+		  "type": "array",
+		  "minLength": 8,
+		  "maxLength": 8,
+		  "items": {
+			"$ref": "#/definitions/uint32"
+		  }
+		},
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"rotation": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"name": {
+		  "type": "string",
+		  "minLength": 1,
+		  "maxLength": 255
+		},
+		"waypoints": {
+		  "type": "array",
+		  "items": {
+			"$ref": "#/definitions/waypoint"
+		  }
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"params",
+		"position",
+		"rotation",
+		"name",
+		"waypoints"
+	  ]
+	},
+	"door": {
+	  "type": "object",
+	  "properties": {
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"level": {
+		  "$ref": "#/definitions/uint16"
+		},
+		"sublevel": {
+		  "$ref": "#/definitions/uint16"
+		},
+		"flags": {
+		  "type": "array",
+		  "items": {
+			"enum": [
+			  "normal",
+			  "floor",
+			  "ceiling",
+			  "start",
+			  "final"
+			]
+		  },
+		  "uniqueItems": true
+		},
+		"id": {
+		  "$ref": "#/definitions/uint16"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"position",
+		"level",
+		"sublevel",
+		"flags",
+		"id"
+	  ]
+	},
+	"point_light": {
+	  "type": "object",
+	  "properties": {
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"colour": {
+		  "$ref": "#/definitions/colour"
+		},
+		"fade_from": {
+		  "type": "number"
+		},
+		"fade_to": {
+		  "type": "number"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"position",
+		"colour",
+		"fade_from",
+		"fade_to"
+	  ]
+	},
+	"direct_light": {
+	  "type": "object",
+	  "properties": {
+		"position": {
+		  "$ref": "#/definitions/vector3"
+		},
+		"colour": {
+		  "$ref": "#/definitions/colour"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"position",
+		"colour"
+	  ]
+	}
+  },
+  "type": "object",
+  "properties": {
+	"_meta": {
+	  "type": "object",
+	  "properties": {
+		"version": {
+		  "type": "integer"
+		},
+		"format": {
+		  "enum": [
+			"normal",
+			"v12",
+			"v12_old",
+			"v12_old_noambient"
+		  ]
+		},
+		"level": {
+		  "type": "integer",
+		  "minimum": 0,
+		  "maximum": 999
+		},
+		"sublevel": {
+		  "type": "integer",
+		  "minimum": 0,
+		  "maximum": 99
+		},
+		"checksum": {
+		  "type": "integer"
+		}
+	  },
+	  "additionalProperties": false,
+	  "required": [
+		"version",
+		"format",
+		"level",
+		"sublevel",
+		"checksum"
+	  ]
+	},
+	"path": {
+	  "$ref": "#/definitions/mapstring"
+	},
+	"name": {
+	  "$ref": "#/definitions/mapstring"
+	},
+	"width": {
+	  "$ref": "#/definitions/uint16"
+	},
+	"height": {
+	  "$ref": "#/definitions/uint16"
+	},
+	"depth": {
+	  "$ref": "#/definitions/uint16"
+	},
+	"style": {
+	  "oneOf": [
+		{
+		  "enum": [
+			"ice",
+			"water",
+			"castle",
+			"desert",
+			"cave",
+			"wood",
+			"dungeon",
+			"boss1",
+			"boss2",
+			"boss3",
+			"boss4",
+			"boss5",
+			"boss6",
+			"boss7",
+			"boss8",
+			"boss9",
+			"island1",
+			"island2",
+			"island3",
+			"island4",
+			"island5",
+			"iceslide",
+			"boulder",
+			"icecave"
+		  ]
+		},
+		{
+		  "type": "integer",
+		  "minimum": 0,
+		  "maximum": 24
+		}
+	  ]
+	},
+	"flags": {
+	  "$ref": "#/definitions/uint32"
+	},
+	"cd_track": {
+	  "$ref": "#/definitions/uint32"
+	},
+	"background": {
+	  "$ref": "#/definitions/uint32"
+	},
+	"effect": {
+	  "oneOf": [
+		{
+		  "enum": [
+			"none",
+			"snow",
+			"fog",
+			"torch",
+			"torch_lightning",
+			"torch_big",
+			"torch_big_lightning",
+			"dark",
+			"snow_small",
+			"snow_island",
+			"torch_giant"
+		  ]
+		},
+		{
+		  "type": "integer",
+		  "minimum": 0,
+		  "maximum": 15
+		}
+	  ]
+	},
+	"wait": {
+	  "$ref": "#/definitions/uint32"
+	},
+	"ambience": {
+	  "oneOf": [
+		{
+		  "enum": [
+			"none",
+			"bird",
+			"drip",
+			"nght",
+			"watr",
+			"crwd",
+			"lava",
+			"tunl",
+			"ice1",
+			"tomb",
+			"des1",
+			"dcav",
+			"slde",
+			"cast",
+			"dngn",
+			"ice2",
+			"clwd",
+			"whal",
+			"moat",
+			"dusk",
+			"wind",
+			"cica",
+			"dant"
+		  ]
+		},
+		{
+		  "type": "integer",
+		  "minimum": 0,
+		  "maximum": 22
+		}
+	  ]
+	},
+	"start_rotation": {
+	  "type": "number"
+	},
+	"tracks": {
+	  "type": "array",
+	  "items": {
+		"$ref": "#/definitions/track"
+	  }
+	},
+	"strats": {
+	  "type": "array",
+	  "items": {
+		"$ref": "#/definitions/strategy"
+	  }
+	},
+	"doors": {
+	  "type": "array",
+	  "items": {
+		"$ref": "#/definitions/door"
+	  }
+	},
+	"point_lights": {
+	  "type": "array",
+	  "items": {
+		"$ref": "#/definitions/point_light"
+	  }
+	},
+	"direct_lights": {
+	  "type": "array",
+	  "minItems": 3,
+	  "maxItems": 3,
+	  "items": {
+		"$ref": "#/definitions/direct_light"
+	  }
+	},
+	"ambient_colour": {
+	  "$ref": "#/definitions/colour"
+	},
+	"$schema": {
+	  "type": "string"
+	}
+  },
+  "additionalProperties": false,
+  "required": [
+	"path",
+	"name",
+	"width",
+	"height",
+	"depth",
+	"style",
+	"flags",
+	"cd_track",
+	"background",
+	"effect",
+	"wait",
+	"ambience",
+	"start_rotation",
+	"tracks",
+	"strats",
+	"doors",
+	"point_lights",
+	"direct_lights",
+	"ambient_colour"
+  ]
+}

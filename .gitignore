@@ -1,0 +1,5 @@
+/.idea/
+/cmake-build-*/
+/CROCFILE.*
+/MP???_??.MAP
+/resources/maps/json
