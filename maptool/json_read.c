@@ -117,12 +117,12 @@ static int read_style(const cJSON *j, const char *name, CrocMapStyle *style)
 
     /* Handle if this is a number. */
     if((tmp = get_type(j, name, cJSON_IsNumber)) != NULL) {
-		uint16_t val = (uint16_t)tmp->valuedouble;
-		if(val >= CROC_MAP_STYLE_MAX)
-			return -1;
+        uint16_t val = (uint16_t)tmp->valuedouble;
+        if(val >= CROC_MAP_STYLE_MAX)
+            return -1;
 
-		*style = (CrocMapStyle)val;
-		return 0;
+        *style = (CrocMapStyle)val;
+        return 0;
     }
 
     if((tmp = get_type(j, name, cJSON_IsString)) == NULL)
@@ -150,12 +150,12 @@ static int read_effect(const cJSON *j, const char *name, CrocMapEffect *effect)
 
     /* Handle if this is a number. */
     if((tmp = get_type(j, name, cJSON_IsNumber)) != NULL) {
-		uint16_t val = (uint16_t)tmp->valuedouble;
-		if(val >= CROC_MAP_EFFECT_MAX)
-			return -1;
+        uint16_t val = (uint16_t)tmp->valuedouble;
+        if(val >= CROC_MAP_EFFECT_MAX)
+            return -1;
 
-		*effect = (CrocMapEffect)val;
-		return 0;
+        *effect = (CrocMapEffect)val;
+        return 0;
     }
 
     if((tmp = get_type(j, name, cJSON_IsString)) == NULL)
@@ -183,12 +183,12 @@ static int read_ambience(const cJSON *j, const char *name, CrocMapAmbience *ambi
 
     /* Handle if this is a number. */
     if((tmp = get_type(j, name, cJSON_IsNumber)) != NULL) {
-		uint16_t val = (uint16_t)tmp->valuedouble;
-		if(val >= CROC_MAP_AMBI_MAX)
-			return -1;
+        uint16_t val = (uint16_t)tmp->valuedouble;
+        if(val >= CROC_MAP_AMBI_MAX)
+            return -1;
 
-		*ambience = (CrocMapAmbience)val;
-		return 0;
+        *ambience = (CrocMapAmbience)val;
+        return 0;
     }
 
     if((tmp = get_type(j, name, cJSON_IsString)) == NULL)

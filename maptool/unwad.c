@@ -57,7 +57,7 @@ static int write_file_base(const char *base, size_t i, void *buf, size_t size)
 	ret = 0;
 done:
 	if(f != NULL)
-		(void)fclose(f);
+    (void)fclose(f);
 
 	if(name != NULL)
 		free(name);
