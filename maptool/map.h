@@ -382,6 +382,10 @@ extern const char * const CrocMapDoorFlagStrings[];
 struct cJSON;
 typedef struct cJSON cJSON;
 
+#ifdef __cplusplus
+extern "C" }
+#endif
+
 void    croc_map_init(CrocMap *map);
 void    croc_map_free(CrocMap *map);
 int     croc_map_read(FILE *f, CrocMap *map);
@@ -401,5 +405,9 @@ CrocMap *croc_map_read_json(const cJSON *j, CrocMap *map);
  */
 void     croc_checksum_append(uint32_t *ck, void *p, size_t size);
 uint32_t croc_checksum(void *p, size_t size);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _MAP_H */
