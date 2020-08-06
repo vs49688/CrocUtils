@@ -71,7 +71,18 @@ static inline float croc_x0412_to_float(croc_x0412_t val)
 #define CROC_MAP_MAX_LEVEL			999
 #define CROC_MAP_MAX_SUBLEVEL		99
 
+/* On-disk sizes of some of the structures. */
+#define CROC_MAP_TRACK_SIZE			14
+#define CROC_MAP_TRACK_SIZE_PREV21	10
+#define CROC_MAP_WAYPOINT_SIZE		16
+#define CROC_MAP_POINT_LIGHT_SIZE	24
+#define CROC_MAP_DIRECT_LIGHT_SIZE	12
+#define CROC_MAP_COLOUR_SIZE		 4
+#define CROC_MAP_BASE_STRAT_SIZE	50
+#define CROC_MAP_DOOR_SIZE			14
+
 #define CROC_MAX(a,b) ((a) > (b) ? (a) : (b))
+
 
 typedef enum CrocMapFormat {
 	/*

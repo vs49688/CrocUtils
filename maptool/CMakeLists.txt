@@ -6,6 +6,8 @@ add_executable(maptool
 		./map.h
 		./json_write.c
 		./json_read.c
+		./map_write.c
+		./map_read.c
 		./unwad.c
 		./checksum.c
 
