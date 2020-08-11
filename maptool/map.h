@@ -384,7 +384,7 @@ struct cJSON;
 typedef struct cJSON cJSON;
 
 #ifdef __cplusplus
-extern "C" }
+extern "C" {
 #endif
 
 void    croc_map_init(CrocMap *map);
