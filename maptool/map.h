@@ -72,6 +72,7 @@ static inline float croc_x0412_to_float(croc_x0412_t val)
 #define CROC_MAP_MAX_SUBLEVEL        99
 
 /* On-disk sizes of some of the structures. */
+#define CROC_MAP_INFO_SIZE          38
 #define CROC_MAP_TRACK_SIZE         14
 #define CROC_MAP_TRACK_SIZE_PREV21  10
 #define CROC_MAP_WAYPOINT_SIZE      16

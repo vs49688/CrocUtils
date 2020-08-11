@@ -373,6 +373,7 @@ int croc_map_read(FILE *f, CrocMap *map)
     uint16_t tmp;
     int err = 0;
     long stratstart;
+    uint8_t buf[CROC_MAP_INFO_SIZE];
 
     croc_map_free(map);
 
@@ -413,27 +414,24 @@ int croc_map_read(FILE *f, CrocMap *map)
     if(read_mapstring(f, map->path, NULL) < 0)
         goto fail;
 
-    vsc_fread_leu16(f); /* Total waypoint count, not used for us. */
-
-    map->width			= vsc_fread_leu16(f);
-    map->height			= vsc_fread_leu16(f);
-    map->depth			= vsc_fread_leu16(f);
-    map->style			= vsc_fread_leu16(f);
-    map->flags			= vsc_fread_leu32(f);
-    map->cd_track		= vsc_fread_leu32(f);
-    map->background		= vsc_fread_leu32(f);
-    map->effect			= vsc_fread_leu32(f);
-    map->wait			= vsc_fread_leu32(f);
-    map->ambience		= vsc_fread_leu32(f);
-
-    vsc_fread_leu16(f); /* pad */
-
-    map->num_tracks		= vsc_fread_leu16(f);
-
-    if(feof(f) || ferror(f)) {
+    if(fread(buf, CROC_MAP_INFO_SIZE, 1, f) != 1) {
         errno = EIO;
         goto fail;
     }
+
+    /* num_waypoints = vsc_read_leu16(buf +  0); */
+    map->width       = vsc_read_leu16(buf +  2);
+    map->height      = vsc_read_leu16(buf +  4);
+    map->depth       = vsc_read_leu16(buf +  6);
+    map->style       = vsc_read_leu16(buf +  8);
+    map->flags       = vsc_read_leu32(buf + 10);
+    map->cd_track    = vsc_read_leu32(buf + 14);
+    map->background  = vsc_read_leu32(buf + 18);
+    map->effect      = vsc_read_leu32(buf + 22);
+    map->wait        = vsc_read_leu32(buf + 26);
+    map->ambience    = vsc_read_leu32(buf + 30);
+    /* pad           = vsc_read_leu16(buf + 34); */
+    map->num_tracks  = vsc_read_leu16(buf + 36);
 
     if(map->style >= CROC_MAP_STYLE_MAX) {
         errno = EIO;
