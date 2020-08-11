@@ -18,7 +18,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "map.h"
+#include <libcroc.h>
 #include "cJSON.h"
 
 static cJSON *get_type(const cJSON *j, const char *name, cJSON_bool(*proc)(const cJSON *))

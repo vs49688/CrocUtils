@@ -278,13 +278,13 @@ typedef struct CrocMapWaypoint
 
 typedef struct CrocMapStrat
 {
-    uint32_t       params[CROC_MAP_MAX_PARAMS];
-    croc_x2012_t   x;
-    croc_x2012_t   y;
-    croc_x2012_t   z;
-    croc_x0412_t   xr;
-    croc_x0412_t   yr;
-    croc_x0412_t   zr;
+    uint32_t        params[CROC_MAP_MAX_PARAMS];
+    croc_x2012_t    x;
+    croc_x2012_t    y;
+    croc_x2012_t    z;
+    croc_x0412_t    xr;
+    croc_x0412_t    yr;
+    croc_x0412_t    zr;
     char            name[CROC_MAP_STRING_LEN + 1];
     uint16_t        num_waypoints;
     CrocMapWaypoint *waypoint;
@@ -379,6 +379,18 @@ extern const char * const CrocMapEffectStrings[];
 extern const char * const CrocMapAmbienceStrings[];
 extern const char * const CrocMapDoorFlagStrings[];
 
+
+typedef enum CrocWadFileType {
+	CROC_WAD_FILE_TYPE_BINARY = 0,
+	CROC_WAD_FILE_TYPE_MAP    = 1
+} CrocWadFileType;
+
+typedef enum CrocWadType {
+	CROC_WAD_TYPE_MPLOAD = 0,
+	CROC_WAD_TYPE_MAPXX  = 1
+} CrocWadType;
+
+
 #include <stdio.h>
 struct cJSON;
 typedef struct cJSON cJSON;
@@ -386,6 +398,8 @@ typedef struct cJSON cJSON;
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/* map.c */
 
 void    croc_map_init(CrocMap *map);
 void    croc_map_free(CrocMap *map);
@@ -395,6 +409,13 @@ int     croc_map_write(FILE *f, const CrocMap *map);
 
 cJSON   *croc_map_write_json(const CrocMap *map);
 CrocMap *croc_map_read_json(const cJSON *j, CrocMap *map);
+
+
+/*
+ * Rip the level+sublevel from the filename (if possible)
+ * MPXXX_YY.MAP -> XXX, YY
+ */
+int     croc_extract_level_info(const char *path, uint16_t *level, uint16_t *sublevel);
 
 /* checksum.c */
 
@@ -406,6 +427,17 @@ CrocMap *croc_map_read_json(const cJSON *j, CrocMap *map);
  */
 void     croc_checksum_append(uint32_t *ck, void *p, size_t size);
 uint32_t croc_checksum(void *p, size_t size);
+
+/* wad.c */
+
+/* Is the file a Saturn MPLOAD%02u.WAD? */
+int      croc_wad_is_mpload(const char *path, unsigned int *level);
+
+/* Is the file a PSX MAP%02u.WAD? */
+int      croc_wad_is_mapxx(const char *path, unsigned int *level);
+
+/* Get a pointer to the filename of a path. */
+const char *croc_util_get_filename(const char *path);
 
 #ifdef __cplusplus
 }
