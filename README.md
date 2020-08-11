@@ -11,7 +11,12 @@ Soon-to-be-released:
 * `cfextract` - A tool for extracting `CROCFILE.???` files from the PSX releases.
   - Will be released after cleanup
 
-## Usage
+For encoding/decoding of Argonaut ASF files, please see [FFmpeg](https://ffmpeg.org/).
+* Decoding is supported as of d84a30e1238b9feed1c957809108fc5e39d80629.
+* Encoding is supported as of 6fdf3cc53b5e90524ccfde534ae4a91ee87814aa.
+
+## maptool
+### Usage
 
 ```
 Usage: maptool decompile <input-file.map> [<output-file.json|->]
@@ -20,24 +25,24 @@ Usage: maptool decompile <input-file.map> [<output-file.json|->]
        maptool unwad <input-file.wad> <base-name>
 ```
 
-### Decompile
+#### Decompile
 Convert any version of a Croc .MAP file into a JSON file for human editing.
 
-### Compile
+#### Compile
 Compile a JSON file into a version 21 Croc .MAP file.
 
-### Convert
+#### Convert
 Convert any version of a Croc .MAP file into version 21, readable by Croc DE.
 
 * `--rebase` will offset the door targets by the specified number.
 
-### Unwad
+#### Unwad
 
 Split a PSX `MAP%d.wad` file into individual .MAP files.
 
 - Will **NOT** work with the `MP%03d_%02d.WAD` files.
 
-# Notes
+#### Notes
 
 * Odd padding in PSX maps
   - There was a batch of PSX maps I didn't extract properly.
