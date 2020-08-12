@@ -1,12 +1,6 @@
 project(libcroc)
 
 add_library(libcroc STATIC
-		# TODO: Consider making this standalone
-		cJSON.h
-		cJSON.c
-
-		libcroc.h
-
 		checksum.c
 		map.c
 		map_read.c
@@ -15,7 +9,11 @@ add_library(libcroc STATIC
 		map_json_write.c
 
 		wad.c
+
+		include/libcroc.h
 )
 
+target_include_directories(libcroc PUBLIC include)
+
 target_link_libraries(libcroc PRIVATE vsclib)
-target_include_directories(libcroc PUBLIC .)
+target_link_libraries(libcroc PUBLIC  cjson)
