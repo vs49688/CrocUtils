@@ -15,20 +15,27 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_CHECKSUM_H
+#define _LIBCROC_CHECKSUM_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+#include <stdint.h>
+#include <stddef.h>
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/*
+ * Calculate a checksum.
+ * - If the block contains a leading size field, that
+ *   is usually included too.
+ * - Initial checksum value is 0.
+ */
+void     croc_checksum_append(uint32_t *ck, void *p, size_t size);
+uint32_t croc_checksum(void *p, size_t size);
+
+#ifdef __cplusplus
 }
+#endif
 
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
-
+#endif /* _LIBCROC_CHECKSUM_H */

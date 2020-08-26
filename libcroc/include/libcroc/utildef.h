@@ -15,20 +15,9 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_UTILDEF_H
+#define _LIBCROC_UTILDEF_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+#define CROC_MAX(a,b) ((a) > (b) ? (a) : (b))
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
-}
-
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
-
+#endif /* _LIBCROC_UTILDEF_H */

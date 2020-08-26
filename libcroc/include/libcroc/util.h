@@ -15,20 +15,28 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_UTIL_H
+#define _LIBCROC_UTIL_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+#include <stdint.h>
+#include "utildef.h"
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Get a pointer to the filename of a path. */
+const char *croc_util_get_filename(const char *path);
+
+/*
+ * Rip the level+sublevel from the filename (if possible)
+ * MPXXX_YY.MAP -> XXX, YY
+ */
+int croc_extract_level_info(const char *path, uint16_t *level, uint16_t *sublevel);
+
+
+#ifdef __cplusplus
 }
+#endif
 
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
-
+#endif /* _LIBCROC_UTIL_H */

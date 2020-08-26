@@ -18,7 +18,10 @@
 #include <errno.h>
 #include <stdlib.h>
 #include <vsclib.h>
-#include <libcroc.h>
+
+#include <libcroc/fixed.h>
+#include <libcroc/map.h>
+#include <libcroc/util.h>
 
 const char * const CrocMapFmtStrings[] = {
     [CROC_MAP_FMT_NORMAL]            = "normal",
@@ -146,31 +149,6 @@ int croc_map_rebase(CrocMap *map, int base)
     /* Do it. */
     for(int i = 0; i < map->num_doors; ++i)
         map->door[i].level += base;
-
-    return 0;
-}
-
-int croc_extract_level_info(const char *path, uint16_t *level, uint16_t *sublevel)
-{
-    uint32_t _level, _sublevel;
-    int pos;
-    char c = '\0';
-    const char *start = croc_util_get_filename(path);
-
-    if(sscanf(start, "%*[mM]%*[pP]%03u_%02u.%*[mM]%*[aA]%[pP]%n", &_level, &_sublevel, &c, &pos) != 3)
-        return -1;
-
-    if(c != 'p' && c != 'P')
-        return -1;
-
-    if(start[pos] != '\0')
-        return -1;
-
-    if(_level > CROC_MAP_MAX_LEVEL || _sublevel > CROC_MAP_MAX_SUBLEVEL)
-        return -1;
-
-    *level    = (uint16_t)_level;
-    *sublevel = (uint16_t)_sublevel;
 
     return 0;
 }

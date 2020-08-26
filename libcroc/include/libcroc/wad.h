@@ -15,20 +15,21 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_WAD_H
+#define _LIBCROC_WAD_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
+/* Is the file a Saturn MPLOAD%02u.WAD? */
+int croc_wad_is_mpload(const char *path, unsigned int *level);
+
+/* Is the file a PSX MAP%02u.WAD? */
+int croc_wad_is_mapxx(const char *path, unsigned int *level);
+
+#ifdef __cplusplus
 }
+#endif
 
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
-
+#endif /* _LIBCROC_WAD_H */

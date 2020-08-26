@@ -15,20 +15,18 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_FIXEDDEF_H
+#define _LIBCROC_FIXEDDEF_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+#include <stdint.h>
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
-}
+const static float CROC_X1616_ONE = 65536.0f; /* 1 << 16 */
+const static float CROC_X2012_ONE =  4096.0f; /* 1 << 12 */
+const static float CROC_X0412_ONE =  4096.0f; /* 1 << 12 */
 
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
+/* Fixed-point types. Are structs to prevent simple assignment. */
+typedef struct { int32_t v; } croc_x1616_t;
+typedef struct { int32_t v; } croc_x2012_t;
+typedef struct { int16_t v; } croc_x0412_t;
 
+#endif /* _LIBCROC_FIXEDDEF_H */

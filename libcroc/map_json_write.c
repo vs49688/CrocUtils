@@ -15,8 +15,12 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc.h>
-#include "cJSON.h"
+#include <assert.h>
+
+#include <cJSON.h>
+
+#include <libcroc/fixed.h>
+#include <libcroc/map.h>
 
 static cJSON *add_float_array(cJSON *object, const char *name, float *v, int n)
 {

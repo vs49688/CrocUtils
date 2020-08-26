@@ -15,20 +15,17 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#include <libcroc/checksum.h>
+#ifndef _LIBCROC_WADDEF_H
+#define _LIBCROC_WADDEF_H
 
-void croc_checksum_append(uint32_t *ck, void *p, size_t size)
-{
-    uint8_t *d = p;
+typedef enum CrocWadFileType {
+	CROC_WAD_FILE_TYPE_BINARY = 0,
+	CROC_WAD_FILE_TYPE_MAP    = 1
+} CrocWadFileType;
 
-    for(size_t i = 0; i < size; ++i)
-        *ck += d[i];
-}
+typedef enum CrocWadType {
+	CROC_WAD_TYPE_MPLOAD = 0,
+	CROC_WAD_TYPE_MAPXX  = 1
+} CrocWadType;
 
-uint32_t croc_checksum(void *p, size_t size)
-{
-    uint32_t ck = 0;
-    croc_checksum_append(&ck, p, size);
-    return ck;
-}
-
+#endif /* _LIBCROC_WADDEF_H */

@@ -18,8 +18,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include <libcroc.h>
-#include "cJSON.h"
+#include <cJSON.h>
+
+#include <libcroc/fixed.h>
+#include <libcroc/map.h>
 
 static cJSON *get_type(const cJSON *j, const char *name, cJSON_bool(*proc)(const cJSON *))
 {

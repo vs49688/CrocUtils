@@ -1,17 +1,24 @@
+/*
+ * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ *    Contact: zane@zanevaniperen.com
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2, and only
+ * version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
 #include <string.h>
-#include <libcroc.h>
-
-const char *croc_util_get_filename(const char *path)
-{
-	const char *start = strrchr(path, '/');
-	if(start == NULL)
-		start = strrchr(path, '\\');
-
-	if(start == NULL)
-		return path;
-	else
-		return start + 1;
-}
+#include <stdio.h>
+#include <libcroc/wad.h>
+#include <libcroc/util.h>
 
 
 /* Is the file a Saturn MPLOAD%02u.WAD? */

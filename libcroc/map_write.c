@@ -20,7 +20,9 @@
 #include <vsclib.h>
 #include <errno.h>
 #include <stdlib.h>
-#include <libcroc.h>
+
+#include <libcroc/utildef.h>
+#include <libcroc/map.h>
 
 static int write_mapstring(FILE *f, const char *s)
 {

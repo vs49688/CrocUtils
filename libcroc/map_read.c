@@ -20,7 +20,8 @@
 #include <vsclib.h>
 #include <errno.h>
 #include <stdlib.h>
-#include <libcroc.h>
+
+#include <libcroc/map.h>
 
 /* Read an 8-bit length-prefixed string. */
 static int read_mapstring(FILE *f, char *buf, uint8_t *len)
