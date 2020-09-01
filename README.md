@@ -5,11 +5,7 @@ A small collection of utilities for Croc.
 The current list is:
 
 * `maptool` - A tool for manipulating Croc .MAP files
-
-Soon-to-be-released:
-
-* `cfextract` - A tool for extracting `CROCFILE.???` files from the PSX releases.
-  - Will be released after cleanup
+* `cfextract` - A tool for extracting `CROCFILE.???` files from the PSX releases
 
 For encoding/decoding of Argonaut ASF files, please see [FFmpeg](https://ffmpeg.org/).
 * Decoding is supported as of d84a30e1238b9feed1c957809108fc5e39d80629.
@@ -86,6 +82,21 @@ Split a PSX `MAP%d.wad` file into individual .MAP files.
       "fade_to": 1.5
     }
     ```
+
+
+## cfextract
+### Usage
+```
+Usage: cfextract dump <CROCFILE.DIR> [<output-file.json|->]
+       cfextract extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]
+```
+
+#### Dump
+Dump a CROCFILE.DIR to JSON for human reading.
+
+#### Extract
+Extract a CROCFILE.DIR and CROCFILE.{DAT,1} pair into the given directory.
+The directory must exist beforehand.
 
 ## License
 
