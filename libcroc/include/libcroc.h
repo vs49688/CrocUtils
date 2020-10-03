@@ -23,5 +23,6 @@
 #include "libcroc/map.h"
 #include "libcroc/util.h"
 #include "libcroc/wad.h"
+#include "libcroc/dir.h"
 
 #endif /* _LIBCROC_H */
