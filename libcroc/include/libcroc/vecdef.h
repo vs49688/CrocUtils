@@ -15,15 +15,30 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_H
-#define _LIBCROC_H
+#ifndef _LIBCROC_VECDEF_H
+#define _LIBCROC_VECDEF_H
 
-#include "libcroc/checksum.h"
-#include "libcroc/fixed.h"
-#include "libcroc/vec.h"
-#include "libcroc/map.h"
-#include "libcroc/util.h"
-#include "libcroc/wad.h"
-#include "libcroc/dir.h"
+#include <stdint.h>
+#include "fixeddef.h"
 
-#endif /* _LIBCROC_H */
+
+#define CROC_COLOUR_SIZE 4
+#define CROC_VECTOR_SIZE 8
+
+typedef struct CrocColour
+{
+    uint8_t r;
+    uint8_t g;
+    uint8_t b;
+    uint8_t pad;
+} CrocColour;
+
+typedef struct CrocVector
+{
+    croc_x0412_t x;
+    croc_x0412_t y;
+    croc_x0412_t z;
+    croc_x0412_t pad;
+} CrocVector;
+
+#endif /* _LIBCROC_VECDEF_H */

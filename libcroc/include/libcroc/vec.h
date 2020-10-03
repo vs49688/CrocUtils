@@ -15,15 +15,29 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_H
-#define _LIBCROC_H
+#ifndef _LIBCROC_VEC_H
+#define _LIBCROC_VEC_H
 
-#include "libcroc/checksum.h"
-#include "libcroc/fixed.h"
-#include "libcroc/vec.h"
-#include "libcroc/map.h"
-#include "libcroc/util.h"
-#include "libcroc/wad.h"
-#include "libcroc/dir.h"
+#include "vecdef.h"
 
-#endif /* _LIBCROC_H */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+CrocVector *croc_vector_read(void *p, CrocVector *v);
+void        croc_vector_write(void *p, const CrocVector *v);
+
+CrocVector *croc_vector_fread(FILE *f, CrocVector *v);
+int         croc_vector_fwrite(FILE *f, const CrocVector *v);
+
+CrocColour *croc_colour_read(void *p, CrocColour *c);
+void        croc_colour_write(void *p, const CrocColour *c);
+
+CrocColour *croc_colour_fread(FILE *f, CrocColour *c);
+int         croc_colour_fwrite(FILE *f, const CrocColour *c);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* _LIBCROC_VEC_H */

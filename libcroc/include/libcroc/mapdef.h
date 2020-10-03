@@ -19,6 +19,7 @@
 #define _LIBCROC_MAPDEF_H
 
 #include "fixeddef.h"
+#include "vecdef.h"
 
 /* Number of directional light structures in the file. */
 #define CROC_MAP_MAX_DIRECT_LIGHTS    3
@@ -34,7 +35,7 @@
 #define CROC_MAP_WAYPOINT_SIZE      16
 #define CROC_MAP_POINT_LIGHT_SIZE   24
 #define CROC_MAP_DIRECT_LIGHT_SIZE  12
-#define CROC_MAP_COLOUR_SIZE         4
+#define CROC_MAP_COLOUR_SIZE        CROC_COLOUR_SIZE
 #define CROC_MAP_BASE_STRAT_SIZE    50
 #define CROC_MAP_DOOR_SIZE          14
 
@@ -187,22 +188,6 @@ typedef enum CrocMapDoorFlags
     CROC_MAP_DOOR_FINAL     = (1 << 4),
     CROC_MAP_DOOR_COUNT     = 5
 } CrocMapDoorFlags;
-
-typedef struct CrocColour
-{
-    uint8_t r;
-    uint8_t g;
-    uint8_t b;
-    uint8_t pad;
-} CrocColour;
-
-typedef struct CrocVector
-{
-    croc_x0412_t x;
-    croc_x0412_t y;
-    croc_x0412_t z;
-    croc_x0412_t pad;
-} CrocVector;
 
 /*
  * Not sure why these are called tracks. "Tiles"

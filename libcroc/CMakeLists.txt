@@ -11,6 +11,7 @@ add_library(libcroc STATIC
 		wad.c
 		util.c
 		dir.c
+		vec.c
 
 		include/libcroc.h
 		include/libcroc/utildef.h
@@ -24,6 +25,8 @@ add_library(libcroc STATIC
 		include/libcroc/waddef.h
 		include/libcroc/dir.h
 		include/libcroc/dirdef.h
+		include/libcroc/vec.h
+		include/libcroc/vecdef.h
 )
 
 target_include_directories(libcroc PUBLIC include)
