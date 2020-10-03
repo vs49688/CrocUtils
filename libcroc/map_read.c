@@ -210,7 +210,7 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
             goto fail;
         }
 
-        for(int w = 0; +w < s->num_waypoints; ++w) {
+        for(int w = 0; w < s->num_waypoints; ++w) {
             CrocMapWaypoint *wp = s->waypoint + w;
             uint8_t buf[CROC_MAP_WAYPOINT_SIZE];
 
