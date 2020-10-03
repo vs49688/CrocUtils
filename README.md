@@ -7,9 +7,10 @@ The current list is:
 * `maptool` - A tool for manipulating Croc .MAP files
 * `cfextract` - A tool for extracting `CROCFILE.???` files from the PSX releases
 
-For encoding/decoding of Argonaut ASF files, please see [FFmpeg](https://ffmpeg.org/).
-* Decoding is supported as of d84a30e1238b9feed1c957809108fc5e39d80629.
-* Encoding is supported as of 6fdf3cc53b5e90524ccfde534ae4a91ee87814aa.
+For encoding/decoding of Argonaut ASF and BRP files, please see [FFmpeg](https://ffmpeg.org/).
+* ASF decoding is supported as of d84a30e1238b9feed1c957809108fc5e39d80629.
+* ASF encoding is supported as of 6fdf3cc53b5e90524ccfde534ae4a91ee87814aa.
+* BRP decoding is supported as of a3a6b56200e2899769175291837a178f20e1e95a.
 
 ## maptool
 ### Usage
