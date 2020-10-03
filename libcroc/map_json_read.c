@@ -662,4 +662,3 @@ fail:
     croc_map_free(map);
     return NULL;
 }
-

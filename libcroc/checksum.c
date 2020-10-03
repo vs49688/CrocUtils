@@ -31,4 +31,3 @@ uint32_t croc_checksum(void *p, size_t size)
     croc_checksum_append(&ck, p, size);
     return ck;
 }
-
