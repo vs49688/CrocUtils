@@ -309,17 +309,17 @@ static int read_params_array(const cJSON *object, const char *name, uint32_t *v)
 static CrocMapTrack *read_tracks(const cJSON *j, const char *name, uint16_t *count)
 {
     cJSON *tmp, *val;
-    int size, i;
+    size_t size, i;
     CrocMapTrack *tracks;
 
     if((tmp = get_type(j, name, cJSON_IsArray)) == NULL)
         return NULL;
 
-    size = cJSON_GetArraySize(tmp);
-    if(size < 0 || size >= UINT16_MAX)
+    size = (size_t)cJSON_GetArraySize(tmp);
+    if(size >= UINT16_MAX)
         return NULL;
 
-    if((tracks = calloc((size_t)size, sizeof(CrocMapTrack))) == NULL)
+    if((tracks = calloc(size, sizeof(CrocMapTrack))) == NULL)
         return NULL;
 
     i = 0;
@@ -352,17 +352,17 @@ fail:
 static CrocMapWaypoint *read_waypoints(const cJSON *j, const char *name, uint16_t *count)
 {
     cJSON *tmp, *val;
-    int size, i;
+    size_t size, i;
     CrocMapWaypoint *waypoints;
 
     if((tmp = get_type(j, name, cJSON_IsArray)) == NULL)
         return NULL;
 
-    size = cJSON_GetArraySize(tmp);
-    if(size < 0 || size >= UINT16_MAX)
+    size = (size_t)cJSON_GetArraySize(tmp);
+    if(size >= UINT16_MAX)
         return NULL;
 
-    if((waypoints = calloc((size_t)size, sizeof(CrocMapWaypoint))) == NULL)
+    if((waypoints = calloc(size, sizeof(CrocMapWaypoint))) == NULL)
         return NULL;
 
     i = 0;
@@ -388,17 +388,17 @@ fail:
 static CrocMapStrat *read_strats(const cJSON *j, const char *name, uint16_t *count)
 {
     cJSON *tmp, *val;
-    int size, i;
+    size_t size, i;
     CrocMapStrat *strats;
 
     if((tmp = get_type(j, name, cJSON_IsArray)) == NULL)
         return NULL;
 
-    size = cJSON_GetArraySize(tmp);
-    if(size < 0 || size >= UINT16_MAX)
+    size = (size_t)cJSON_GetArraySize(tmp);
+    if(size >= UINT16_MAX)
         return NULL;
 
-    if((strats = calloc((size_t)size, sizeof(CrocMapStrat))) == NULL)
+    if((strats = calloc(size, sizeof(CrocMapStrat))) == NULL)
         return NULL;
 
     i = 0;
@@ -471,17 +471,17 @@ static int read_door_flags(const cJSON *j, const char *name, CrocMapDoorFlags *f
 static CrocMapDoor *read_doors(const cJSON *j, const char *name, uint16_t *count)
 {
     cJSON *tmp, *val;
-    int size, i;
+    size_t size, i;
     CrocMapDoor *doors;
 
     if((tmp = get_type(j, name, cJSON_IsArray)) == NULL)
         return NULL;
 
-    size = cJSON_GetArraySize(tmp);
-    if(size < 0 || size >= UINT16_MAX)
+    size = (size_t)cJSON_GetArraySize(tmp);
+    if(size >= UINT16_MAX)
         return NULL;
 
-    if((doors = calloc((size_t)size, sizeof(CrocMapDoor))) == NULL)
+    if((doors = calloc(size, sizeof(CrocMapDoor))) == NULL)
         return NULL;
 
     i = 0;
@@ -518,17 +518,17 @@ fail:
 static CrocMapPointLight *read_point_lights(const cJSON *j, const char *name, uint16_t *count)
 {
     cJSON *tmp, *val;
-    int size, i;
+    size_t size, i;
     CrocMapPointLight *lights;
 
     if((tmp = get_type(j, name, cJSON_IsArray)) == NULL)
         return NULL;
 
-    size = cJSON_GetArraySize(tmp);
-    if(size < 0 || size >= UINT16_MAX)
+    size = (size_t)cJSON_GetArraySize(tmp);
+    if(size >= UINT16_MAX)
         return NULL;
 
-    if((lights = calloc((size_t)size, sizeof(CrocMapPointLight))) == NULL)
+    if((lights = calloc(size, sizeof(CrocMapPointLight))) == NULL)
         return NULL;
 
     i = 0;
