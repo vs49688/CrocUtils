@@ -22,6 +22,7 @@
 #include <stdlib.h>
 
 #include <libcroc/utildef.h>
+#include <libcroc/vec.h>
 #include <libcroc/map.h>
 
 static int write_mapstring(FILE *f, const char *s)
@@ -144,32 +145,6 @@ static int write_doors(FILE *f, const CrocMapDoor *doors, uint16_t num)
     return 0;
 }
 
-static void write_colour(void *p, const CrocColour *c)
-{
-    uint8_t *d = p;
-    vsc_write_uint8(d + 0, c->r);
-    vsc_write_uint8(d + 1, c->g);
-    vsc_write_uint8(d + 2, c->b);
-    vsc_write_uint8(d + 3, c->pad);
-}
-
-static size_t fwrite_colour(FILE *f, const CrocColour *c)
-{
-    uint8_t buf[CROC_MAP_COLOUR_SIZE];
-    write_colour(buf, c);
-
-    return fwrite(buf, CROC_MAP_COLOUR_SIZE, 1, f);
-}
-
-static void write_vector(void *p, const CrocVector *v)
-{
-    uint8_t *d = p;
-    vsc_write_le16(d + 0, v->x.v);
-    vsc_write_le16(d + 2, v->y.v);
-    vsc_write_le16(d + 4, v->z.v);
-    vsc_write_le16(d + 6, v->pad.v);
-}
-
 static int write_point(FILE *f, const CrocMapPointLight *point, uint16_t num)
 {
     uint8_t buf[CROC_MAP_POINT_LIGHT_SIZE];
@@ -181,7 +156,7 @@ static int write_point(FILE *f, const CrocMapPointLight *point, uint16_t num)
         vsc_write_le32(buf +  4, l->y.v);
         vsc_write_le32(buf +  8, l->z.v);
 
-        write_colour(buf + 12, &l->colour);
+        croc_colour_write(buf + 12, &l->colour);
 
         vsc_write_le32(buf + 16, l->fade_from.v);
         vsc_write_le32(buf + 20, l->fade_to.v);
@@ -202,8 +177,8 @@ static int write_direct(FILE *f, const CrocMap *map)
     uint8_t *tmp = buf;
     for(int i = 0; i < CROC_MAP_MAX_DIRECT_LIGHTS; ++i, tmp += CROC_MAP_DIRECT_LIGHT_SIZE) {
         const CrocMapDirectLight *l = map->direct_light + i;
-        write_vector(tmp + 0, &l->vector);
-        write_colour(tmp + 8, &l->colour);
+        croc_vector_write(tmp + 0, &l->vector);
+        croc_colour_write(tmp + 8, &l->colour);
     }
 
     if(fwrite(buf, sizeof(buf), 1, f) != 1) {
@@ -317,7 +292,7 @@ int croc_map_write(FILE *f, const CrocMap *map)
     if(write_direct(f, map) < 0)
         return -1;
 
-    if(fwrite_colour(f, &map->ambient_colour) != 1)
+    if(croc_colour_fwrite(f, &map->ambient_colour) < 0)
         goto iofail;
 
     /* Write the size field. */

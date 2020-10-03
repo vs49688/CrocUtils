@@ -22,6 +22,7 @@
 #include <stdlib.h>
 
 #include <libcroc/map.h>
+#include <libcroc/vec.h>
 
 /* Read an 8-bit length-prefixed string. */
 static int read_mapstring(FILE *f, char *buf, uint8_t *len)
@@ -258,38 +259,6 @@ static CrocMapDoor *read_doors(FILE *f, uint16_t num_doors)
     return doors;
 }
 
-
-static CrocColour *read_colour(void *p, CrocColour *c)
-{
-    uint8_t *d = p;
-    c->r   = vsc_read_uint8(d + 0);
-    c->g   = vsc_read_uint8(d + 1);
-    c->b   = vsc_read_uint8(d + 2);
-    c->pad = vsc_read_uint8(d + 3);
-    return c;
-}
-
-static CrocVector *read_vector(void *p, CrocVector *v)
-{
-    uint8_t *d = p;
-    v->x.v   = vsc_read_le16(d + 0);
-    v->y.v   = vsc_read_le16(d + 2);
-    v->z.v   = vsc_read_le16(d + 4);
-    v->pad.v = vsc_read_le16(d + 6);
-    return v;
-}
-
-static CrocColour *fread_colour(FILE *f, CrocColour *c)
-{
-    uint8_t buf[CROC_MAP_COLOUR_SIZE];
-    if(fread(buf, CROC_MAP_COLOUR_SIZE, 1, f) != 1) {
-        errno = EIO;
-        return NULL;
-    }
-
-    return read_colour(buf, c);
-}
-
 static CrocMapPointLight *read_point(FILE *f, uint16_t num)
 {
     CrocMapPointLight *point = NULL;
@@ -311,7 +280,7 @@ static CrocMapPointLight *read_point(FILE *f, uint16_t num)
         l->y.v = vsc_read_le32(buf + 4);
         l->z.v = vsc_read_le32(buf + 8);
 
-        read_colour(buf + 12, &l->colour);
+        croc_colour_read(buf + 12, &l->colour);
 
         l->fade_from.v = vsc_read_le32(buf + 16);
         l->fade_to.v   = vsc_read_le32(buf + 20);
@@ -332,8 +301,8 @@ static CrocMapDirectLight *read_direct(FILE *f, CrocMap *map)
     uint8_t *tmp = buf;
     for(int i = 0; i < CROC_MAP_MAX_DIRECT_LIGHTS; ++i, tmp += CROC_MAP_DIRECT_LIGHT_SIZE) {
         CrocMapDirectLight *l = map->direct_light + i;
-        read_vector(tmp + 0, &l->vector);
-        read_colour(tmp + 8, &l->colour);
+        croc_vector_read(tmp + 0, &l->vector);
+        croc_colour_read(tmp + 8, &l->colour);
     }
 
     return map->direct_light;
@@ -398,7 +367,7 @@ int croc_map_read(FILE *f, CrocMap *map)
 
     if(map->_format == CROC_MAP_FMT_INVALID) {
         errno = EINVAL;
-        return -1;
+        goto fail;
     }
 
     if(read_mapstring(f, map->path, NULL) < 0)
@@ -502,7 +471,7 @@ int croc_map_read(FILE *f, CrocMap *map)
     if(read_direct(f, map) == NULL)
         goto fail;
 
-    if(fread_colour(f, &map->ambient_colour) == NULL) {
+    if(croc_colour_fread(f, &map->ambient_colour) == NULL) {
         /* Some v12 maps don't have this. */
         if(map->_version != 12 && !feof(f))
             goto fail;
