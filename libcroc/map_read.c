@@ -201,7 +201,7 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
 
         s->num_waypoints = vsc_fread_leu16(f);
         if(feof(f) || ferror(f)) {
-            err = ENOMEM;
+            err = EIO;
             goto fail;
         }
 
