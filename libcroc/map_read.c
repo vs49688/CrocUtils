@@ -58,10 +58,8 @@ static CrocMapTrack *read_tracks(FILE *f, uint16_t version, uint16_t num_tracks)
     CrocMapTrack *tracks = NULL;
     size_t size = version >= 21 ? CROC_MAP_TRACK_SIZE : CROC_MAP_TRACK_SIZE_PREV21;
 
-    if((tracks = malloc(sizeof(CrocMapTrack) * num_tracks)) == NULL) {
-        errno = ENOMEM;
+    if((tracks = calloc(num_tracks, sizeof(CrocMapTrack))) == NULL)
         return NULL;
-    }
 
     for(int i = 0; i < num_tracks; ++i) {
         CrocMapTrack *t = tracks + i;
@@ -173,11 +171,8 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
     CrocMapStrat *strats = NULL;
     int err = 0;
 
-    if((strats = malloc(sizeof(CrocMapStrat) * num_strats)) == NULL) {
-        errno = ENOMEM;
+    if((strats = calloc(num_strats, sizeof(CrocMapStrat))) == NULL)
         return NULL;
-    }
-    memset(strats, 0, sizeof(CrocMapStrat) * num_strats);
 
     for(int i = 0; i < num_strats; ++i)
     {
@@ -205,10 +200,8 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
             goto fail;
         }
 
-        if((s->waypoint = malloc(sizeof(CrocMapWaypoint) * s->num_waypoints)) == NULL) {
-            err = ENOMEM;
+        if((s->waypoint = calloc(s->num_waypoints, sizeof(CrocMapWaypoint))) == NULL)
             goto fail;
-        }
 
         for(int w = 0; w < s->num_waypoints; ++w) {
             CrocMapWaypoint *wp = s->waypoint + w;
@@ -240,10 +233,8 @@ static CrocMapDoor *read_doors(FILE *f, uint16_t num_doors)
     CrocMapDoor *doors = NULL;
     uint8_t buf[CROC_MAP_DOOR_SIZE];
 
-    if((doors = malloc(sizeof(CrocMapDoor) * num_doors)) == NULL) {
-        errno = ENOMEM;
+    if((doors = calloc(num_doors, sizeof(CrocMapDoor))) == NULL)
         return NULL;
-    }
 
     for(int i = 0; i < num_doors; ++i) {
         CrocMapDoor *d = doors + i;
@@ -304,10 +295,8 @@ static CrocMapPointLight *read_point(FILE *f, uint16_t num)
     CrocMapPointLight *point = NULL;
     uint8_t buf[CROC_MAP_POINT_LIGHT_SIZE];
 
-    if((point = malloc(sizeof(CrocMapPointLight) * num)) == NULL) {
-        errno = ENOMEM;
+    if((point = calloc(num, sizeof(CrocMapPointLight))) == NULL)
         return NULL;
-    }
 
     for(int i = 0; i < num; ++i) {
         CrocMapPointLight *l = point + i;

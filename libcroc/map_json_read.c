@@ -319,10 +319,8 @@ static CrocMapTrack *read_tracks(const cJSON *j, const char *name, uint16_t *cou
     if(size < 0 || size >= UINT16_MAX)
         return NULL;
 
-    if((tracks = malloc(sizeof(CrocMapTrack) * size)) == NULL)
+    if((tracks = calloc((size_t)size, sizeof(CrocMapTrack))) == NULL)
         return NULL;
-
-    memset(tracks, 0, sizeof(CrocMapTrack) * size);
 
     i = 0;
     cJSON_ArrayForEach(val, tmp) {
@@ -364,10 +362,8 @@ static CrocMapWaypoint *read_waypoints(const cJSON *j, const char *name, uint16_
     if(size < 0 || size >= UINT16_MAX)
         return NULL;
 
-    if((waypoints = malloc(sizeof(CrocMapWaypoint) * size)) == NULL)
+    if((waypoints = calloc((size_t)size, sizeof(CrocMapWaypoint))) == NULL)
         return NULL;
-
-    memset(waypoints, 0, sizeof(CrocMapWaypoint) * size);
 
     i = 0;
     cJSON_ArrayForEach(val, tmp) {
@@ -402,10 +398,8 @@ static CrocMapStrat *read_strats(const cJSON *j, const char *name, uint16_t *cou
     if(size < 0 || size >= UINT16_MAX)
         return NULL;
 
-    if((strats = malloc(sizeof(CrocMapStrat) * size)) == NULL)
+    if((strats = calloc((size_t)size, sizeof(CrocMapStrat))) == NULL)
         return NULL;
-
-    memset(strats, 0, sizeof(CrocMapStrat) * size);
 
     i = 0;
     cJSON_ArrayForEach(val, tmp) {
@@ -487,10 +481,8 @@ static CrocMapDoor *read_doors(const cJSON *j, const char *name, uint16_t *count
     if(size < 0 || size >= UINT16_MAX)
         return NULL;
 
-    if((doors = malloc(sizeof(CrocMapDoor) * size)) == NULL)
+    if((doors = calloc((size_t)size, sizeof(CrocMapDoor))) == NULL)
         return NULL;
-
-    memset(doors, 0, sizeof(CrocMapDoor) * size);
 
     i = 0;
     cJSON_ArrayForEach(val, tmp) {
@@ -536,10 +528,8 @@ static CrocMapPointLight *read_point_lights(const cJSON *j, const char *name, ui
     if(size < 0 || size >= UINT16_MAX)
         return NULL;
 
-    if((lights = malloc(sizeof(CrocMapPointLight) * size)) == NULL)
+    if((lights = calloc((size_t)size, sizeof(CrocMapPointLight))) == NULL)
         return NULL;
-
-    memset(lights, 0, sizeof(CrocMapPointLight) * size);
 
     i = 0;
     cJSON_ArrayForEach(val, tmp) {

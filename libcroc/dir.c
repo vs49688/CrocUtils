@@ -100,10 +100,8 @@ CrocDirEntry *croc_dir_read(FILE *f, size_t *count, int *old)
         start = 2;
     }
 
-    if((entries = malloc(_count * sizeof(CrocDirEntry))) == NULL)
+    if((entries = calloc(_count, sizeof(CrocDirEntry))) == NULL)
         goto done;
-
-    memset(entries, 0, _count * sizeof(CrocDirEntry));
 
     if(_count >= 2) {
         entries[0] = tmp[0];
