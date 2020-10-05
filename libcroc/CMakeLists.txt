@@ -12,6 +12,7 @@ add_library(libcroc STATIC
 		util.c
 		dir.c
 		vec.c
+		mod.c
 
 		include/libcroc.h
 		include/libcroc/utildef.h
@@ -27,6 +28,8 @@ add_library(libcroc STATIC
 		include/libcroc/dirdef.h
 		include/libcroc/vec.h
 		include/libcroc/vecdef.h
+		include/libcroc/mod.h
+		include/libcroc/moddef.h
 )
 
 target_include_directories(libcroc PUBLIC include)
