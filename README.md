@@ -99,6 +99,18 @@ Dump a CROCFILE.DIR to JSON for human reading.
 Extract a CROCFILE.DIR and CROCFILE.{DAT,1} pair into the given directory.
 The directory must exist beforehand.
 
+## modtool
+### Usage
+```text
+Usage: modtool burst2obj <input-file.mod> [<output-dir>]
+```
+
+#### Burst2obj
+
+"Burst" a MOD file into separate Wavefront Alias OBJ meshes.
+
+Material handling isn't supported yet.
+
 ## License
 
 Copyright &copy; 2020 [Zane van Iperen](mailto:zane@zanevaniperen.com)
