@@ -27,6 +27,12 @@
 #define CROC_MODEL_FACE_NAME_LENGTH 64
 #define CROC_MODEL_COLL_INFO_SIZE   44
 
+typedef enum CrocModelType {
+    CROC_MODEL_TYPE_AUTODETECT = -1,
+    CROC_MODEL_TYPE_NORMAL     =  0,
+    CROC_MODEL_TYPE_CAMERA     =  1
+} CrocModelType;
+
 typedef enum CrocModelFlags {
     /* Model is used for collision. */
     CROC_MODEL_COLLISION = (1 << 0)

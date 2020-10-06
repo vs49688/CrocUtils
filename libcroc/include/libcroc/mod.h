@@ -27,7 +27,7 @@ extern "C" {
 CrocModel * croc_mod_init(CrocModel *m);
 void        croc_mod_free(CrocModel *m);
 void        croc_mod_free_many(CrocModel *m, size_t count);
-int         croc_mod_read_many(FILE *f, CrocModel **models, size_t *num);
+int         croc_mod_read_many(FILE *f, CrocModel **models, size_t *num, CrocModelType type);
 int         croc_mod_validate(const CrocModel *m, void(*proc)(void *, const char*, ...), void *user);
 
 /*

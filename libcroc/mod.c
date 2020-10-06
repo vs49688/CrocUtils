@@ -20,6 +20,7 @@
 #include <errno.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <ctype.h>
 #include <vsclib.h>
 #include <libcroc/mod.h>
 #include <libcroc/vec.h>
@@ -80,13 +81,13 @@ static void process_face_tri(CrocModelFace *f)
     f->_uvs_tri[2] = f->_uvs[0];
 }
 
-static int read_face(FILE *f, CrocModelFace *face, int cam)
+static int read_face(FILE *f, CrocModelFace *face, CrocModelType type)
 {
     uint8_t buf[CROC_MODEL_FACE_SIZE] = { 0 };
     size_t size = CROC_MODEL_FACE_SIZE;
     uint8_t *start = buf;
 
-    if(cam) {
+    if(type == CROC_MODEL_TYPE_CAMERA) {
         size  -= CROC_MODEL_FACE_NAME_LENGTH;
         start += CROC_MODEL_FACE_NAME_LENGTH;
     }
@@ -96,8 +97,18 @@ static int read_face(FILE *f, CrocModelFace *face, int cam)
         return -1;
     }
 
-    if(!cam)
-        memcpy(face->material, buf + 0, sizeof(face->material));
+    memcpy(face->material, buf + 0, sizeof(face->material));
+
+    if(type == CROC_MODEL_TYPE_AUTODETECT) {
+        /* Handy heuristic that seems to work. Only do this if autodetecting. */
+        size_t nlen = strnlen(face->material, CROC_MODEL_FACE_NAME_LENGTH);
+        for(size_t i = 0; i < nlen; ++i) {
+            if(!isprint(face->material[i])) {
+                errno = ERANGE;
+                return -1;
+            }
+        }
+    }
 
     croc_vector_read(buf + 64, &face->normal);
 
@@ -128,7 +139,7 @@ static int read_face(FILE *f, CrocModelFace *face, int cam)
     return 0;
 }
 
-static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags)
+static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags, CrocModelType type)
 {
     m->radius.v = vsc_fread_leu32(f);
     for(int i = 0; i < CROC_MODEL_BBOX_DIMS; ++i) {
@@ -181,7 +192,7 @@ static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags)
         return -1;
 
     for(uint32_t i = 0; i < m->num_faces; ++i) {
-        if(read_face(f, m->faces + i, 0) < 0)
+        if(read_face(f, m->faces + i, type) < 0)
             return -1;
     }
 
@@ -207,11 +218,12 @@ static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags)
     return 0;
 }
 
-int croc_mod_read_many(FILE *f, CrocModel **models, size_t *num)
+int croc_mod_read_many(FILE *f, CrocModel **models, size_t *num, CrocModelType type)
 {
     uint16_t _num, flags;
     int err;
     CrocModel *_models;
+    vsc_off_t off;
 
     _num  = vsc_fread_leu16(f);
     flags = vsc_fread_leu16(f);
@@ -222,7 +234,7 @@ int croc_mod_read_many(FILE *f, CrocModel **models, size_t *num)
     }
 
     /* Sanity check this. */
-    if(_num > 128) {
+    if(_num > 300) {
         errno = EINVAL;
         return -1;
     }
@@ -232,12 +244,26 @@ int croc_mod_read_many(FILE *f, CrocModel **models, size_t *num)
         return -1;
     }
 
+    if((off = vsc_ftello(f)) < 0)
+        goto fail;
+
     for(int i = 0; i < _num; ++i)
         croc_mod_init(_models + i);
 
+try_again:
     for(int i = 0; i < _num; ++i) {
-        if(croc_mod_read_submodel(f, _models + i, flags) < 0)
-            goto fail;
+        if(croc_mod_read_submodel(f, _models + i, flags, type) < 0) {
+            if(type != CROC_MODEL_TYPE_AUTODETECT)
+                goto fail;
+
+            if(vsc_fseeko(f, off, SEEK_SET) < 0)
+                goto fail;
+
+            type = CROC_MODEL_TYPE_CAMERA;
+            for(int j = 0; j <= i; ++j)
+                croc_mod_free(_models + j);
+            goto try_again;
+        }
     }
 
     *models = _models;
