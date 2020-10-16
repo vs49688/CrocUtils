@@ -8,7 +8,7 @@ function(add_cjson)
 	set(ENABLE_LOCALES                   OFF CACHE BOOL "" FORCE)
 	set(CJSON_OVERRIDE_BUILD_SHARED_LIBS ON  CACHE BOOL "" FORCE)
 	set(CJSON_BUILD_SHARED_LIBS          OFF CACHE BOOL "" FORCE)
-	add_subdirectory(cJSON)
+	add_subdirectory(cJSON EXCLUDE_FROM_ALL)
 
 	# Until https://github.com/DaveGamble/cJSON/pull/488 is merged
 	target_include_directories(cjson PUBLIC cJSON)
@@ -22,3 +22,5 @@ add_subdirectory(libcroc)
 add_subdirectory(maptool)
 add_subdirectory(cfextract)
 add_subdirectory(modtool)
+
+install(TARGETS maptool cfextract modtool DESTINATION bin)
