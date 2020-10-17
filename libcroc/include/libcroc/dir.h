@@ -18,6 +18,7 @@
 #ifndef _LIBCROC_DIR_H
 #define _LIBCROC_DIR_H
 
+#include <stdio.h>
 #include "dirdef.h"
 
 struct cJSON;
