@@ -25,5 +25,6 @@
 #include "libcroc/util.h"
 #include "libcroc/wad.h"
 #include "libcroc/dir.h"
+#include "libcroc/mod.h"
 
 #endif /* _LIBCROC_H */
