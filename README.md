@@ -2,44 +2,57 @@
 
 A small collection of utilities for Croc.
 
-The current list is:
-
-* `maptool` - A tool for manipulating Croc .MAP files
-* `cfextract` - A tool for extracting `CROCFILE.???` files from the PSX releases
-
 For encoding/decoding of Argonaut ASF and BRP files, please see [FFmpeg](https://ffmpeg.org/).
 * ASF decoding is supported as of d84a30e1238b9feed1c957809108fc5e39d80629.
 * ASF encoding is supported as of 6fdf3cc53b5e90524ccfde534ae4a91ee87814aa.
 * BRP decoding is supported as of a3a6b56200e2899769175291837a178f20e1e95a.
 
-## maptool
+## croctool
+
 ### Usage
-
 ```
-Usage: maptool decompile <input-file.map> [<output-file.json|->]
-       maptool compile <input-file.json|-> <output-file.map>
-       maptool convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>
-       maptool unwad <input-file.wad> <base-name>
+Usage: croctool map decompile <input-file.map> [<output-file.json|->]
+       croctool map compile <input-file.json|-> <output-file.map>
+       croctool map convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>
+       croctool map unwad <input-file.wad> <base-name>
+       croctool crocfile dump <CROCFILE.DIR> [<output-file.json|->]
+       croctool crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]
+       croctool mod burst2obj <input-file.mod> [<output-dir>]
 ```
 
-#### Decompile
+#### map decompile
+
 Convert any version of a Croc .MAP file into a JSON file for human editing.
 
-#### Compile
+#### map compile
 Compile a JSON file into a version 21 Croc .MAP file.
 
-#### Convert
+#### map convert
 Convert any version of a Croc .MAP file into version 21, readable by Croc DE.
 
 * `--rebase` will offset the door targets by the specified number.
 
-#### Unwad
+#### map unwad
 
 Split a PSX `MAP%d.wad` file into individual .MAP files.
 
 - Will **NOT** work with the `MP%03d_%02d.WAD` files.
 
-#### Notes
+#### crocfile dump
+
+Dump a CROCFILE.DIR to JSON for human reading.
+
+#### crocfile extract
+Extract a CROCFILE.DIR and CROCFILE.{DAT,1} pair into the given directory.
+The directory must exist beforehand.
+
+#### mod burst2obj
+
+"Burst" a MOD file into separate Wavefront Alias OBJ meshes.
+
+Material handling isn't supported yet.
+
+## Notes
 
 * Odd padding in PSX maps
   - There was a batch of PSX maps I didn't extract properly.
@@ -83,33 +96,6 @@ Split a PSX `MAP%d.wad` file into individual .MAP files.
       "fade_to": 1.5
     }
     ```
-
-
-## cfextract
-### Usage
-```
-Usage: cfextract dump <CROCFILE.DIR> [<output-file.json|->]
-       cfextract extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]
-```
-
-#### Dump
-Dump a CROCFILE.DIR to JSON for human reading.
-
-#### Extract
-Extract a CROCFILE.DIR and CROCFILE.{DAT,1} pair into the given directory.
-The directory must exist beforehand.
-
-## modtool
-### Usage
-```text
-Usage: modtool burst2obj <input-file.mod> [<output-dir>]
-```
-
-#### Burst2obj
-
-"Burst" a MOD file into separate Wavefront Alias OBJ meshes.
-
-Material handling isn't supported yet.
 
 ## License
 
