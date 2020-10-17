@@ -22,5 +22,6 @@ add_subdirectory(libcroc)
 add_subdirectory(maptool)
 add_subdirectory(cfextract)
 add_subdirectory(modtool)
+add_subdirectory(croctool)
 
-install(TARGETS maptool cfextract modtool DESTINATION bin)
+install(TARGETS maptool cfextract modtool croctool DESTINATION bin)
