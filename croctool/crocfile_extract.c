@@ -27,7 +27,7 @@ static int write_manifest(const char *path, const CrocDirEntry *entries, size_t 
     FILE *f = NULL;
     cJSON *j = NULL;
     char *s = NULL;
-    int ret = -1, _errno;
+    int ret = -1, errno_;
 
     if((j = croc_dir_write_json(entries, count)) == NULL) {
         errno = ENOMEM;
@@ -51,7 +51,7 @@ static int write_manifest(const char *path, const CrocDirEntry *entries, size_t 
     ret = 0;
 
 done:
-    _errno = errno;
+    errno_ = errno;
 
     if(f != NULL)
         fclose(f);
@@ -62,7 +62,7 @@ done:
     if(j != NULL)
         cJSON_Delete(j);
 
-    errno = _errno;
+    errno = errno_;
     return ret;
 }
 
