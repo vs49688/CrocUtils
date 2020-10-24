@@ -21,4 +21,9 @@ add_subdirectory(vsclib)
 add_subdirectory(libcroc)
 add_subdirectory(croctool)
 
+if(MINGW)
+	target_compile_definitions(croctool PUBLIC __USE_MINGW_ANSI_STDIO)
+	target_compile_definitions(libcroc  PUBLIC __USE_MINGW_ANSI_STDIO)
+endif()
+
 install(TARGETS croctool DESTINATION bin)
