@@ -22,13 +22,13 @@
 #include <libcroc/map.h>
 #include <libcroc/checksum.h>
 
-static int write_file_base(const char *base, size_t i, void *buf, size_t size)
+static int write_file_base(const char *base, uint32_t i, void *buf, size_t size)
 {
 	FILE *f;
 	char *name;
 	int err = 0, ret = -1;
 
-	if((name = vsc_asprintf("%s%02zu.MAP", base, i)) == NULL) {
+	if((name = vsc_asprintf("%s%02u.MAP", base, i)) == NULL) {
 		errno = ENOMEM;
 		return -1;
 	}
@@ -82,7 +82,7 @@ static int extract_mapwad(FILE *f, const char *base)
 		return -1;
 	}
 
-	for(size_t i = 0, current = 0; current < total_size; ++i)
+	for(uint32_t i = 0, current = 0; current < total_size; ++i)
 	{
 		uint32_t size;
 
@@ -112,7 +112,7 @@ static int extract_mapwad(FILE *f, const char *base)
 		fck = croc_checksum(p, size + 4);
 
 		if(ck != fck) {
-			fprintf(stderr, "Subfile %02zu: Checksum mismatch (0x%x != 0x%x)\n", i, ck, fck);
+			fprintf(stderr, "Subfile %02u: Checksum mismatch (0x%x != 0x%x)\n", i, ck, fck);
 		}
 
 
