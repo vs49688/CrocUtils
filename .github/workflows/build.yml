@@ -1,0 +1,56 @@
+name: build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+      # Work around https://github.com/actions/checkout/issues/290
+      - run: git fetch --force --tags
+
+      - uses: cachix/install-nix-action@v12
+        with:
+          nix_path: nixpkgs=channel:nixos-20.09
+
+      - uses: cachix/cachix-action@v8
+        with:
+          name: vs49688-nix-cache
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - run: |
+          nix-build \
+            --argstr gitDescribe $(git describe) \
+            -I nixpkgs=channel:nixos-20.09 \
+            release.nix
+
+      - name: Work around https://github.com/actions/upload-artifact/issues/92
+        run: |
+          mkdir dist
+          cp -Rp result/* dist/
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: release-artifacts
+          path: dist/*
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: release-artifacts
+          path: dist
+      - uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: dist/*
