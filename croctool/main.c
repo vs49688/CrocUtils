@@ -19,6 +19,11 @@
 #include <vsclib.h>
 #include <libcroc/util.h>
 
+/* FIXME: This should be in vsclib */
+#if defined(_MSC_VER)
+#   define strcasecmp stricmp
+#endif
+
 int map_decompile(int argc, char **argv);
 int map_compile(int argc, char **argv);
 int map_convert(int argc, char **argv);
