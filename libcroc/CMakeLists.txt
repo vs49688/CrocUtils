@@ -36,3 +36,7 @@ target_include_directories(libcroc PUBLIC include)
 
 target_link_libraries(libcroc PRIVATE vsclib)
 target_link_libraries(libcroc PUBLIC  cjson)
+
+if(MSVC)
+	target_compile_definitions(libcroc PRIVATE _CRT_SECURE_NO_WARNINGS)
+endif()

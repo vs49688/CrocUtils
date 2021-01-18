@@ -15,3 +15,7 @@ add_executable(croctool
 )
 
 target_link_libraries(croctool libcroc vsclib)
+
+if(MSVC)
+	target_compile_definitions(croctool PRIVATE _CRT_SECURE_NO_WARNINGS)
+endif()
