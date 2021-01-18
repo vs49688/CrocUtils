@@ -16,6 +16,10 @@ add_executable(croctool
 
 target_link_libraries(croctool libcroc vsclib)
 
+if(MINGW)
+	target_compile_definitions(croctool PRIVATE __USE_MINGW_ANSI_STDIO)
+endif()
+
 if(MSVC)
 	target_compile_definitions(croctool PRIVATE _CRT_SECURE_NO_WARNINGS)
 endif()

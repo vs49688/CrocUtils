@@ -37,6 +37,10 @@ target_include_directories(libcroc PUBLIC include)
 target_link_libraries(libcroc PRIVATE vsclib)
 target_link_libraries(libcroc PUBLIC  cjson)
 
+if(MINGW)
+	target_compile_definitions(libcroc PRIVATE __USE_MINGW_ANSI_STDIO)
+endif()
+
 if(MSVC)
 	target_compile_definitions(libcroc PRIVATE _CRT_SECURE_NO_WARNINGS)
 endif()
