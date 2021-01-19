@@ -271,13 +271,22 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
 {
     void *cbuf = NULL, *ubuf = NULL;
     int errno_, r;
+    size_t bufsize;
 
     if(!(cbuf = malloc(entry->compressed_size))) {
         errno = ENOMEM;
         goto fail;
     }
 
-    if(entry->rle_type != CROC_WAD_RLE_NONE && !(ubuf = malloc(entry->uncompressed_size))) {
+    /*
+     * The output buffer size should always be a multiple of the RLE size.
+     * Round up if need-be. There's only two sizes, so this is fine.
+     */
+    bufsize = entry->uncompressed_size;
+    if(bufsize & 1)
+        ++bufsize;
+
+    if(entry->rle_type != CROC_WAD_RLE_NONE && !(ubuf = malloc(bufsize))) {
         errno = ENOMEM;
         goto fail;
     }
@@ -295,9 +304,9 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
         cbuf = NULL;
         r = 0;
     } else if(entry->rle_type == CROC_WAD_RLE_BYTE) {
-        r = croc_wad_decompressb(ubuf, cbuf, entry->compressed_size, entry->uncompressed_size);
+        r = croc_wad_decompressb(ubuf, cbuf, entry->compressed_size, bufsize);
     } else if(entry->rle_type == CROC_WAD_RLE_WORD) {
-        r = croc_wad_decompressw(ubuf, cbuf, entry->compressed_size, entry->uncompressed_size);
+        r = croc_wad_decompressw(ubuf, cbuf, entry->compressed_size, bufsize);
     } else {
         assert(0);
         errno = EOVERFLOW;
