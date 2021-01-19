@@ -45,6 +45,8 @@ int croc_wad_decompressb(void *outbuf, const void *inbuf, size_t compressed_size
 /* Decompress a word-sized RLE */
 int croc_wad_decompressw(void *outbuf, const void *inbuf, size_t compressed_size, size_t uncompressed_size);
 
+void *croc_wad_load_entry(FILE *f, const CrocWadEntry *entry);
+
 #ifdef __cplusplus
 }
 #endif

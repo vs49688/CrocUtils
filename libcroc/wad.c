@@ -265,3 +265,62 @@ fail:
     cJSON_Delete(jarr);
     return NULL;
 }
+
+
+void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
+{
+    void *cbuf = NULL, *ubuf = NULL;
+    int errno_, r;
+
+    if(!(cbuf = malloc(entry->compressed_size))) {
+        errno = ENOMEM;
+        goto fail;
+    }
+
+    if(entry->rle_type != CROC_WAD_RLE_NONE && !(ubuf = malloc(entry->uncompressed_size))) {
+        errno = ENOMEM;
+        goto fail;
+    }
+
+    if(vsc_fseeko(wad, entry->offset, SEEK_SET) < 0)
+        goto fail;
+
+    if(fread(cbuf, entry->compressed_size, 1, wad) != 1) {
+        errno = EIO;
+        goto fail;
+    }
+
+    if(entry->rle_type == CROC_WAD_RLE_NONE) {
+        ubuf = cbuf;
+        cbuf = NULL;
+        r = 0;
+    } else if(entry->rle_type == CROC_WAD_RLE_BYTE) {
+        r = croc_wad_decompressb(ubuf, cbuf, entry->compressed_size, entry->uncompressed_size);
+    } else if(entry->rle_type == CROC_WAD_RLE_WORD) {
+        r = croc_wad_decompressw(ubuf, cbuf, entry->compressed_size, entry->uncompressed_size);
+    } else {
+        assert(0);
+        errno = EOVERFLOW;
+        r = -1;
+    }
+
+    if(r < 0)
+        return NULL;
+
+    if(cbuf)
+        free(cbuf);
+
+    return ubuf;
+
+fail:
+    errno_ = errno;
+    if(ubuf)
+        free(ubuf);
+
+    if(cbuf)
+        free(cbuf);
+
+    errno = errno_;
+
+    return NULL;
+}
