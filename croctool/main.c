@@ -37,21 +37,21 @@ int wad_dump_index(int argc, char **argv);
 
 static void usage(FILE *f, const char *argv0)
 {
-    fprintf(f, "Usage: %s map decompile <input-file.map> [<output-file.json|->]\n", argv0);
+    fprintf(f, "Usage: %s map decompile <input-file.map> [output-file.json|-]\n", argv0);
     fprintf(f, "       %s map compile <input-file.json|-> <output-file.map>\n", argv0);
     fprintf(f, "       %s map convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>\n", argv0);
     fprintf(f, "       %s map unwad <input-file.wad> <base-name>\n", argv0);
-    fprintf(f, "       %s crocfile dump <CROCFILE.DIR> [<output-file.json|->]\n", argv0);
-    fprintf(f, "       %s crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]\n", argv0);
-    fprintf(f, "       %s mod burst2obj <input-file.mod> [<output-dir>]\n", argv0);
-    fprintf(f, "       %s wad extract <base-name> <file-name> [<output-dir>]\n", argv0);
-    fprintf(f, "       %s wad extract-all <base-name> [<output-dir>]\n", argv0);
-    fprintf(f, "       %s wad dump-index <index-name.idx> [<output-file.json>]\n", argv0);
+    fprintf(f, "       %s crocfile dump <CROCFILE.DIR> [output-file.json|-]\n", argv0);
+    fprintf(f, "       %s crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [output-dir]\n", argv0);
+    fprintf(f, "       %s mod burst2obj <input-file.mod> [output-dir]\n", argv0);
+    fprintf(f, "       %s wad extract <base-name> <file-name> [output-dir|-]\n", argv0);
+    fprintf(f, "       %s wad extract-all <base-name> [output-dir]\n", argv0);
+    fprintf(f, "       %s wad dump-index <index-name.idx> [output-file.json]\n", argv0);
 }
 
 static void usage_maptool(FILE *f, const char *argv0)
 {
-    fprintf(f, "Usage: %s decompile <input-file.map> [<output-file.json|->]\n", argv0);
+    fprintf(f, "Usage: %s decompile <input-file.map> [output-file.json|-]\n", argv0);
     fprintf(f, "       %s compile <input-file.json|-> <output-file.map>\n", argv0);
     fprintf(f, "       %s convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>\n", argv0);
     fprintf(f, "       %s unwad <input-file.wad> <base-name>\n", argv0);
@@ -59,13 +59,13 @@ static void usage_maptool(FILE *f, const char *argv0)
 
 static void usage_cfextract(FILE *f, const char *argv0)
 {
-    fprintf(f, "Usage: %s dump <CROCFILE.DIR> [<output-file.json|->]\n", argv0);
-    fprintf(f, "       %s extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]\n", argv0);
+    fprintf(f, "Usage: %s dump <CROCFILE.DIR> [output-file.json|-]\n", argv0);
+    fprintf(f, "       %s extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [outdir]\n", argv0);
 }
 
 static void usage_modtool(FILE *f, const char *argv0)
 {
-    fprintf(f, "Usage: %s burst2obj <input-file.mod> [<output-dir>]\n", argv0);
+    fprintf(f, "Usage: %s burst2obj <input-file.mod> [output-dir]\n", argv0);
 }
 
 static int main_maptool(int argc, char **argv)
