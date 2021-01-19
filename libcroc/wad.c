@@ -18,6 +18,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <errno.h>
+#include <assert.h>
 #include <vsclib.h>
 #include <libcroc/wad.h>
 #include <libcroc/util.h>
@@ -197,15 +198,70 @@ CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num)
     return entries;
 
 fail:
-    if(entries) {
-        for(size_t i = 0; i < idx.entry_index; ++i) {
-            free(entries[i].filename);
-        }
-        free(entries);
-    }
+    if(entries)
+        croc_wad_free_index(entries, idx.entry_index);
 
     if(data)
         free(data);
 
+    return NULL;
+}
+
+void croc_wad_free_index(CrocWadEntry *entries, size_t num)
+{
+    if(entries == NULL)
+        return;
+
+    for(size_t i = 0; i < num; ++i) {
+        if(entries[i].filename)
+            free(entries[i].filename);
+    }
+
+    free(entries);
+}
+
+cJSON *croc_wad_index_write_json(const CrocWadEntry *entries, size_t count)
+{
+    cJSON *jarr, *jent;
+    const char *rle;
+
+    if((jarr = cJSON_CreateArray()) == NULL)
+        return NULL;
+
+    for(size_t i = 0; i < count; ++i) {
+        const CrocWadEntry *e = entries + i;
+
+        if((jent = cJSON_CreateObject()) == NULL)
+            goto fail;
+
+        if(!cJSON_AddItemToArray(jarr, jent))
+            goto fail;
+
+        if(cJSON_AddStringToObject(jent, "name", e->filename) == NULL)
+            goto fail;
+
+        if(cJSON_AddNumberToObject(jent, "offset", e->offset) == NULL)
+            goto fail;
+
+        if(cJSON_AddNumberToObject(jent, "compressed_size", e->compressed_size) == NULL)
+            goto fail;
+
+        if(cJSON_AddNumberToObject(jent, "uncompressed_size", e->uncompressed_size) == NULL)
+            goto fail;
+
+        switch(e->rle_type) {
+            case CROC_WAD_RLE_BYTE: rle = "byte"; break;
+            case CROC_WAD_RLE_WORD: rle = "word"; break;
+            case CROC_WAD_RLE_NONE: rle = "none"; break;
+            default: assert(0);
+        }
+        if(cJSON_AddStringToObject(jent, "rle_type", rle) == NULL)
+            goto fail;
+    }
+
+    return jarr;
+
+fail:
+    cJSON_Delete(jarr);
     return NULL;
 }
