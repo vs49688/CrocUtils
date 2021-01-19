@@ -39,10 +39,10 @@ void croc_wad_free_index(CrocWadEntry *entries, size_t num);
 
 cJSON *croc_wad_index_write_json(const CrocWadEntry *entries, size_t count);
 
-/* Decompress a byte-sized RLE */
+/* Decompress a byte-sized RLE.*/
 int croc_wad_decompressb(void *outbuf, const void *inbuf, size_t compressed_size, size_t uncompressed_size);
 
-/* Decompress a word-sized RLE */
+/* Decompress a word-sized RLE. Output buffer must be a multiple of 2. */
 int croc_wad_decompressw(void *outbuf, const void *inbuf, size_t compressed_size, size_t uncompressed_size);
 
 void *croc_wad_load_entry(FILE *f, const CrocWadEntry *entry);
