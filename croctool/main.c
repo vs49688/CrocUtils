@@ -31,6 +31,9 @@ int map_unwad(int argc, char **argv);
 int crocfile_dump(int argc, char **argv);
 int crocfile_extract(int argc, char **argv);
 int mod_burst2obj(int argc, char **argv);
+int wad_extract(int argc, char **argv);
+int wad_extract_all(int argc, char **argv);
+int wad_dump_index(int argc, char **argv);
 
 static void usage(FILE *f, const char *argv0)
 {
@@ -41,6 +44,9 @@ static void usage(FILE *f, const char *argv0)
     fprintf(f, "       %s crocfile dump <CROCFILE.DIR> [<output-file.json|->]\n", argv0);
     fprintf(f, "       %s crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]\n", argv0);
     fprintf(f, "       %s mod burst2obj <input-file.mod> [<output-dir>]\n", argv0);
+    fprintf(f, "       %s wad extract <base-name> <file-name> [<output-dir>]\n", argv0);
+    fprintf(f, "       %s wad extract-all <base-name> [<output-dir>]\n", argv0);
+    fprintf(f, "       %s wad dump-index <index-name.idx> [<output-file.json>]\n", argv0);
 }
 
 static void usage_maptool(FILE *f, const char *argv0)
@@ -171,6 +177,15 @@ int main(int argc, char **argv)
     } else if(!strcmp("mod", argv[1])) {
         if(!strcmp("burst2obj", argv[2]))
             ret = mod_burst2obj(argc - 2, argv + 2);
+        else
+            ret = 2;
+    } else if(!strcmp("wad", argv[1])) {
+        if(!strcmp("extract", argv[2]))
+            ret = wad_extract(argc - 2, argv + 2);
+        else if(!strcmp("extract-all", argv[2]))
+            ret = wad_extract_all(argc - 2, argv + 2);
+        else if(!strcmp("dump-index", argv[2]))
+            ret = wad_dump_index(argc - 2, argv + 2);
         else
             ret = 2;
     } else {

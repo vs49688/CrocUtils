@@ -12,6 +12,11 @@ add_executable(croctool
 		./crocfile_dump.c
 
 		./mod_burst2obj.c
+
+		./wad_dump_index.c
+		./wad_extract.c
+		./wad_extract_all.c
+
 )
 
 target_link_libraries(croctool libcroc vsclib)
