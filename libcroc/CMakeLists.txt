@@ -46,3 +46,10 @@ endif()
 if(MSVC)
 	target_compile_definitions(libcroc PRIVATE _CRT_SECURE_NO_WARNINGS)
 endif()
+
+# Disable RTTI and exceptions for our template-only C++ code
+if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+	target_compile_options(libcroc PRIVATE
+		$<$<COMPILE_LANGUAGE:CXX>:-fno-rtti -fno-exceptions>
+	)
+endif()
