@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2021 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
