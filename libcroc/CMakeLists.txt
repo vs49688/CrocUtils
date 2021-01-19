@@ -14,6 +14,8 @@ add_library(libcroc STATIC
 		vec.c
 		mod.c
 
+		wadc.cpp
+
 		include/libcroc.h
 		include/libcroc/utildef.h
 		include/libcroc/util.h

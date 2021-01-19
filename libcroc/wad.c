@@ -17,6 +17,8 @@
  */
 #include <string.h>
 #include <stdio.h>
+#include <errno.h>
+#include <vsclib.h>
 #include <libcroc/wad.h>
 #include <libcroc/util.h>
 
