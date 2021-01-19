@@ -19,6 +19,7 @@
 #define _LIBCROC_WAD_H
 
 #include <stddef.h>
+#include <stdio.h>
 #include "waddef.h"
 
 #ifdef __cplusplus
@@ -30,6 +31,8 @@ int croc_wad_is_mpload(const char *path, unsigned int *level);
 
 /* Is the file a PSX MAP%02u.WAD? */
 int croc_wad_is_mapxx(const char *path, unsigned int *level);
+
+CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num);
 
 /* Decompress a byte-sized RLE */
 int croc_wad_decompressb(void *outbuf, const void *inbuf, size_t compressed_size, size_t uncompressed_size);

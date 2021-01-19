@@ -18,6 +18,8 @@
 #ifndef _LIBCROC_WADDEF_H
 #define _LIBCROC_WADDEF_H
 
+#include <stdint.h>
+
 typedef enum CrocWadFileType {
 	CROC_WAD_FILE_TYPE_BINARY = 0,
 	CROC_WAD_FILE_TYPE_MAP    = 1
@@ -27,5 +29,19 @@ typedef enum CrocWadType {
 	CROC_WAD_TYPE_MPLOAD = 0,
 	CROC_WAD_TYPE_MAPXX  = 1
 } CrocWadType;
+
+typedef enum CrocWadRleType {
+	CROC_WAD_RLE_BYTE = 0,
+	CROC_WAD_RLE_WORD,
+	CROC_WAD_RLE_NONE,
+} CrocWadRleType;
+
+typedef struct CrocWadEntry {
+	char           *filename;
+	uint32_t       offset;
+	uint32_t       compressed_size;
+	uint32_t       uncompressed_size;
+	CrocWadRleType rle_type;
+} CrocWadEntry;
 
 #endif /* _LIBCROC_WADDEF_H */
