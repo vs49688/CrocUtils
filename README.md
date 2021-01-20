@@ -11,13 +11,16 @@ For encoding/decoding of Argonaut ASF and BRP files, please see [FFmpeg](https:/
 
 ### Usage
 ```
-Usage: croctool map decompile <input-file.map> [<output-file.json|->]
+Usage: croctool map decompile <input-file.map> [output-file.json|-]
        croctool map compile <input-file.json|-> <output-file.map>
        croctool map convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>
        croctool map unwad <input-file.wad> <base-name>
-       croctool crocfile dump <CROCFILE.DIR> [<output-file.json|->]
-       croctool crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [<outdir>]
-       croctool mod burst2obj <input-file.mod> [<output-dir>]
+       croctool crocfile dump <CROCFILE.DIR> [output-file.json|-]
+       croctool crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [output-dir]
+       croctool mod burst2obj <input-file.mod> [output-dir]
+       croctool wad extract <base-name> <file-name> [output-dir|-]
+       croctool wad extract-all <base-name> [output-dir]
+       croctool wad dump-index <index-name.idx> [output-file.json]
 ```
 
 #### map decompile
@@ -51,6 +54,25 @@ The directory must exist beforehand.
 "Burst" a MOD file into separate Wavefront Alias OBJ meshes.
 
 Material handling isn't supported yet.
+
+#### wad extract
+
+Extract a named file from a given WAD/IDX pair.
+* `base-name` should be given as the WAD/IDX path WITHOUT the extension.
+* If `output-dir` isn't specified, it will write to the current working directory.
+* If `output-dir` is `-`, then the file contents will be written to stdout.
+* Otherwise, the file will be placed in `output-dir`.
+
+#### wad extract-all
+
+Extract all files from a given WAD/IDX pair.
+* `base-name` should be given as the WAD/IDX path WITHOUT the extension.
+* If `output-dir` isn't specified, the files will be written to the current working directory.
+* Otherwise, the files will be placed in `output-dir`.
+
+#### wad dump-index
+
+Dump an IDX file to JSON.
 
 ## Notes
 
