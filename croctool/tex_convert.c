@@ -78,7 +78,7 @@ int tex_convert(int argc, char **argv)
 {
     CrocTexture *textures[CROC_TEXTURE_MAX_COUNT];
     size_t num = 0;
-    FILE *fp;
+    FILE *fp = NULL;
     int ret = -1;
     char *namebuf = NULL;
     const char *bn_start, *bn_end;
@@ -122,31 +122,45 @@ int tex_convert(int argc, char **argv)
     fp = NULL;
 
     for(size_t i = 0; i < num; ++i) {
-        CrocTexture *ntex;
+        CrocTexture *tex = textures[i];
         uint32_t *data;
 
-        /* Convert it to 32-bit RGBA */
-        if((ntex = croc_texture_rgb565_to_rgba8888(textures[i], args.key ? &colour_key : NULL)) == NULL) {
-            fprintf(stderr, "Error converting to RGBA8888: %s\n", strerror(errno));
-            goto done;
+        switch(tex->format) {
+            case CROC_TEXFMT_XRGB1555:
+                croc_texture_xrgb1555_to_rgb565(tex);
+                /* FALL THROUGH */
+
+            case CROC_TEXFMT_RGB565:
+                /* Convert it to 32-bit RGBA */
+                if((tex = croc_texture_rgb565_to_rgba8888(tex, args.key ? &colour_key : NULL)) == NULL) {
+                    fprintf(stderr, "Error converting to RGBA8888: %s\n", strerror(errno));
+                    goto done;
+                }
+
+                croc_texture_free(textures[i]);
+                textures[i] = tex;
+
+                /* FALL THROUGH */
+
+            case CROC_TEXFMT_RGBA8888:
+                /* Convert it in-place to something stbi can handle. */
+                data = tex->data;
+                tex->format = CROC_TEXFMT_RGBA8888_ARR;
+                for(size_t p = 0; p < tex->width * tex->height; ++p)
+                    data[p] = vsc_native_to_beu32(data[p]);
+
+                /* FALL THROUGH */
+
+            case CROC_TEXFMT_RGBA8888_ARR:
+                break;
         }
-
-        croc_texture_free(textures[i]);
-        textures[i] = ntex;
-
-        data = ntex->data;
-
-        /* Convert it in-place to something stbi can handle. */
-        ntex->format = CROC_TEXFMT_RGBA8888_ARR;
-        for(size_t p = 0; p < ntex->width * ntex->height; ++p)
-            data[p] = vsc_native_to_beu32(data[p]);
 
         if(num == 1)
             sprintf(namebuf, "%.*s.png", (int)(bn_end - bn_start), bn_start);
         else
             sprintf(namebuf, "%.*s_%03zu.png", (int)(bn_end - bn_start), bn_start, i);
 
-        if(!stbi_write_png(namebuf, ntex->width, ntex->height, 4, ntex->data, ntex->bytes_per_row)) {
+        if(!stbi_write_png(namebuf, tex->width, tex->height, 4, tex->data, tex->bytes_per_row)) {
             fprintf(stderr, "Error writing subtexture %s: %s\n", namebuf, strerror(errno));
         }
     }
