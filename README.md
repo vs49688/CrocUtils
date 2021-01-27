@@ -21,6 +21,7 @@ Usage: croctool map decompile <input-file.map> [output-file.json|-]
        croctool wad extract <base-name> <file-name> [output-dir|-]
        croctool wad extract-all <base-name> [output-dir]
        croctool wad dump-index <index-name.idx> [output-file.json]
+       croctool tex convert [--key] <input-file.pix> [base-name]
 ```
 
 #### map decompile
@@ -73,6 +74,15 @@ Extract all files from a given WAD/IDX pair.
 #### wad dump-index
 
 Dump an IDX file to JSON.
+
+#### tex convert
+
+Convert a BRender PIX file (texture) to PNG.
+If multiple textures are contained within the same file, the three-digit index
+is appended to the file name.
+
+If `--key` is specified and the texture is a 16-bit format, all pure-black (0, 0, 0) pixels
+will be marked as completely transparent.
 
 ## Notes
 
