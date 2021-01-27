@@ -17,6 +17,8 @@ add_executable(croctool
 		./wad_extract.c
 		./wad_extract_all.c
 
+		./tex_convert.c
+
 		./stb_image_write.h
 )
 

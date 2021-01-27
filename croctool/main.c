@@ -34,6 +34,7 @@ int mod_burst2obj(int argc, char **argv);
 int wad_extract(int argc, char **argv);
 int wad_extract_all(int argc, char **argv);
 int wad_dump_index(int argc, char **argv);
+int tex_convert(int argc, char **argv);
 
 static void usage(FILE *f, const char *argv0)
 {
@@ -47,6 +48,7 @@ static void usage(FILE *f, const char *argv0)
     fprintf(f, "       %s wad extract <base-name> <file-name> [output-dir|-]\n", argv0);
     fprintf(f, "       %s wad extract-all <base-name> [output-dir]\n", argv0);
     fprintf(f, "       %s wad dump-index <index-name.idx> [output-file.json]\n", argv0);
+    fprintf(f, "       %s tex convert [--key] <input-file.pix> [base-name]\n", argv0);
 }
 
 static void usage_maptool(FILE *f, const char *argv0)
@@ -186,6 +188,11 @@ int main(int argc, char **argv)
             ret = wad_extract_all(argc - 2, argv + 2);
         else if(!strcmp("dump-index", argv[2]))
             ret = wad_dump_index(argc - 2, argv + 2);
+        else
+            ret = 2;
+    } else if(!strcmp("tex", argv[1])) {
+        if(!strcmp("convert", argv[2]))
+            ret = tex_convert(argc - 2, argv + 2);
         else
             ret = 2;
     } else {
