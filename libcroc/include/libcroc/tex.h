@@ -19,6 +19,7 @@
 #ifndef _LIBCROC_TEX_H
 #define _LIBCROC_TEX_H
 
+#include "coldef.h"
 #include "texdef.h"
 
 CrocTexture *croc_texture_allocate(uint16_t width, uint16_t height, CrocTextureFormat format);
@@ -28,8 +29,11 @@ void         croc_texture_free_many(CrocTexture **textures, size_t num);
 
 /*
  * Convert a RGB565 texture to RGBA8888.
+ *
+ * If key is non-NULL, the given RGB value is made fully transparent.
+ *
  * Returns a new texture object.
  */
-CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *tex);
+CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *tex, const CrocColour *key);
 
 #endif /* _LIBCROC_TEX_H */

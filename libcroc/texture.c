@@ -269,7 +269,7 @@ CrocTexture *croc_texture_allocate(uint16_t width, uint16_t height, CrocTextureF
     return tex;
 }
 
-CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *texture)
+CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *texture, const CrocColour *key)
 {
     CrocTexture *tex;
     const uint16_t *in;
@@ -296,8 +296,13 @@ CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *texture)
 
     in  = texture->data;
     out = tex->data;
-    for(size_t i = 0; i < tex->width * tex->height; ++i)
-        out[i] = croc_colour_pack_rgba8888(croc_colour_unpack_rgb565(in[i]));
+    for(size_t i = 0; i < tex->width * tex->height; ++i) {
+        CrocColour col = croc_colour_unpack_rgb565(in[i]);
+        if(key != NULL && col.r == key->r && col.g == key->g && col.b == key->b)
+            col.pad = 0x00u;
+
+        out[i] = croc_colour_pack_rgba8888(col);
+    }
 
     return tex;
 }
