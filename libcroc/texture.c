@@ -43,6 +43,21 @@ static const uint16_t texsizes[] = {
     [CROC_TEXFMT_RGBA8888_ARR] = 4,
 };
 
+static int is_known_format(CrocTextureFormat fmt)
+{
+    switch(fmt) {
+        case CROC_TEXFMT_XRGB1555:
+        case CROC_TEXFMT_RGB565:
+        case CROC_TEXFMT_RGBA8888:
+        case CROC_TEXFMT_RGBA8888_ARR:
+            return 1;
+        default:
+            fprintf(stderr, "Found texture with unknown format %u, please send this\n", (uint32_t)fmt);
+            fprintf(stderr, "  to the developers.\n");
+            return 0;
+    }
+}
+
 
 static int parse_pixelmap(CrocTexture *tex, CrocChunkType type, const uint8_t *ptr, size_t size)
 {
@@ -57,6 +72,10 @@ static int parse_pixelmap(CrocTexture *tex, CrocChunkType type, const uint8_t *p
     tex->height         = vsc_read_beu16(ptr +  5);
     tex->xorigin        = vsc_read_be16( ptr +  7);
     tex->yorigin        = vsc_read_be16( ptr +  9);
+
+    /* TODO: Handle more formats. */
+    if(!is_known_format(tex->format))
+        return -1;
 
     /*
      * PIXELMAP2 has an extra 16-bit field at offset 11. Just skip it.
