@@ -153,6 +153,10 @@ int tex_convert(int argc, char **argv)
 
             case CROC_TEXFMT_RGBA8888_ARR:
                 break;
+
+            default:
+                /* NB: libcroc will warn about this. */
+                continue;
         }
 
         if(num == 1)
