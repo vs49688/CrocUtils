@@ -23,6 +23,7 @@
 
 #include <libcroc/map.h>
 #include <libcroc/vec.h>
+#include <libcroc/col.h>
 
 /* Read an 8-bit length-prefixed string. */
 static int read_mapstring(FILE *f, char *buf, uint8_t *len)

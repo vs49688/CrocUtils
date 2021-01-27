@@ -21,17 +21,7 @@
 #include <stdint.h>
 #include "fixeddef.h"
 
-
-#define CROC_COLOUR_SIZE 4
 #define CROC_VECTOR_SIZE 8
-
-typedef struct CrocColour
-{
-    uint8_t r;
-    uint8_t g;
-    uint8_t b;
-    uint8_t pad;
-} CrocColour;
 
 typedef struct CrocVector
 {

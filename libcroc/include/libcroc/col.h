@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2021 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -15,23 +15,24 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_VEC_H
-#define _LIBCROC_VEC_H
+#ifndef _LIBCROC_COL_H
+#define _LIBCROC_COL_H
 
-#include "vecdef.h"
+#include <stdio.h>
+#include "coldef.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-CrocVector *croc_vector_read(void *p, CrocVector *v);
-void        croc_vector_write(void *p, const CrocVector *v);
+CrocColour *croc_colour_read(void *p, CrocColour *c);
+void        croc_colour_write(void *p, const CrocColour *c);
 
-CrocVector *croc_vector_fread(FILE *f, CrocVector *v);
-int         croc_vector_fwrite(FILE *f, const CrocVector *v);
+CrocColour *croc_colour_fread(FILE *f, CrocColour *c);
+int         croc_colour_fwrite(FILE *f, const CrocColour *c);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* _LIBCROC_VEC_H */
+#endif /* _COLCROC_VEC_H */

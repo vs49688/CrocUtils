@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2021 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -17,42 +17,44 @@
  */
 #include <errno.h>
 #include <vsclib.h>
-#include <libcroc/vec.h>
+#include <libcroc/col.h>
 
-CrocVector *croc_vector_read(void *p, CrocVector *v)
+CrocColour *croc_colour_read(void *p, CrocColour *c)
 {
     uint8_t *d = p;
-    v->x.v   = vsc_read_le16(d + 0);
-    v->y.v   = vsc_read_le16(d + 2);
-    v->z.v   = vsc_read_le16(d + 4);
-    v->pad.v = vsc_read_le16(d + 6);
-    return v;
+    c->r   = vsc_read_uint8(d + 0);
+    c->g   = vsc_read_uint8(d + 1);
+    c->b   = vsc_read_uint8(d + 2);
+    c->pad = vsc_read_uint8(d + 3);
+    return c;
 }
 
-void croc_vector_write(void *p, const CrocVector *v)
+
+void croc_colour_write(void *p, const CrocColour *c)
 {
     uint8_t *d = p;
-    vsc_write_le16(d + 0, v->x.v);
-    vsc_write_le16(d + 2, v->y.v);
-    vsc_write_le16(d + 4, v->z.v);
-    vsc_write_le16(d + 6, v->pad.v);
+    vsc_write_uint8(d + 0, c->r);
+    vsc_write_uint8(d + 1, c->g);
+    vsc_write_uint8(d + 2, c->b);
+    vsc_write_uint8(d + 3, c->pad);
 }
 
-CrocVector *croc_vector_fread(FILE *f, CrocVector *v)
+
+CrocColour *croc_colour_fread(FILE *f, CrocColour *c)
 {
-    uint8_t buf[CROC_VECTOR_SIZE];
-    if(fread(buf, CROC_VECTOR_SIZE, 1, f) != 1) {
+    uint8_t buf[CROC_COLOUR_SIZE];
+    if(fread(buf, CROC_COLOUR_SIZE, 1, f) != 1) {
         errno = EIO;
         return NULL;
     }
 
-    return croc_vector_read(buf, v);
+    return croc_colour_read(buf, c);
 }
 
-int croc_vector_fwrite(FILE *f, const CrocVector *v)
+int croc_colour_fwrite(FILE *f, const CrocColour *c)
 {
-    uint8_t buf[CROC_VECTOR_SIZE];
-    croc_vector_write(buf, v);
+    uint8_t buf[CROC_COLOUR_SIZE];
+    croc_colour_write(buf, c);
 
     if(fwrite(buf, sizeof(buf), 1, f) != 1) {
         errno = EIO;

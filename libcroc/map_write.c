@@ -23,6 +23,7 @@
 
 #include <libcroc/utildef.h>
 #include <libcroc/vec.h>
+#include <libcroc/col.h>
 #include <libcroc/map.h>
 
 static int write_mapstring(FILE *f, const char *s)

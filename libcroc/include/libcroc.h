@@ -21,6 +21,7 @@
 #include "libcroc/checksum.h"
 #include "libcroc/fixed.h"
 #include "libcroc/vec.h"
+#include "libcroc/col.h"
 #include "libcroc/map.h"
 #include "libcroc/util.h"
 #include "libcroc/wad.h"

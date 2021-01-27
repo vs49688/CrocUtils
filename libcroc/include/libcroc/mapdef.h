@@ -20,6 +20,7 @@
 
 #include "fixeddef.h"
 #include "vecdef.h"
+#include "coldef.h"
 
 /* Number of directional light structures in the file. */
 #define CROC_MAP_MAX_DIRECT_LIGHTS    3

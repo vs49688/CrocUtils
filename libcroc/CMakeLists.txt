@@ -12,6 +12,7 @@ add_library(libcroc STATIC
 		util.c
 		dir.c
 		vec.c
+		col.c
 		mod.c
 
 		wadc.cpp
@@ -30,6 +31,8 @@ add_library(libcroc STATIC
 		include/libcroc/dirdef.h
 		include/libcroc/vec.h
 		include/libcroc/vecdef.h
+		include/libcroc/col.h
+		include/libcroc/coldef.h
 		include/libcroc/mod.h
 		include/libcroc/moddef.h
 )
