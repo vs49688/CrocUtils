@@ -306,3 +306,20 @@ CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *texture, const C
 
     return tex;
 }
+
+int croc_texture_xrgb1555_to_rgb565(CrocTexture *tex)
+{
+    uint16_t *data;
+
+    if(tex == NULL || tex->format != CROC_TEXFMT_XRGB1555) {
+        errno = EINVAL;
+        return -1;
+    }
+
+    data = tex->data;
+    for(size_t i = 0; i < tex->width * tex->height; ++i)
+        data[i] = croc_colour_pack_rgb565(croc_colour_unpack_xrgb1555(data[i]));
+
+    tex->format = CROC_TEXFMT_RGB565;
+    return 0;
+}
