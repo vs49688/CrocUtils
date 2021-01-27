@@ -85,7 +85,7 @@ static int parse_pixelmap(CrocTexture *tex, CrocChunkType type, const uint8_t *p
     else
         ptr += 13;
 
-    if((tex->name = strndup((const char *)ptr, end - ptr)) == NULL)
+    if((tex->name = vsc_strrdup((const char *)ptr, (const char*)end)) == NULL)
         return -1;
 
     return 0;
