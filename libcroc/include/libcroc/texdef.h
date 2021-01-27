@@ -24,14 +24,13 @@
 
 typedef enum CrocTextureFormat {
     /*
-     * RGBX5551, host native.
+     * XRGB1555, host native.
      *
      * OpenGL:
-     * - internalFormat = GL_RGB
-     * - format         = GL_RGBA
-     * - type           = GL_UNSIGNED_SHORT_5_5_5_1
+     * - Don't even try, do an in-place convert to
+     *   RGB565 using croc_texture_xrgb1555_to_rgb565().
      */
-    CROC_TEXFMT_RGBX5551   = 4,
+    CROC_TEXFMT_XRGB1555   = 4,
 
     /*
      * RGB565, host-native
