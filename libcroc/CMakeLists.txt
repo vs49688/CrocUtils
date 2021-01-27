@@ -14,6 +14,7 @@ add_library(libcroc STATIC
 		vec.c
 		col.c
 		mod.c
+		chunk.c
 
 		wadc.cpp
 
@@ -35,6 +36,8 @@ add_library(libcroc STATIC
 		include/libcroc/coldef.h
 		include/libcroc/mod.h
 		include/libcroc/moddef.h
+		include/libcroc/chunk.h
+		include/libcroc/chunkdef.h
 )
 
 target_include_directories(libcroc PUBLIC include)

@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2021 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -15,18 +15,15 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_H
-#define _LIBCROC_H
+#ifndef _LIBCROC_CHUNK_H
+#define _LIBCROC_CHUNK_H
 
-#include "libcroc/checksum.h"
-#include "libcroc/fixed.h"
-#include "libcroc/vec.h"
-#include "libcroc/col.h"
-#include "libcroc/map.h"
-#include "libcroc/util.h"
-#include "libcroc/wad.h"
-#include "libcroc/dir.h"
-#include "libcroc/mod.h"
-#include "libcroc/chunk.h"
+#include <stddef.h>
+#include <stdio.h>
+#include "chunkdef.h"
 
-#endif /* _LIBCROC_H */
+typedef int (*CrocChunkEnumerator)(CrocChunkType type, const uint8_t *buf, size_t data, void *user);
+
+int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user);
+
+#endif /* _LIBCROC_CHUNK_H */

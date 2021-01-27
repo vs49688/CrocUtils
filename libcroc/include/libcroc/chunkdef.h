@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2021 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -15,18 +15,21 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_H
-#define _LIBCROC_H
+#ifndef _LIBCROC_CHUNKDEF_H
+#define _LIBCROC_CHUNKDEF_H
 
-#include "libcroc/checksum.h"
-#include "libcroc/fixed.h"
-#include "libcroc/vec.h"
-#include "libcroc/col.h"
-#include "libcroc/map.h"
-#include "libcroc/util.h"
-#include "libcroc/wad.h"
-#include "libcroc/dir.h"
-#include "libcroc/mod.h"
-#include "libcroc/chunk.h"
+#include <stdint.h>
 
-#endif /* _LIBCROC_H */
+typedef enum CrocChunkFileType {
+    CROC_FILE_TYPE_PIXELMAP = 2,
+} CrocChunkFileType;
+
+typedef enum CrocChunkType {
+    CROC_CHUNK_PIXELMAP       =  2,
+    CROC_CHUNK_TYPE_HEADER    = 18,
+    CROC_CHUNK_TYPE_PIXELDATA = 33,
+    CROC_CHUNK_TYPE_MATERIAL  = 60,
+    CROC_CHUNK_TYPE_PIXELMAP2 = 61,
+} CrocChunkType;
+
+#endif /* _LIBCROC_CHUNKDEF_H */
