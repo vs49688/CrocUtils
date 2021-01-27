@@ -63,3 +63,21 @@ int croc_colour_fwrite(FILE *f, const CrocColour *c)
 
     return 0;
 }
+
+CrocColour croc_colour_unpack_rgb565(uint16_t pixel)
+{
+    CrocColour c;
+
+    /* Going for readability, the compiler should be able to combine the shifts. */
+    c.r   = (uint8_t)((pixel & 0b1111100000000000u) >> 11u) << 3u;
+    c.g   = (uint8_t)((pixel & 0b0000011111100000u) >>  5u) << 2u;
+    c.b   = (uint8_t)((pixel & 0b0000000000011111u) >>  0u) << 3u;;
+    c.pad = 0xFFu;
+
+    return c;
+}
+
+uint32_t croc_colour_pack_rgba8888(CrocColour c)
+{
+    return (c.r << 24u) | (c.g << 16u) | (c.b << 8u) | (c.pad << 0u);
+}
