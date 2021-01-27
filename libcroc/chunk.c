@@ -22,8 +22,7 @@
 int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
 {
     void *buf = NULL;
-    int ret = -1, /*have_header = 0, */errno_;
-
+    int ret = -1, errno_;
 
     for(;;) {
         CrocChunkType type;
@@ -37,15 +36,6 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
             errno = EIO;
             break;
         }
-
-        /* The file's "magic number" is actually a CROC_CHUNK_HEADER chunk. */
-//        if(!have_header) {
-//            if(type != CROC_CHUNK_TYPE_HEADER || length != 8) {
-//                errno = EINVAL;
-//                break;
-//            }
-//            have_header = 1;
-//        }
 
         if(type == 0 && length == 0) {
             ret = 0;
@@ -64,7 +54,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
             break;
         }
 
-        fprintf(stderr, "type = %u, size = %u\n", type, length);
+        //fprintf(stderr, "type = %u, size = %u\n", type, length);
         if(proc(type, buf, length, user) < 0) {
             errno = ECANCELED;
             break;
