@@ -17,6 +17,7 @@ add_executable(croctool
 		./wad_extract.c
 		./wad_extract_all.c
 
+		./stb_image_write.h
 )
 
 target_link_libraries(croctool libcroc vsclib)
