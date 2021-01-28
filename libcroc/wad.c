@@ -149,7 +149,7 @@ static int croc_wad_parse_line(const char *s, const char *e, void *user)
     IdxParseState *idx = user;
 
     /* Handle trailing CRs */
-    if(e > s && *e == '\r')
+    if(e > s && *(e - 1) == '\r')
         --e;
 
     /* Skip empty lines. */
