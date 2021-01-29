@@ -142,6 +142,7 @@ static int read_pixeldata(CrocTexture *tex, CrocChunkType type, const uint8_t *p
                 data[i + 0] = data[i + 2];
                 data[i + 2] = c;
             }
+            break;
         }
 
         case 4: {
