@@ -37,6 +37,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
             break;
         }
 
+        //fprintf(stderr, "type = %u, size = %u\n", type, length);
         if(type == 0 && length == 0) {
             ret = 0;
             break;
@@ -56,7 +57,6 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
             }
         }
 
-        //fprintf(stderr, "type = %u, size = %u\n", type, length);
         if(proc(type, buf, length, user) < 0) {
             errno = ECANCELED;
             break;
