@@ -359,7 +359,7 @@ CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *texture, const C
 
     if(texture->name) {
         if((tex->name = strdup(texture->name)) == NULL) {
-            free(tex);
+            croc_texture_free(tex);
             errno = ENOMEM;
             return NULL;
         }
