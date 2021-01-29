@@ -28,6 +28,12 @@ typedef enum CrocChunkType {
     CROC_CHUNK_PIXELMAP       =  2,
     CROC_CHUNK_TYPE_HEADER    = 18,
     CROC_CHUNK_TYPE_PIXELDATA = 33,
+    /*
+     * A "glue" chunk. "Glues" the palette to the index.
+     *
+     * This needs a better name.
+     */
+    CROC_CHUNK_TYPE_PAL_GLUE  = 34,
     CROC_CHUNK_TYPE_MATERIAL  = 60,
     CROC_CHUNK_TYPE_PIXELMAP2 = 61,
 } CrocChunkType;
