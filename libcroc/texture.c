@@ -194,10 +194,6 @@ static int enumproc(CrocChunkType type, const uint8_t *ptr, size_t size, void *u
 
         if(state->tex->format == CROC_TEXFMT_INDEX8) {
             state->state = TEX_STATE_PIXELMAP_PAL;
-
-            if((state->tex->palette = calloc(1, sizeof(CrocTexture))) == NULL)
-                return -1;
-
         } else {
             state->state = TEX_STATE_PIXELMAP_DATA;
         }
@@ -207,6 +203,9 @@ static int enumproc(CrocChunkType type, const uint8_t *ptr, size_t size, void *u
 
     if(state->state == TEX_STATE_PIXELMAP_PAL) {
         assert(state->tex->format == CROC_TEXFMT_INDEX8);
+
+        if((state->tex->palette = calloc(1, sizeof(CrocTexture))) == NULL)
+            return -1;
 
         if((r = parse_pixelmap(state->tex->palette, type, ptr, size)) < 0)
             return r;
