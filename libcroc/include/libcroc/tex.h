@@ -37,4 +37,14 @@ void         croc_texture_free_many(CrocTexture **textures, size_t num);
 CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *tex, const CrocColour *key);
 int          croc_texture_xrgb1555_to_rgb565(CrocTexture *tex);
 
+/*
+ * Convert a 8-bit indexed texture to RGBA8888.
+ * It is expected the palette is XRGB8888.
+ *
+ * If key is non-NULL, the given RGB value is made fully transparent.
+ *
+ * Returns a new texture object.
+ */
+CrocTexture *croc_texture_deindex8(const CrocTexture *tex, const CrocColour *key);
+
 #endif /* _LIBCROC_TEX_H */

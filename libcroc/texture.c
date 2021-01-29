@@ -391,3 +391,47 @@ int croc_texture_xrgb1555_to_rgb565(CrocTexture *tex)
     tex->format = CROC_TEXFMT_RGB565;
     return 0;
 }
+
+CrocTexture *croc_texture_deindex8(const CrocTexture *tex, const CrocColour *key)
+{
+    uint8_t *index;
+    uint32_t *data, *pal;
+    CrocTexture *ntex;
+
+    if(tex == NULL || tex->format != CROC_TEXFMT_INDEX8) {
+        errno = EINVAL;
+        return NULL;
+    }
+
+    /* I've only ever seen indexed textures using XRGB8888 */
+    if(tex->palette == NULL || tex->palette->format != CROC_TEXFMT_XRGB8888) {
+        errno = EINVAL;
+        return NULL;
+    }
+
+    if((ntex = croc_texture_allocate(tex->width, tex->height, CROC_TEXFMT_RGBA8888)) == NULL) {
+        errno = ENOMEM;
+        return NULL;
+    }
+
+    if(tex->name) {
+        if((ntex->name = strdup(tex->name)) == NULL) {
+            croc_texture_free(ntex);
+            errno = ENOMEM;
+            return NULL;
+        }
+    }
+
+    index = tex->data;
+    data  = ntex->data;
+    pal   = tex->palette->data;
+    for(size_t i = 0; i < tex->width * tex->height; ++i) {
+        CrocColour col = croc_colour_unpack_xrgb8888(pal[index[i]]);
+        if(key != NULL && col.r == key->r && col.g == key->g && col.b == key->b)
+            col.pad = 0x00u;
+
+        data[i] = croc_colour_pack_rgba8888(col);
+    }
+
+    return ntex;
+}
