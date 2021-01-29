@@ -119,14 +119,14 @@ static int read_pixeldata(CrocTexture *tex, CrocChunkType type, const uint8_t *p
     switch(elemsize_) {
         case 2: {
             uint16_t *data = tex->data;
-            for(size_t i = 0; i < tex->width * tex->height; ++i)
+            for(size_t i = 0; i < length_; ++i)
                 data[i] = vsc_beu16_to_native(data[i]);
             break;
         }
 
         case 3: {
             uint8_t *data = tex->data;
-            for(size_t i = 0; i < tex->bytes_per_row * tex->height; i += 3) {
+            for(size_t i = 0; i < size - 8; i += 3) {
                 uint8_t c   = data[i + 0];
                 data[i + 0] = data[i + 2];
                 data[i + 2] = c;
@@ -135,7 +135,7 @@ static int read_pixeldata(CrocTexture *tex, CrocChunkType type, const uint8_t *p
 
         case 4: {
             uint32_t *data = tex->data;
-            for(size_t i = 0; i < tex->width * tex->height; ++i)
+            for(size_t i = 0; i < length_; ++i)
                 data[i] = vsc_beu32_to_native(data[i]);
             break;
         }
