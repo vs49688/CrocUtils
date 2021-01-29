@@ -44,6 +44,7 @@ static const uint16_t texsizes[] = {
     [CROC_TEXFMT_INDEX8]       = 1,
     [CROC_TEXFMT_XRGB1555]     = 2,
     [CROC_TEXFMT_RGB565]       = 2,
+    [CROC_TEXFMT_RGB888]       = 3,
     [CROC_TEXFMT_XRGB8888]     = 4,
     [CROC_TEXFMT_RGBA8888]     = 4,
     [CROC_TEXFMT_RGBA8888_ARR] = 4,
@@ -55,6 +56,7 @@ static int is_known_format(CrocTextureFormat fmt)
         case CROC_TEXFMT_INDEX8:
         case CROC_TEXFMT_XRGB1555:
         case CROC_TEXFMT_RGB565:
+        case CROC_TEXFMT_RGB888:
         case CROC_TEXFMT_XRGB8888:
         case CROC_TEXFMT_RGBA8888:
         case CROC_TEXFMT_RGBA8888_ARR:

@@ -52,6 +52,13 @@ typedef enum CrocTextureFormat {
     CROC_TEXFMT_RGB565   = 5,
 
     /*
+     * RGB888, host-native.
+     *
+     * OpenGL: annoying to deal with, convert to CROC_TEXFMT_RGBA8888
+     */
+    CROC_TEXFMT_RGB888  = 6,
+
+    /*
      * XRGB8888, host-native
      *
      * OpenGL:
