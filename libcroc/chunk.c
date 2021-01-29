@@ -42,6 +42,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
             break;
         }
 
+        if(length > 0) {
         if((_buf = realloc(buf, length)) == NULL) {
             errno = ENOMEM;
             break;
@@ -52,6 +53,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
         if(fread(buf, length, 1, f) != 1) {
             errno = EIO;
             break;
+        }
         }
 
         //fprintf(stderr, "type = %u, size = %u\n", type, length);
