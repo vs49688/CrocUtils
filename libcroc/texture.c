@@ -234,7 +234,7 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
 fail:
     errno_ = errno;
 
-    croc_texture_free_many(textures, (size_t)i);
+    croc_texture_free_many(textures, (size_t)i + 1);
 
     errno = errno_;
     return -1;
