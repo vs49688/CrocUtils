@@ -127,6 +127,10 @@ int tex_convert(int argc, char **argv)
 
         switch(tex->format) {
             case CROC_TEXFMT_INDEX8:
+                if(tex->palette == NULL) {
+                    fprintf(stderr, "Indexed texture without palette (index=%zu). This is currently not supported.\n", i);
+                    continue;
+                }
                 if((tex = croc_texture_deindex8(tex, args.key ? &colour_key : NULL)) == NULL) {
                     fprintf(stderr, "Error converting to RGBA8888: %s\n", strerror(errno));
                     goto done;
