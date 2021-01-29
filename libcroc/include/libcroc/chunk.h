@@ -22,8 +22,16 @@
 #include <stdio.h>
 #include "chunkdef.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef int (*CrocChunkEnumerator)(CrocChunkType type, const uint8_t *buf, size_t data, void *user);
 
 int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _LIBCROC_CHUNK_H */

@@ -22,6 +22,10 @@
 #include "coldef.h"
 #include "texdef.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 CrocTexture *croc_texture_allocate(uint16_t width, uint16_t height, CrocTextureFormat format);
 void         croc_texture_free(CrocTexture *texture);
 int          croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num);
@@ -47,5 +51,9 @@ int          croc_texture_xrgb1555_to_rgb565(CrocTexture *tex);
  * Returns a new texture object.
  */
 CrocTexture *croc_texture_deindex8(const CrocTexture *tex, const CrocColour *key);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _LIBCROC_TEX_H */
