@@ -73,6 +73,9 @@ static int parse_pixelmap(CrocTexture *tex, CrocChunkType type, const uint8_t *p
 {
     const uint8_t *end = ptr + size;
 
+    if(type != CROC_CHUNK_PIXELMAP && type != CROC_CHUNK_TYPE_PIXELMAP2)
+        return -1;
+
     if((type == CROC_CHUNK_PIXELMAP && size < 11) || (type == CROC_CHUNK_TYPE_PIXELMAP2 && size < 13))
         return -1;
 
