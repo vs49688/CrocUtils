@@ -25,7 +25,7 @@ typedef enum CrocChunkFileType {
 } CrocChunkFileType;
 
 typedef enum CrocChunkType {
-    CROC_CHUNK_PIXELMAP       =  2,
+    CROC_CHUNK_PIXELMAP       =  3,
     CROC_CHUNK_TYPE_HEADER    = 18,
     CROC_CHUNK_TYPE_PIXELDATA = 33,
     /*
