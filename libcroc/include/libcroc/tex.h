@@ -35,6 +35,7 @@ void         croc_texture_free_many(CrocTexture **textures, size_t num);
  * Returns a new texture object.
  */
 CrocTexture *croc_texture_rgb565_to_rgba8888(const CrocTexture *tex, const CrocColour *key);
+CrocTexture *croc_texture_rgb888_to_rgba8888(const CrocTexture *tex, const CrocColour *key);
 int          croc_texture_xrgb1555_to_rgb565(CrocTexture *tex);
 
 /*
