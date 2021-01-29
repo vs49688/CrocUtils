@@ -126,6 +126,15 @@ int tex_convert(int argc, char **argv)
         uint32_t *data;
 
         switch(tex->format) {
+            case CROC_TEXFMT_INDEX8:
+                if((tex = croc_texture_deindex8(tex, args.key ? &colour_key : NULL)) == NULL) {
+                    fprintf(stderr, "Error converting to RGBA8888: %s\n", strerror(errno));
+                    goto done;
+                }
+                croc_texture_free(textures[i]);
+                textures[i] = tex;
+                goto is_rgba8888;
+
             case CROC_TEXFMT_XRGB1555:
                 croc_texture_xrgb1555_to_rgb565(tex);
                 /* FALL THROUGH */
@@ -141,7 +150,7 @@ int tex_convert(int argc, char **argv)
                 textures[i] = tex;
 
                 /* FALL THROUGH */
-
+is_rgba8888:
             case CROC_TEXFMT_RGBA8888:
                 /* Convert it in-place to something stbi can handle. */
                 data = tex->data;
