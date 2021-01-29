@@ -24,6 +24,15 @@
 
 typedef enum CrocTextureFormat {
     /*
+     * 8-bit indexed colour.
+     *
+     * OpenGL:
+     * - Don't even try. glColorTable() was removed in
+     *   3.1 core. Convert to a non-indexed format.
+     */
+    CROC_TEXFMT_INDEX8     = 3,
+
+    /*
      * XRGB1555, host native.
      *
      * OpenGL:
@@ -41,6 +50,14 @@ typedef enum CrocTextureFormat {
      * - type           = GL_UNSIGNED_SHORT_5_6_5
      */
     CROC_TEXFMT_RGB565   = 5,
+
+    /*
+     * XRGB8888, host-native
+     *
+     * OpenGL:
+     * - Convert to CROC_TEXFMT_RGBA8888
+     */
+    CROC_TEXFMT_XRGB8888 = 7,
 
     /*
      * RGBA8888, host-native
