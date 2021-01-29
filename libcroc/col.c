@@ -87,6 +87,16 @@ CrocColour croc_colour_unpack_xrgb1555(uint16_t pixel)
     return c;
 }
 
+CrocColour croc_colour_unpack_rgb888(const uint8_t *pixel)
+{
+    CrocColour c;
+    c.r = *(pixel + 0);
+    c.g = *(pixel + 1);
+    c.b = *(pixel + 2);
+    c.pad = 0xFFu;
+    return c;
+}
+
 CrocColour croc_colour_unpack_xrgb8888(uint32_t pixel)
 {
     CrocColour c;

@@ -33,6 +33,7 @@ int         croc_colour_fwrite(FILE *f, const CrocColour *c);
 
 CrocColour  croc_colour_unpack_rgb565(uint16_t pixel);
 CrocColour  croc_colour_unpack_xrgb1555(uint16_t pixel);
+CrocColour  croc_colour_unpack_rgb888(const uint8_t *pixel);
 CrocColour  croc_colour_unpack_xrgb8888(uint32_t pixel);
 uint16_t    croc_colour_pack_rgb565(CrocColour c);
 uint32_t    croc_colour_pack_rgba8888(CrocColour c);
