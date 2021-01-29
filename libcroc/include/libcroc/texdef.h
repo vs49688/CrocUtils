@@ -83,15 +83,20 @@ typedef enum CrocTextureFormat {
     CROC_TEXFMT_RGBA8888_ARR = 16384,
 } CrocTextureFormat;
 
-typedef struct CrocTexture {
+struct CrocTexture;
+typedef struct CrocTexture CrocTexture;
+
+struct CrocTexture {
     CrocTextureFormat format;
     uint16_t          bytes_per_row;
     uint16_t          width;
     uint16_t          height;
     int16_t           xorigin;
     int16_t           yorigin;
+    /* Colour Palette, only if an indexed format. */
+    CrocTexture       *palette;
     char              *name;
     void              *data;
-} CrocTexture;
+};
 
 #endif /* _LIBCROC_TEXDEF_H */
