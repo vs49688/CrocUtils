@@ -23,14 +23,18 @@
 #include <libcroc/tex.h>
 
 enum {
-    TEX_STATE_NONE          = 0,
-    TEX_STATE_FILE_INFO     = 1,
-    TEX_STATE_PIXELMAP_INFO = 2,
-    TEX_STATE_PIXELMAP_DATA = 3,
+    TEX_STATE_HEADER            = 0,
+    TEX_STATE_PIXELMAP_INFO     = 1,
+    TEX_STATE_PIXELMAP_PAL      = 2,
+    TEX_STATE_PIXELMAP_PAL_DATA = 3,
+    TEX_STATE_PIXELMAP_PAL_GLUE = 4,
+    TEX_STATE_PIXELMAP_DATA     = 5,
+    TEX_STATE_DONE,
 };
 
 typedef struct TexParseState {
     CrocTexture *tex;
+
     int state; /* One of the TEX_STATE_* constants */
     int pixno;
 } TexParseState;
@@ -121,6 +125,9 @@ static int read_pixeldata(CrocTexture *tex, CrocChunkType type, const uint8_t *p
 
     /* Handle pixel endianness. */
     switch(elemsize_) {
+        case 1:
+            break;
+
         case 2: {
             uint16_t *data = tex->data;
             for(size_t i = 0; i < length_; ++i)
@@ -156,10 +163,10 @@ static int enumproc(CrocChunkType type, const uint8_t *ptr, size_t size, void *u
     int r;
     TexParseState *state = user;
 
-    if(state->pixno > 0 && state->state == TEX_STATE_NONE && type != CROC_CHUNK_TYPE_HEADER)
-        state->state = TEX_STATE_FILE_INFO;
+    if(state->pixno > 0 && state->state == TEX_STATE_HEADER && type != CROC_CHUNK_TYPE_HEADER)
+        state->state = TEX_STATE_PIXELMAP_INFO;
 
-    if(state->state == TEX_STATE_NONE) {
+    if(state->state == TEX_STATE_HEADER) {
         uint32_t type_, version_;
 
         if(state->pixno > 0 || type != CROC_CHUNK_TYPE_HEADER || size != 8)
@@ -171,23 +178,58 @@ static int enumproc(CrocChunkType type, const uint8_t *ptr, size_t size, void *u
         if(type_ != CROC_FILE_TYPE_PIXELMAP || version_ != 2)
             return -1;
 
-        state->state = TEX_STATE_FILE_INFO;
-        return 0;
-    }
-
-    if(state->state == TEX_STATE_FILE_INFO) {
-        if((r = parse_pixelmap(state->tex, type, ptr, size)) < 0)
-            return r;
-
         state->state = TEX_STATE_PIXELMAP_INFO;
         return 0;
     }
 
     if(state->state == TEX_STATE_PIXELMAP_INFO) {
+        if((r = parse_pixelmap(state->tex, type, ptr, size)) < 0)
+            return r;
+
+        if(state->tex->format == CROC_TEXFMT_INDEX8) {
+            state->state = TEX_STATE_PIXELMAP_PAL;
+
+            if((state->tex->palette = calloc(1, sizeof(CrocTexture))) == NULL)
+                return -1;
+
+        } else {
+            state->state = TEX_STATE_PIXELMAP_DATA;
+        }
+
+        return 0;
+    }
+
+    if(state->state == TEX_STATE_PIXELMAP_PAL) {
+        assert(state->tex->format == CROC_TEXFMT_INDEX8);
+
+        if((r = parse_pixelmap(state->tex->palette, type, ptr, size)) < 0)
+            return r;
+
+        state->state = TEX_STATE_PIXELMAP_PAL_DATA;
+        return 0;
+    }
+
+    if(state->state == TEX_STATE_PIXELMAP_PAL_DATA) {
+        if((r = read_pixeldata(state->tex->palette, type, ptr, size)) < 0)
+            return r;
+
+        state->state = TEX_STATE_PIXELMAP_PAL_GLUE;
+        return 0;
+    }
+
+    if(state->state == TEX_STATE_PIXELMAP_PAL_GLUE) {
+        if(type != CROC_CHUNK_TYPE_PAL_GLUE)
+            return -1;
+
+        state->state = TEX_STATE_PIXELMAP_DATA;
+        return 0;
+    }
+
+    if(state->state == TEX_STATE_PIXELMAP_DATA) {
         if((r = read_pixeldata(state->tex, type, ptr, size)) < 0)
             return r;
 
-        state->state = TEX_STATE_PIXELMAP_DATA;
+        state->state = TEX_STATE_DONE;
         ++state->pixno;
         return 0;
     }
@@ -202,12 +244,12 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
 
     TexParseState state = {
         .tex   = NULL,
-        .state = TEX_STATE_NONE,
+        .state = TEX_STATE_HEADER,
         .pixno = 0,
     };
 
     state.tex   = NULL;
-    state.state = TEX_STATE_NONE;
+    state.state = TEX_STATE_HEADER;
 
     for(i = 0; i < CROC_TEXTURE_MAX_COUNT; ++i) {
         if((textures[i] = calloc(1, sizeof(CrocTexture))) == NULL) {
@@ -216,7 +258,7 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
         }
 
         state.tex     = textures[i];
-        state.state   = TEX_STATE_NONE;
+        state.state   = TEX_STATE_HEADER;
 
         if(croc_chunk_enumerate(f, enumproc, &state) >= 0)
             continue;
@@ -225,7 +267,7 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
             goto fail;
 
         /* EIO needs special handling. */
-        if(ferror(f) || !feof(f) || state.state != TEX_STATE_NONE)
+        if(ferror(f) || !feof(f) || state.state != TEX_STATE_HEADER)
             goto fail;
 
         free(textures[i]);
@@ -250,6 +292,9 @@ void croc_texture_free_many(CrocTexture **textures, size_t num)
         return;
 
     for(size_t i = num; i-- > 0;) {
+        if(textures[i]->palette)
+            croc_texture_free(textures[i]->palette);
+
         croc_texture_free(textures[i]);
         textures[i] = NULL;
     }
