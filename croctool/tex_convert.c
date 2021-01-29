@@ -135,6 +135,15 @@ int tex_convert(int argc, char **argv)
                 textures[i] = tex;
                 goto is_rgba8888;
 
+            case CROC_TEXFMT_RGB888:
+                if((tex = croc_texture_rgb888_to_rgba8888(tex, args.key ? &colour_key : NULL)) == NULL) {
+                    fprintf(stderr, "Error converting to RGBA8888: %s\n", strerror(errno));
+                    goto done;
+                }
+                croc_texture_free(textures[i]);
+                textures[i] = tex;
+                goto is_rgba8888;
+
             case CROC_TEXFMT_XRGB1555:
                 croc_texture_xrgb1555_to_rgb565(tex);
                 /* FALL THROUGH */
