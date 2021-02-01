@@ -23,6 +23,11 @@
 #include <libcroc/wad.h>
 #include <libcroc/util.h>
 
+const static char CrocWadRleStrings[] = {
+    [CROC_WAD_RLE_NONE] = 'u', /* Unlimited */
+    [CROC_WAD_RLE_BYTE] = 'b', /* Blade     */
+    [CROC_WAD_RLE_WORD] = 'w', /* Works     */
+};
 
 /* Is the file a Saturn MPLOAD%02u.WAD? */
 int croc_wad_is_mpload(const char *path, unsigned int *level)
@@ -218,6 +223,35 @@ void croc_wad_free_index(CrocWadEntry *entries, size_t num)
     }
 
     free(entries);
+}
+
+int croc_wad_write_index(FILE *f, const CrocWadEntry *entries, size_t num)
+{
+    if(f == NULL || entries == NULL) {
+        errno = EINVAL;
+        return -1;
+    }
+
+    for(size_t i = 0; i < num; ++i) {
+        if(strchr(entries[i].filename, ',') != NULL) {
+            errno = EINVAL;
+            return -1;
+        }
+    }
+
+    for(size_t i = 0; i < num; ++i) {
+        const CrocWadEntry *e = entries + i;
+        int r = fprintf(f, "%s,%u,%u,%u,%c\r\n",
+            e->filename, e->offset, e->compressed_size,
+            e->uncompressed_size, CrocWadRleStrings[e->rle_type]
+        );
+        if(r < 0) {
+            errno = EIO;
+            return -1;
+        }
+    }
+
+    return 0;
 }
 
 cJSON *croc_wad_index_write_json(const CrocWadEntry *entries, size_t count)

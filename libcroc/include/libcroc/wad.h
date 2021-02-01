@@ -37,6 +37,8 @@ CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num);
 
 void croc_wad_free_index(CrocWadEntry *entries, size_t num);
 
+int croc_wad_write_index(FILE *f, const CrocWadEntry *entries, size_t num);
+
 cJSON *croc_wad_index_write_json(const CrocWadEntry *entries, size_t count);
 
 /* Decompress a byte-sized RLE.*/
