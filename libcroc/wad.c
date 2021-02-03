@@ -300,6 +300,7 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
     }
 
     if(entry->rle_type == CROC_WAD_RLE_NONE) {
+        free(ubuf);
         ubuf = cbuf;
         cbuf = NULL;
         r = 0;
