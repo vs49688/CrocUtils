@@ -106,32 +106,33 @@ const char * const CrocMapDoorFlagStrings[] = {
     [CROC_MAP_DOOR_FINAL]   = "final",
 };
 
+static const CrocMap default_map = {
+    ._format        = CROC_MAP_FMT_NORMAL,
+    ._version       = 21,
+    ._level         = 0,
+    ._sublevel      = 0,
+    ._checksum      = 0,
+
+    .name           = "Default New Map",
+
+    .width          = 16,
+    .height         = 16,
+    .depth          = 32,
+    .style          = CROC_MAP_STYLE_ICE,
+
+    .ambient_colour = {
+        .r = 64,
+        .g = 64,
+        .b = 64,
+    }
+};
+
 void croc_map_init(CrocMap *map)
 {
     if(map == NULL)
         return;
 
-    memset(map, 0, sizeof(CrocMap));
-
-    /* Init with some basic defaults. */
-    map->_version   = 21;
-    map->_format    = CROC_MAP_FMT_NORMAL;
-    map->_level     = 0;
-    map->_sublevel  = 0;
-    map->_checksum  = 0;
-
-    strncpy(map->name, "Default New Map", CROC_MAP_STRING_LEN);
-    map->name[CROC_MAP_STRING_LEN] = '\0';
-
-    map->width      = 16;
-    map->height     = 16;
-    map->depth      = 32;
-    map->style      = CROC_MAP_STYLE_ICE;
-
-    map->ambient_colour.r   = 64;
-    map->ambient_colour.g   = 64;
-    map->ambient_colour.b   = 64;
-    map->ambient_colour.pad =  0;
+    *map = default_map;
 }
 
 int croc_map_rebase(CrocMap *map, int base)
