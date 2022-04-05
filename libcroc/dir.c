@@ -23,6 +23,30 @@
 #include <cJSON.h>
 #include <libcroc/dir.h>
 
+static int croc_dir_write_entry(const CrocDirEntry *d, FILE *f, int big)
+{
+    uint8_t  buf[CROC_DIRENTRY_SIZE];
+    uint32_t sr = (d->size & 0xFFFFFF) | (d->restart << 24);
+
+    memcpy(buf + 0, d->name, CROC_DIRENTRY_NAME_SIZE);
+    if(big) {
+        vsc_write_beu32(buf + 12, sr);
+        vsc_write_beu32(buf + 16, d->offset);
+        vsc_write_beu32(buf + 20, d->usage);
+    } else {
+        vsc_write_leu32(buf + 12, sr);
+        vsc_write_leu32(buf + 16, d->offset);
+        vsc_write_leu32(buf + 20, d->usage);
+    }
+
+    if(fwrite(buf, CROC_DIRENTRY_SIZE, 1, f) != 1) {
+        errno = EIO;
+        return -1;
+    }
+
+    return 0;
+}
+
 static int croc_dir_read_entry(CrocDirEntry *d, FILE *f, int big, int oldstyle)
 {
     uint8_t buf[CROC_DIRENTRY_SIZE];
@@ -126,6 +150,38 @@ done:
 
     errno = err;
     return NULL;
+}
+
+int croc_dir_write(FILE *f, const CrocDirEntry *entries, size_t count, int big)
+{
+    size_t r;
+
+    if(f == NULL || (entries == NULL && count != 0)) {
+        errno = EINVAL;
+        return -1;
+    }
+
+    if(count > UINT32_MAX) {
+        errno = ERANGE;
+        return -1;
+    }
+
+    if(big)
+        r = vsc_fwrite_beu32(f, (uint32_t)count);
+    else
+        r = vsc_fwrite_leu32(f, (uint32_t)count);
+
+    if(r != 1) {
+        errno = EIO;
+        return -1;
+    }
+
+    for(size_t i = 0; i < count; ++i) {
+        if(croc_dir_write_entry(entries + i, f, big) < 0)
+            return -1;
+    }
+
+    return 0;
 }
 
 cJSON *croc_dir_write_json(const CrocDirEntry *entries, size_t count)
