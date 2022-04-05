@@ -30,6 +30,7 @@ int map_convert(int argc, char **argv);
 int map_unwad(int argc, char **argv);
 int crocfile_dump(int argc, char **argv);
 int crocfile_extract(int argc, char **argv);
+int crocfile_build(int argc, char **argv);
 int mod_burst2obj(int argc, char **argv);
 int wad_extract(int argc, char **argv);
 int wad_extract_all(int argc, char **argv);
@@ -44,6 +45,7 @@ static void usage(FILE *f, const char *argv0)
     fprintf(f, "       %s map unwad <input-file.wad> <base-name>\n", argv0);
     fprintf(f, "       %s crocfile dump <CROCFILE.DIR> [output-file.json|-]\n", argv0);
     fprintf(f, "       %s crocfile extract <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> [output-dir]\n", argv0);
+    fprintf(f, "       %s crocfile build <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> <input-file1> [input-file2 [...]]\n", argv0);
     fprintf(f, "       %s mod burst2obj <input-file.mod> [output-dir]\n", argv0);
     fprintf(f, "       %s wad extract <base-name> <file-name> [output-dir|-]\n", argv0);
     fprintf(f, "       %s wad extract-all <base-name> [output-dir]\n", argv0);
@@ -174,6 +176,8 @@ int main(int argc, char **argv)
             ret = crocfile_dump(argc - 2, argv + 2);
         else if(!strcmp("extract", argv[2]))
             ret = crocfile_extract(argc - 2, argv + 2);
+        else if(!strcmp("build", argv[2]))
+            ret = crocfile_build(argc - 2, argv + 2);
         else
             ret = 2;
     } else if(!strcmp("mod", argv[1])) {

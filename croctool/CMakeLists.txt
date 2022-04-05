@@ -10,6 +10,7 @@ add_executable(croctool
 
 		./crocfile_extract.c
 		./crocfile_dump.c
+		./crocfile_build.c
 
 		./mod_burst2obj.c
 
