@@ -23,6 +23,7 @@
 #define CROC_DIRENTRY_SIZE        24
 #define CROC_DIRENTRY_NAME_SIZE   12
 #define CROC_DIRENTRY_SECTOR_SIZE 2048
+#define CROC_DIRENTRY_MAX_FILE_SIZE 16777215
 
 /*
  * A "directory" entry.
