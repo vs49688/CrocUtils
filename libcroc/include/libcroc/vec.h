@@ -18,6 +18,7 @@
 #ifndef _LIBCROC_VEC_H
 #define _LIBCROC_VEC_H
 
+#include <stdio.h>
 #include "vecdef.h"
 
 #ifdef __cplusplus
