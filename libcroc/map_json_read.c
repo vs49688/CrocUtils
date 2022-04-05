@@ -179,6 +179,40 @@ static int read_effect(const cJSON *j, const char *name, CrocMapEffect *effect)
     return 0;
 }
 
+
+static int read_format(const cJSON *j, const char *name, CrocMapFormat *format)
+{
+    cJSON *tmp;
+
+    /* Handle if this is a number. */
+    if((tmp = get_type(j, name, cJSON_IsNumber)) != NULL) {
+        uint16_t val = (uint16_t)tmp->valuedouble;
+        if(val >= CROC_MAP_FMT_INVALID)
+            return -1;
+
+        *format = (CrocMapFormat)val;
+        return 0;
+    }
+
+    if((tmp = get_type(j, name, cJSON_IsString)) == NULL)
+        return -1;
+
+    int i;
+    for(i = 0; i < CROC_MAP_FMT_INVALID; ++i) {
+        if(CrocMapFmtStrings[i] == NULL)
+            continue;
+
+        if(strcmp(CrocMapFmtStrings[i], tmp->valuestring) == 0)
+            break;
+    }
+
+    if(i == CROC_MAP_FMT_INVALID)
+        return -1;
+
+    *format = (CrocMapFormat)i;
+    return 0;
+}
+
 static int read_ambience(const cJSON *j, const char *name, CrocMapAmbience *ambience)
 {
     cJSON *tmp;
@@ -589,9 +623,38 @@ static int read_direct_lights(const cJSON *j, const char *name, CrocMapDirectLig
     return 0;
 }
 
+static int read_meta(const cJSON *j, const char *name, CrocMap *map)
+{
+    cJSON *tmp;
+
+    /* This field is optional */
+    if((tmp = get_type(j, name, cJSON_IsObject)) == NULL)
+        return 0;
+
+    if(read_uint16(tmp, "version", &map->_version) < 0)
+        return -1;
+
+    if(read_format(tmp, "format", &map->_format) < 0)
+        return -1;
+
+    if(read_uint16(tmp, "level", &map->_level) < 0)
+        return -1;
+
+    if(read_uint16(tmp, "sublevel", &map->_sublevel) < 0)
+        return -1;
+
+    if(read_uint32(tmp, "checksum", &map->_checksum) < 0)
+        return -1;
+
+    return 0;
+}
+
 CrocMap *croc_map_read_json(const cJSON *j, CrocMap *map)
 {
     croc_map_free(map);
+
+    if(read_meta(j, "_meta", map) < 0)
+        goto fail;
 
     if(read_string(j, "path", map->path, CROC_MAP_STRING_LEN) < 0)
         goto fail;
