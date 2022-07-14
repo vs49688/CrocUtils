@@ -47,6 +47,16 @@ jobs:
       - run: cmake -B build -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=MinSizeRel
       - run: cmake --build build
 
+  build-macos:
+    runs-on: macos-12
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - run: cmake -B build -DCMAKE_BUILD_TYPE=MinSizeRel
+      - run: cmake --build build
+
   deploy:
     needs:
       - build
