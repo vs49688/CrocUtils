@@ -10,13 +10,6 @@
     packages.x86_64-linux = let
       pkgs = import nixpkgs { system = "x86_64-linux"; };
 
-      vsclib = pkgs.fetchFromGitHub {
-        owner  = "vs49688";
-        repo   = "vsclib";
-        rev    = "84f73a6e6de6100de21910274749b72fe5f788ea";
-        sha256 = "sha256-HmnLaSha4L60Fh/gpodXs3C2clceTfFJqtPIF5PCTCY=";
-      };
-
       musl64Packages = (import nixpkgs {
         system = "x86_64-linux";
         crossSystem = nixpkgs.lib.systems.examples.musl64;
@@ -28,17 +21,17 @@
       }).pkgsStatic;
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
-        inherit version vsclib;
+        inherit version;
       };
 
       default = crocutils;
 
       crocutils-musl64 = musl64Packages.callPackage ./default.nix {
-        inherit version vsclib;
+        inherit version;
       };
 
       crocutils-win64 = win64Packages.callPackage ./default.nix {
-        inherit version vsclib;
+        inherit version;
       };
 
       ci = pkgs.stdenvNoCC.mkDerivation {
@@ -64,6 +57,26 @@
           done
         '';
       };
+    };
+
+    packages.x86_64-darwin = let
+      pkgs = import nixpkgs { system = "x86_64-darwin"; };
+    in rec {
+      crocutils = pkgs.callPackage ./default.nix {
+        inherit version;
+      };
+
+      default = crocutils;
+    };
+
+    packages.aarch64-darwin = let
+      pkgs = import nixpkgs { system = "aarch64-darwin"; };
+    in rec {
+      crocutils = pkgs.callPackage ./default.nix {
+        inherit version;
+      };
+
+      default = crocutils;
     };
   };
 }

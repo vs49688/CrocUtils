@@ -1,4 +1,12 @@
-{ stdenv, lib, cmake, vsclib, cjson, version }:
+{ stdenv, lib, fetchFromGitHub, cmake, cjson, version }:
+let
+  vsclib = fetchFromGitHub {
+    owner  = "vs49688";
+    repo   = "vsclib";
+    rev    = "9084b9a6891d2029c8bca162b355d307d29b381f";
+    sha256 = "sha256-pdwGlar7vjqaiVAJwwL7Bdq9cSpTRDE5L4hFn5g7LJw=";
+  };
+in
 stdenv.mkDerivation {
   inherit version;
 
@@ -12,7 +20,7 @@ stdenv.mkDerivation {
 
   cmakeFlags = [ "-DCMAKE_BUILD_TYPE=MinSizeRel" ];
 
-  preConfigure = lib.optionalString (vsclib != null) ''
+  preConfigure = ''
     rm -rf vsclib
     ln -s ${vsclib} vsclib
 
