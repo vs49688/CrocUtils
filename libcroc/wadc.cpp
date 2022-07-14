@@ -26,7 +26,7 @@
 /* Because I despise templating things in C. */
 
 template <typename T>
-T read_le(const void *p);
+T read_le(const void *p) noexcept;
 
 template<>
 int8_t read_le<int8_t>(const void *p) noexcept
