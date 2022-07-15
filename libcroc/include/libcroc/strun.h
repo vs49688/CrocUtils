@@ -1,5 +1,5 @@
 /*
- * CrocUtils - Copyright (C) 2020 Zane van Iperen.
+ * CrocUtils - Copyright (C) 2022 Zane van Iperen.
  *    Contact: zane@zanevaniperen.com
  *
  * This program is free software; you can redistribute it and/or modify
@@ -15,20 +15,25 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-#ifndef _LIBCROC_H
-#define _LIBCROC_H
+#ifndef _LIBCROC_STRUN_H
+#define _LIBCROC_STRUN_H
 
-#include "libcroc/checksum.h"
-#include "libcroc/fixed.h"
-#include "libcroc/vec.h"
-#include "libcroc/col.h"
-#include "libcroc/map.h"
-#include "libcroc/util.h"
-#include "libcroc/wad.h"
-#include "libcroc/dir.h"
-#include "libcroc/strun.h"
-#include "libcroc/mod.h"
-#include "libcroc/chunk.h"
-#include "libcroc/tex.h"
+#include <stdio.h>
+#include "strundef.h"
 
-#endif /* _LIBCROC_H */
+struct cJSON;
+typedef struct cJSON cJSON;
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+CrocStRunEntry *croc_strun_read(FILE *f, size_t *count);
+
+cJSON *croc_strun_write_json(const CrocStRunEntry *entries, size_t count);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* _LIBCROC_STRUN_H */

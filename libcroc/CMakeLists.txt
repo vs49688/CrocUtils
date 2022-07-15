@@ -41,6 +41,10 @@ add_library(libcroc STATIC
 		include/libcroc/texdef.h
 		include/libcroc/chunk.h
 		include/libcroc/chunkdef.h
+
+		include/libcroc/strun.h
+		include/libcroc/strun.h
+		strun.c
 )
 
 target_include_directories(libcroc PUBLIC include)
