@@ -12,6 +12,8 @@ add_executable(croctool
 		./crocfile_dump.c
 		./crocfile_build.c
 
+		./strun_dump.c
+
 		./mod_burst2obj.c
 
 		./wad_dump_index.c
