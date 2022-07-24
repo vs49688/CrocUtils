@@ -170,10 +170,13 @@ CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num)
     const char *start;
     CrocWadEntry *entries = NULL;
     IdxParseState idx;
+    int r;
 
     /* We need to do two passes, so just load the whole thing. */
-    if(vsc_freadall(&data, &size, f) < 0)
+    if((r = vsc_freadall(&data, &size, f)) < 0) {
+        errno = VSC_UNERROR(r);
         return NULL;
+    }
 
     /* Count the rough number of entries. */
     start = data;
@@ -291,8 +294,10 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
         goto fail;
     }
 
-    if(vsc_fseeko(wad, entry->offset, SEEK_SET) < 0)
+    if((r = vsc_fseeko(wad, entry->offset, SEEK_SET)) < 0) {
+        errno = VSC_UNERROR(r);
         goto fail;
+    }
 
     if(fread(cbuf, entry->compressed_size, 1, wad) != 1) {
         errno = EIO;
