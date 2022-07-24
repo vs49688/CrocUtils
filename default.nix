@@ -28,6 +28,12 @@ stdenv.mkDerivation {
     ln -s ${cjson.src} cJSON
   '';
 
+  doCheck = true;
+  checkPhase = ''
+    cd ../tests
+    ../build/tests/libcroc_tests
+  '';
+
   meta = with lib; {
     description = "A small collection of utilities for Croc.";
     homepage    = "https://github.com/vs49688/CrocUtils";
