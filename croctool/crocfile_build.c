@@ -31,6 +31,7 @@ static char toupper_ascii(char c)
 
 static int write_file(const char *path, CrocDirEntry *entry, FILE *outfp, vsc_off_t pos)
 {
+    int        r;
     void       *data;
     size_t     size, namelen;
     FILE       *fp;
@@ -47,13 +48,13 @@ static int write_file(const char *path, CrocDirEntry *entry, FILE *outfp, vsc_of
 
     printf("[%12s] ...", namebuf);
 
-    if((fp = vsc_fopen(path, "rb")) == NULL) {
-        printf("\r[%12s] FAILED - fopen(): %s, skipping...\n", namebuf, strerror(errno));
+    if((r = vsc_fopen(path, "rb", &fp)) < 0) {
+        vsc_fperror(stdout, r, "\r[%12s] FAILED - fopen()\n", namebuf);
         return -1;
     }
 
-    if(vsc_freadall(&data, &size, fp) < 0) {
-        printf("\r[%12s] FAILED - vsc_freadall(): %s, skipping...\n", namebuf, strerror(errno));
+    if((r = vsc_freadall(&data, &size, fp)) < 0) {
+        vsc_fperror(stdout, r, "\r[%12s] FAILED - vsc_freadall()\n", namebuf);
         fclose(fp);
         return -1;
     }
@@ -92,7 +93,7 @@ int crocfile_build(int argc, char **argv)
     size_t       file_count;
     FILE         *fp = NULL;
     vsc_off_t    pos;
-    int          ret = -1;
+    int          ret = -1, r;
 
     if(argc < 4)
         return 2;
@@ -102,12 +103,12 @@ int crocfile_build(int argc, char **argv)
     file_count = argc - 3;
 
     if((directory = vsc_calloc(file_count, sizeof(CrocDirEntry))) == NULL) {
-        fprintf(stderr, "Failed to allocate memory: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(ENOMEM), "Failed to allocate memory");
         goto done;
     }
 
-    if((fp = fopen(data_name, "wb")) == NULL) {
-        fprintf(stderr, "Unable to open file '%s': %s\n", data_name, strerror(errno));
+    if((r = vsc_fopen(data_name, "wb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open file '%s'", data_name);
         goto done;
     }
 
@@ -123,8 +124,8 @@ int crocfile_build(int argc, char **argv)
 
     (void)fclose(fp);
 
-    if((fp = fopen(dir_name, "wb")) == NULL) {
-        fprintf(stderr, "Unable to open file '%s': %s\n", dir_name, strerror(errno));
+    if((r = vsc_fopen(dir_name, "wb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open file '%s'", dir_name);
         goto done;
     }
 

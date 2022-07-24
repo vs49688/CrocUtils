@@ -29,7 +29,7 @@ int wad_extract(int argc, char **argv)
 {
     const char *basename, *filename;
     char *tmpname = NULL;
-    int ret = -1;
+    int ret = -1, r;
     FILE *fp = NULL;
     CrocWadEntry *index = NULL;
     size_t fcount = 0, i;
@@ -42,17 +42,17 @@ int wad_extract(int argc, char **argv)
     filename = argv[2];
 
     if((tmpname = vsc_asprintf("%s.idx", basename)) == NULL) {
-        fprintf(stderr, "Failed to allocate memory: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(ENOMEM), "Failed to allocate memory");
         goto done;
     }
 
-    if((fp = vsc_fopen(tmpname, "rb")) == NULL) {
-        fprintf(stderr, "Unable to open index file '%s': %s\n", tmpname, strerror(errno));
+    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open index file '%s'", tmpname);
         goto done;
     }
 
     if((index = croc_wad_read_index(fp, &fcount)) == NULL) {
-        fprintf(stderr, "Unable to read index: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(errno), "Unable to read index");
         goto done;
     }
 
@@ -71,13 +71,13 @@ int wad_extract(int argc, char **argv)
 
     sprintf(tmpname, "%s.wad", basename); /* This is safe. */
 
-    if((fp = vsc_fopen(tmpname, "rb")) == NULL) {
-        fprintf(stderr, "Unable to open wad file '%s': %s\n", tmpname, strerror(errno));
+    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open wad file '%s'", tmpname);
         goto done;
     }
 
     if((data = croc_wad_load_entry(fp, index + i)) == NULL) {
-        fprintf(stderr, "Decompression failed: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(errno), "Decompression failed");
         goto done;
     }
 
@@ -91,20 +91,20 @@ int wad_extract(int argc, char **argv)
         fp = stdout;
     } else {
         if(argc == 4) {
-            if(vsc_chdir(argv[3]) < 0) {
-                fprintf(stderr, "Unable to open directory '%s': %s\n", argv[3], strerror(errno));
+            if((r = vsc_chdir(argv[3])) < 0) {
+                vsc_fperror(stderr, r, "Unable to open directory '%s'", argv[3]);
                 goto done;
             }
         }
 
-        if((fp = fopen(index[i].filename, "wb")) == NULL) {
-            fprintf(stderr, "Unable to open output file '%s': %s\n", index[i].filename, strerror(errno));
+        if((r = vsc_fopen(index[i].filename, "wb", &fp)) < 0) {
+            vsc_fperror(stderr, r, "Unable to open output file '%s'", index[i].filename);
             goto done;
         }
     }
 
     if(fwrite(data, index[i].uncompressed_size, 1, fp) != 1) {
-        fprintf(stderr, "Unable to write output file: %s\n", strerror(EIO));
+        vsc_fperror(stderr, VSC_ERROR(EIO), "Unable to write output file");
         goto done;
     }
 

@@ -19,6 +19,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <cJSON.h>
+#include <vsclib.h>
 #include <libcroc/dir.h>
 
 int crocfile_dump(int argc, char **argv)
@@ -26,15 +27,15 @@ int crocfile_dump(int argc, char **argv)
     FILE *fp = NULL;
     cJSON *j = NULL;
     char *s = NULL;
-    int ret = 1;
+    int ret = 1, r;
     CrocDirEntry *entries = NULL;
     size_t dcount = 0;
 
     if(argc != 2 && argc != 3)
         return 2;
 
-    if((fp = fopen(argv[1], "rb")) == NULL) {
-        fprintf(stderr, "Unable to open directory '%s': %s\n", argv[1], strerror(errno));
+    if((r = vsc_fopen(argv[1], "rb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open directory '%s'", argv[1]);
         return 1;
     }
 
