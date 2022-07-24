@@ -91,17 +91,6 @@ static int read_x0412(const cJSON *j, const char *name, croc_x0412_t *val)
     return 0;
 }
 
-static int read_x2012(const cJSON *j, const char *name, croc_x2012_t *val)
-{
-    float f;
-
-    if(read_float(j, name, &f) < 0)
-        return -1;
-
-    *val = croc_float_to_x2012(f);
-    return 0;
-}
-
 static int read_x1616(const cJSON *j, const char *name, croc_x1616_t *val)
 {
     float f;
