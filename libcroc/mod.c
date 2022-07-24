@@ -168,12 +168,12 @@ static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags, CrocMod
         return -1;
 
     for(uint32_t i = 0; i < m->num_vertices; ++i) {
-        if(croc_vector_fread(f, m->vertices + i) < 0)
+        if(croc_vector_fread(f, m->vertices + i) == NULL)
             return -1;
     }
 
     for(uint32_t i = 0; i < m->num_vertices; ++i) {
-        if(croc_vector_fread(f, m->normals + i) < 0)
+        if(croc_vector_fread(f, m->normals + i) == NULL)
             return -1;
     }
 
