@@ -68,7 +68,7 @@ done:
 
 int crocfile_extract(int argc, char **argv)
 {
-    int oldstyle, ret = 1;
+    int oldstyle, ret = 1, r;
     size_t dcount, datasize = 0;
     CrocDirEntry *entries = NULL;
     FILE *f = NULL;
@@ -101,8 +101,8 @@ int crocfile_extract(int argc, char **argv)
         goto done;
     }
 
-    if(vsc_freadall(&data, &datasize, f) < 0) {
-        fprintf(stderr, "Unable to read data file: %s\n", strerror(errno));
+    if((r = vsc_freadall(&data, &datasize, f)) < 0) {
+        vsc_fperror(stderr, r, "Unable to read data file");
         goto done;
     }
 
@@ -111,7 +111,7 @@ int crocfile_extract(int argc, char **argv)
 
 
     if((outpath = vsc_asprintf("%s/manifest.json", out)) == NULL) {
-        fprintf(stderr, "%s\n", strerror(errno));
+        fprintf(stderr, "%s\n", strerror(ENOMEM));
         goto done;
     }
 

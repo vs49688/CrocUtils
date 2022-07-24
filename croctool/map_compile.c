@@ -28,7 +28,7 @@ int map_compile(int argc, char **argv)
     void *ptr = NULL;
     size_t len = 0;
     cJSON *j = NULL;
-    int ret = 1;
+    int ret = 1, r;
     CrocMap map;
 
     if(argc != 3)
@@ -46,8 +46,8 @@ int map_compile(int argc, char **argv)
         goto done;
     }
 
-    if(vsc_freadall(&ptr, &len, fp) < 0) {
-        fprintf(stderr, "Error reading input file: %s\n", strerror(errno));
+    if((r = vsc_freadall(&ptr, &len, fp)) < 0) {
+        vsc_fperror(stderr, r, "Error reading input file");
         goto done;
     }
 

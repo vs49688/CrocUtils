@@ -29,7 +29,7 @@ int wad_extract_all(int argc, char **argv)
 {
     const char *basename;
     char *tmpname = NULL;
-    int ret = -1;
+    int ret = -1, r;
     FILE *fp = NULL, *fp2 = NULL;
     CrocWadEntry *index = NULL;
     size_t fcount = 0;
@@ -41,17 +41,17 @@ int wad_extract_all(int argc, char **argv)
     basename = argv[1];
 
     if((tmpname = vsc_asprintf("%s.idx", basename)) == NULL) {
-        fprintf(stderr, "Failed to allocate memory: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(ENOMEM), "Failed to allocate memory");
         goto done;
     }
 
-    if((fp = vsc_fopen(tmpname, "rb")) == NULL) {
-        fprintf(stderr, "Unable to open index file '%s': %s\n", tmpname, strerror(errno));
+    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open index file '%s'", tmpname);
         goto done;
     }
 
     if((index = croc_wad_read_index(fp, &fcount)) == NULL) {
-        fprintf(stderr, "Unable to read index: %s\n", strerror(errno));
+        vsc_fperror(stderr, VSC_ERROR(errno), "Unable to read index");
         goto done;
     }
 
@@ -59,31 +59,31 @@ int wad_extract_all(int argc, char **argv)
 
     sprintf(tmpname, "%s.wad", basename); /* This is safe. */
 
-    if((fp = vsc_fopen(tmpname, "rb")) == NULL) {
-        fprintf(stderr, "Unable to open wad file '%s': %s\n", tmpname, strerror(errno));
+    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
+        vsc_fperror(stderr, r, "Unable to open wad file '%s'", tmpname);
         goto done;
     }
 
-    if(argc == 3 && vsc_chdir(argv[2]) < 0) {
-        fprintf(stderr, "Unable to open directory '%s': %s\n", argv[2], strerror(errno));
+    if(argc == 3 && (r = vsc_chdir(argv[2])) < 0) {
+        vsc_fperror(stderr, r, "Unable to open directory '%s'", argv[2]);
         goto done;
     }
 
     for(size_t i = 0; i < fcount; ++i) {
         const CrocWadEntry *e = index + i;
 
-        if((fp2 = fopen(e->filename, "wb")) == NULL) {
-            fprintf(stderr, "Unable to open output file '%s': %s\n", e->filename, strerror(errno));
+        if((r = vsc_fopen(e->filename, "wb", &fp2)) < 0) {
+            vsc_fperror(stderr, r, "Unable to open output file '%s'", e->filename);
             goto next;
         }
 
         if((data = croc_wad_load_entry(fp, e)) == NULL) {
-            fprintf(stderr, "Decompression of '%s' failed: %s\n", e->filename, strerror(errno));
+            vsc_fperror(stderr, VSC_ERROR(errno), "Decompression of '%s' failed", e->filename);
             goto next;
         }
 
         if(fwrite(data, e->uncompressed_size, 1, fp2) != 1) {
-            fprintf(stderr, "Unable to write output file '%s': %s\n", e->filename, strerror(EIO));
+            vsc_fperror(stderr, VSC_ERROR(EIO), "Unable to write output file '%s'", e->filename);
             goto next;
         }
 
