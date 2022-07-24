@@ -69,9 +69,9 @@ CrocColour croc_colour_unpack_rgb565(uint16_t pixel)
     CrocColour c;
 
     /* Going for readability, the compiler should be able to combine the shifts. */
-    c.r   = (uint8_t)((pixel & 0b1111100000000000u) >> 11u) << 3u;
-    c.g   = (uint8_t)((pixel & 0b0000011111100000u) >>  5u) << 2u;
-    c.b   = (uint8_t)((pixel & 0b0000000000011111u) >>  0u) << 3u;
+    c.r   = (uint8_t)((pixel & 0xf800u) >> 11u) << 3u;
+    c.g   = (uint8_t)((pixel & 0x07e0u) >>  5u) << 2u;
+    c.b   = (uint8_t)((pixel & 0x001fu) >>  0u) << 3u;
     c.pad = 0xFFu;
 
     return c;
@@ -80,9 +80,9 @@ CrocColour croc_colour_unpack_rgb565(uint16_t pixel)
 CrocColour croc_colour_unpack_xrgb1555(uint16_t pixel)
 {
     CrocColour c;
-    c.r   = (uint8_t)((pixel & 0b0111110000000000u) >> 10u) << 3u;
-    c.g   = (uint8_t)((pixel & 0b0000001111100000u) >>  5u) << 3u;
-    c.b   = (uint8_t)((pixel & 0b0000000000011111u) >>  0u) << 3u;
+    c.r   = (uint8_t)((pixel & 0x7c00u) >> 10u) << 3u;
+    c.g   = (uint8_t)((pixel & 0x03e0u) >>  5u) << 3u;
+    c.b   = (uint8_t)((pixel & 0x001fu) >>  0u) << 3u;
     c.pad = 0xFFu;
     return c;
 }
