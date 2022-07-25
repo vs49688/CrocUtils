@@ -18,6 +18,7 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
+#include <inttypes.h>
 
 #include <libcroc/util.h>
 #include <libcroc/mapdef.h>
@@ -41,7 +42,7 @@ int croc_extract_level_info(const char *path, uint16_t *level, uint16_t *subleve
     char c = '\0';
     const char *start = croc_util_get_filename(path);
 
-    if(sscanf(start, "%*[mM]%*[pP]%03u_%02u.%*[mM]%*[aA]%[pP]%n", &_level, &_sublevel, &c, &pos) != 3)
+    if(sscanf(start, "%*[mM]%*[pP]%03" PRIu32 "_%02" PRIu32 ".%*[mM]%*[aA]%[pP]%n", &_level, &_sublevel, &c, &pos) != 3)
         return -1;
 
     if(c != 'p' && c != 'P')
