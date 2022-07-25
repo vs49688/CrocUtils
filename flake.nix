@@ -6,6 +6,8 @@
       "1.3.0-${toString self.revCount}-g${builtins.substring 0 7 self.rev}"
     else
       "0.0.0-${self.lastModifiedDate}";
+
+    commitHash = if (self ? rev) then self.rev else "unknown";
   in {
     packages.x86_64-linux = let
       pkgs = import nixpkgs { system = "x86_64-linux"; };
@@ -21,21 +23,21 @@
       }).pkgsStatic;
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
-        inherit version;
+        inherit version commitHash;
       };
 
       default = crocutils;
 
       crocutils-musl64 = musl64Packages.callPackage ./default.nix {
-        inherit version;
+        inherit version commitHash;
       };
 
       crocutils-win64 = win64Packages.callPackage ./default.nix {
-        inherit version;
+        inherit version commitHash;
       };
 
       ci = pkgs.stdenvNoCC.mkDerivation {
-        inherit version;
+        inherit version commitHash;
 
         pname = "crocutils-ci";
 
@@ -63,7 +65,7 @@
       pkgs = import nixpkgs { system = "x86_64-darwin"; };
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
-        inherit version;
+        inherit version commitHash;
       };
 
       default = crocutils;
@@ -73,7 +75,7 @@
       pkgs = import nixpkgs { system = "aarch64-darwin"; };
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
-        inherit version;
+        inherit version commitHash;
       };
 
       default = crocutils;

@@ -1,7 +1,14 @@
 project(croctool)
 
+set(CROCTOOL_VERSION_STRING "dev"     CACHE STRING "Embedded Version String")
+set(CROCTOOL_COMMIT_HASH    "unknown" CACHE STRING "unknown")
+
+configure_file(config.h.in config.h)
+
 add_executable(croctool
 		./main.c
+		${CMAKE_CURRENT_BINARY_DIR}/config.h
+		./version.c
 
 		./map_decompile.c
 		./map_compile.c
@@ -24,6 +31,8 @@ add_executable(croctool
 
 		./stb_image_write.h
 )
+
+target_include_directories(croctool PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 
 target_link_libraries(croctool libcroc vsclib)
 

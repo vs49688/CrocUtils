@@ -1,4 +1,4 @@
-{ stdenv, lib, fetchFromGitHub, cmake, cjson, version }:
+{ stdenv, lib, fetchFromGitHub, cmake, cjson, version, commitHash }:
 let
   vsclib = fetchFromGitHub {
     owner  = "vs49688";
@@ -18,7 +18,11 @@ stdenv.mkDerivation {
 
   src = builtins.filterSource (path: type: baseNameOf path != ".git") ./.;
 
-  cmakeFlags = [ "-DCMAKE_BUILD_TYPE=MinSizeRel" ];
+  cmakeFlags = [
+    "-DCMAKE_BUILD_TYPE=MinSizeRel"
+    "-DCROCTOOL_VERSION_STRING=${version}"
+    "-DCROCTOOL_COMMIT_HASH=${commitHash}"
+  ];
 
   preConfigure = ''
     rm -rf vsclib

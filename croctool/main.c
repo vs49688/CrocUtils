@@ -37,6 +37,7 @@ int wad_extract(int argc, char **argv);
 int wad_extract_all(int argc, char **argv);
 int wad_dump_index(int argc, char **argv);
 int tex_convert(int argc, char **argv);
+int version(int argc, char **argv);
 
 static void usage(FILE *f, const char *argv0)
 {
@@ -155,6 +156,10 @@ int main(int argc, char **argv)
         return main_cfextract(argc, argv);
     else if(!strcasecmp("modtool", argv0name))
         return main_modtool(argc, argv);
+
+    if(argc > 1 && (!strcmp("version", argv[1]) || !strcmp("-v", argv[1]) || !strcmp("--version", argv[1]))) {
+        return version(argc - 1, argv + 1);
+    }
 
     if(argc < 3) {
         usage(stdout, argv[0]);
