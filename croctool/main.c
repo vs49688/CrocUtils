@@ -41,7 +41,8 @@ int version(int argc, char **argv);
 
 static void usage(FILE *f, const char *argv0)
 {
-    fprintf(f, "Usage: %s map decompile <input-file.map> [output-file.json|-]\n", argv0);
+    fprintf(f, "Usage: %s version|-v|--version\n", argv0);
+    fprintf(f, "       %s map decompile <input-file.map> [output-file.json|-]\n", argv0);
     fprintf(f, "       %s map compile <input-file.json|-> <output-file.map>\n", argv0);
     fprintf(f, "       %s map convert [--rebase [-]<000-899>] <input-file.map> <output-file.map>\n", argv0);
     fprintf(f, "       %s map unwad <input-file.wad> <base-name>\n", argv0);
