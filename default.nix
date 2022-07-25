@@ -30,8 +30,9 @@ stdenv.mkDerivation {
 
   doCheck = true;
   checkPhase = ''
-    cd ../tests
+    pushd ../tests
     ../build/tests/libcroc_tests
+    popd
   '';
 
   meta = with lib; {
