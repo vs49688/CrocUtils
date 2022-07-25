@@ -68,3 +68,29 @@ TEST_CASE("map write", "[map]")
     REQUIRE(croc_checksum(buf, 2451) == 51998);
 }
 
+TEST_CASE("extract level info", "[map]")
+{
+    uint16_t level, sublevel;
+    int r;
+
+    r = croc_extract_level_info("MP010_00.MAP", &level, &sublevel);
+    CHECK(r == 0);
+    CHECK(level == 10);
+    CHECK(sublevel == 00);
+
+    r = croc_extract_level_info("MP999_99.MAP", &level, &sublevel);
+    CHECK(r == 0);
+    CHECK(level == 999);
+    CHECK(sublevel == 99);
+
+    r = croc_extract_level_info("asdfasd", &level, &sublevel);
+    CHECK(r < 0);
+
+    r = croc_extract_level_info("/path/to/MP123_45.MAP", &level, &sublevel);
+    CHECK(r == 0);
+    CHECK(level == 123);
+    CHECK(sublevel == 45);
+
+    r = croc_extract_level_info("/path/to/MPAAA_00.MAP", &level, &sublevel);
+    CHECK(r < 0);
+}
