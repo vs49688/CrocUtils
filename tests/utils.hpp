@@ -31,4 +31,8 @@ std::pair<vsc_ptr<char>, size_t> read_file(const char *fname);
 
 cjson_ptr read_json(const char *fname);
 
+std::string json_to_string(const cJSON *a);
+
+void require_json_equal(const cJSON *expected, const cJSON *actual);
+
 #endif /* _UTILS_HPP */

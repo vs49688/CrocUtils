@@ -2,6 +2,7 @@
 #include <libcroc.h>
 #include "catch.hpp"
 #include "utils.hpp"
+#include <iostream>
 
 TEST_CASE("map read", "[map]")
 {
@@ -28,7 +29,7 @@ TEST_CASE("map read", "[map]")
     REQUIRE(actual != nullptr);
     expected = read_json("testdata/MP010_00.json");
 
-    REQUIRE(cJSON_Compare(expected.get(), actual.get(), cJSON_True));
+    require_json_equal(expected.get(), actual.get());
 }
 
 TEST_CASE("map write", "[map]")

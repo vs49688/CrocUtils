@@ -1,3 +1,4 @@
+#include <iostream>
 #include "catch.hpp"
 #include "utils.hpp"
 
@@ -21,4 +22,32 @@ cjson_ptr read_json(const char *fname)
     cJSON *j = cJSON_ParseWithLength(ptr.get(), size);
     REQUIRE(j != nullptr);
     return cjson_ptr(j);
+}
+
+std::string json_to_string(const cJSON *a)
+{
+    char *s = cJSON_Print(a);
+    if(s == nullptr)
+        throw std::bad_alloc();
+
+    try {
+        return std::string(s);
+    } catch(...) {
+        cJSON_free(s);
+        throw;
+    }
+}
+
+void require_json_equal(const cJSON *expected, const cJSON *actual)
+{
+    cJSON_bool equal = cJSON_Compare(expected, actual, cJSON_True);
+    if(equal)
+        return;
+
+    std::string exps = json_to_string(expected);
+    std::string acts = json_to_string(actual);
+
+    std::cout << "Expected:" << std::endl << exps << std::endl;
+    std::cout << "Actual:  " << std::endl << acts << std::endl;
+    throw std::exception();
 }
