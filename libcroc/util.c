@@ -15,10 +15,10 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
+#include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-#include <stdio.h>
-#include <inttypes.h>
+#include <errno.h>
 
 #include <libcroc/util.h>
 #include <libcroc/mapdef.h>
@@ -37,18 +37,31 @@ const char *croc_util_get_filename(const char *path)
 
 int croc_extract_level_info(const char *path, uint16_t *level, uint16_t *sublevel)
 {
-    uint32_t _level, _sublevel;
-    int pos;
-    char c = '\0';
+    unsigned long _level, _sublevel = 0;
     const char *start = croc_util_get_filename(path);
+    char *endptr;
 
-    if(sscanf(start, "%*[mM]%*[pP]%03" PRIu32 "_%02" PRIu32 ".%*[mM]%*[aA]%[pP]%n", &_level, &_sublevel, &c, &pos) != 3)
+    if(strlen(start) != 12)
         return -1;
 
-    if(c != 'p' && c != 'P')
+    if((start[ 0] != 'm' && start[ 0] != 'M') ||
+       (start[ 1] != 'p' && start[ 1] != 'P') ||
+       (start[ 5] != '_')                     ||
+       (start[ 8] != '.')                     ||
+       (start[ 9] != 'm' && start[ 9] != 'M') ||
+       (start[10] != 'a' && start[10] != 'A') ||
+       (start[11] != 'p' && start[11] != 'P')) {
+        return -1;
+    }
+
+    errno = 0;
+    _level = strtoul(start + 2, &endptr, 10);
+    if(errno != 0 || *endptr != '_')
         return -1;
 
-    if(start[pos] != '\0')
+    errno = 0;
+    _sublevel = strtoul(start + 6, &endptr, 10);
+    if(errno != 0 || *endptr != '.')
         return -1;
 
     if(_level > CROC_MAP_MAX_LEVEL || _sublevel > CROC_MAP_MAX_SUBLEVEL)
