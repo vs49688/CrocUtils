@@ -3,8 +3,8 @@ let
   vsclib = fetchFromGitHub {
     owner  = "vs49688";
     repo   = "vsclib";
-    rev    = "76f0994ddfaf6c0f7ec0f91708190681e51de6b0";
-    sha256 = "sha256-ZNuOmubLzZ8eSYFaVWzeta4HNyLO/1go/jPskWY53g4=";
+    rev    = "6c7db2fa04c365c80421a182927fc96ee3eac852";
+    sha256 = "sha256-M69f6rpwZ1oZCvBzPBfSuFxY0LcAMrJOqN70Ef94uZI=";
   };
 in
 stdenv.mkDerivation {
