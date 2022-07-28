@@ -28,9 +28,25 @@
 #define CROC_MODEL_COLL_INFO_SIZE   44
 
 typedef enum CrocModelType {
+    /*
+     * Attempt to autodetect the model format.
+     */
     CROC_MODEL_TYPE_AUTODETECT = -1,
+    /*
+     * Normal PC models. These have face material names.
+     */
     CROC_MODEL_TYPE_NORMAL     =  0,
-    CROC_MODEL_TYPE_CAMERA     =  1
+    /*
+     * Model is a PlayStation 1 variant. These are identical
+     * except without face materials. The material_id field will
+     * be meaningful for these models.
+     */
+    CROC_MODEL_TYPE_PSX        =  1,
+    /*
+     * The tk%02u_trk.mod files. These are in PSX format even
+     * in the PC version.
+     */
+    CROC_MODEL_TYPE_CAMERA     =  CROC_MODEL_TYPE_PSX,
 } CrocModelType;
 
 typedef enum CrocModelFlags {

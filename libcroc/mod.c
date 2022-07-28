@@ -87,7 +87,7 @@ static int read_face(FILE *f, CrocModelFace *face, CrocModelType type)
     size_t size = CROC_MODEL_FACE_SIZE;
     uint8_t *start = buf;
 
-    if(type == CROC_MODEL_TYPE_CAMERA) {
+    if(type == CROC_MODEL_TYPE_PSX) {
         size  -= CROC_MODEL_FACE_NAME_LENGTH;
         start += CROC_MODEL_FACE_NAME_LENGTH;
     }
@@ -259,7 +259,7 @@ try_again:
             if(vsc_fseeko(f, off, SEEK_SET) < 0)
                 goto fail;
 
-            type = CROC_MODEL_TYPE_CAMERA;
+            type = CROC_MODEL_TYPE_PSX;
             for(int j = 0; j <= i; ++j)
                 croc_mod_free(_models + j);
             goto try_again;
