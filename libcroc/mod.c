@@ -121,6 +121,7 @@ static int read_face(FILE *f, CrocModelFace *face, CrocModelType type)
 
     if(face->flags & CROC_MODEL_FACE_TEXTURED) {
         face->material_id = vsc_read_leu16(buf + 80);
+        snprintf(face->material, CROC_MODEL_FACE_NAME_LENGTH - 1,"PSXMAT%03u", face->material_id);
         face->r           = 0;
         face->g           = 0;
         face->b           = 0;
