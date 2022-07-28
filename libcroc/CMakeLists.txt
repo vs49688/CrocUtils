@@ -16,6 +16,7 @@ add_library(libcroc STATIC
 		mod.c
 		texture.c
 		chunk.c
+		psx.c
 
 		wadc.cpp
 
@@ -45,6 +46,10 @@ add_library(libcroc STATIC
 		include/libcroc/strun.h
 		include/libcroc/strun.h
 		strun.c
+
+		include/libcroc/psx.h
+		include/libcroc/psxdef.h
+
 )
 
 target_include_directories(libcroc PUBLIC include)
