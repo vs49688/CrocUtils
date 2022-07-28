@@ -1,0 +1,76 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: crocpsxtex2.bt
+//   Authors: Zane van Iperen <zane@zanevaniperen.com>
+//          : Martin Korth <>
+//   Version: 1.0.0
+//   Purpose:
+//  Category:
+// File Mask:
+//  ID Bytes:
+//   History:
+//------------------------------------------------
+
+typedef ubyte  uint8_t;
+typedef uint16 uint16_t;
+typedef uint32 uint32_t;
+
+
+typedef enum <uint16_t> CrocPSXTextureType {
+    CROC_PSX_TEXTURE_UNCOMPRESSED = 5,
+    CROC_PSX_TEXTURE_RLE16        = 6,
+} CrocPSXTextureType;
+
+typedef struct CrocPSXAnimationBlock {
+    uint16_t num_frames;
+    uint16_t width; /* In halfword units */
+    uint16_t height;
+    uint16_t unk_6;
+    uint16_t unk_8;
+    uint16_t unk_10;
+    uint8_t  data[num_frames * width * height * 2];
+} CrocPSXAnimationBlock;
+
+typedef struct CrocPSXUVRect {
+    uint16_t x;
+    uint16_t y;
+
+    uint8_t uv_bl[2];
+    uint8_t uv_br[2];
+    uint8_t uv_tl[2];
+    uint8_t uv_tr[2];
+
+    Assert(uv_bl[0] == uv_tl[0]);
+    Assert(uv_bl[1] == uv_br[1]);
+    Assert(uv_br[0] == uv_tr[0]);
+    Assert(uv_tl[1] == uv_tr[1]);
+} CrocPSXUVRect;
+
+typedef struct CrocPSXTexture {
+    uint32_t                zero_size_minus_8; // presumbly this field and trailing checksum
+    CrocPSXTextureType      type;
+    uint8_t                 num_extra;
+    uint16_t                extra[num_extra];
+    uint16_t                num_entries;
+    uint16_t                num_tpage;
+    uint16_t                unknown;
+    if(unknown != 0) {
+        uint8_t             unks[8 * num_tpage];
+    }
+
+    uint16_t                num_anims;
+    CrocPSXAnimationBlock   anims[num_anims]<optimize=false>;
+    CrocPSXUVRect           uvs[num_entries];
+
+    if(type == CROC_PSX_TEXTURE_UNCOMPRESSED) {
+        uint8_t             data[0x20000];
+    } else if(type == CROC_PSX_TEXTURE_RLE16) {
+        uint32_t            data_size;
+        uint8_t             data[data_size];
+    }
+    uint32_t                checksum;
+} CrocPSXTexture;
+
+
+CrocPSXTexture texture;
