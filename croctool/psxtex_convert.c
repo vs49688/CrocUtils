@@ -181,9 +181,9 @@ CrocColour croc_colour_unpack_rgbx5551(uint16_t pixel)
 
 int croc_psx_tex_to_tex(const CrocPSXTexture *tex, size_t page, CrocTexture **_out)
 {
-    CrocTexture    *out;
-    const uint16_t *indata;
-    uint32_t       *outdata;
+    CrocTexture   *out;
+    const uint8_t *indata;
+    uint32_t      *outdata;
 
     if(tex == NULL || _out == NULL)
         return VSC_ERROR(EINVAL);
@@ -191,19 +191,28 @@ int croc_psx_tex_to_tex(const CrocPSXTexture *tex, size_t page, CrocTexture **_o
     if(page >= tex->num_pages)
         return VSC_ERROR(EINVAL);
 
-    if((out = croc_texture_allocate(256, 256, CROC_TEXFMT_RGBA8888)) == NULL)
+    if((out = croc_texture_allocate(512, 256, CROC_TEXFMT_RGBA8888)) == NULL)
         return VSC_ERROR(errno);
 
-    indata  = (const uint16_t *)tex->pages[page].data;
+    indata  = (const uint8_t *)tex->pages[page].data;
     outdata = out->data;
 
-    for(int i = 0; i < 256 * 256; ++i) {
-        uint16_t col = *indata++;
 
-        //CrocColour incol = croc_colour_unpack_xrgb1555(col);
-        //CrocColour incol = croc_colour_unpack_rgb565(col);
-        CrocColour incol = croc_colour_unpack_rgbx5551(col);
-        //incol = swapredblue(incol);
+    for(int i = 0; i < 512 * 256; ++i) {
+        uint8_t idx = *indata++;
+
+        CrocColour incol = {
+            .r = idx,
+            .g = idx,
+            .b = idx,
+            .pad = 0xFF,
+        };
+//        uint16_t col = *indata++;
+
+//        CrocColour incol = croc_colour_unpack_xrgb1555(col);
+//        //CrocColour incol = croc_colour_unpack_rgb565(col);
+//        //CrocColour incol = croc_colour_unpack_rgbx5551(col);
+//        //incol = swapredblue(incol);
         *outdata++ = croc_colour_pack_rgba8888(incol);
     }
 
@@ -327,7 +336,7 @@ int psxtex_convert(int argc, char **argv)
 {
 
     FILE *f = fopen("slus/FONT.BIN", "rb");
-    //FILE *f = fopen("slus/STILLGO.BIN", "rb");
+    //FILE *f = fopen("slus/TPAGE213.BIN", "rb");
 
     CrocPSXTexture *tex;
     croc_psx_texture_read_many(f, &tex, 1);
