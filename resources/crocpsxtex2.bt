@@ -64,13 +64,53 @@ typedef struct CrocPSXTexture {
     CrocPSXUVRect           uvs[num_entries];
 
     if(type == CROC_PSX_TEXTURE_UNCOMPRESSED) {
-        uint8_t             data[0x20000];
+        uint16_t             data[0x20000/2];
     } else if(type == CROC_PSX_TEXTURE_RLE16) {
         uint32_t            data_size;
-        uint8_t             data[data_size];
+        uint16_t             data[data_size/2];
     }
     uint32_t                checksum;
 } CrocPSXTexture;
 
 
+typedef struct CrocPSXUVRectType4 {
+    uint16_t x;
+    uint16_t y;
+    uint16_t zz;
+
+    uint8_t uv_bl[2];
+    uint8_t uv_br[2];
+    uint8_t uv_tl[2];
+    uint8_t uv_tr[2];
+
+
+
+    Assert(uv_bl[0] == uv_tl[0]);
+    Assert(uv_bl[1] == uv_br[1]);
+    Assert(uv_br[0] == uv_tr[0]);
+    Assert(uv_tl[1] == uv_tr[1]);
+} CrocPSXUVRectType4;
+
+typedef struct CrocPSXTextureType4 {
+    CrocPSXTextureType      type;
+    Assert(type == 4);
+    uint8_t                 num_extra;
+    uint16_t                extra[num_extra];
+    uint16_t                num_entries;
+    uint16_t                num_tpage;
+    uint16_t                unknown;
+    if(unknown != 0) {
+        uint8_t             unks[8 * num_tpage];
+    }
+
+    CrocPSXUVRectType4           uvs[num_entries];
+
+    struct {
+        uint8_t data[0x20000];
+    } tpage[num_tpage];
+
+    uint32_t                checksum;
+} CrocPSXTextureType4;
+
 CrocPSXTexture texture;
+//CrocPSXTextureType4 texture;

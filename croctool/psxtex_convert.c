@@ -23,10 +23,13 @@
 #include <libcroc/tex.h>
 
 const static CrocPSXTexture default_texture = {
+    ._checksum      = 0,
     .type           = CROC_PSX_TEXTURE_UNCOMPRESSED,
     .num_rects      = 0,
-    .num_tpage      = 0,
+    .num_pages      = 0,
     .num_anims      = 0,
+    .rects          = NULL,
+    .pages          = NULL,
 };
 
 void croc_psx_texture_init(CrocPSXTexture *texture)
@@ -34,27 +37,41 @@ void croc_psx_texture_init(CrocPSXTexture *texture)
     *texture = default_texture;
 }
 
-static int read_rect(FILE *f, CrocPSXTextureRect *rect)
+static int read_rect(FILE *f, CrocPSXTextureRect *rect, int v4)
 {
-    uint8_t buf[CROC_PSX_TEXTURE_RECT_SIZE];
+    uint8_t buf[CROC_PSX_TEXTURE_RECT4_SIZE];
+    uint8_t *rectstart;
 
-    if(fread(buf, CROC_PSX_TEXTURE_RECT_SIZE, 1, f) != 1)
-        return VSC_ERROR(EIO);
+    _Static_assert(sizeof(buf) >= CROC_PSX_TEXTURE_RECT_SIZE, "sizeof(buf) < CROC_PSX_TEXTURE_RECT_SIZE");
 
-    rect->unk_0 = vsc_read_le16(buf + 0);
-    rect->unk_2 = vsc_read_le16(buf + 2);
+    if(v4) {
+        if(fread(buf, CROC_PSX_TEXTURE_RECT4_SIZE, 1, f) != 1)
+            return VSC_ERROR(EIO);
+        rectstart = buf + 6;
+    } else {
+        if(fread(buf, CROC_PSX_TEXTURE_RECT_SIZE, 1, f) != 1)
+            return VSC_ERROR(EIO);
 
-    rect->uv_bl[0] = vsc_read_uint8(buf + 4);
-    rect->uv_bl[1] = vsc_read_uint8(buf + 5);
+        rectstart = buf + 4;
+    }
 
-    rect->uv_br[0] = vsc_read_uint8(buf + 6);
-    rect->uv_br[1] = vsc_read_uint8(buf + 7);
 
-    rect->uv_tl[0] = vsc_read_uint8(buf + 8);
-    rect->uv_tl[1] = vsc_read_uint8(buf + 9);
+    rect->unk_0     = vsc_read_le16(buf + 0);
+    rect->unk_2     = vsc_read_le16(buf + 2);
+    if(v4)
+        rect->unk_2 = vsc_read_le16(buf + 4);
 
-    rect->uv_tr[0] = vsc_read_uint8(buf + 10);
-    rect->uv_tr[1] = vsc_read_uint8(buf + 11);
+    rect->uv_bl[0] = vsc_read_uint8(rectstart + 0);
+    rect->uv_bl[1] = vsc_read_uint8(rectstart + 1);
+
+    rect->uv_br[0] = vsc_read_uint8(rectstart + 2);
+    rect->uv_br[1] = vsc_read_uint8(rectstart + 3);
+
+    rect->uv_tl[0] = vsc_read_uint8(rectstart + 4);
+    rect->uv_tl[1] = vsc_read_uint8(rectstart + 5);
+
+    rect->uv_tr[0] = vsc_read_uint8(rectstart + 6);
+    rect->uv_tr[1] = vsc_read_uint8(rectstart + 7);
 
     /* Ensure we're square. */
     if(rect->uv_bl[0] != rect->uv_tl[0])
@@ -68,6 +85,58 @@ static int read_rect(FILE *f, CrocPSXTextureRect *rect)
 
     if(rect->uv_tl[1] != rect->uv_tr[1])
         return VSC_ERROR(EINVAL);
+    return 0;
+}
+
+static int read_page(FILE *f, CrocPSXTexturePage *page, CrocPSXTextureType type, int decompress)
+{
+    uint32_t data_size;
+    uint8_t  *buf;
+
+    /* Simple case, uncompressed. */
+    if(type == CROC_PSX_TEXTURE_UNCOMPRESSED4 || type == CROC_PSX_TEXTURE_UNCOMPRESSED) {
+        if(fread(page->data, CROC_PSX_TEXTURE_TPAGE_SIZE, 1, f) != 1)
+            return VSC_ERROR(EIO);
+
+        page->data_size = CROC_PSX_TEXTURE_TPAGE_SIZE;
+        return 0;
+    }
+
+    /* Are there other types? */
+    if(type != CROC_PSX_TEXTURE_RLE16)
+        return VSC_ERROR(EINVAL);
+
+    data_size = vsc_fread_leu32(f);
+
+    /* Sanity check. */
+    if(data_size > CROC_PSX_TEXTURE_TPAGE_SIZE)
+        return VSC_ERROR(ERANGE);
+
+    /* Want compressed data? Sure! */
+    if(!decompress) {
+        if(fread(page->data, data_size, 1, f) != 1)
+            return VSC_ERROR(EIO);
+
+        page->data_size = data_size;
+        return 0;
+    }
+
+    /* Decompress it. */
+    if((buf = vsc_calloc(data_size, 1)) == NULL)
+        return VSC_ERROR(ENOMEM);
+
+    if(fread(buf, data_size, 1, f) != 1) {
+        vsc_free(buf);
+        return VSC_ERROR(EIO);
+    }
+
+    if(croc_psx_texture_decompress(page->_data, buf, data_size, sizeof(page->_data)) < 0) {
+        vsc_free(buf);
+        return VSC_ERROR(errno);
+    }
+
+    page->data_size = CROC_PSX_TEXTURE_TPAGE_SIZE;
+
     return 0;
 }
 
@@ -110,19 +179,22 @@ CrocColour croc_colour_unpack_rgbx5551(uint16_t pixel)
     return c;
 }
 
-int croc_psx_tex_to_tex(const CrocPSXTexture *tex, CrocTexture **_out)
+int croc_psx_tex_to_tex(const CrocPSXTexture *tex, size_t page, CrocTexture **_out)
 {
-    CrocTexture *out;
-    uint16_t    *indata;
-    uint32_t    *outdata;
+    CrocTexture    *out;
+    const uint16_t *indata;
+    uint32_t       *outdata;
 
     if(tex == NULL || _out == NULL)
+        return VSC_ERROR(EINVAL);
+
+    if(page >= tex->num_pages)
         return VSC_ERROR(EINVAL);
 
     if((out = croc_texture_allocate(256, 256, CROC_TEXFMT_RGBA8888)) == NULL)
         return VSC_ERROR(errno);
 
-    indata  = (uint16_t *)tex->data;
+    indata  = (const uint16_t *)tex->pages[page].data;
     outdata = out->data;
 
     for(int i = 0; i < 256 * 256; ++i) {
@@ -139,7 +211,7 @@ int croc_psx_tex_to_tex(const CrocPSXTexture *tex, CrocTexture **_out)
     return 0;
 }
 
-int croc_psx_texture_read_many(FILE *f, CrocPSXTexture **texture)
+int croc_psx_texture_read_many(FILE *f, CrocPSXTexture **texture, int decompress)
 {
     uint32_t           size;
     uint16_t           num_reserved0, num_reserved1;
@@ -147,14 +219,37 @@ int croc_psx_texture_read_many(FILE *f, CrocPSXTexture **texture)
     CrocPSXTexture     *_texture;
     int                ret;
 
-    size = vsc_fread_leu32(f);
-    type = vsc_fread_leu16(f);
-
+    size = vsc_fread_leu16(f);
     if(feof(f) || ferror(f))
         return VSC_ERROR(EIO);
 
-    if(type != CROC_PSX_TEXTURE_UNCOMPRESSED && type != CROC_PSX_TEXTURE_RLE16)
-        return VSC_ERROR(EINVAL);
+    if(size == 4) {
+        size = 0;
+        type = CROC_PSX_TEXTURE_UNCOMPRESSED4;
+    } else {
+        uint16_t tmp;
+
+        tmp = vsc_fread_leu16(f);
+        if(feof(f) || ferror(f))
+            return VSC_ERROR(EIO);
+
+        size = (tmp << 16) | size;
+
+        type = vsc_fread_leu16(f);
+
+        if(feof(f) || ferror(f))
+            return VSC_ERROR(EIO);
+    }
+
+    switch(type) {
+        case CROC_PSX_TEXTURE_UNCOMPRESSED4:
+        case CROC_PSX_TEXTURE_UNCOMPRESSED:
+        case CROC_PSX_TEXTURE_RLE16:
+            break;
+
+        default:
+            return VSC_ERROR(EINVAL);
+    }
 
     if((_texture = vsc_calloc(1, sizeof(CrocPSXTexture))) == NULL)
         return VSC_ERROR(ENOMEM);
@@ -175,79 +270,67 @@ int croc_psx_texture_read_many(FILE *f, CrocPSXTexture **texture)
     }
 
     _texture->num_rects = vsc_fread_leu16(f);
-    _texture->num_tpage = vsc_fread_leu16(f);
+    _texture->num_pages = vsc_fread_leu16(f);
     num_reserved1 = vsc_fread_leu16(f);
     if(num_reserved1 > 0) {
         assert(0);
-        vsc_fseeko(f, 8 * _texture->num_tpage, SEEK_CUR);
+        vsc_fseeko(f, 8 * _texture->num_pages, SEEK_CUR);
     }
-    _texture->num_anims = vsc_fread_leu16(f);
 
-    assert(_texture->num_anims == 0);
+    if(_texture->type != CROC_PSX_TEXTURE_UNCOMPRESSED4) {
+        _texture->num_anims = vsc_fread_leu16(f);
+
+        assert(_texture->num_anims == 0);
+    }
 
     if((_texture->rects = vsc_calloc(_texture->num_rects, sizeof(CrocPSXTextureRect))) == NULL) {
         ret = VSC_ERROR(ENOMEM);
         goto fail;
     }
 
+    if((_texture->pages = vsc_calloc(_texture->num_pages, sizeof(CrocPSXTexturePage))) == NULL) {
+        ret = VSC_ERROR(ENOMEM);
+        goto fail;
+    }
+
     for(size_t i = 0; i < _texture->num_rects; ++i) {
-        if((ret = read_rect(f, _texture->rects + i)) < 0)
+        if((ret = read_rect(f, _texture->rects + i, _texture->type == CROC_PSX_TEXTURE_UNCOMPRESSED4)) < 0)
             goto fail;
     }
 
-
-    if(_texture->type == CROC_PSX_TEXTURE_UNCOMPRESSED) {
-        if(fread(&_texture->data, CROC_PSX_TEXTURE_TPAGE_SIZE, 1, f) != 1) {
-            ret = VSC_ERROR(EIO);
+    for(size_t i = 0; i < _texture->num_pages; ++i) {
+        if((ret = read_page(f, _texture->pages + i, _texture->type, 1)) < 0)
             goto fail;
-        }
-    } else if(_texture->type == CROC_PSX_TEXTURE_RLE16) {
-        uint32_t data_size;
-
-        data_size = vsc_fread_leu32(f);
-        if(feof(f) || ferror(f)) {
-            ret = VSC_ERROR(EIO);
-            goto fail;
-        }
-
-        static uint8_t bbbb[0x20000];
-        if(fread(bbbb, data_size, 1, f) != 1) {
-            ret = VSC_ERROR(EIO);
-            goto fail;
-        }
-
-        if(croc_psx_texture_decompress(_texture->_data, bbbb, data_size, sizeof(_texture->_data)) < 0) {
-            ret = VSC_ERROR(errno);
-            goto fail;
-        }
-
-        _texture->type = CROC_PSX_TEXTURE_UNCOMPRESSED;
     }
+
 
     {
         CrocTexture *tex;
-        croc_psx_tex_to_tex(_texture, &tex);
+        croc_psx_tex_to_tex(_texture, 0, &tex);
 
         //croc_texture_xrgb1555_to_rgb565(tex);
 //
 //        CrocTexture *tex2 = croc_texture_rgb565_to_rgba8888(tex, NULL);
         croc_texture_rgba8888_to_rgba8888_arr(tex);
 
-        stbi_write_png("tpage213.png", tex->width, tex->height, 4, tex->data, tex->bytes_per_row);
+        stbi_write_png("font.png", tex->width, tex->height, 4, tex->data, tex->bytes_per_row);
     }
     return 0;
-fail:
 
+fail:
+    errno = VSC_UNERROR(ret);
     return ret;
 
 }
 
 int psxtex_convert(int argc, char **argv)
 {
+
     FILE *f = fopen("slus/FONT.BIN", "rb");
+    //FILE *f = fopen("slus/STILLGO.BIN", "rb");
 
     CrocPSXTexture *tex;
-    croc_psx_texture_read_many(f, &tex);
+    croc_psx_texture_read_many(f, &tex, 1);
 
     return 0;
 }
