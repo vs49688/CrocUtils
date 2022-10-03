@@ -69,6 +69,7 @@ typedef struct CrocPSXTexturePage {
 } CrocPSXTexturePage;
 
 typedef struct CrocPSXTexture {
+    uint32_t _size;
     uint32_t _checksum;
 
     CrocPSXTextureType type;

@@ -80,5 +80,9 @@
 
       default = crocutils;
     };
+
+    devShells.x86_64-linux.default = self.outputs.packages.x86_64-linux.default.overrideAttrs(old: {
+      hardeningDisable = [ "all" ];
+    });
   };
 }

@@ -25,6 +25,12 @@
 extern "C" {
 #endif
 
+void croc_psx_texture_init(CrocPSXTexture *texture);
+
+int croc_psx_texture_read(FILE *f, CrocPSXTexture **texture, int decompress);
+
+void croc_psx_texture_free(CrocPSXTexture *texture);
+
 int croc_psx_texture_decompress(void *_out, const void *_in, size_t compressed_size, size_t uncompressed_size);
 
 #ifdef __cplusplus
