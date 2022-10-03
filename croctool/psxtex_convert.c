@@ -179,6 +179,71 @@ CrocColour croc_colour_unpack_rgbx5551(uint16_t pixel)
     return c;
 }
 
+int croc_psx_tex_burst(const CrocPSXTexture *tex, CrocTexture **textures, size_t *n)
+{
+    int ret = 0;
+
+    if(tex == NULL || textures == NULL || n == NULL)
+        return VSC_ERROR(EINVAL);
+
+    for(size_t i = 0; i < tex->num_rects; ++i) {
+        const CrocPSXTextureRect *rect = tex->rects + i;
+        CrocTexture              *t;
+
+        t = croc_texture_allocate(
+            (rect->uv_tr[0] - rect->uv_tl[0]) * 2 /* 'cause 512 */,
+            rect->uv_tr[1] - rect->uv_br[1],
+            CROC_TEXFMT_RGBA8888
+        );
+        if(t == NULL) {
+            ret = VSC_ERROR(errno);
+            goto fail;
+        }
+
+        textures[i] = t;
+
+    }
+
+    for(size_t t = 0; t < tex->num_rects; ++t) {
+        const CrocPSXTextureRect *rect    = tex->rects + t;
+        const uint8_t            *page    = tex->pages[0].data; // FIXME:
+        CrocTexture              *outtex  = textures[t];
+        uint32_t                 *outdata = outtex->data;
+
+        size_t src_height        = rect->uv_tr[1] - rect->uv_br[1];
+        size_t src_width         = (rect->uv_tr[0] - rect->uv_tl[0]) * 2;
+        size_t src_bytes_per_row = 512 * sizeof(uint8_t);
+        page += (src_bytes_per_row * rect->uv_tl[1]) + (rect->uv_tl[0] * 2);
+        for(size_t j = 0; j < src_height; ++j) {
+            for(size_t i = 0; i < src_width; ++i) {
+                uint8_t idx = page[i];
+
+                CrocColour col = {
+                    .r = idx,
+                    .b = idx,
+                    .g = idx,
+                    .pad = 0xFF,
+                };
+
+                *outdata++ = croc_colour_pack_rgba8888(col);
+            }
+
+            page += src_bytes_per_row;
+        }
+    }
+
+    *n = tex->num_rects;
+    return 0;
+
+fail:
+    for(size_t i = 0; i < tex->num_rects; ++i) {
+        if(textures[i] != NULL)
+            vsc_free(textures[i]);
+    }
+
+    return ret;
+}
+
 int croc_psx_tex_to_tex(const CrocPSXTexture *tex, size_t page, CrocTexture **_out)
 {
     CrocTexture   *out;
@@ -313,6 +378,26 @@ int croc_psx_texture_read_many(FILE *f, CrocPSXTexture **texture, int decompress
     }
 
 
+    {
+        CrocTexture *ttttt[4096];
+        size_t      n;
+        croc_psx_tex_burst(_texture, ttttt, &n);
+
+        char buf[128];
+
+
+        for(size_t i = 0; i < n; ++i) {
+            CrocTexture *tt = ttttt[i];
+            croc_texture_rgba8888_to_rgba8888_arr(tt);
+
+            snprintf(buf, sizeof(buf) - 1, "font/FONT_%03zu.png", i);
+            buf[sizeof(buf) - 1] = '\0';
+
+            stbi_write_png(buf, tt->width, tt->height, 4, tt->data, tt->bytes_per_row);
+
+        }
+
+    }
     {
         CrocTexture *tex;
         croc_psx_tex_to_tex(_texture, 0, &tex);
