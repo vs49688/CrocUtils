@@ -109,3 +109,47 @@ extern "C" int croc_wad_decompressw(void *outbuf, const void *inbuf, size_t comp
         uncompressed_size
     );
 }
+
+extern "C" int croc_psx_texture_decompress(void *_out, const void *_in, size_t compressed_size, size_t uncompressed_size) noexcept
+{
+    uint16_t       *out     = reinterpret_cast<uint16_t*>(_out);
+    const uint16_t *in      = reinterpret_cast<const uint16_t*>(_in);
+    const uint16_t *in_end  = in + (compressed_size / sizeof(uint16_t));
+    const uint16_t *out_end = out + (uncompressed_size / sizeof(uint16_t));
+
+    if(uncompressed_size & 0x01) {
+        errno = EINVAL;
+        return -1;
+    }
+
+    while(in < in_end) {
+        uint16_t c   = *in++;
+        uint16_t len = (c & 0x7FFF) + 1;
+        int      run = (c & 0x8000) == 0;
+
+        if(!run) {
+            if(in + len > in_end || out + len > out_end) {
+                errno = ERANGE;
+                return -1;
+            }
+
+            /* 8000h..FFFFh --> Copy 1..8000h uncompressed halfwords */
+            for(size_t i = 0; i < len; ++i)
+                *out++ = *in++;
+        } else {
+            uint16_t val;
+
+            /* 0000h..7FFFh --> Load one halfword, fill 1..8000h halfwords */
+            if(in + 1 > in_end || out + 1 > out_end) {
+                errno = ERANGE;
+                return -1;
+            }
+
+            val = *in++;
+            for(size_t i = 0; i < len; ++i)
+                *out++ = val;
+        }
+    }
+
+    return 0;
+}

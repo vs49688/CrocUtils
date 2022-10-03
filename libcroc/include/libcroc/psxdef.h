@@ -20,6 +20,9 @@
 
 #include <stdint.h>
 
+#define CROC_PSX_TEXTURE_RECT_SIZE  12
+#define CROC_PSX_TEXTURE_TPAGE_SIZE 0x20000 /* 256*256*sizeof(uint16_t) */
+
 typedef enum CrocPSXTextureType {
     CROC_PSX_TEXTURE_UNCOMPRESSED = 5,
     CROC_PSX_TEXTURE_RLE16        = 6,
@@ -48,5 +51,24 @@ typedef struct CrocPSXTextureRect {
     uint8_t uv_br[2]; /* Bottom-Right */
 } CrocPSXTextureRect;
 
+
+#define CROC_PSX_TEXTURE_MAX_RESERVED0 8
+
+typedef struct CrocPSXTexture {
+    CrocPSXTextureType type;
+
+    uint16_t num_rects;
+
+    uint16_t num_tpage;
+
+    uint16_t num_anims;
+
+    CrocPSXTextureRect *rects;
+
+    union {
+        uint8_t data[CROC_PSX_TEXTURE_TPAGE_SIZE];
+        uint8_t _data[0x20002];
+    };
+} CrocPSXTexture;
 
 #endif /* _LIBCROC_PSXDEF_H */

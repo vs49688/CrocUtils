@@ -52,6 +52,8 @@ int          croc_texture_xrgb1555_to_rgb565(CrocTexture *tex);
  */
 CrocTexture *croc_texture_deindex8(const CrocTexture *tex, const CrocColour *key);
 
+int croc_texture_rgba8888_to_rgba8888_arr(CrocTexture *tex);
+
 #ifdef __cplusplus
 }
 #endif

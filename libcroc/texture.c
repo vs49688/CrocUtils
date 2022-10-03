@@ -483,3 +483,18 @@ CrocTexture *croc_texture_deindex8(const CrocTexture *tex, const CrocColour *key
 
     return ntex;
 }
+
+int croc_texture_rgba8888_to_rgba8888_arr(CrocTexture *tex)
+{
+    uint32_t *data;
+
+    if(tex == NULL || tex->format != CROC_TEXFMT_RGBA8888)
+        return VSC_ERROR(EINVAL);
+
+    data = tex->data;
+    for(size_t p = 0; p < tex->width * tex->height; ++p)
+        data[p] = vsc_native_to_beu32(data[p]);
+
+    tex->format = CROC_TEXFMT_RGBA8888_ARR;
+    return 0;
+}

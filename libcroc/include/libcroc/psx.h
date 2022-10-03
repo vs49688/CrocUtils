@@ -18,11 +18,14 @@
 #ifndef _LIBCROC_PSX_H
 #define _LIBCROC_PSX_H
 
+#include <stddef.h>
 #include "psxdef.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+int croc_psx_texture_decompress(void *_out, const void *_in, size_t compressed_size, size_t uncompressed_size);
 
 #ifdef __cplusplus
 }
