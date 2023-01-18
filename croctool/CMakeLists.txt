@@ -23,6 +23,8 @@ add_executable(croctool
 
 		./mod_burst2obj.c
 
+		./mat_toscr.c
+
 		./wad_dump_index.c
 		./wad_extract.c
 		./wad_extract_all.c
@@ -34,7 +36,7 @@ add_executable(croctool
 
 target_include_directories(croctool PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 
-target_link_libraries(croctool libcroc vsclib)
+target_link_libraries(croctool libcroc vsclib BRender::Core)
 
 if(MINGW)
 	target_compile_definitions(croctool PRIVATE __USE_MINGW_ANSI_STDIO)
