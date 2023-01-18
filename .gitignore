@@ -6,3 +6,5 @@
 /resources/maps/json
 **/result
 **/result-*
+**/.DS_Store
+
