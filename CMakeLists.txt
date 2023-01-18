@@ -15,8 +15,14 @@ function(add_cjson)
 	target_include_directories(cjson PUBLIC cJSON)
 endfunction(add_cjson)
 
+function(add_brender)
+	set(BRENDER_BUILD_DRIVERS OFF CACHE BOOL "" FORCE)
+	set(BRENDER_BUILD_TOOLS   OFF CACHE BOOL "" FORCE)
+	add_subdirectory(brender)
+endfunction(add_brender)
 
 add_cjson()
+add_brender()
 
 add_subdirectory(vsclib)
 add_subdirectory(libcroc)
