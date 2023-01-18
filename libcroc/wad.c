@@ -196,7 +196,7 @@ CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num)
     if(vsc_for_each_delim(start, start + size, '\n', croc_wad_parse_line, &idx) < 0)
         goto fail;
 
-    free(data);
+    vsc_free(data);
     *num = idx.entry_index;
     return entries;
 
@@ -205,7 +205,7 @@ fail:
         croc_wad_free_index(entries, idx.entry_index);
 
     if(data)
-        free(data);
+        vsc_free(data);
 
     return NULL;
 }

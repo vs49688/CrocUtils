@@ -103,7 +103,7 @@ done:
         croc_wad_free_index(index, fcount);
 
     if(tmpname != NULL)
-        free(tmpname);
+        vsc_free(tmpname);
 
     if(fp != NULL)
         (void)fclose(fp);
