@@ -28,11 +28,9 @@
 int wad_extract_all(int argc, char **argv)
 {
     const char *basename;
-    char *tmpname = NULL;
     int ret = -1, r;
-    FILE *fp = NULL, *fp2 = NULL;
-    CrocWadEntry *index = NULL;
-    size_t fcount = 0;
+    FILE *fp2 = NULL;
+    CrocWadFs *wadfs = NULL;
     void *data = NULL;
 
     if(argc != 2 && argc != 3)
@@ -40,28 +38,9 @@ int wad_extract_all(int argc, char **argv)
 
     basename = argv[1];
 
-    if((tmpname = vsc_asprintf("%s.idx", basename)) == NULL) {
-        vsc_fperror(stderr, VSC_ERROR(ENOMEM), "Failed to allocate memory");
-        goto done;
-    }
-
-    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
-        vsc_fperror(stderr, r, "Unable to open index file '%s'", tmpname);
-        goto done;
-    }
-
-    if((index = croc_wad_read_index(fp, &fcount)) == NULL) {
-        vsc_fperror(stderr, VSC_ERROR(errno), "Unable to read index");
-        goto done;
-    }
-
-    fclose(fp);
-
-    sprintf(tmpname, "%s.wad", basename); /* This is safe. */
-
-    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
-        vsc_fperror(stderr, r, "Unable to open wad file '%s'", tmpname);
-        goto done;
+    if((r = croc_wadfs_open(&wadfs, basename)) < 0) {
+        vsc_fperror(stderr, r, "Failed to open WAD");
+        return -1;
     }
 
     if(argc == 3 && (r = vsc_chdir(argv[2])) < 0) {
@@ -69,15 +48,15 @@ int wad_extract_all(int argc, char **argv)
         goto done;
     }
 
-    for(size_t i = 0; i < fcount; ++i) {
-        const CrocWadEntry *e = index + i;
+    for(size_t i = 0; i < wadfs->num_entries; ++i) {
+        const CrocWadEntry *e = wadfs->entries + i;
 
         if((r = vsc_fopen(e->filename, "wb", &fp2)) < 0) {
             vsc_fperror(stderr, r, "Unable to open output file '%s'", e->filename);
             goto next;
         }
 
-        if((data = croc_wad_load_entry(fp, e)) == NULL) {
+        if((data = croc_wad_load_entry(wadfs->wad, e)) == NULL) {
             vsc_fperror(stderr, VSC_ERROR(errno), "Decompression of '%s' failed", e->filename);
             goto next;
         }
@@ -99,14 +78,8 @@ next:
     ret = 0;
 done:
 
-    if(index != NULL)
-        croc_wad_free_index(index, fcount);
-
-    if(tmpname != NULL)
-        vsc_free(tmpname);
-
-    if(fp != NULL)
-        (void)fclose(fp);
+    if(wadfs != NULL)
+        croc_wadfs_close(wadfs);
 
     return ret;
 }
