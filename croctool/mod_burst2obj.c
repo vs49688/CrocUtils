@@ -135,7 +135,7 @@ int mod_burst2obj(int argc, char **argv)
         }
 
         (void)fclose(fp);
-        free(outname);
+        vsc_free(outname);
 
         fp      = NULL;
         outname = NULL;
