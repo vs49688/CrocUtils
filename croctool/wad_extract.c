@@ -28,11 +28,10 @@
 int wad_extract(int argc, char **argv)
 {
     const char *basename, *filename;
-    char *tmpname = NULL;
     int ret = -1, r;
     FILE *fp = NULL;
-    CrocWadEntry *index = NULL;
-    size_t fcount = 0, i;
+    const CrocWadEntry *index = NULL;
+    CrocWadFs *wadfs = NULL;
     void *data = NULL;
 
     if(argc != 3 && argc != 4)
@@ -41,51 +40,19 @@ int wad_extract(int argc, char **argv)
     basename = argv[1];
     filename = argv[2];
 
-    if((tmpname = vsc_asprintf("%s.idx", basename)) == NULL) {
-        vsc_fperror(stderr, VSC_ERROR(ENOMEM), "Failed to allocate memory");
-        goto done;
+    if((r = croc_wadfs_open(&wadfs, basename)) < 0) {
+        vsc_fperror(stderr, r, "Failed to open WAD");
+        return -1;
     }
 
-    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
-        vsc_fperror(stderr, r, "Unable to open index file '%s'", tmpname);
-        goto done;
-    }
-
-    if((index = croc_wad_read_index(fp, &fcount)) == NULL) {
-        vsc_fperror(stderr, VSC_ERROR(errno), "Unable to read index");
-        goto done;
-    }
-
-    fclose(fp);
-    fp = NULL;
-
-    for(i = 0; i < fcount; ++i) {
-        if(!strcmp(filename, index[i].filename))
-            break;
-    }
-
-    if(i == fcount) {
+    r = croc_wadfs_load(wadfs, filename, &data, &index);
+    if(r == VSC_ERROR(ENOENT)) {
         fprintf(stderr, "No such file '%s' in index.\n", filename);
         goto done;
-    }
-
-    sprintf(tmpname, "%s.wad", basename); /* This is safe. */
-
-    if((r = vsc_fopen(tmpname, "rb", &fp)) < 0) {
-        vsc_fperror(stderr, r, "Unable to open wad file '%s'", tmpname);
+    } else if(r < 0) {
+        vsc_fperror(stderr, r, "Failed to load %s", filename);
         goto done;
     }
-
-    if((data = croc_wad_load_entry(fp, index + i)) == NULL) {
-        vsc_fperror(stderr, VSC_ERROR(errno), "Decompression failed");
-        goto done;
-    }
-
-    fclose(fp);
-    fp = NULL;
-
-    free(tmpname);
-    tmpname = NULL;
 
     if(argc == 4 && !strcmp("-", argv[3])) {
         fp = stdout;
@@ -97,13 +64,13 @@ int wad_extract(int argc, char **argv)
             }
         }
 
-        if((r = vsc_fopen(index[i].filename, "wb", &fp)) < 0) {
-            vsc_fperror(stderr, r, "Unable to open output file '%s'", index[i].filename);
+        if((r = vsc_fopen(index->filename, "wb", &fp)) < 0) {
+            vsc_fperror(stderr, r, "Unable to open output file '%s'", index->filename);
             goto done;
         }
     }
 
-    if(fwrite(data, index[i].uncompressed_size, 1, fp) != 1) {
+    if(fwrite(data, index->uncompressed_size, 1, fp) != 1) {
         vsc_fperror(stderr, VSC_ERROR(EIO), "Unable to write output file");
         goto done;
     }
@@ -114,11 +81,8 @@ done:
     if(data)
         free(data);
 
-    if(index != NULL)
-        croc_wad_free_index(index, fcount);
-
-    if(tmpname != NULL)
-        free(tmpname);
+    if(wadfs != NULL)
+        croc_wadfs_close(wadfs);
 
     if(fp != NULL && fp != stdout)
         (void)fclose(fp);
