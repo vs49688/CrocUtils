@@ -50,6 +50,12 @@ int croc_wad_decompressw(void *outbuf, const void *inbuf, size_t compressed_size
 
 void *croc_wad_load_entry(FILE *f, const CrocWadEntry *entry);
 
+int croc_wadfs_open(CrocWadFs **fs, const char *base);
+
+int croc_wadfs_load(CrocWadFs *fs, const char *name, void **data, const CrocWadEntry **const _entry);
+
+void croc_wadfs_close(CrocWadFs *fs);
+
 #ifdef __cplusplus
 }
 #endif
