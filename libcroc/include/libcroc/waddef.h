@@ -44,4 +44,12 @@ typedef struct CrocWadEntry {
 	CrocWadRleType rle_type;
 } CrocWadEntry;
 
+typedef struct CrocWadFs {
+    char         *idx_path;
+    char         *wad_path;
+    CrocWadEntry *entries;
+    size_t        num_entries;
+    FILE         *wad;
+} CrocWadFs;
+
 #endif /* _LIBCROC_WADDEF_H */

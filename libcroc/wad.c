@@ -339,3 +339,103 @@ fail:
 
     return NULL;
 }
+
+static int index_sort(const void *a, const void *b)
+{
+    const CrocWadEntry *ia = a;
+    const CrocWadEntry *ib = b;
+    return strcasecmp(ia->filename, ib->filename);
+}
+
+static int index_compare(const void *key, const void *elem)
+{
+    const char         *name  = key;
+    const CrocWadEntry *entry = elem;
+    return strcasecmp(name, entry->filename);
+}
+
+int croc_wadfs_open(CrocWadFs **fs, const char *base)
+{
+    CrocWadFs *wadfs = NULL;
+    FILE      *fp    = NULL;
+    int        r     = VSC_ERROR(EINVAL);
+
+    if((wadfs = vsc_calloc(1, sizeof(CrocWadFs))) == NULL)
+        return VSC_ERROR(ENOMEM);
+
+    if((wadfs->idx_path = vsc_asprintf("%s.idx", base)) == NULL) {
+        r = VSC_ERROR(ENOMEM);
+        goto fail;
+    }
+
+    if((wadfs->wad_path = vsc_asprintf("%s.wad", base)) == NULL) {
+        r = VSC_ERROR(ENOMEM);
+        goto fail;
+    }
+
+    if((r = vsc_fopen(wadfs->idx_path, "rb", &fp)) < 0)
+        goto fail;
+
+    if((wadfs->entries = croc_wad_read_index(fp, &wadfs->num_entries)) == NULL) {
+        r = VSC_ERROR(errno); /* TODO: convert c_w_r_i() use VSC_* properly. */
+        goto fail;
+    }
+
+    /* Sort them for quick bsearch()'ing. */
+    qsort(wadfs->entries, wadfs->num_entries, sizeof(CrocWadEntry), index_sort);
+
+    fclose(fp);
+
+    if((r = vsc_fopen(wadfs->wad_path, "rb", &wadfs->wad)) < 0)
+        goto fail;
+
+    *fs = wadfs;
+    return 0;
+
+fail:
+    if(fp != NULL)
+        fclose(fp);
+
+    croc_wadfs_close(wadfs);
+    return r;
+}
+
+int croc_wadfs_load(CrocWadFs *fs, const char *name, void **data, const CrocWadEntry **const _entry)
+{
+    CrocWadEntry *entry;
+
+    if(name == NULL || data == NULL)
+        return VSC_ERROR(EINVAL);
+
+    if((entry = bsearch(name, fs->entries, fs->num_entries, sizeof(CrocWadEntry), index_compare)) == NULL) {
+        return VSC_ERROR(ENOENT);
+    }
+
+    if((*data = croc_wad_load_entry(fs->wad, entry)) == NULL)
+        return VSC_ERROR(errno); /* TODO: convert c_w_l_e() use VSC_* properly. */
+
+    if(_entry != NULL)
+        *_entry = entry;
+
+    return 0;
+}
+
+void croc_wadfs_close(CrocWadFs *fs)
+{
+    if(fs == NULL)
+        return;
+
+    if(fs->wad != NULL)
+        fclose(fs->wad);
+
+    if(fs->entries != NULL)
+        free(fs->entries);
+
+    if(fs->wad_path != NULL)
+        vsc_free(fs->wad_path);
+
+    if(fs->idx_path != NULL)
+        vsc_free(fs->idx_path);
+
+    vsc_free(fs);
+}
