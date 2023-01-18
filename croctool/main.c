@@ -33,6 +33,7 @@ int crocfile_extract(int argc, char **argv);
 int crocfile_build(int argc, char **argv);
 int strun_dump(int argc, char **argv);
 int mod_burst2obj(int argc, char **argv);
+int mat_toscr(int argc, char **argv);
 int wad_extract(int argc, char **argv);
 int wad_extract_all(int argc, char **argv);
 int wad_dump_index(int argc, char **argv);
@@ -51,6 +52,7 @@ static void usage(FILE *f, const char *argv0)
     fprintf(f, "       %s crocfile build <CROCFILE.DIR> <CROCFILE.DAT|CROCFILE.1> <input-file1> [input-file2 [...]]\n", argv0);
     fprintf(f, "       %s strun dump <STRUN.BIN> [output-file.json]\n", argv0);
     fprintf(f, "       %s mod burst2obj <input-file.mod> [output-dir]\n", argv0);
+    fprintf(f, "       %s mat to-scr <input-file.mat> output-file.scr\n", argv0);
     fprintf(f, "       %s wad extract <base-name> <file-name> [output-dir|-]\n", argv0);
     fprintf(f, "       %s wad extract-all <base-name> [output-dir]\n", argv0);
     fprintf(f, "       %s wad dump-index <index-name.idx> [output-file.json]\n", argv0);
@@ -196,6 +198,11 @@ int main(int argc, char **argv)
     } else if(!strcmp("mod", argv[1])) {
         if(!strcmp("burst2obj", argv[2]))
             ret = mod_burst2obj(argc - 2, argv + 2);
+        else
+            ret = 2;
+    } else if(!strcmp("mat", argv[1])) {
+        if(!strcmp("to-scr", argv[2]))
+            ret = mat_toscr(argc - 2, argv + 2);
         else
             ret = 2;
     } else if(!strcmp("wad", argv[1])) {
