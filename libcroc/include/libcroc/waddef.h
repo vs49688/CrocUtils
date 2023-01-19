@@ -22,12 +22,12 @@
 
 typedef enum CrocWadFileType {
 	CROC_WAD_FILE_TYPE_BINARY = 0,
-	CROC_WAD_FILE_TYPE_MAP    = 1
+	CROC_WAD_FILE_TYPE_MAP    = 1,
 } CrocWadFileType;
 
 typedef enum CrocWadType {
 	CROC_WAD_TYPE_MPLOAD = 0,
-	CROC_WAD_TYPE_MAPXX  = 1
+	CROC_WAD_TYPE_MAPXX  = 1,
 } CrocWadType;
 
 typedef enum CrocWadRleType {
