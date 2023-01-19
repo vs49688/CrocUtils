@@ -21,6 +21,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <cJSON.h>
+#include <vsclib.h>
 #include <libcroc/wad.h>
 
 int wad_dump_index(int argc, char **argv)
@@ -28,7 +29,7 @@ int wad_dump_index(int argc, char **argv)
     FILE *fp = NULL;
     cJSON *j = NULL;
     char *s = NULL;
-    int ret = 1;
+    int ret = 1, r;
     CrocWadEntry *entries = NULL;
     size_t ecount = 0;
 
@@ -40,8 +41,8 @@ int wad_dump_index(int argc, char **argv)
         return 1;
     }
 
-    if((entries = croc_wad_read_index(fp, &ecount)) == NULL) {
-        fprintf(stderr, "Unable to read index: %s\n", strerror(errno));
+    if((r = croc_wad_read_index(fp, &entries, &ecount)) < 0) {
+        vsc_fperror(stderr, r, "Unable to read index");
         goto done;
     }
 
@@ -84,7 +85,7 @@ done:
         cJSON_Delete(j);
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
     if(fp != NULL && fp != stdout)
         (void)fclose(fp);

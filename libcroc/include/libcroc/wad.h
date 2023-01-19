@@ -36,7 +36,7 @@ int croc_wad_is_mpload(const char *path, unsigned int *level);
 /* Is the file a PSX MAP%02u.WAD? */
 int croc_wad_is_mapxx(const char *path, unsigned int *level);
 
-CrocWadEntry *croc_wad_read_index(FILE *f, size_t *num);
+int croc_wad_read_index(FILE *f, CrocWadEntry **entries, size_t *num);
 
 void croc_wad_free_index(CrocWadEntry *entries, size_t num);
 
