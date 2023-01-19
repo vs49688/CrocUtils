@@ -27,6 +27,8 @@
 extern "C" {
 #endif
 
+extern const char * const CrocWadPaths[];
+
 /* Is the file a Saturn MPLOAD%02u.WAD? */
 int croc_wad_is_mpload(const char *path, unsigned int *level);
 

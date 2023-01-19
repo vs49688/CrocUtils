@@ -23,6 +23,43 @@
 #include <libcroc/wad.h>
 #include <libcroc/util.h>
 
+const char *const CrocWadPaths[] = {
+    [CROC_WAD_NONE]              = "",
+    [CROC_WAD_ANIMS]             = "anims",
+    [CROC_WAD_MAPS]              = "maps",
+    [CROC_WAD_OBJECTS]           = "objects",
+    [CROC_WAD_SOUND]             = "sound",
+    [CROC_WAD_TEXTURES]          = "textures",
+    [CROC_WAD_FONTS]             = "fonts",
+    [CROC_WAD_MATERIAL]          = "material",
+    [CROC_WAD_MATERIAL_ICE]      = "material/ice",
+    [CROC_WAD_MATERIAL_DESERT]   = "material/desert",
+    [CROC_WAD_MATERIAL_WATER]    = "material/water",
+    [CROC_WAD_MATERIAL_CASTLE]   = "material/castle",
+    [CROC_WAD_MATERIAL_CAVE]     = "material/cave",
+    [CROC_WAD_MATERIAL_FOREST]   = "material/forest",
+    [CROC_WAD_MATERIAL_ICECAVE]  = "material/icecave",
+    [CROC_WAD_MATERIAL_DUNGEON]  = "material/dungeon",
+    [CROC_WAD_MATERIAL_ISLAND1]  = "material/island1",
+    [CROC_WAD_MATERIAL_ISLAND2]  = "material/island2",
+    [CROC_WAD_MATERIAL_ISLAND3]  = "material/island3",
+    [CROC_WAD_MATERIAL_ISLAND4]  = "material/island4",
+    [CROC_WAD_MATERIAL_ISLAND5]  = "material/island5",
+    [CROC_WAD_MATERIAL_BOSS1]    = "material/boss1",
+    [CROC_WAD_MATERIAL_BOSS2]    = "material/boss2",
+    [CROC_WAD_MATERIAL_BOSS3]    = "material/boss3",
+    [CROC_WAD_MATERIAL_BOSS4]    = "material/boss4",
+    [CROC_WAD_MATERIAL_BOSS5]    = "material/boss5",
+    [CROC_WAD_MATERIAL_BOSS6]    = "material/boss6",
+    [CROC_WAD_MATERIAL_BOSS7]    = "material/boss7",
+    [CROC_WAD_MATERIAL_BOSS8]    = "material/boss8",
+    [CROC_WAD_MATERIAL_BOSS9]    = "material/boss9",
+    [CROC_WAD_MATERIAL_INTRO]    = "material/intro",
+    [CROC_WAD_MATERIAL_INTROJIG] = "material/intro",
+    [CROC_WAD_MATERIAL_OUTRO]    = "material/outro",
+    [CROC_WAD_PALETTES]          = "palettes",
+    [CROC_WAD_STRATS]            = "strats",
+};
 
 /* Is the file a Saturn MPLOAD%02u.WAD? */
 int croc_wad_is_mpload(const char *path, unsigned int *level)
