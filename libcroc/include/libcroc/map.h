@@ -20,6 +20,7 @@
 
 #include <stdio.h>
 #include "mapdef.h"
+#include "waddef.h"
 
 struct cJSON;
 typedef struct cJSON cJSON;
@@ -29,6 +30,7 @@ extern const char * const CrocMapStyleStrings[];
 extern const char * const CrocMapEffectStrings[];
 extern const char * const CrocMapAmbienceStrings[];
 extern const char * const CrocMapDoorFlagStrings[];
+extern const CrocWad CrocMapStyleToWad[];
 
 #ifdef __cplusplus
 extern "C" {

@@ -22,6 +22,7 @@
 #include <stdio.h>
 #include <cJSON.h>
 #include "waddef.h"
+#include "mapdef.h"
 
 #ifdef __cplusplus
 extern "C" {
