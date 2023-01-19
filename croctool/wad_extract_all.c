@@ -56,8 +56,8 @@ int wad_extract_all(int argc, char **argv)
             goto next;
         }
 
-        if((data = croc_wad_load_entry(wadfs->wad, e)) == NULL) {
-            vsc_fperror(stderr, VSC_ERROR(errno), "Decompression of '%s' failed", e->filename);
+        if((r = croc_wad_load_entry(wadfs->wad, e, &data)) < 0) {
+            vsc_fperror(stderr, r, "Extraction of '%s' failed", e->filename);
             goto next;
         }
 

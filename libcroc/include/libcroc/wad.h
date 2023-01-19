@@ -48,7 +48,7 @@ int croc_wad_decompressb(void *outbuf, const void *inbuf, size_t compressed_size
 /* Decompress a word-sized RLE. Output buffer must be a multiple of 2. */
 int croc_wad_decompressw(void *outbuf, const void *inbuf, size_t compressed_size, size_t uncompressed_size);
 
-void *croc_wad_load_entry(FILE *f, const CrocWadEntry *entry);
+int croc_wad_load_entry(FILE *f, const CrocWadEntry *entry, void **buf);
 
 int croc_wadfs_open(CrocWadFs **fs, const char *base);
 

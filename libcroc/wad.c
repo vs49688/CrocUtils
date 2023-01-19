@@ -307,16 +307,17 @@ fail:
 }
 
 
-void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
+int croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry, void **buf)
 {
     void *cbuf = NULL, *ubuf = NULL;
-    int errno_, r;
+    int r;
     size_t bufsize;
 
-    if(!(cbuf = malloc(entry->compressed_size))) {
-        errno = ENOMEM;
-        goto fail;
-    }
+    if(wad == NULL || entry == NULL || buf == NULL)
+        return VSC_ERROR(EINVAL);
+
+    if((cbuf = vsc_malloc(entry->compressed_size)) == NULL)
+        return VSC_ERROR(ENOMEM);
 
     /*
      * The output buffer size should always be a multiple of the RLE size.
@@ -326,23 +327,21 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
     if(bufsize & 1)
         ++bufsize;
 
-    if(entry->rle_type != CROC_WAD_RLE_NONE && !(ubuf = malloc(bufsize))) {
-        errno = ENOMEM;
+    if(entry->rle_type != CROC_WAD_RLE_NONE && !(ubuf = vsc_malloc(bufsize))) {
+        r = VSC_ERROR(ENOMEM);
         goto fail;
     }
 
-    if((r = vsc_fseeko(wad, entry->offset, SEEK_SET)) < 0) {
-        errno = VSC_UNERROR(r);
+    if((r = vsc_fseeko(wad, entry->offset, SEEK_SET)) < 0)
         goto fail;
-    }
 
     if(fread(cbuf, entry->compressed_size, 1, wad) != 1) {
-        errno = EIO;
+        r = VSC_ERROR(EIO);
         goto fail;
     }
 
     if(entry->rle_type == CROC_WAD_RLE_NONE) {
-        free(ubuf);
+        vsc_free(ubuf);
         ubuf = cbuf;
         cbuf = NULL;
         r = 0;
@@ -351,30 +350,26 @@ void *croc_wad_load_entry(FILE *wad, const CrocWadEntry *entry)
     } else if(entry->rle_type == CROC_WAD_RLE_WORD) {
         r = croc_wad_decompressw(ubuf, cbuf, entry->compressed_size, bufsize);
     } else {
-        assert(0);
-        errno = EOVERFLOW;
-        r = -1;
+        r = VSC_ERROR(EOVERFLOW);
     }
 
     if(r < 0)
-        return NULL;
+        return r;
 
     if(cbuf)
-        free(cbuf);
+        vsc_free(cbuf);
 
-    return ubuf;
+    *buf = ubuf;
+    return 0;
 
 fail:
-    errno_ = errno;
     if(ubuf)
-        free(ubuf);
+        vsc_free(ubuf);
 
     if(cbuf)
-        free(cbuf);
+        vsc_free(cbuf);
 
-    errno = errno_;
-
-    return NULL;
+    return r;
 }
 
 static int index_sort(const void *a, const void *b)
@@ -440,6 +435,7 @@ fail:
 int croc_wadfs_load(CrocWadFs *fs, const char *name, void **data, const CrocWadEntry **const _entry)
 {
     CrocWadEntry *entry;
+    int r;
 
     if(name == NULL || data == NULL)
         return VSC_ERROR(EINVAL);
@@ -448,8 +444,8 @@ int croc_wadfs_load(CrocWadFs *fs, const char *name, void **data, const CrocWadE
         return VSC_ERROR(ENOENT);
     }
 
-    if((*data = croc_wad_load_entry(fs->wad, entry)) == NULL)
-        return VSC_ERROR(errno); /* TODO: convert c_w_l_e() use VSC_* properly. */
+    if((r = croc_wad_load_entry(fs->wad, entry, data)) < 0)
+        return r;
 
     if(_entry != NULL)
         *_entry = entry;
