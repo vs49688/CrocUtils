@@ -129,7 +129,7 @@ int mod_burst2obj(int argc, char **argv)
             models[i].num_faces
         );
 
-        if(croc_mod_write_obj(fp, models + i) < 0) {
+        if(croc_mod_write_obj(fp, models + i, 0) < 0) {
             fprintf(stderr, "Failed to write output file '%s': %s\n", outname, strerror(errno));
             goto done;
         }

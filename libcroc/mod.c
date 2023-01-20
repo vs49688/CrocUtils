@@ -361,7 +361,7 @@ void croc_mod_sort_faces(CrocModel *m)
     qsort(m->faces, m->num_faces, sizeof(CrocModelFace), facesort);
 }
 
-int croc_mod_write_obj(FILE *f, const CrocModel *m)
+int croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl)
 {
     const char *lastmat = "";
 
@@ -402,7 +402,11 @@ int croc_mod_write_obj(FILE *f, const CrocModel *m)
          * NB: These are commented out until proper material handling is implemented.
          */
         if(strncmp(lastmat, face->material, sizeof(face->material)) != 0) {
-            fprintf(f, "# usemtl %.*s\n", (int)strnlen(face->material, sizeof(face->material)), face->material);
+
+            if(!usemtl)
+                fprintf(f, "# ");
+
+            fprintf(f, "usemtl %.*s\n", (int)strnlen(face->material, sizeof(face->material)), face->material);
             lastmat = face->material;
         }
 

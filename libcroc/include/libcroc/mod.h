@@ -35,7 +35,7 @@ int         croc_mod_validate(const CrocModel *m, void(*proc)(void *, const char
  * Currently just does it by material name in code-point order.
  */
 void        croc_mod_sort_faces(CrocModel *m);
-int         croc_mod_write_obj(FILE *f, const CrocModel *m);
+int         croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl);
 
 #ifdef __cplusplus
 }
