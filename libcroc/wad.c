@@ -369,6 +369,11 @@ fail:
     return r;
 }
 
+/* FIXME: This should be in vsclib */
+#if defined(_MSC_VER)
+#   define strcasecmp stricmp
+#endif
+
 static int index_sort(const void *a, const void *b)
 {
     const CrocWadEntry *ia = a;
