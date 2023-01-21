@@ -97,7 +97,7 @@ typedef enum CrocMapStyle {
     CROC_MAP_STYLE_BOSS7    = 13,
     CROC_MAP_STYLE_BOSS8    = 14,
     CROC_MAP_STYLE_BOSS9    = 15,
-    /* 16 */
+    CROC_MAP_STYLE_WHALE    = 16,
     CROC_MAP_STYLE_ISLAND1  = 17,
     CROC_MAP_STYLE_ISLAND2  = 18,
     CROC_MAP_STYLE_ISLAND3  = 19,
