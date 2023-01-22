@@ -183,6 +183,29 @@ static cJSON *add_mat_flags(cJSON *parent, const char *name, br_uint_32 flags)
 
 static cJSON *add_map_transform(cJSON *parent, const char *name, br_matrix23 *map_transform)
 {
+    cJSON *j, *j2;
+
+    if((j = cJSON_CreateArray()) == NULL)
+        return NULL;
+
+    cJSON_AddItemToObject(parent, name, j);
+
+    if((j2 = cJSON_CreateFloatArray(map_transform->m[0], 2)) == NULL)
+        return NULL;
+
+    cJSON_AddItemToArray(j, j2);
+
+    if((j2 = cJSON_CreateFloatArray(map_transform->m[1], 2)) == NULL)
+        return NULL;
+
+    cJSON_AddItemToArray(j, j2);
+
+    if((j2 = cJSON_CreateFloatArray(map_transform->m[2], 2)) == NULL)
+        return NULL;
+
+    cJSON_AddItemToArray(j, j2);
+
+    return j;
 }
 
 static cJSON *add_depth_test(cJSON *parent, const char *name, br_uint_16 mode)
