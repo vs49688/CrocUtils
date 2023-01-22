@@ -125,4 +125,16 @@ typedef struct CrocModel
     CrocModelFace   *faces;
 } CrocModel;
 
+typedef enum CrocModelObjWriteFlags {
+    CROC_MODEL_OBJ_WFLAG_NONE  = 0,
+    CROC_MODEL_OBJ_WFLAG_NOMTL = 1 << 1,
+} CrocModelObjWriteFlags;
+
+typedef struct CrocModelObjMatInfo {
+    const char *libname;
+    const char *matname;
+} CrocModelObjMatInfo;
+
+typedef void (*CrocModelObjMatInfoProc)(CrocModelObjMatInfo *matinfo, const CrocModelFace *face, void *user);
+
 #endif /* _LIBCROC_MODDEF_H */

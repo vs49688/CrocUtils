@@ -358,10 +358,9 @@ void croc_mod_sort_faces(CrocModel *m)
     qsort(m->faces, m->num_faces, sizeof(CrocModelFace), facesort);
 }
 
-int croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl)
+// clang-format off
+static void croc_mod_obj_write_vertices(FILE *f, const CrocModel *m)
 {
-    const char *lastmat = "";
-
     for(uint32_t i = 0; i < m->num_vertices; ++i) {
         fprintf(f, "v  %f %f %f\n",
             croc_x0412_to_float(m->vertices[i].x),
@@ -387,39 +386,72 @@ int croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl)
         "vt 1 0\n" /* CROC_MODEL_UV_U1_V0 */
         "vt 1 1\n" /* CROC_MODEL_UV_U1_V1 */
     );
+}
+
+static void croc_mod_obj_write_face_vertices(FILE *f, const CrocModelFace *face)
+{
+    fprintf(f, "f  %u/%d/%u %u/%d/%u %u/%d/%u\n",
+        face->_idx_tri[0] + 1, (int)face->_uvs_tri[0] + 1, face->_idx_tri[0] + 1,
+        face->_idx_tri[1] + 1, (int)face->_uvs_tri[1] + 1, face->_idx_tri[1] + 1,
+        face->_idx_tri[2] + 1, (int)face->_uvs_tri[2] + 1, face->_idx_tri[2] + 1
+    );
+
+    if(face->flags & CROC_MODEL_FACE_QUAD) {
+        fprintf(f, "f  %u/%d/%u %u/%d/%u %u/%d/%u\n",
+            face->_idx_tri[3] + 1, (int)face->_uvs_tri[3] + 1, face->_idx_tri[3] + 1,
+            face->_idx_tri[4] + 1, (int)face->_uvs_tri[4] + 1, face->_idx_tri[4] + 1,
+            face->_idx_tri[5] + 1, (int)face->_uvs_tri[5] + 1, face->_idx_tri[5] + 1
+        );
+    }
+}
+// clang-format on
+
+int croc_mod_obj_write(FILE *f, const CrocModel *m, CrocModelObjWriteFlags flags, CrocModelObjMatInfoProc mat_info_proc, void *user)
+{
+    vsc_hash_t          last_hash_lib = VSC_INVALID_HASH;
+    vsc_hash_t          last_hash_mat = VSC_INVALID_HASH;
+    char                tmpname[CROC_MODEL_FACE_NAME_LENGTH + 1];
+    CrocModelObjMatInfo matinfo;
+
+    croc_mod_obj_write_vertices(f, m);
 
     for(uint32_t i = 0; i < m->num_faces; ++i) {
+        vsc_hash_t hash;
         const CrocModelFace *face = m->faces + i;
 
-        /*
-         * From the OBJ/MTL spec:
-         *   "If a material name is not specified, a white material is used."
-         * Also don't print duplicate usemtl's if we can help it.
-         *
-         * NB: These are commented out until proper material handling is implemented.
-         */
-        if(strncmp(lastmat, face->material, sizeof(face->material)) != 0) {
+        strncpy(tmpname, face->material, sizeof(face->material));
+        tmpname[sizeof(face->material)] = '\0';
 
-            if(!usemtl)
+        matinfo = (CrocModelObjMatInfo){
+            .libname = "",
+            .matname = tmpname,
+        };
+
+        if(mat_info_proc != NULL)
+            mat_info_proc(&matinfo, face, user);
+
+        /* Maybe write an mtllib. */
+        hash = vsc_hash_string(matinfo.libname);
+        if(hash != VSC_INVALID_HASH && hash != last_hash_lib) {
+            if(flags & CROC_MODEL_OBJ_WFLAG_NOMTL)
                 fprintf(f, "# ");
 
-            fprintf(f, "usemtl %.*s\n", (int)strnlen(face->material, sizeof(face->material)), face->material);
-            lastmat = face->material;
+            fprintf(f, "mtllib %s\n", matinfo.libname);
+            last_hash_lib = hash;
         }
 
-        fprintf(f, "f  %u/%d/%u %u/%d/%u %u/%d/%u\n",
-            face->_idx_tri[0] + 1, (int)face->_uvs_tri[0] + 1, face->_idx_tri[0] + 1,
-            face->_idx_tri[1] + 1, (int)face->_uvs_tri[1] + 1, face->_idx_tri[1] + 1,
-            face->_idx_tri[2] + 1, (int)face->_uvs_tri[2] + 1, face->_idx_tri[2] + 1
-        );
+        /* Maybe write an usemtl. */
+        hash = vsc_hash_string(matinfo.matname);
+        if(hash != VSC_INVALID_HASH && hash != last_hash_mat) {
+            if(flags & CROC_MODEL_OBJ_WFLAG_NOMTL)
+                fprintf(f, "# ");
 
-        if(face->flags & CROC_MODEL_FACE_QUAD) {
-            fprintf(f, "f  %u/%d/%u %u/%d/%u %u/%d/%u\n",
-                face->_idx_tri[3] + 1, (int)face->_uvs_tri[3] + 1, face->_idx_tri[3] + 1,
-                face->_idx_tri[4] + 1, (int)face->_uvs_tri[4] + 1, face->_idx_tri[4] + 1,
-                face->_idx_tri[5] + 1, (int)face->_uvs_tri[5] + 1, face->_idx_tri[5] + 1
-            );
+            fprintf(f, "usemtl %s\n", matinfo.matname);
+            last_hash_mat = hash;
         }
+
+        croc_mod_obj_write_face_vertices(f, face);
+
     }
 
     if(ferror(f)) {
@@ -428,4 +460,9 @@ int croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl)
     }
 
     return 0;
+}
+
+int croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl)
+{
+    return croc_mod_obj_write(f, m, !usemtl ? CROC_MODEL_OBJ_WFLAG_NOMTL : CROC_MODEL_OBJ_WFLAG_NONE , NULL, NULL);
 }

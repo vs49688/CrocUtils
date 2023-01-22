@@ -37,6 +37,8 @@ int         croc_mod_validate(const CrocModel *m, void(*proc)(void *, const char
 void        croc_mod_sort_faces(CrocModel *m);
 int         croc_mod_write_obj(FILE *f, const CrocModel *m, int usemtl);
 
+int croc_mod_obj_write(FILE *f, const CrocModel *m, CrocModelObjWriteFlags flags, CrocModelObjMatInfoProc mat_info_proc, void *user);
+
 #ifdef __cplusplus
 }
 #endif
