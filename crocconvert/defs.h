@@ -20,7 +20,9 @@ typedef struct CrocConvert {
         char *frontend_dir;                              /* $croc_dir/gdata/frontend */
         char *out_dir;                                   /* $out_dir */
         char *materials;                                 /* $out_dir/materials.mtl */
+        char *materials_json;                            /* $out_dir/materials.json */
         char *materials_styled[CROC_MAP_STYLE_MAX];      /* $out_dir/materials_$style.mtl */
+        char *materials_styled_json[CROC_MAP_STYLE_MAX]; /* $out_dir/materials_$style.json */
         char *materials_sub1;                            /* ../materials.mtl */
         char *materials_styled_sub1[CROC_MAP_STYLE_MAX]; /* ../materials_$style.mtl */
         char *out_track_dir;                             /* $out_dir/track */

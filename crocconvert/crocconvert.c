@@ -18,6 +18,7 @@ int crocconvert_init(CrocConvert **_cc, const char *croc_dir, const char *out_di
     cc->paths.frontend_dir     = vsc_strjoin("/", croc_dir, "gdata", "frontend", NULL);
     cc->paths.out_dir          = vsc_strdup(out_dir);
     cc->paths.materials        = vsc_strjoin("/", out_dir, "materials.mtl", NULL);
+    cc->paths.materials_json   = vsc_strjoin("/", out_dir, "materials.json", NULL);
     cc->paths.materials_sub1   = vsc_strdup("../materials.mtl");
     cc->paths.out_track_dir    = vsc_strjoin("/", out_dir, "track", NULL);
     cc->paths.out_textures_dir = vsc_strjoin("/", out_dir, "textures", NULL);
@@ -30,6 +31,7 @@ int crocconvert_init(CrocConvert **_cc, const char *croc_dir, const char *out_di
     for(size_t i = 0; i < CROC_MAP_STYLE_MAX; ++i) {
         cc->paths.track_paths[i]           = vsc_asprintf("%s/track/tk%02zu_trk.mod", cc->paths.gdata_dir, i);
         cc->paths.materials_styled[i]      = vsc_asprintf("%s/materials_%s.mtl", out_dir, CrocMapStyleStrings[i]);
+        cc->paths.materials_styled_json[i] = vsc_asprintf("%s/materials_%s.json", out_dir, CrocMapStyleStrings[i]);
         cc->paths.materials_styled_sub1[i] = vsc_asprintf("../materials_%s.mtl", CrocMapStyleStrings[i]);
     }
 

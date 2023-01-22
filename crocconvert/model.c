@@ -96,3 +96,8 @@ done:
 
     return r;
 }
+
+int crocconvert_load_and_convert_model(CrocConvert *cc, const char *name)
+{
+    return 0;
+}

@@ -16,11 +16,10 @@ add_executable(crocconvert
         savetga.h
 
         br_wadfs.c
-        cccc.c
         defs.h
         )
 
-target_link_libraries(crocconvert PRIVATE libcroc vsclib vscpplib BRender::Core)
+target_link_libraries(crocconvert PRIVATE libcroc vsclib BRender::Core)
 
 set_target_properties(crocconvert PROPERTIES
         C_STANDARD 11
