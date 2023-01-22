@@ -76,8 +76,10 @@ br_material *crocconvert_material_find(CrocConvert *cc, const char *identifier);
 int          crocconvert_write_all_materials(CrocConvert *cc);
 
 /* model.c */
-int crocconvert_face_sort_proc(const void *a, const void *b);
-int crocconvert_write_model(const char *pathname, const CrocModel *mdl, size_t idx, size_t count);
+int  crocconvert_face_sort_proc(const void *a, const void *b);
+int  crocconvert_write_model(const char *pathname, const CrocModel *mdl, size_t idx, size_t count);
+void crocconvert_load_model_materials(CrocModel *models, size_t nmodels);
+int  crocconvert_load_and_convert_model(CrocConvert *cc, const char *base);
 
 /* track.c */
 int crocconvert_track(CrocConvert *cc, CrocMapStyle style);

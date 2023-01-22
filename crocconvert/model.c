@@ -97,7 +97,88 @@ done:
     return r;
 }
 
-int crocconvert_load_and_convert_model(CrocConvert *cc, const char *name)
+void crocconvert_load_model_materials(CrocModel *models, size_t nmodels)
 {
-    return 0;
+    /* Pass 1 - load the materials and textures. */
+    for(size_t i = 0; i < nmodels; ++i) {
+        CrocModel *mdl = models + i;
+
+        for(size_t f = 0; f < mdl->num_faces; ++f) {
+            const CrocModelFace *face = mdl->faces + f;
+
+            /* Trigger BRender to load materials and textures. */
+            (void)BrMaterialFind(face->material);
+        }
+    }
+
+    /* Pass 2 - sort the faces. */
+    for(size_t i = 0; i < nmodels; ++i) {
+        CrocModel *mdl = models + i;
+        qsort(mdl->faces, mdl->num_faces, sizeof(CrocModelFace), crocconvert_face_sort_proc);
+    }
+}
+
+int crocconvert_load_and_convert_model(CrocConvert *cc, const char *base)
+{
+    CrocModel *models  = NULL;
+    size_t     nmodels = 0;
+    FILE      *fp      = NULL;
+    int        r;
+    char      *path = NULL, *outbase;
+
+    if((outbase = vsc_strjoin("/", cc->paths.out_dir, base, NULL)) == NULL)
+        return VSC_ERROR(ENOMEM);
+
+    if((path = vsc_asprintf("%s/%s.mod", cc->paths.gdata_dir, outbase)) == NULL) {
+        r = VSC_ERROR(ENOMEM);
+        goto done;
+    }
+
+    if((r = vsc_fopen(path, "rb", &fp)) < 0)
+        goto done;
+
+    vsc_free(path);
+    path = NULL;
+
+    if(croc_mod_read_many(fp, &models, &nmodels, CROC_MODEL_TYPE_NORMAL) < 0) {
+        r = VSC_ERROR(errno);
+        goto done;
+    }
+
+    (void)fclose(fp);
+    fp = NULL;
+
+    crocconvert_load_model_materials(models, nmodels);
+
+    /* Pass 3 - dump them. */
+    for(size_t i = 0; i < nmodels; ++i) {
+        const CrocModel *mdl = models + i;
+
+        if((path = vsc_asprintf("%s_%03zu.obj", outbase, i)) == NULL) {
+            r = VSC_ERROR(ENOMEM);
+            goto done;
+        }
+
+        if((r = crocconvert_write_model(path, mdl, i, nmodels)) < 0)
+            goto done;
+
+        vsc_free(path);
+        path = NULL;
+    }
+
+    r = 0;
+done:
+
+    if(fp != NULL)
+        fclose(fp);
+
+    if(path != NULL)
+        vsc_free(path);
+
+    if(outbase != NULL)
+        vsc_free(outbase);
+
+    if(models != NULL)
+        croc_mod_free_many(models, nmodels);
+    return r;
 }
