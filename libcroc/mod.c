@@ -39,15 +39,15 @@ static void process_face_quad(CrocModelFace *f)
     f->_idx_tri[5] = f->indices[1];
 
     if(f->flags & CROC_MODEL_FACE_UV_FLIP) {
-        f->_uvs[0] = CROC_MODEL_UV_U0_V1;
-        f->_uvs[1] = CROC_MODEL_UV_U1_V1;
-        f->_uvs[2] = CROC_MODEL_UV_U0_V0;
-        f->_uvs[3] = CROC_MODEL_UV_U1_V0;
-    } else {
         f->_uvs[0] = CROC_MODEL_UV_U1_V1;
         f->_uvs[1] = CROC_MODEL_UV_U0_V1;
         f->_uvs[2] = CROC_MODEL_UV_U1_V0;
         f->_uvs[3] = CROC_MODEL_UV_U0_V0;
+    } else {
+        f->_uvs[0] = CROC_MODEL_UV_U0_V1;
+        f->_uvs[1] = CROC_MODEL_UV_U1_V1;
+        f->_uvs[2] = CROC_MODEL_UV_U0_V0;
+        f->_uvs[3] = CROC_MODEL_UV_U1_V0;
     }
 
     f->_uvs_tri[0] = f->_uvs[1];
@@ -67,13 +67,13 @@ static void process_face_tri(CrocModelFace *f)
     f->_idx_tri[2] = f->indices[0];
 
     if(f->flags & CROC_MODEL_FACE_UV_FLIP) {
-        f->_uvs[0] = CROC_MODEL_UV_U1_V1;
-        f->_uvs[1] = CROC_MODEL_UV_U0_V1;
-        f->_uvs[2] = CROC_MODEL_UV_U0_V0;
-    } else {
         f->_uvs[0] = CROC_MODEL_UV_U0_V0;
         f->_uvs[1] = CROC_MODEL_UV_U0_V1;
         f->_uvs[2] = CROC_MODEL_UV_U1_V1;
+    } else {
+        f->_uvs[0] = CROC_MODEL_UV_U1_V1;
+        f->_uvs[1] = CROC_MODEL_UV_U0_V1;
+        f->_uvs[2] = CROC_MODEL_UV_U0_V0;
     }
 
     f->_uvs_tri[0] = f->_uvs[2];
