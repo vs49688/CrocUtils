@@ -14,6 +14,8 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ cmake ];
 
+  hardeningDisable = [ "all" ];
+
   enableParallelBuilding = true;
 
   src = builtins.filterSource (path: type: baseNameOf path != ".git") ./.;

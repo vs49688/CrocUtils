@@ -27,6 +27,7 @@ add_brender()
 add_subdirectory(vsclib)
 add_subdirectory(libcroc)
 add_subdirectory(croctool)
+add_subdirectory(crocconvert)
 
 install(TARGETS croctool DESTINATION bin)
 
