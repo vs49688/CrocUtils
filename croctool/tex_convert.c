@@ -91,7 +91,7 @@ int tex_convert(int argc, char **argv)
     if(args.basename != NULL) {
         bn_start = args.basename;
         bn_end   = bn_start + strlen(bn_start);
-        namebuf  = vsc_asprintf("%s_%03zu.png", bn_start, 999);
+        namebuf  = vsc_asprintf("%s_999.png", bn_start);
     } else {
         const char *filename = croc_util_get_filename(args.filename);
         const char *end = strrchr(filename, '.');
@@ -100,7 +100,7 @@ int tex_convert(int argc, char **argv)
 
         bn_start = filename;
         bn_end   = end;
-        namebuf  = vsc_asprintf("%.*s_%03zu.png", (int)(bn_end - bn_start), filename, 999);
+        namebuf  = vsc_asprintf("%.*s_999.png", (int)(bn_end - bn_start), filename);
     }
 
     if(namebuf == NULL) {
