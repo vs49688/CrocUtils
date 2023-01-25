@@ -39,10 +39,8 @@ static int croc_dir_write_entry(const CrocDirEntry *d, FILE *f, int big)
         vsc_write_leu32(buf + 20, d->usage);
     }
 
-    if(fwrite(buf, CROC_DIRENTRY_SIZE, 1, f) != 1) {
-        errno = EIO;
-        return -1;
-    }
+    if(fwrite(buf, CROC_DIRENTRY_SIZE, 1, f) != 1)
+        return VSC_ERROR(EIO);
 
     return 0;
 }
@@ -52,10 +50,8 @@ static int croc_dir_read_entry(CrocDirEntry *d, FILE *f, int big, int oldstyle)
     uint8_t buf[CROC_DIRENTRY_SIZE];
     uint32_t sr;
 
-    if(fread(buf, CROC_DIRENTRY_SIZE, 1, f) != 1) {
-        errno = EIO;
-        return -1;
-    }
+    if(fread(buf, CROC_DIRENTRY_SIZE, 1, f) != 1)
+        return VSC_ERROR(EIO);
 
     memcpy(d->name, buf, CROC_DIRENTRY_NAME_SIZE);
     d->name[CROC_DIRENTRY_NAME_SIZE] = '\0';
@@ -82,22 +78,20 @@ static int croc_dir_read_entry(CrocDirEntry *d, FILE *f, int big, int oldstyle)
     return 0;
 }
 
-CrocDirEntry *croc_dir_read(FILE *f, size_t *count, int *old)
+int croc_dir_read(FILE *f, CrocDirEntry **entry, size_t *count, int *old)
 {
     uint32_t _count, start = 0;
-    int err = 0, big = 0, oldstyle = 0;
+    int ret = 0, big = 0, oldstyle = 0;
     CrocDirEntry *entries = NULL;
     CrocDirEntry tmp[2];
 
-    if(f == NULL) {
-        errno = EINVAL;
-        return NULL;
-    }
+    if(entry == NULL || f == NULL || count == NULL)
+        return VSC_ERROR(EINVAL);
 
     _count = vsc_fread_leu32(f);
 
     if(feof(f) || ferror(f)) {
-        errno = EIO;
+        ret = VSC_ERROR(EIO);
         goto done;
     }
 
@@ -124,7 +118,7 @@ CrocDirEntry *croc_dir_read(FILE *f, size_t *count, int *old)
         start = 2;
     }
 
-    if((entries = calloc(_count, sizeof(CrocDirEntry))) == NULL)
+    if((entries = vsc_calloc(_count, sizeof(CrocDirEntry))) == NULL)
         goto done;
 
     if(_count >= 2) {
@@ -141,44 +135,38 @@ CrocDirEntry *croc_dir_read(FILE *f, size_t *count, int *old)
         *old = oldstyle;
 
     *count = _count;
-    return entries;
+    *entry = entries;
+    return 0;
 done:
-    err = errno;
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
-    errno = err;
-    return NULL;
+    return ret;
 }
 
 int croc_dir_write(FILE *f, const CrocDirEntry *entries, size_t count, int big)
 {
     size_t r;
+    int ret;
 
-    if(f == NULL || (entries == NULL && count != 0)) {
-        errno = EINVAL;
-        return -1;
-    }
+    if(f == NULL || (entries == NULL && count != 0))
+        return VSC_ERROR(EINVAL);
 
-    if(count > UINT32_MAX) {
-        errno = ERANGE;
-        return -1;
-    }
+    if(count > UINT32_MAX)
+        return VSC_ERROR(ERANGE);
 
     if(big)
         r = vsc_fwrite_beu32(f, (uint32_t)count);
     else
         r = vsc_fwrite_leu32(f, (uint32_t)count);
 
-    if(r != 1) {
-        errno = EIO;
-        return -1;
-    }
+    if(r != 1)
+        return VSC_ERROR(EIO);
 
     for(size_t i = 0; i < count; ++i) {
-        if(croc_dir_write_entry(entries + i, f, big) < 0)
-            return -1;
+        if((ret = croc_dir_write_entry(entries + i, f, big)) < 0)
+            return ret;
     }
 
     return 0;

@@ -89,8 +89,8 @@ int crocfile_extract(int argc, char **argv)
         goto done;
     }
 
-    if((entries = croc_dir_read(f, &dcount, &oldstyle)) == NULL) {
-        fprintf(stderr, "Unable to read directory: %s\n", strerror(errno));
+    if((r = croc_dir_read(f, &entries, &dcount, &oldstyle)) < 0) {
+        vsc_fperror(stderr, r, "Unable to read directory");
         goto done;
     }
 
@@ -158,7 +158,7 @@ done:
         free(data);
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
     if(f != NULL)
         fclose(f);

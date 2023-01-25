@@ -129,8 +129,8 @@ int crocfile_build(int argc, char **argv)
         goto done;
     }
 
-    if(croc_dir_write(fp, directory, file_count, 0) < 0) {
-        fprintf(stderr, "Error writing directory: %s\n", strerror(errno));
+    if((r = croc_dir_write(fp, directory, file_count, 0)) < 0) {
+        vsc_fperror(stderr, r, "Error writing directory: %s", dir_name);
         goto done;
     }
 

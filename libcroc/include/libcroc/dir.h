@@ -28,7 +28,7 @@ typedef struct cJSON cJSON;
 extern "C" {
 #endif
 
-CrocDirEntry *croc_dir_read(FILE *f,  size_t *count, int *old);
+int croc_dir_read(FILE *f, CrocDirEntry **entry, size_t *count, int *old);
 
 int croc_dir_write(FILE *f, const CrocDirEntry *entries, size_t count, int big);
 

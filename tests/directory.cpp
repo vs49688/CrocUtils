@@ -37,7 +37,9 @@ TEST_CASE("directory read/write", "[directory]")
     CrocDirEntry               *entries;
     size_t                     nentries;
     int                        old;
-    entries = croc_dir_read(f.get(), &nentries, &old);
+
+    r = croc_dir_read(f.get(), &entries, &nentries, &old);
+    REQUIRE(r == 0);
     REQUIRE(entries != nullptr);
     REQUIRE(f != nullptr);
     vsc::vsc_ptr<CrocDirEntry> _entries(entries);

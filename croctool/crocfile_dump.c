@@ -39,8 +39,8 @@ int crocfile_dump(int argc, char **argv)
         return 1;
     }
 
-    if((entries = croc_dir_read(fp, &dcount, NULL)) == NULL) {
-        fprintf(stderr, "Unable to read directory: %s\n", strerror(errno));
+    if((r = croc_dir_read(fp, &entries, &dcount, NULL)) < 0) {
+        vsc_fperror(stderr, r, "Unable to read directory");
         goto done;
     }
 
@@ -83,7 +83,7 @@ done:
         cJSON_Delete(j);
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
     if(fp != NULL && fp != stdout)
         (void)fclose(fp);
