@@ -18,6 +18,7 @@ endfunction(add_cjson)
 
 add_cjson()
 
+set(VSCLIB_ENABLE_TESTS OFF CACHE BOOL "" FORCE)
 add_subdirectory(vsclib)
 add_subdirectory(libcroc)
 add_subdirectory(croctool)
