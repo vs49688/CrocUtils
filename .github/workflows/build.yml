@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          fetch-depth: 0
           submodules: true
       # Work around https://github.com/actions/checkout/issues/290
       - run: git fetch --force --tags
