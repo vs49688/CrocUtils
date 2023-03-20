@@ -2,8 +2,8 @@
   description = "CrocUtils";
 
   outputs = { self, nixpkgs }: let
-    version = if (self ? rev) then
-      "1.3.0-${toString self.revCount}-g${builtins.substring 0 7 self.rev}"
+    version = if (self ? shortRev) then
+      "1.3.0-${toString self.revCount}-g${self.shortRev}"
     else
       "0.0.0-${self.lastModifiedDate}";
 
