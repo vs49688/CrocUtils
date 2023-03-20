@@ -3,7 +3,7 @@
 
 int version(int argc, char **argv)
 {
-    fputs("CrocUtils " CROCTOOL_VERSION_STRING " - Copyright (C) 2019-2022 Zane van Iperen\n"
+    fputs("CrocUtils " CROCTOOL_VERSION_STRING " - Copyright (C) 2019-2023 Zane van Iperen\n"
           "  Contact: zane@zanevaniperen.com\n"
           "\n"
           "Built from commit: " CROCTOOL_COMMIT_HASH "\n"
