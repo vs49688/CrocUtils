@@ -2,10 +2,11 @@
   description = "CrocUtils";
 
   outputs = { self, nixpkgs }: let
-    version = if (self ? shortRev) then
-      "1.3.0-${toString self.revCount}-g${self.shortRev}"
-    else
-      "0.0.0-${self.lastModifiedDate}";
+    version = "1.4.0";
+    # version = if (self ? shortRev) then
+    #   "1.3.0-${toString self.revCount}-g${self.shortRev}"
+    # else
+    #   "0.0.0-${self.lastModifiedDate}";
 
     commitHash = if (self ? rev) then self.rev else "unknown";
   in {
