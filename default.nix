@@ -39,6 +39,8 @@ stdenv.mkDerivation {
     popd
   '';
 
+  passthru.commitHash = commitHash;
+
   meta = with lib; {
     description = "A small collection of utilities for Croc.";
     homepage    = "https://github.com/vs49688/CrocUtils";
