@@ -79,7 +79,7 @@ int wad_extract(int argc, char **argv)
 done:
 
     if(data)
-        free(data);
+        vsc_free(data);
 
     if(wadfs != NULL)
         croc_wadfs_close(wadfs);
