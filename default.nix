@@ -45,6 +45,6 @@ stdenv.mkDerivation {
     description = "A small collection of utilities for Croc.";
     homepage    = "https://github.com/vs49688/CrocUtils";
     platforms   = platforms.all;
-    license     = licenses.gpl2;
+    license     = licenses.mit;
   };
 }
