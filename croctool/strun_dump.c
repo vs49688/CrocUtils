@@ -16,8 +16,8 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 #include <errno.h>
-#include <stdlib.h>
 #include <string.h>
+#include <vsclib.h>
 #include <cJSON.h>
 #include <libcroc/strun.h>
 
@@ -82,7 +82,7 @@ done:
         cJSON_Delete(j);
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
     if(fp != NULL && fp != stdout)
         (void)fclose(fp);

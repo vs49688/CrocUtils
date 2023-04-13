@@ -62,7 +62,7 @@ static int write_file(const char *path, CrocDirEntry *entry, FILE *outfp, vsc_of
     if(size > CROC_DIRENTRY_MAX_FILE_SIZE) {
         printf("\r[%12s] %zu bytes, too big, skipping...\n", namebuf, size);
         fclose(fp);
-        free(data);
+        vsc_free(data);
         return -1;
     }
 
@@ -70,13 +70,13 @@ static int write_file(const char *path, CrocDirEntry *entry, FILE *outfp, vsc_of
 
     if(fwrite(data, size, 1, outfp) != 1) {
         fclose(fp);
-        free(data);
+        vsc_free(data);
         printf("\r[%12s] %zu bytes, fwrite() error, skipping...\n", namebuf, size);
         return -1;
     }
 
     fclose(fp);
-    free(data);
+    vsc_free(data);
 
     memcpy(entry->name, namebuf, sizeof(entry->name));
     entry->size    = (uint32_t)size;

@@ -162,10 +162,10 @@ static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags, CrocMod
         return -1;
     }
 
-    if(!(m->vertices = calloc(m->num_vertices, sizeof(CrocVector))))
+    if(!(m->vertices = vsc_calloc(m->num_vertices, sizeof(CrocVector))))
         return -1;
 
-    if(!(m->normals = calloc(m->num_vertices, sizeof(CrocVector))))
+    if(!(m->normals = vsc_calloc(m->num_vertices, sizeof(CrocVector))))
         return -1;
 
     for(uint32_t i = 0; i < m->num_vertices; ++i) {
@@ -189,7 +189,7 @@ static int croc_mod_read_submodel(FILE *f, CrocModel *m, uint16_t flags, CrocMod
         return -1;
     }
 
-    if(!(m->faces = calloc(m->num_faces, sizeof(CrocModelFace))))
+    if(!(m->faces = vsc_calloc(m->num_faces, sizeof(CrocModelFace))))
         return -1;
 
     for(uint32_t i = 0; i < m->num_faces; ++i) {
@@ -240,7 +240,7 @@ int croc_mod_read_many(FILE *f, CrocModel **models, size_t *num, CrocModelType t
         return -1;
     }
 
-    if((_models = calloc(_num, sizeof(CrocModel))) == NULL) {
+    if((_models = vsc_calloc(_num, sizeof(CrocModel))) == NULL) {
         errno = ENOMEM;
         return -1;
     }
@@ -284,13 +284,13 @@ void croc_mod_free(CrocModel *m)
         return;
 
     if(m->faces != NULL)
-        free(m->faces);
+        vsc_free(m->faces);
 
     if(m->normals != NULL)
-        free(m->normals);
+        vsc_free(m->normals);
 
     if(m->vertices != NULL)
-        free(m->vertices);
+        vsc_free(m->vertices);
 
     croc_mod_init(m);
 }
@@ -303,7 +303,7 @@ void croc_mod_free_many(CrocModel *m, size_t count)
     for(size_t i = 0; i < count; ++i)
         croc_mod_free(m + i);
 
-    free(m);
+    vsc_free(m);
 }
 
 CrocModel *croc_mod_init(CrocModel *m)

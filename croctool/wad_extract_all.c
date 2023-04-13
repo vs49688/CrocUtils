@@ -68,7 +68,7 @@ int wad_extract_all(int argc, char **argv)
 
 next:
         if(data != NULL)
-            free(data);
+            vsc_free(data);
         data = NULL;
 
         if(fp2 != NULL)

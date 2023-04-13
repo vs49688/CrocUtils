@@ -152,10 +152,10 @@ int crocfile_extract(int argc, char **argv)
 done:
 
     if(outpath != NULL)
-        free(outpath);
+        vsc_free(outpath);
 
     if(data != NULL)
-        free(data);
+        vsc_free(data);
 
     if(entries != NULL)
         vsc_free(entries);

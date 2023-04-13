@@ -145,7 +145,7 @@ int mod_burst2obj(int argc, char **argv)
 done:
 
     if(outname != NULL)
-        free(outname);
+        vsc_free(outname);
 
     croc_mod_free_many(models, num);
 

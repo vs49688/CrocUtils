@@ -19,7 +19,6 @@
 #include <stdio.h>
 #include <vsclib.h>
 #include <errno.h>
-#include <stdlib.h>
 
 #include <libcroc/map.h>
 #include <libcroc/vec.h>
@@ -60,14 +59,14 @@ static CrocMapTrack *read_tracks(FILE *f, uint16_t version, uint16_t num_tracks)
     CrocMapTrack *tracks = NULL;
     size_t size = version >= 21 ? CROC_MAP_TRACK_SIZE : CROC_MAP_TRACK_SIZE_PREV21;
 
-    if((tracks = calloc(num_tracks, sizeof(CrocMapTrack))) == NULL)
+    if((tracks = vsc_calloc(num_tracks, sizeof(CrocMapTrack))) == NULL)
         return NULL;
 
     for(int i = 0; i < num_tracks; ++i) {
         CrocMapTrack *t = tracks + i;
         uint8_t tmp[CROC_MAP_TRACK_SIZE];
         if(fread(&tmp, size, 1, f) != 1) {
-            free(tracks);
+            vsc_free(tracks);
             errno = EIO;
             return NULL;
         }
@@ -101,10 +100,10 @@ static void croc_mapstrat_free(CrocMapStrat *s, size_t count)
         CrocMapStrat *ms = s + i;
 
         if(ms->waypoint != NULL)
-            free(ms->waypoint);
+            vsc_free(ms->waypoint);
     }
 
-    free(s);
+    vsc_free(s);
 }
 
 static int read_strat_v12(FILE *f, CrocMapStrat *s)
@@ -173,7 +172,7 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
     CrocMapStrat *strats = NULL;
     int err = 0;
 
-    if((strats = calloc(num_strats, sizeof(CrocMapStrat))) == NULL)
+    if((strats = vsc_calloc(num_strats, sizeof(CrocMapStrat))) == NULL)
         return NULL;
 
     for(int i = 0; i < num_strats; ++i)
@@ -202,7 +201,7 @@ static CrocMapStrat *read_strats(FILE *f, uint16_t format, uint16_t num_strats)
             goto fail;
         }
 
-        if((s->waypoint = calloc(s->num_waypoints, sizeof(CrocMapWaypoint))) == NULL)
+        if((s->waypoint = vsc_calloc(s->num_waypoints, sizeof(CrocMapWaypoint))) == NULL)
             goto fail;
 
         for(int w = 0; w < s->num_waypoints; ++w) {
@@ -235,14 +234,14 @@ static CrocMapDoor *read_doors(FILE *f, uint16_t num_doors)
     CrocMapDoor *doors = NULL;
     uint8_t buf[CROC_MAP_DOOR_SIZE];
 
-    if((doors = calloc(num_doors, sizeof(CrocMapDoor))) == NULL)
+    if((doors = vsc_calloc(num_doors, sizeof(CrocMapDoor))) == NULL)
         return NULL;
 
     for(int i = 0; i < num_doors; ++i) {
         CrocMapDoor *d = doors + i;
 
         if(fread(buf, CROC_MAP_DOOR_SIZE, 1, f) != 1) {
-            free(doors);
+            vsc_free(doors);
             errno = EIO;
             return NULL;
         }
@@ -265,14 +264,14 @@ static CrocMapPointLight *read_point(FILE *f, uint16_t num)
     CrocMapPointLight *point = NULL;
     uint8_t buf[CROC_MAP_POINT_LIGHT_SIZE];
 
-    if((point = calloc(num, sizeof(CrocMapPointLight))) == NULL)
+    if((point = vsc_calloc(num, sizeof(CrocMapPointLight))) == NULL)
         return NULL;
 
     for(int i = 0; i < num; ++i) {
         CrocMapPointLight *l = point + i;
 
         if(fread(buf, CROC_MAP_POINT_LIGHT_SIZE, 1, f) != 1) {
-            free(point);
+            vsc_free(point);
             errno = EIO;
             return NULL;
         }
@@ -315,15 +314,15 @@ void croc_map_free(CrocMap *map)
         return;
 
     if(map->point_light)
-        free(map->point_light);
+        vsc_free(map->point_light);
 
     if(map->door)
-        free(map->door);
+        vsc_free(map->door);
 
     croc_mapstrat_free(map->strat, map->num_strats);
 
     if(map->track)
-        free(map->track);
+        vsc_free(map->track);
 
     croc_map_init(map);
 }

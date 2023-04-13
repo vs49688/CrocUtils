@@ -198,7 +198,7 @@ done:
         fclose(fp);
 
     if(namebuf != NULL)
-        free(namebuf);
+        vsc_free(namebuf);
 
     croc_texture_free_many(textures, num);
 

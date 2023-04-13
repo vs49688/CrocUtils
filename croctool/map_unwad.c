@@ -49,7 +49,7 @@ done:
     (void)fclose(f);
 
 	if(name != NULL)
-		free(name);
+		vsc_free(name);
 
 	errno = err;
 	return ret;
@@ -93,7 +93,7 @@ static int extract_mapwad(FILE *f, const char *base)
 		}
 
 		/* size + 8 == size + data + checksum. */
-		if((_p = realloc(p, size + 8)) == NULL) {
+		if((_p = vsc_realloc(p, size + 8)) == NULL) {
 			err = ENOMEM;
 			goto done;
 		}
@@ -127,7 +127,7 @@ static int extract_mapwad(FILE *f, const char *base)
 done:
 
 	if(p != NULL)
-		free(p);
+		vsc_free(p);
 
 	errno = err;
 	return ret;

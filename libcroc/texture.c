@@ -125,7 +125,7 @@ static int read_pixeldata(CrocTexture *tex, CrocChunkType type, const uint8_t *p
     if(length_ != (size - 8) / elemsize_)
         return -1;
 
-    if((tex->data = malloc(size - 8)) == NULL)
+    if((tex->data = vsc_malloc(size - 8)) == NULL)
         return -1;
 
     memcpy(tex->data, ptr + 8, size - 8);
@@ -207,7 +207,7 @@ static int enumproc(CrocChunkType type, const uint8_t *ptr, size_t size, void *u
 
         /* Some files have external palettes. Handle this case. */
         if(type != CROC_CHUNK_TYPE_PIXELDATA) {
-            if((state->tex->palette = calloc(1, sizeof(CrocTexture))) == NULL)
+            if((state->tex->palette = vsc_calloc(1, sizeof(CrocTexture))) == NULL)
                 return -1;
 
             if((r = parse_pixelmap(state->tex->palette, type, ptr, size)) < 0)
@@ -263,7 +263,7 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
     state.state = TEX_STATE_HEADER;
 
     for(i = 0; i < CROC_TEXTURE_MAX_COUNT; ++i) {
-        if((textures[i] = calloc(1, sizeof(CrocTexture))) == NULL) {
+        if((textures[i] = vsc_calloc(1, sizeof(CrocTexture))) == NULL) {
             errno = ENOMEM;
             goto fail;
         }
@@ -281,7 +281,7 @@ int croc_texture_read_many(FILE *f, CrocTexture **textures, size_t *num)
         if(ferror(f) || !feof(f) || state.state != TEX_STATE_HEADER)
             goto fail;
 
-        free(textures[i]);
+        vsc_free(textures[i]);
         textures[i] = NULL;
         break;
     }
@@ -317,17 +317,17 @@ void croc_texture_free(CrocTexture *tex)
         return;
 
     if(tex->data)
-        free(tex->data);
+        vsc_free(tex->data);
 
     if(tex->name)
-        free(tex->name);
+        vsc_free(tex->name);
 
-    free(tex);
+    vsc_free(tex);
 }
 
 CrocTexture *croc_texture_allocate(uint16_t width, uint16_t height, CrocTextureFormat format)
 {
-    CrocTexture *tex = calloc(1, sizeof(CrocTexture));
+    CrocTexture *tex = vsc_calloc(1, sizeof(CrocTexture));
 
     if(tex == NULL) {
         errno = ENOMEM;
@@ -339,8 +339,8 @@ CrocTexture *croc_texture_allocate(uint16_t width, uint16_t height, CrocTextureF
     tex->height        = height;
     tex->bytes_per_row = width * texsizes[format];
 
-    if((tex->data = calloc(tex->height, tex->bytes_per_row)) == NULL) {
-        free(tex);
+    if((tex->data = vsc_calloc(tex->height, tex->bytes_per_row)) == NULL) {
+        vsc_free(tex);
         errno = ENOMEM;
         return NULL;
     }

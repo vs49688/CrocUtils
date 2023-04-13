@@ -16,10 +16,8 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 #include <string.h>
-#include <stdlib.h>
-
 #include <cJSON.h>
-
+#include <vsclib.h>
 #include <libcroc/fixed.h>
 #include <libcroc/map.h>
 
@@ -342,7 +340,7 @@ static CrocMapTrack *read_tracks(const cJSON *j, const char *name, uint16_t *cou
     if(size >= UINT16_MAX)
         return NULL;
 
-    if((tracks = calloc(size, sizeof(CrocMapTrack))) == NULL)
+    if((tracks = vsc_calloc(size, sizeof(CrocMapTrack))) == NULL)
         return NULL;
 
     i = 0;
@@ -368,7 +366,7 @@ static CrocMapTrack *read_tracks(const cJSON *j, const char *name, uint16_t *cou
     return tracks;
 
 fail:
-    free(tracks);
+    vsc_free(tracks);
     return NULL;
 }
 
@@ -385,7 +383,7 @@ static CrocMapWaypoint *read_waypoints(const cJSON *j, const char *name, uint16_
     if(size >= UINT16_MAX)
         return NULL;
 
-    if((waypoints = calloc(size, sizeof(CrocMapWaypoint))) == NULL)
+    if((waypoints = vsc_calloc(size, sizeof(CrocMapWaypoint))) == NULL)
         return NULL;
 
     i = 0;
@@ -404,7 +402,7 @@ static CrocMapWaypoint *read_waypoints(const cJSON *j, const char *name, uint16_
     return waypoints;
 
 fail:
-    free(waypoints);
+    vsc_free(waypoints);
     return NULL;
 }
 
@@ -421,7 +419,7 @@ static CrocMapStrat *read_strats(const cJSON *j, const char *name, uint16_t *cou
     if(size >= UINT16_MAX)
         return NULL;
 
-    if((strats = calloc(size, sizeof(CrocMapStrat))) == NULL)
+    if((strats = vsc_calloc(size, sizeof(CrocMapStrat))) == NULL)
         return NULL;
 
     i = 0;
@@ -456,10 +454,10 @@ fail:
 
     for(i = 0; i < size; ++i) {
         if(strats[i].waypoint != NULL)
-            free(strats[i].waypoint);
+            vsc_free(strats[i].waypoint);
 
     }
-    free(strats);
+    vsc_free(strats);
     return NULL;
 }
 
@@ -504,7 +502,7 @@ static CrocMapDoor *read_doors(const cJSON *j, const char *name, uint16_t *count
     if(size >= UINT16_MAX)
         return NULL;
 
-    if((doors = calloc(size, sizeof(CrocMapDoor))) == NULL)
+    if((doors = vsc_calloc(size, sizeof(CrocMapDoor))) == NULL)
         return NULL;
 
     i = 0;
@@ -533,7 +531,7 @@ static CrocMapDoor *read_doors(const cJSON *j, const char *name, uint16_t *count
     return doors;
 
 fail:
-    free(doors);
+    vsc_free(doors);
     return NULL;
 }
 
@@ -551,7 +549,7 @@ static CrocMapPointLight *read_point_lights(const cJSON *j, const char *name, ui
     if(size >= UINT16_MAX)
         return NULL;
 
-    if((lights = calloc(size, sizeof(CrocMapPointLight))) == NULL)
+    if((lights = vsc_calloc(size, sizeof(CrocMapPointLight))) == NULL)
         return NULL;
 
     i = 0;
@@ -579,7 +577,7 @@ static CrocMapPointLight *read_point_lights(const cJSON *j, const char *name, ui
     return lights;
 
 fail:
-    free(lights);
+    vsc_free(lights);
     return NULL;
 }
 

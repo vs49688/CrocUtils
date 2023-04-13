@@ -61,7 +61,7 @@ int map_compile(int argc, char **argv)
         goto done;
     }
 
-    free(ptr);
+    vsc_free(ptr);
     ptr = NULL;
 
     if(croc_map_read_json(j, &map) == NULL) {
@@ -89,7 +89,7 @@ done:
         cJSON_Delete(j);
 
     if(ptr != NULL)
-        free(ptr);
+        vsc_free(ptr);
 
     if(fp != NULL && fp != stdin)
         (void)fclose(fp);

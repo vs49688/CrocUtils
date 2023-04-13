@@ -44,7 +44,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
         }
 
         if(length > 0) {
-            if((_buf = realloc(buf, length)) == NULL) {
+            if((_buf = vsc_realloc(buf, length)) == NULL) {
                 errno = ENOMEM;
                 break;
             }
@@ -66,7 +66,7 @@ int croc_chunk_enumerate(FILE *f, CrocChunkEnumerator proc, void *user)
     errno_ = errno;
 
     if(buf)
-        free(buf);
+        vsc_free(buf);
 
     errno = errno_;
     return ret;

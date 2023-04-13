@@ -61,7 +61,7 @@ CrocStRunEntry *croc_strun_read(FILE *f, size_t *count)
 
     size /= CROC_STRUN_ENTRY_SIZE;
 
-    if((entries = calloc(size, sizeof(CrocStRunEntry))) == NULL)
+    if((entries = vsc_calloc(size, sizeof(CrocStRunEntry))) == NULL)
         goto done;
 
     for(uint32_t i = 0; i < size; ++i) {
@@ -75,7 +75,7 @@ done:
     err = errno;
 
     if(entries != NULL)
-        free(entries);
+        vsc_free(entries);
 
     errno = err;
     return NULL;
