@@ -8,6 +8,10 @@
       "0.0.0-${self.lastModifiedDate}";
 
     commitHash = if (self ? rev) then self.rev else "unknown";
+
+    mkShells = packages: builtins.mapAttrs (k: v: v.overrideAttrs(old: {
+      hardeningDisable = [ "all" ];
+    })) packages;
   in {
     packages.x86_64-linux = let
       pkgs = import nixpkgs { system = "x86_64-linux"; };
@@ -80,5 +84,10 @@
 
       default = crocutils;
     };
+
+    devShells.x86_64-linux   = mkShells self.packages.x86_64-linux;
+    devShells.aarch64-linux  = mkShells self.packages.aarch64-linux;
+    devShells.x86_64-darwin  = mkShells self.packages.x86_64-darwin;
+    devShells.aarch64-darwin = mkShells self.packages.x86_64-darwin;
   };
 }
