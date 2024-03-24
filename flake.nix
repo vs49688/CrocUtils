@@ -1,6 +1,8 @@
 {
   description = "CrocUtils";
 
+  inputs.nixpkgs.url = github:NixOS/nixpkgs;
+
   outputs = { self, nixpkgs }: let
     version = if (self ? shortRev) then
       "1.4.0-${toString self.revCount}-g${self.shortRev}"
