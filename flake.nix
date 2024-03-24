@@ -5,7 +5,7 @@
 
   outputs = { self, nixpkgs }: let
     version = if (self ? shortRev) then
-      "1.4.0-${toString self.revCount}-g${self.shortRev}"
+      "1.4.1-${toString self.revCount}-g${self.shortRev}"
     else
       "0.0.0-${self.lastModifiedDate}";
 
