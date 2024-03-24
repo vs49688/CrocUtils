@@ -16,17 +16,7 @@
     })) packages;
   in {
     packages.x86_64-linux = let
-      pkgs = import nixpkgs { system = "x86_64-linux"; };
-
-      musl64Packages = (import nixpkgs {
-        system = "x86_64-linux";
-        crossSystem = nixpkgs.lib.systems.examples.musl64;
-      }).pkgsStatic;
-
-      win64Packages = (import nixpkgs {
-        system = "x86_64-linux";
-        crossSystem = nixpkgs.lib.systems.examples.mingwW64;
-      }).pkgsStatic;
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
         inherit version commitHash;
@@ -34,11 +24,11 @@
 
       default = crocutils;
 
-      crocutils-musl64 = musl64Packages.callPackage ./default.nix {
+      crocutils-musl64 = pkgs.pkgsCross.musl64.pkgsStatic.callPackage ./default.nix {
         inherit version commitHash;
       };
 
-      crocutils-win64 = win64Packages.callPackage ./default.nix {
+      crocutils-win64 = pkgs.pkgsCross.mingwW64.callPackage ./default.nix {
         inherit version commitHash;
       };
 
@@ -68,7 +58,7 @@
     };
 
     packages.x86_64-darwin = let
-      pkgs = import nixpkgs { system = "x86_64-darwin"; };
+      pkgs = nixpkgs.legacyPackages.x86_64-darwin;
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
         inherit version commitHash;
@@ -78,7 +68,7 @@
     };
 
     packages.aarch64-darwin = let
-      pkgs = import nixpkgs { system = "aarch64-darwin"; };
+      pkgs = nixpkgs.legacyPackages.aarch64-darwin;
     in rec {
       crocutils = pkgs.callPackage ./default.nix {
         inherit version commitHash;
@@ -88,7 +78,6 @@
     };
 
     devShells.x86_64-linux   = mkShells self.packages.x86_64-linux;
-    devShells.aarch64-linux  = mkShells self.packages.aarch64-linux;
     devShells.x86_64-darwin  = mkShells self.packages.x86_64-darwin;
     devShells.aarch64-darwin = mkShells self.packages.x86_64-darwin;
   };
