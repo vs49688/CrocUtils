@@ -3,7 +3,8 @@
 /cmake-build-*/
 **/CROCFILE.*
 /MP???_??.MAP
-/resources/maps/json
+/resources/**/*.[mM][aA][pP]
+/resources/**/*.[wW][aA][dD]
 **/result
 **/result-*
 **/.DS_Store
