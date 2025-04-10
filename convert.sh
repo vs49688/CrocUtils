@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 MAPTOOL=./cmake-build-debug/croctool/croctool
 
