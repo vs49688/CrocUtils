@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	39,
 		"sublevel":	0,
 		"checksum":	29976
 	},
@@ -174,103 +174,103 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 32, 52],
+			"position":	[2, 2, 3.25],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[14, 32, 47.5],
+			"position":	[0.875, 2, 2.96875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[14, 32, 47.5],
+					"position":	[0.875, 2, 2.96875],
 					"var":	0
 				}]
 		}, {
 			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[50, 32, 48],
+			"position":	[3.125, 2, 3],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[50, 32, 48],
+					"position":	[3.125, 2, 3],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 48, 67.5],
+			"position":	[2, 3, 4.21875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[46, 48, 81],
+			"position":	[2.875, 3, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 48, 95],
+			"position":	[2, 3, 5.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17.599853515625, 48, 80.5],
+			"position":	[1.0999908447265625, 3, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 48, 71],
+			"position":	[1.375, 3, 4.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42, 48, 71],
+			"position":	[2.625, 3, 4.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42, 48, 90],
+			"position":	[2.625, 3, 5.625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 48, 90.5],
+			"position":	[1.375, 3, 5.65625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
-			"position":	[32, 56, 80.059814453125],
+			"position":	[2, 3.5, 5.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 4293984256, 65536, 0, 0, 0],
-			"position":	[32, 64, 80],
+			"position":	[2, 4, 5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 32, 54],
+			"position":	[1.375, 2, 3.375],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42, 32, 53.5],
+			"position":	[2.625, 2, 3.34375],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 65536, 0, 0, 0],
-			"position":	[32, 72, 80.019775390625],
+			"position":	[2, 4.5, 5.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]

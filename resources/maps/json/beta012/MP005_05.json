@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	5,
 		"sublevel":	5,
 		"checksum":	0
 	},
@@ -58,7 +58,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 64],
+			"position":	[3, 0, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"BossUnderwater",
 			"waypoints":	[]

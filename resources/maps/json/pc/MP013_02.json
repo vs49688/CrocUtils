@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	13,
 		"sublevel":	2,
 		"checksum":	12483
 	},
@@ -146,11 +146,11 @@
 		}],
 	"strats":	[{
 			"params":	[9830400, 131072, 0, 0, 0, 0, 0, 0],
-			"position":	[113.599853515625, 0, 160],
+			"position":	[7.0999908447265625, 0, 10],
 			"rotation":	[0, 0, 0],
 			"name":	"Weeble",
 			"waypoints":	[{
-					"position":	[96, 0, 144],
+					"position":	[6, 0, 9],
 					"var":	0
 				}]
 		}],

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	64,
 		"sublevel":	2,
 		"checksum":	0
 	},
@@ -146,115 +146,115 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 655360, 131072, 0, 0, 0],
-			"position":	[79.5, 16, 33],
+			"position":	[4.96875, 1, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 98304, 0, 0, 0],
-			"position":	[79.2998046875, 19.199951171875, 33],
+			"position":	[4.95623779296875, 1.1999969482421875, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 65536, 0, 0, 0],
-			"position":	[79, 22.39990234375, 33],
+			"position":	[4.9375, 1.399993896484375, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 655360, 131072, 0, 0, 0],
-			"position":	[79.5, 16, 33],
+			"position":	[4.96875, 1, 2.0625],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 98304, 0, 0, 0],
-			"position":	[79.2998046875, 19.199951171875, 33],
+			"position":	[4.95623779296875, 1.1999969482421875, 2.0625],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 65536, 0, 0, 0],
-			"position":	[79, 22.39990234375, 33],
+			"position":	[4.9375, 1.399993896484375, 2.0625],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 655360, 131072, 0, 0, 0],
-			"position":	[79.5, 16, 33],
+			"position":	[4.96875, 1, 2.0625],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 98304, 0, 0, 0],
-			"position":	[79.2998046875, 19.199951171875, 33],
+			"position":	[4.95623779296875, 1.1999969482421875, 2.0625],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 65536, 0, 0, 0],
-			"position":	[79, 22.39990234375, 33],
+			"position":	[4.9375, 1.399993896484375, 2.0625],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[175, 48, 16.5],
+			"position":	[10.9375, 3, 1.03125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SpikeBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[175.5, 48, 32],
+			"position":	[10.96875, 3, 2],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SpikeBall",
 			"waypoints":	[]
 		}, {
 			"params":	[1310720, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[175, 48, 49],
+			"position":	[10.9375, 3, 3.0625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SpikeBall",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[172.2998046875, 30.93310546875, 14],
+			"position":	[10.76873779296875, 1.933319091796875, 0.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[162.35986328125, 30.93310546875, 22.0595703125],
+			"position":	[10.147491455078125, 1.933319091796875, 1.37872314453125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[157.39990234375, 30.93310546875, 44.7998046875],
+			"position":	[9.837493896484375, 1.933319091796875, 2.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[153.099853515625, 30.93310546875, 32],
+			"position":	[9.56874084472656, 1.933319091796875, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[162.199951171875, 30.93310546875, 58.599853515625],
+			"position":	[10.137496948242188, 1.933319091796875, 3.6624908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79, 27.519775390625, 33],
+			"position":	[4.9375, 1.7199859619140625, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[232.639892578125, 16, 31.85986328125],
+			"position":	[14.539993286132812, 1, 1.991241455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

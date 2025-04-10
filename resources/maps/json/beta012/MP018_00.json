@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	18,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -242,92 +242,92 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64.139892578125, 48, 21],
+			"position":	[4.0087432861328125, 3, 1.3125],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlockFall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[55.5, 10.66650390625, 88],
+			"position":	[3.46875, 0.666656494140625, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[41.599853515625, 20.533203125, 88],
+			"position":	[2.5999908447265625, 1.2833251953125, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86.5, 20.533203125, 88],
+			"position":	[5.40625, 1.2833251953125, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.77978515625, 10.7998046875, 88],
+			"position":	[4.548736572265625, 0.67498779296875, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[55, 32, 88.5],
+			"position":	[3.4375, 2, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[41, 32, 88.5],
+			"position":	[2.5625, 2, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86, 32, 88],
+			"position":	[5.375, 2, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.5, 32, 88.5],
+			"position":	[4.53125, 2, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[36.5, 0, 84],
+			"position":	[2.28125, 0, 5.25],
 			"rotation":	[0, 0, 0],
 			"name":	"Jumpy",
 			"waypoints":	[{
-					"position":	[40, 0, 81.5],
+					"position":	[2.5, 0, 5.09375],
 					"var":	0
 				}, {
-					"position":	[46, 0, 87.5],
+					"position":	[2.875, 0, 5.46875],
 					"var":	0
 				}, {
-					"position":	[39, 0, 95],
+					"position":	[2.4375, 0, 5.9375],
 					"var":	0
 				}, {
-					"position":	[33.5, 0, 87.5],
+					"position":	[2.09375, 0, 5.46875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83, 0, 85],
+			"position":	[5.1875, 0, 5.3125],
 			"rotation":	[0, 0, 0],
 			"name":	"Jumpy",
 			"waypoints":	[{
-					"position":	[87.5, 0, 82],
+					"position":	[5.46875, 0, 5.125],
 					"var":	0
 				}, {
-					"position":	[93, 0, 87.5],
+					"position":	[5.8125, 0, 5.46875],
 					"var":	0
 				}, {
-					"position":	[87.5, 0, 94],
+					"position":	[5.46875, 0, 5.875],
 					"var":	0
 				}, {
-					"position":	[81.5, 0, 87.5],
+					"position":	[5.09375, 0, 5.46875],
 					"var":	0
 				}]
 		}],

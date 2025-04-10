@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	43,
 		"sublevel":	1,
 		"checksum":	37358
 	},
@@ -62,175 +62,175 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 1.066650390625, 48.039794921875],
+			"position":	[2, 0.0666656494140625, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 2.13330078125, 48.039794921875],
+			"position":	[3, 0.133331298828125, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 3.199951171875, 48.039794921875],
+			"position":	[4, 0.1999969482421875, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 4.2666015625, 48.019775390625],
+			"position":	[5, 0.26666259765625, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 5.333251953125, 48.019775390625],
+			"position":	[6, 0.3333282470703125, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 6.39990234375, 48.019775390625],
+			"position":	[7, 0.399993896484375, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 7.466552734375, 48.019775390625],
+			"position":	[8, 0.4666595458984375, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[144, 8.533203125, 48.059814453125],
+			"position":	[9, 0.5333251953125, 3.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 9.599853515625, 48.039794921875],
+			"position":	[10, 0.5999908447265625, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 11.733154296875, 64.039794921875],
+			"position":	[10, 0.7333221435546875, 4.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 13.866455078125, 80],
+			"position":	[10, 0.8666534423828125, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 15.999755859375, 96],
+			"position":	[10, 0.9999847412109375, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 18.133056640625, 112.019775390625],
+			"position":	[10, 1.1333160400390625, 7.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 20.266357421875, 128.019775390625],
+			"position":	[10, 1.2666473388671875, 8.00123596191406],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 32, 48],
+			"position":	[2, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 32, 48],
+			"position":	[3, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 32, 48],
+			"position":	[4, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 32, 48],
+			"position":	[5, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 32, 48],
+			"position":	[6, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 32, 48],
+			"position":	[7, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 32, 48],
+			"position":	[8, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[144, 32, 48],
+			"position":	[9, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 48],
+			"position":	[10, 2, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 64],
+			"position":	[10, 2, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 80],
+			"position":	[10, 2, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 96],
+			"position":	[10, 2, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 112],
+			"position":	[10, 2, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 32, 128],
+			"position":	[10, 2, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160.159912109375, 22.079833984375, 152.3798828125],
+			"position":	[10.009994506835938, 1.3799896240234375, 9.52374267578125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

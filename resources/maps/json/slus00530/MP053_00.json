@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	53,
 		"sublevel":	0,
 		"checksum":	39564
 	},
@@ -394,106 +394,106 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 23.466552734375, 49.5],
+			"position":	[0, 1.4666595458984375, 3.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 27.733154296875, 64.5],
+			"position":	[0, 1.7333221435546875, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 20.2666015625, 32.719970703125],
+			"position":	[0, 1.26666259765625, 2.0449981689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 32, 81],
+			"position":	[0, 2, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallCastlePlatform",
 			"waypoints":	[{
-					"position":	[0, 32, 145.5],
+					"position":	[0, 2, 9.09375],
 					"var":	0
 				}]
 		}, {
 			"params":	[131072, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 25.599853515625, 49.31982421875],
+			"position":	[0, 1.5999908447265625, 3.082489013671875],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[0, 25.599853515625, 49.31982421875],
+					"position":	[0, 1.5999908447265625, 3.082489013671875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 32, 113],
+			"position":	[1, 2, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 34.13330078125, 113],
+			"position":	[1, 2.133331298828125, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[16, 34.13330078125, 113],
+					"position":	[1, 2.133331298828125, 7.0625],
 					"var":	0
 				}]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 35.199951171875, 146],
+			"position":	[1, 2.1999969482421875, 9.125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 39.466552734375, 146],
+			"position":	[2, 2.4666595458984375, 9.125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[209715, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 0, 97.5],
+			"position":	[0, 0, 6.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[209715, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 0, 105.5],
+			"position":	[0, 0, 6.59375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[209715, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 0, 113],
+			"position":	[0, 0, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[209715, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 0, 120.5],
+			"position":	[0, 0, 7.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[209715, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[0, 0, 128],
+			"position":	[0, 0, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 18.13330078125, 16],
+			"position":	[1.5, 1.133331298828125, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 45.43994140625, 130],
+			"position":	[3, 2.839996337890625, 8.125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]

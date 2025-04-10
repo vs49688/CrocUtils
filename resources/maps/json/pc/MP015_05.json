@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	15,
 		"sublevel":	5,
 		"checksum":	29700
 	},
@@ -134,91 +134,91 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32.019775390625],
+			"position":	[2, 0, 2.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 48.019775390625],
+			"position":	[2, 0, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 64.019775390625],
+			"position":	[2, 0, 4.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 80],
+			"position":	[2, 0, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 95.97998046875],
+			"position":	[2, 0, 5.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.01708984375, 32.019775390625],
+			"position":	[2, -0.188568115234375, 2.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 32],
+			"position":	[2, 0.5714263916015625, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 48],
+			"position":	[2, 0.5714263916015625, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 64],
+			"position":	[2, 0.5714263916015625, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 79.97998046875],
+			"position":	[2, 0.5714263916015625, 4.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 95.5],
+			"position":	[2, 0.5714263916015625, 5.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.01708984375, 48.019775390625],
+			"position":	[2, -0.188568115234375, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.01708984375, 64],
+			"position":	[2, -0.188568115234375, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.01708984375, 79.97998046875],
+			"position":	[2, -0.188568115234375, 4.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.01708984375, 95.9599609375],
+			"position":	[2, -0.188568115234375, 5.99749755859375],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]

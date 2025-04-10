@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	55,
 		"sublevel":	1,
 		"checksum":	0
 	},
@@ -162,67 +162,67 @@
 		}],
 	"strats":	[{
 			"params":	[0, 65536, 655, 6, 0, 0, 0, 0],
-			"position":	[61.5, 0, 80],
+			"position":	[3.84375, 0, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[61.5, 0, 80],
+					"position":	[3.84375, 0, 5],
 					"var":	0
 				}, {
-					"position":	[75, 0, 92],
+					"position":	[4.6875, 0, 5.75],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 65536, 655, 6, 0, 0, 0, 0],
-			"position":	[3.5, 0, 89.5],
+			"position":	[0.21875, 0, 5.59375],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[3.5, 0, 89.5],
+					"position":	[0.21875, 0, 5.59375],
 					"var":	0
 				}, {
-					"position":	[17.5, 0, 79.5],
+					"position":	[1.09375, 0, 4.96875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[55, 0, 8.5],
+			"position":	[3.4375, 0, 0.53125],
 			"rotation":	[0, 0.221923828125, 0],
 			"name":	"SmashOyster",
 			"waypoints":	[]
 		}, {
 			"params":	[655360, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[30, 7.771240234375, 88],
+			"position":	[1.875, 0.4857025146484375, 5.5],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ElectricWall",
 			"waypoints":	[]
 		}, {
 			"params":	[1966080, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[8.659912109375, 7.314208984375, 62],
+			"position":	[0.5412445068359375, 0.4571380615234375, 3.875],
 			"rotation":	[0, 0, 0],
 			"name":	"ElectricWall",
 			"waypoints":	[]
 		}, {
 			"params":	[1310720, 5242880, 0, 0, 0, 0, 0, 0],
-			"position":	[71.659912109375, 7.314208984375, 50.5],
+			"position":	[4.4787445068359375, 0.4571380615234375, 3.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"ElectricWall",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 5242880, 0, 0, 0, 0, 0, 0],
-			"position":	[71.97998046875, 7.314208984375, 67],
+			"position":	[4.498748779296875, 0.4571380615234375, 4.1875],
 			"rotation":	[0, 0, 0],
 			"name":	"ElectricWall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.7998046875, 0, 16],
+			"position":	[5.54998779296875, 0, 1],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 0, 23.35986328125],
+			"position":	[1, 0, 1.459991455078125],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

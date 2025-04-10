@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	13,
 		"sublevel":	4,
 		"checksum":	0
 	},
@@ -178,139 +178,139 @@
 		}],
 	"strats":	[{
 			"params":	[524288, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[55.679931640625, 15.7333984375, 60.5],
+			"position":	[3.4799957275390625, 0.98333740234375, 3.78125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformBridge",
 			"waypoints":	[]
 		}, {
 			"params":	[327680, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[55.83984375, 15.7333984375, 79],
+			"position":	[3.489990234375, 0.98333740234375, 4.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformBridge",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[36.7998046875, 32, 113.5],
+			"position":	[2.29998779296875, 2, 7.09375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[28, 32, 113.5],
+			"position":	[1.75, 2, 7.09375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.199951171875, 32, 104.579833984375],
+			"position":	[1.1999969482421875, 2, 6.5362396240234375],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.199951171875, 32, 113.47998046875],
+			"position":	[1.1999969482421875, 2, 7.092498779296875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarCorner",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.27978515625, 32, 92.77978515625],
+			"position":	[1.204986572265625, 2, 5.798736572265625],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.27978515625, 32, 80.81982421875],
+			"position":	[1.204986572265625, 2, 5.051239013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.280029296875, 32, 68.93994140625],
+			"position":	[1.2050018310546875, 2, 4.308746337890625],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.35986328125, 32, 57.179931640625],
+			"position":	[1.209991455078125, 2, 3.5737457275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[25.27978515625, 32, 30.6396484375],
+			"position":	[1.579986572265625, 2, 1.91497802734375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.35986328125, 32, 45.199951171875],
+			"position":	[1.209991455078125, 2, 2.8249969482421875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.359619140625, 32, 36.5],
+			"position":	[1.2099761962890625, 2, 2.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 29.333251953125, 33.5],
+			"position":	[5, 1.8333282470703125, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 31.999755859375, 33],
+			"position":	[5, 1.9999847412109375, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 22.66650390625, 113.5],
+			"position":	[3.5, 1.416656494140625, 7.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[46.7998046875, 28, 112.5],
+			"position":	[2.92498779296875, 1.75, 7.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.43994140625, 32, 30.619873046875],
+			"position":	[1.214996337890625, 2, 1.9137420654296875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarCorner",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[37.199951171875, 29.333251953125, 30.5],
+			"position":	[2.3249969482421875, 1.8333282470703125, 1.90625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 29.333251953125, 35.199951171875],
+			"position":	[3, 1.8333282470703125, 2.1999969482421875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[57.599853515625, 29.333251953125, 29.7998046875],
+			"position":	[3.5999908447265625, 1.8333282470703125, 1.86248779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[68.39990234375, 29.333251953125, 33.5],
+			"position":	[4.274993896484375, 1.8333282470703125, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 7],
+			"position":	[4, 1, 0.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

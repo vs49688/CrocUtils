@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	21,
 		"sublevel":	2,
 		"checksum":	0
 	},
@@ -198,47 +198,47 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 3.199951171875, 152.5],
+			"position":	[7.5, 0.1999969482421875, 9.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 6.39990234375, 159.5],
+			"position":	[7.5, 0.399993896484375, 9.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 9.599853515625, 167],
+			"position":	[7.5, 0.5999908447265625, 10.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 12.7998046875, 174],
+			"position":	[7.5, 0.79998779296875, 10.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[126, 16, 200.5],
+			"position":	[7.875, 1, 12.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SwitchPlatforms",
 			"waypoints":	[{
-					"position":	[32, 16, 115],
+					"position":	[2, 1, 7.1875],
 					"var":	0
 				}, {
-					"position":	[88, 3.199951171875, 153],
+					"position":	[5.5, 0.1999969482421875, 9.5625],
 					"var":	0
 				}, {
-					"position":	[88, 6.39990234375, 160.5],
+					"position":	[5.5, 0.399993896484375, 10.03125],
 					"var":	0
 				}, {
-					"position":	[88, 9.599853515625, 167.5],
+					"position":	[5.5, 0.5999908447265625, 10.46875],
 					"var":	0
 				}, {
-					"position":	[88, 12.7998046875, 174],
+					"position":	[5.5, 0.79998779296875, 10.875],
 					"var":	0
 				}]
 		}],

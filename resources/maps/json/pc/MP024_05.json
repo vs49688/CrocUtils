@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	24,
 		"sublevel":	5,
 		"checksum":	21818
 	},
@@ -130,32 +130,32 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 23],
+			"position":	[2, 0, 1.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 63.97998046875],
+			"position":	[6.5, 0, 3.998748779296875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 0, 64],
+			"position":	[7.5, 0, 4],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 6553600, 0, 0, 0, 0, 0],
-			"position":	[28, 0, 48.5],
+			"position":	[1.75, 0, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Dantini__Thief",
 			"waypoints":	[{
-					"position":	[28, 0, 46.89990234375],
+					"position":	[1.75, 0, 2.931243896484375],
 					"var":	0
 				}, {
-					"position":	[36, 0, 46.89990234375],
+					"position":	[2.25, 0, 2.931243896484375],
 					"var":	0
 				}]
 		}],

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	36,
 		"sublevel":	6,
 		"checksum":	40985
 	},
@@ -138,101 +138,101 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 32.159912109375, 64],
+			"position":	[3, 2.0099945068359375, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8, 0, 64],
+			"position":	[0.5, 0, 4],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 0, 64],
+			"position":	[5.5, 0, 4],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 0, 78.39990234375],
+			"position":	[1.5, 0, 4.899993896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 4.7998046875, 88],
+			"position":	[2, 0.29998779296875, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[44, 8.479736328125, 88],
+			"position":	[2.75, 0.5299835205078125, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[55.039794921875, 11.83984375, 88],
+			"position":	[3.4399871826171875, 0.739990234375, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[65.599853515625, 15.039794921875, 88],
+			"position":	[4.0999908447265625, 0.9399871826171875, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 0, 64.639892578125],
+			"position":	[3.75, 0, 4.0399932861328125],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[75.519775390625, 16.639892578125, 88.47998046875],
+			"position":	[4.7199859619140625, 1.0399932861328125, 5.529998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[28, -0.9599609375, 64],
+			"position":	[1.75, -0.05999755859375, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[75.519775390625, 19.359619140625, 88.31982421875],
+			"position":	[4.7199859619140625, 1.2099761962890625, 5.519989013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"SwitchPlatforms",
 			"waypoints":	[{
-					"position":	[96, 0, 108],
+					"position":	[6, 0, 6.75],
 					"var":	0
 				}, {
-					"position":	[28, 5.43994140625, 56],
+					"position":	[1.75, 0.339996337890625, 3.5],
 					"var":	0
 				}, {
-					"position":	[40, 10.23974609375, 52],
+					"position":	[2.5, 0.639984130859375, 3.25],
 					"var":	0
 				}, {
-					"position":	[56, 16, 52],
+					"position":	[3.5, 1, 3.25],
 					"var":	0
 				}, {
-					"position":	[60, 22.39990234375, 64],
+					"position":	[3.75, 1.399993896484375, 4],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[62.39990234375, 22.39990234375, 53.599853515625],
+			"position":	[3.899993896484375, 1.399993896484375, 3.3499908447265625],
 			"rotation":	[0, 0.343994140625, 0],
 			"name":	"DantiniFly",
 			"waypoints":	[{
-					"position":	[62.39990234375, 22.39990234375, 53.599853515625],
+					"position":	[3.899993896484375, 1.399993896484375, 3.3499908447265625],
 					"var":	0
 				}, {
-					"position":	[68.7998046875, 22.39990234375, 49.919677734375],
+					"position":	[4.29998779296875, 1.399993896484375, 3.1199798583984375],
 					"var":	0
 				}]
 		}],

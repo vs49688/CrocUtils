@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	4,
 		"sublevel":	0,
 		"checksum":	8314
 	},
@@ -166,17 +166,17 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32],
+			"position":	[2, 0, 2],
 			"rotation":	[0, 0.2080078125, 0],
 			"name":	"SmallHead",
 			"waypoints":	[{
-					"position":	[32, 0, 32],
+					"position":	[2, 0, 2],
 					"var":	0
 				}, {
-					"position":	[32, 0, 64],
+					"position":	[2, 0, 4],
 					"var":	0
 				}, {
-					"position":	[56, 0, 44],
+					"position":	[3.5, 0, 2.75],
 					"var":	0
 				}]
 		}],

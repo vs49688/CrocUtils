@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	50,
 		"sublevel":	1,
 		"checksum":	0
 	},
@@ -246,139 +246,139 @@
 		}],
 	"strats":	[{
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[104.159912109375, -0.09130859375, 98],
+			"position":	[6.5099945068359375, -0.005706787109375, 6.125],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[104, 0, 98],
+					"position":	[6.5, 0, 6.125],
 					"var":	0
 				}, {
-					"position":	[104, 0, 112],
+					"position":	[6.5, 0, 7],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[113, 0, 88],
+			"position":	[7.0625, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[113, 0, 88],
+					"position":	[7.0625, 0, 5.5],
 					"var":	0
 				}, {
-					"position":	[126.5, 0, 87.5],
+					"position":	[7.90625, 0, 5.46875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[80.5, 0, 79.5],
+			"position":	[5.03125, 0, 4.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[80.5, 0, 79.5],
+					"position":	[5.03125, 0, 4.96875],
 					"var":	0
 				}, {
-					"position":	[94, 0, 78.5],
+					"position":	[5.875, 0, 4.90625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[63.5, 0, 120.5],
+			"position":	[3.96875, 0, 7.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[63.5, 0, 120.5],
+					"position":	[3.96875, 0, 7.53125],
 					"var":	0
 				}, {
-					"position":	[49.5, 0, 120],
+					"position":	[3.09375, 0, 7.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[94.5, 0, 129],
+			"position":	[5.90625, 0, 8.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[94.5, 0, 129],
+					"position":	[5.90625, 0, 8.0625],
 					"var":	0
 				}, {
-					"position":	[94.639892578125, 0, 144.77978515625],
+					"position":	[5.9149932861328125, 0, 9.048736572265625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 91749, 655, 5, 0, 0, 0, 0],
-			"position":	[144.5, 0, 104],
+			"position":	[9.03125, 0, 6.5],
 			"rotation":	[0, 0, 0],
 			"name":	"VertBolt",
 			"waypoints":	[{
-					"position":	[144.5, 0, 104],
+					"position":	[9.03125, 0, 6.5],
 					"var":	0
 				}, {
-					"position":	[158.5, 0, 104],
+					"position":	[9.90625, 0, 6.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[142, 7.314208984375, 136.5],
+			"position":	[8.875, 0.4571380615234375, 8.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"MonkFish",
 			"waypoints":	[{
-					"position":	[142, 7.314208984375, 136.5],
+					"position":	[8.875, 0.4571380615234375, 8.53125],
 					"var":	0
 				}, {
-					"position":	[121.5, 7.314208984375, 136.5],
+					"position":	[7.59375, 0.4571380615234375, 8.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[66, 6.308349609375, 41],
+			"position":	[4.125, 0.3942718505859375, 2.5625],
 			"rotation":	[0, 0, 0],
 			"name":	"MonkFish",
 			"waypoints":	[{
-					"position":	[66, 6.39990234375, 41],
+					"position":	[4.125, 0.399993896484375, 2.5625],
 					"var":	0
 				}, {
-					"position":	[86.5, 6.39990234375, 41],
+					"position":	[5.40625, 0.399993896484375, 2.5625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.5, 0, 135.5],
+			"position":	[3.53125, 0, 8.46875],
 			"rotation":	[0, 0.36083984375, 0],
 			"name":	"SmashOyster",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[123, 0, 64.5],
+			"position":	[7.6875, 0, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashOyster",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[150.5, 0, 88.5],
+			"position":	[9.40625, 0, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashOyster",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[136.7998046875, 0, 63.85986328125],
+			"position":	[8.54998779296875, 0, 3.991241455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63.759765625, 0, 23.97998046875],
+			"position":	[3.9849853515625, 0, 1.498748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 88.019775390625],
+			"position":	[4, 0, 5.5012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[168, 0, 112],
+			"position":	[10.5, 0, 7],
 			"rotation":	[0, 0.752197265625, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

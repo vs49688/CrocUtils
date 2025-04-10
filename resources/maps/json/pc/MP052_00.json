@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	52,
 		"sublevel":	0,
 		"checksum":	36374
 	},
@@ -186,97 +186,97 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[180.959716796875, 15.83984375, 112.019775390625],
+			"position":	[11.309982299804688, 0.989990234375, 7.0012359619140625],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"LockedDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[152, 16, 112.5],
+			"position":	[9.5, 1, 7.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DeathSlide",
 			"waypoints":	[{
-					"position":	[152, 0, 112.5],
+					"position":	[9.5, 0, 7.03125],
 					"var":	0
 				}, {
-					"position":	[88, 6.39990234375, 112],
+					"position":	[5.5, 0.399993896484375, 7],
 					"var":	0
 				}]
 		}, {
 			"params":	[85196, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 1.599853515625, 96],
+			"position":	[6, 0.0999908447265625, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[104, 1.599853515625, 96],
+					"position":	[6.5, 0.0999908447265625, 6],
 					"var":	0
 				}]
 		}, {
 			"params":	[85196, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 1.599853515625, 128.599853515625],
+			"position":	[6, 0.0999908447265625, 8.03749084472656],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[104, 1.599853515625, 128.599853515625],
+					"position":	[6.5, 0.0999908447265625, 8.03749084472656],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 1.599853515625, 95.97998046875],
+			"position":	[6, 0.0999908447265625, 5.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 1.599853515625, 128.019775390625],
+			"position":	[6, 0.0999908447265625, 8.00123596191406],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 9.599853515625, 112],
+			"position":	[8, 0.5999908447265625, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 3.199951171875, 112.019775390625],
+			"position":	[5.5, 0.1999969482421875, 7.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoorFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96.079833984375, 3.19970703125, 111.97998046875],
+			"position":	[6.0049896240234375, 0.199981689453125, 6.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 1.599853515625, 112],
+			"position":	[5.5, 0.0999908447265625, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 4.7998046875, 112],
+			"position":	[6.5, 0.29998779296875, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 6.39990234375, 112.019775390625],
+			"position":	[7, 0.399993896484375, 7.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 8, 112],
+			"position":	[7.5, 0.5, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[136, 11.199951171875, 112],
+			"position":	[8.5, 0.6999969482421875, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatNathDrop",
 			"waypoints":	[]

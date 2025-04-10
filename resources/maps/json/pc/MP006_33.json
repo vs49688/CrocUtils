@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	6,
 		"sublevel":	33,
 		"checksum":	8264
 	},
@@ -58,20 +58,20 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32],
+			"position":	[2, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"VampireFish",
 			"waypoints":	[{
-					"position":	[32, 0, 32],
+					"position":	[2, 0, 2],
 					"var":	0
 				}, {
-					"position":	[32, 0, 64],
+					"position":	[2, 0, 4],
 					"var":	0
 				}, {
-					"position":	[64, 0, 64],
+					"position":	[4, 0, 4],
 					"var":	0
 				}, {
-					"position":	[60, 0, 36],
+					"position":	[3.75, 0, 2.25],
 					"var":	0
 				}]
 		}],

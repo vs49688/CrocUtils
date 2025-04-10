@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	24,
 		"sublevel":	6,
 		"checksum":	24885
 	},
@@ -122,67 +122,67 @@
 		}],
 	"strats":	[{
 			"params":	[3276800, 26214, 3276800, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32.039794921875],
+			"position":	[2, 0, 2.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 26214, 3276800, 1638400, 0, 0, 0, 0],
-			"position":	[64, 0, 32.019775390625],
+			"position":	[4, 0, 2.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 26214, 3276800, 3276800, 0, 0, 0, 0],
-			"position":	[48, -4.7998046875, 48.039794921875],
+			"position":	[3, -0.29998779296875, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 26214, 3276800, 4915200, 0, 0, 0, 0],
-			"position":	[32, 0, 64.059814453125],
+			"position":	[2, 0, 4.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 26214, 3276800, 6553600, 0, 0, 0, 0],
-			"position":	[64, 0, 64.079833984375],
+			"position":	[4, 0, 4.0049896240234375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 12.7998046875, 48],
+			"position":	[3, 0.79998779296875, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 12.7998046875, 64],
+			"position":	[2, 0.79998779296875, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 12.7998046875, 64],
+			"position":	[4, 0.79998779296875, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 12.7998046875, 31.97998046875],
+			"position":	[2, 0.79998779296875, 1.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 12.7998046875, 32],
+			"position":	[4, 0.79998779296875, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, -1.119873046875, 65],
+			"position":	[3, -0.0699920654296875, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"WarpSparkle",
 			"waypoints":	[]

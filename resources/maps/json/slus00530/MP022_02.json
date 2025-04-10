@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	22,
 		"sublevel":	2,
 		"checksum":	20980
 	},
@@ -194,32 +194,32 @@
 		}],
 	"strats":	[{
 			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 5.485595703125, 48.5],
+			"position":	[2.5, 0.3428497314453125, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[720896, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 5.485595703125, 48],
+			"position":	[3.5, 0.3428497314453125, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 20.5712890625, 81],
+			"position":	[3, 1.28570556640625, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoorFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 48],
+			"position":	[3, 0, 3],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"DantiniSwimUp",
 			"waypoints":	[{
-					"position":	[48, 0, 48],
+					"position":	[3, 0, 3],
 					"var":	0
 				}, {
-					"position":	[48, 10.05712890625, 47.5],
+					"position":	[3, 0.628570556640625, 2.96875],
 					"var":	0
 				}]
 		}],

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	13,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -250,179 +250,179 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.39990234375, 11.999755859375, 63.5],
+			"position":	[2.962493896484375, 0.7499847412109375, 3.96875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.31982421875, 11.999755859375, 63.5],
+			"position":	[3.519989013671875, 0.7499847412109375, 3.96875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[68.2998046875, 11.999755859375, 63.47998046875],
+			"position":	[4.26873779296875, 0.7499847412109375, 3.967498779296875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.259521484375, 11.999755859375, 63.539794921875],
+			"position":	[5.2037200927734375, 0.7499847412109375, 3.9712371826171875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarCorner",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.279541015625, 11.999755859375, 75.33984375],
+			"position":	[5.2049713134765625, 0.7499847412109375, 4.708740234375],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 65536, 0, 0, 0, 0, 0],
-			"position":	[29.39990234375, 0, 63.69970703125],
+			"position":	[1.837493896484375, 0, 3.981231689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104.7998046875, 0, 15.999755859375],
+			"position":	[6.54998779296875, 0, 0.9999847412109375],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 65536, 0, 131072, 0, 131072, 0],
-			"position":	[78.5, 0, 31.39990234375],
+			"position":	[4.90625, 0, 1.962493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformNormal",
 			"waypoints":	[{
-					"position":	[78.5, 0, 31.39990234375],
+					"position":	[4.90625, 0, 1.962493896484375],
 					"var":	65536
 				}, {
-					"position":	[78, 0, 65.099853515625],
+					"position":	[4.875, 0, 4.0687408447265625],
 					"var":	65536
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.279541015625, 11.999755859375, 69.3798828125],
+			"position":	[5.2049713134765625, 0.7499847412109375, 4.33624267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 97.15966796875],
+			"position":	[5, 0, 6.072479248046875],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[81.19970703125, 0, 84.7998046875],
+			"position":	[5.074981689453125, 0, 5.29998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[81.19970703125, 4, 84.7998046875],
+			"position":	[5.074981689453125, 0.25, 5.29998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[81.19970703125, 8, 84.7998046875],
+			"position":	[5.074981689453125, 0.5, 5.29998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[77.27978515625, 12, 63.47998046875],
+			"position":	[4.829986572265625, 0.75, 3.967498779296875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[52, 16, 63],
+			"position":	[3.25, 1, 3.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_B",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78, 16, 63.5],
+			"position":	[4.875, 1, 3.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_O",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[94, 0, 47],
+			"position":	[5.875, 0, 2.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[80, 0, 35],
+					"position":	[5, 0, 2.1875],
 					"var":	0
 				}, {
-					"position":	[56, 0, 30],
+					"position":	[3.5, 0, 1.875],
 					"var":	0
 				}, {
-					"position":	[52, 0, 20.5],
+					"position":	[3.25, 0, 1.28125],
 					"var":	0
 				}, {
-					"position":	[14, 0, 30],
+					"position":	[0.875, 0, 1.875],
 					"var":	0
 				}, {
-					"position":	[2, 0, 19.5],
+					"position":	[0.125, 0, 1.21875],
 					"var":	0
 				}, {
-					"position":	[10, 0, 36.5],
+					"position":	[0.625, 0, 2.28125],
 					"var":	0
 				}, {
-					"position":	[32, 0, 96.5],
+					"position":	[2, 0, 6.03125],
 					"var":	0
 				}, {
-					"position":	[60, 0, 81.5],
+					"position":	[3.75, 0, 5.09375],
 					"var":	0
 				}, {
-					"position":	[66, 0, 55],
+					"position":	[4.125, 0, 3.4375],
 					"var":	0
 				}, {
-					"position":	[66, 0, 45],
+					"position":	[4.125, 0, 2.8125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 52.5],
+			"position":	[2.5, 0, 3.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"Worm",
 			"waypoints":	[{
-					"position":	[40, 0, 52.5],
+					"position":	[2.5, 0, 3.28125],
 					"var":	0
 				}, {
-					"position":	[30, 0, 52.5],
+					"position":	[1.875, 0, 3.28125],
 					"var":	0
 				}, {
-					"position":	[22, 0, 58],
+					"position":	[1.375, 0, 3.625],
 					"var":	0
 				}, {
-					"position":	[18, 0, 66],
+					"position":	[1.125, 0, 4.125],
 					"var":	0
 				}, {
-					"position":	[24, 0, 74.5],
+					"position":	[1.5, 0, 4.65625],
 					"var":	0
 				}, {
-					"position":	[34, 0, 77],
+					"position":	[2.125, 0, 4.8125],
 					"var":	0
 				}, {
-					"position":	[44, 0, 77],
+					"position":	[2.75, 0, 4.8125],
 					"var":	0
 				}, {
-					"position":	[50, 0, 74.5],
+					"position":	[3.125, 0, 4.65625],
 					"var":	0
 				}, {
-					"position":	[54, 0, 68.5],
+					"position":	[3.375, 0, 4.28125],
 					"var":	0
 				}, {
-					"position":	[54, 0, 59.5],
+					"position":	[3.375, 0, 3.71875],
 					"var":	0
 				}, {
-					"position":	[48, 0, 52.5],
+					"position":	[3, 0, 3.28125],
 					"var":	0
 				}]
 		}],

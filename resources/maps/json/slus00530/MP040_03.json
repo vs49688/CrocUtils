@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	40,
 		"sublevel":	3,
 		"checksum":	70514
 	},
@@ -106,191 +106,191 @@
 		}],
 	"strats":	[{
 			"params":	[524288, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[29.439697265625, 0, 63.999755859375],
+			"position":	[1.8399810791015625, 0, 3.9999847412109375],
 			"rotation":	[0, 0.063720703125, 0],
 			"name":	"PuzzleBigCog",
 			"waypoints":	[]
 		}, {
 			"params":	[524288, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[72.31982421875, 0, 64],
+			"position":	[4.519989013671875, 0, 4],
 			"rotation":	[0, 0.063720703125, 0],
 			"name":	"PuzzleBigCog",
 			"waypoints":	[]
 		}, {
 			"params":	[524288, 131072, 0, 0, 0, 0, 0, 0],
-			"position":	[71.83984375, 0, 108.639892578125],
+			"position":	[4.489990234375, 0, 6.7899932861328125],
 			"rotation":	[0, 0.063720703125, 0],
 			"name":	"PuzzleBigCog",
 			"waypoints":	[]
 		}, {
 			"params":	[524288, 196608, 0, 0, 0, 0, 0, 0],
-			"position":	[27.679931640625, 0, 108.639892578125],
+			"position":	[1.7299957275390625, 0, 6.7899932861328125],
 			"rotation":	[0, 0.063720703125, 0],
 			"name":	"PuzzleBigCog",
 			"waypoints":	[]
 		}, {
 			"params":	[1048576, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[50.8798828125, 13.492919921875, 64],
+			"position":	[3.17999267578125, 0.8433074951171875, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockCog",
 			"waypoints":	[{
-					"position":	[50.8798828125, 0, 64],
+					"position":	[3.17999267578125, 0, 4],
 					"var":	0
 				}]
 		}, {
 			"params":	[1048576, 131072, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 29.1728515625, 86.39990234375],
+			"position":	[4.5, 1.82330322265625, 5.399993896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockCog",
 			"waypoints":	[{
-					"position":	[72, 0, 86.8798828125],
+					"position":	[4.5, 0, 5.42999267578125],
 					"var":	0
 				}]
 		}, {
 			"params":	[1048576, 196608, 0, 0, 0, 0, 0, 0],
-			"position":	[49.919921875, 13.066162109375, 108.639892578125],
+			"position":	[3.1199951171875, 0.8166351318359375, 6.7899932861328125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockCog",
 			"waypoints":	[{
-					"position":	[49.919921875, 0, 108.639892578125],
+					"position":	[3.1199951171875, 0, 6.7899932861328125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[13.35986328125, 16, 63.919677734375],
+			"position":	[0.834991455078125, 1, 3.9949798583984375],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[43.119873046875, 16, 63.999755859375],
+			"position":	[2.6949920654296875, 1, 3.9999847412109375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22.239990234375, 16, 63.979736328125],
+			"position":	[1.3899993896484375, 1, 3.9987335205078125],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 15728640, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 7864320, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 0, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 19660800, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 11796480, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 655360, 98304, 3932160, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[110, 16, 81],
+			"position":	[6.875, 1, 5.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.919921875, 32, 94.439697265625],
+			"position":	[5.2449951171875, 2, 5.9024810791015625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 32, 94.35986328125],
+			"position":	[4.5, 2, 5.897491455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[77.999755859375, 32, 94.439697265625],
+			"position":	[4.8749847412109375, 2, 5.9024810791015625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 131.93994140625],
+			"position":	[4, 1, 8.246246337890625],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[58, 16, 108.31982421875],
+			"position":	[3.625, 1, 6.769989013671875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32.159912109375, 16, 200.85986328125],
+			"position":	[2.0099945068359375, 1, 12.553741455078125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[34.159912109375, 16, 63.999755859375],
+			"position":	[2.1349945068359375, 1, 3.9999847412109375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 145],
+			"position":	[4, 1, 9.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 123.079833984375],
+			"position":	[4, 1, 7.6924896240234375],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 114.119873046875],
+			"position":	[4, 1, 7.1324920654296875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 108.239990234375],
+			"position":	[4, 1, 6.7649993896484375],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarCorner",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 129],
+			"position":	[2, 0, 8.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PuzzleCogs",
 			"waypoints":	[{
-					"position":	[32, 0, 129],
+					"position":	[2, 0, 8.0625],
 					"var":	0
 				}, {
-					"position":	[32, 14.93310546875, 177.599853515625],
+					"position":	[2, 0.933319091796875, 11.099990844726562],
 					"var":	0
 				}]
 		}],

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	2,
 		"sublevel":	4,
 		"checksum":	16638
 	},
@@ -54,85 +54,85 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 8, 48],
+			"position":	[3.75, 0.5, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"PeliX",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[84, 8, 64],
+			"position":	[5.25, 0.5, 4],
 			"rotation":	[0, -2.677490234375, 0],
 			"name":	"PeliX",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[58, 0, 34],
+			"position":	[3.625, 0, 2.125],
 			"rotation":	[0, 0, 0],
 			"name":	"BigCogCW",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86, 0, 34],
+			"position":	[5.375, 0, 2.125],
 			"rotation":	[0, 0, 0],
 			"name":	"BigCogAntiCW",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[58, 0, 6],
+			"position":	[3.625, 0, 0.375],
 			"rotation":	[0, 0, 0],
 			"name":	"BigCogAntiCW",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86, 0, 6],
+			"position":	[5.375, 0, 0.375],
 			"rotation":	[0, 0, 0],
 			"name":	"BigCogCW",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86, 0, 8],
+			"position":	[5.375, 0, 0.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 0, 6],
+			"position":	[5.5, 0, 0.375],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[90, 0, 4],
+			"position":	[5.625, 0, 0.25],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 0, 2],
+			"position":	[5.5, 0, 0.125],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86, 0, 0],
+			"position":	[5.375, 0, 0],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[84, 0, 2],
+			"position":	[5.25, 0, 0.125],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[82, 0, 4],
+			"position":	[5.125, 0, 0.25],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[84, 0, 6],
+			"position":	[5.25, 0, 0.375],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]

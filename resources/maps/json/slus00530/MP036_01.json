@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	36,
 		"sublevel":	1,
 		"checksum":	30567
 	},
@@ -166,85 +166,85 @@
 		}],
 	"strats":	[{
 			"params":	[3932160, 0, 2620, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32.059814453125],
+			"position":	[2, 0, 2.0037384033203125],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 1966080, 0, 0, 0, 0],
-			"position":	[48, 0, 48.039794921875],
+			"position":	[3, 0, 3.0024871826171875],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 3932160, 0, 0, 0, 0],
-			"position":	[64, 0, 64.059814453125],
+			"position":	[4, 0, 4.0037384033203125],
 			"rotation":	[0, 0.874267578125, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 5898240, 0, 0, 0, 0],
-			"position":	[48, 0, 80.039794921875],
+			"position":	[3, 0, 5.0024871826171875],
 			"rotation":	[0, 0.874267578125, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 983040, 0, 0, 0, 0],
-			"position":	[64, 0, 32.039794921875],
+			"position":	[4, 0, 2.0024871826171875],
 			"rotation":	[0, 0.874267578125, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 2949120, 0, 0, 0, 0],
-			"position":	[48, 0, 48.019775390625],
+			"position":	[3, 0, 3.0012359619140625],
 			"rotation":	[0, 0.874267578125, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 4915200, 0, 0, 0, 0],
-			"position":	[32, 0, 64.059814453125],
+			"position":	[2, 0, 4.0037384033203125],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[3932160, 0, 2620, 6881280, 0, 0, 0, 0],
-			"position":	[48, 0, 80.5],
+			"position":	[3, 0, 5.03125],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"GooFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[98304, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 48.5],
+			"position":	[2, 0, 3.03125],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[32, 0, 48.5],
+					"position":	[2, 0, 3.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[98304, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 80.5],
+			"position":	[4, 0, 5.03125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[64, 0, 80.5],
+					"position":	[4, 0, 5.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 97],
+			"position":	[3, 0, 6.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 7],
+			"position":	[3, 0, 0.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 0, 22.5],
+			"position":	[1.375, 0, 1.40625],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoor",
 			"waypoints":	[]

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	3,
 		"sublevel":	7,
 		"checksum":	7634
 	},
@@ -58,17 +58,17 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[14, 0, 16.5],
+			"position":	[0.875, 0, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"RedFly",
 			"waypoints":	[{
-					"position":	[0, 0, 33],
+					"position":	[0, 0, 2.0625],
 					"var":	0
 				}, {
-					"position":	[32, 0, 32.5],
+					"position":	[2, 0, 2.03125],
 					"var":	0
 				}, {
-					"position":	[30, 0, 0],
+					"position":	[1.875, 0, 0],
 					"var":	0
 				}]
 		}],

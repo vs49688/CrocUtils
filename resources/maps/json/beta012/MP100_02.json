@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	100,
 		"sublevel":	2,
 		"checksum":	0
 	},
@@ -38,97 +38,97 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8, 0, 8],
+			"position":	[0.5, 0, 0.5],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandCamera",
 			"waypoints":	[{
-					"position":	[-1.5, 0, 16.5],
+					"position":	[-0.09375, 0, 1.03125],
 					"var":	0
 				}, {
-					"position":	[-2, 0, 4],
+					"position":	[-0.125, 0, 0.25],
 					"var":	0
 				}, {
-					"position":	[5.5, 0, -2],
+					"position":	[0.34375, 0, -0.125],
 					"var":	0
 				}, {
-					"position":	[12.5, 0, 0],
+					"position":	[0.78125, 0, 0],
 					"var":	0
 				}, {
-					"position":	[19, 0, 0],
+					"position":	[1.1875, 0, 0],
 					"var":	0
 				}, {
-					"position":	[21, 0, 5],
+					"position":	[1.3125, 0, 0.3125],
 					"var":	0
 				}, {
-					"position":	[19, 0, 19],
+					"position":	[1.1875, 0, 1.1875],
 					"var":	0
 				}, {
-					"position":	[10, 0, 17.5],
+					"position":	[0.625, 0, 1.09375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[18.2998046875, 0.47998046875, 17.260009765625],
+			"position":	[1.14373779296875, 0.029998779296875, 1.0787506103515625],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree01",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16.5, 1.599853515625, 17.5],
+			"position":	[1.03125, 0.0999908447265625, 1.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree01",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17, 1.599853515625, 17.5],
+			"position":	[1.0625, 0.0999908447265625, 1.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree01",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17, 1.599853515625, 18],
+			"position":	[1.0625, 0.0999908447265625, 1.125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree02",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16.5, 1.599853515625, 16.5],
+			"position":	[1.03125, 0.0999908447265625, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree03",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17, 1.599853515625, 16.5],
+			"position":	[1.0625, 0.0999908447265625, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree03",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.5, 1.599853515625, 20.5],
+			"position":	[0.96875, 0.0999908447265625, 1.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree04",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.5, 3.199951171875, 20.5],
+			"position":	[0.96875, 0.1999969482421875, 1.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree04",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17.5, 1.599853515625, 21.5],
+			"position":	[1.09375, 0.0999908447265625, 1.34375],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree04",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[-0.860107421875, 4.7998046875, 14.85986328125],
+			"position":	[-0.0537567138671875, 0.29998779296875, 0.928741455078125],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree05",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[-1.02001953125, 4.7998046875, 16],
+			"position":	[-0.063751220703125, 0.29998779296875, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"IslandTree06",
 			"waypoints":	[]

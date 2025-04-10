@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	21,
 		"sublevel":	4,
 		"checksum":	13189
 	},
@@ -74,19 +74,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 60.19970703125],
+			"position":	[3, 0, 3.762481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallGame2",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[62.39990234375, 0, 20],
+			"position":	[3.899993896484375, 0, 1.25],
 			"rotation":	[0, 0.846435546875, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.97998046875, 0, 7.47998046875],
+			"position":	[2.998748779296875, 0, 0.467498779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]

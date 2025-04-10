@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	56,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -222,11 +222,11 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[86.33984375, 7.314208984375, 64.5],
+			"position":	[5.396240234375, 0.4571380615234375, 4.03125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"BossNeptuna",
 			"waypoints":	[{
-					"position":	[63.5, 0, 64.5],
+					"position":	[3.96875, 0, 4.03125],
 					"var":	0
 				}]
 		}],

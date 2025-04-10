@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	23,
 		"sublevel":	2,
 		"checksum":	20708
 	},
@@ -126,11 +126,11 @@
 		}],
 	"strats":	[{
 			"params":	[19660800, 98304, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 4.7998046875, 80],
+			"position":	[5, 0.29998779296875, 5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"Chumley",
 			"waypoints":	[{
-					"position":	[80, 0, 80],
+					"position":	[5, 0, 5],
 					"var":	0
 				}]
 		}],

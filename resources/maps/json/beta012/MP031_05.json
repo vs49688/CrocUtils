@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	31,
 		"sublevel":	5,
 		"checksum":	0
 	},
@@ -138,43 +138,43 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[44, 0, 64.5],
+			"position":	[2.75, 0, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[74, 12.800048828125, 64],
+			"position":	[4.625, 0.8000030517578125, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 786432, 65536, 0, 0, 0],
-			"position":	[92, 9.439697265625, 64],
+			"position":	[5.75, 0.5899810791015625, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[106, 17.43994140625, 89],
+			"position":	[6.625, 1.089996337890625, 5.5625],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 7.679931640625, 38.5],
+			"position":	[6.5, 0.4799957275390625, 2.40625],
 			"rotation":	[0, 0.144287109375, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 15.35986328125, 38],
+			"position":	[6.5, 0.959991455078125, 2.375],
 			"rotation":	[0, 0.916015625, 0],
 			"name":	"Geronimo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.759765625, 17.43994140625, 39.759765625],
+			"position":	[4.4849853515625, 1.089996337890625, 2.4849853515625],
 			"rotation":	[0, 0.127685546875, 0],
 			"name":	"SmashBlockFloatGobbo",
 			"waypoints":	[]

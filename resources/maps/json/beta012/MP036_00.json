@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	36,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -190,34 +190,34 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63.539794921875, 0, 95],
+			"position":	[3.9712371826171875, 0, 5.9375],
 			"rotation":	[0, 0.927001953125, 0],
 			"name":	"BossCactus",
 			"waypoints":	[{
-					"position":	[63.83984375, 0, 95.5],
+					"position":	[3.989990234375, 0, 5.96875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 2.079833984375, 60],
+			"position":	[6.5, 0.1299896240234375, 3.75],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 2.23974609375, 120],
+			"position":	[6.5, 0.139984130859375, 7.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 1.119873046875, 120],
+			"position":	[1.5, 0.0699920654296875, 7.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 1.119873046875, 56],
+			"position":	[1.5, 0.0699920654296875, 3.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]

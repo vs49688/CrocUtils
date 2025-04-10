@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	2,
 		"sublevel":	5,
 		"checksum":	13409
 	},
@@ -122,25 +122,25 @@
 		}],
 	"strats":	[{
 			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
-			"position":	[32, 0.062255859375, 32],
+			"position":	[2, 0.0038909912109375, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlockFall",
 			"waypoints":	[]
 		}, {
 			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
-			"position":	[32, 16.062255859375, 32],
+			"position":	[2, 1.0038909912109375, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlockFall",
 			"waypoints":	[]
 		}, {
 			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
-			"position":	[32, 32.062255859375, 32],
+			"position":	[2, 2.0038909912109375, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlockFall",
 			"waypoints":	[]
 		}, {
 			"params":	[81920, 81920, 81920, 0, 0, 0, 0, 0],
-			"position":	[32, 48.062255859375, 32],
+			"position":	[2, 3.0038909912109375, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlockFall",
 			"waypoints":	[]

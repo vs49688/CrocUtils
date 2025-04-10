@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	90,
 		"sublevel":	0,
 		"checksum":	20380
 	},
@@ -150,44 +150,44 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[39.5, -1.119873046875, 55.5],
+			"position":	[2.46875, -0.0699920654296875, 3.46875],
 			"rotation":	[0, 0.138671875, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.5, -1.119873046875, 88],
+			"position":	[4.46875, -0.0699920654296875, 5.5],
 			"rotation":	[0, 0.610595703125, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.5, -0.799560546875, 88.019775390625],
+			"position":	[4.46875, -0.0499725341796875, 5.5012359619140625],
 			"rotation":	[0, 0.610595703125, 0],
 			"name":	"GobboCage",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 72],
+			"position":	[3.5, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"TitleCamera",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[39.5, 0, 88],
+			"position":	[2.46875, 0, 5.5],
 			"rotation":	[0, 0.346923828125, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[70, 0, 54],
+			"position":	[4.375, 0, 3.375],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"HuskyDoo",
 			"waypoints":	[{
-					"position":	[70, 0, 54],
+					"position":	[4.375, 0, 3.375],
 					"var":	0
 				}, {
-					"position":	[73.5, 0, 57.5],
+					"position":	[4.59375, 0, 3.59375],
 					"var":	0
 				}]
 		}],

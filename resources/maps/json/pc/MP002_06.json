@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	2,
 		"sublevel":	6,
 		"checksum":	7010
 	},
@@ -86,7 +86,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[23, 0, 24.5],
+			"position":	[1.4375, 0, 1.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"IceImp",
 			"waypoints":	[]

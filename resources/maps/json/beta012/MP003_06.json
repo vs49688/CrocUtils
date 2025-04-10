@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	3,
 		"sublevel":	6,
 		"checksum":	0
 	},
@@ -70,26 +70,26 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[12.2998046875, 0, 17.5],
+			"position":	[0.76873779296875, 0, 1.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"FunkyMonkey",
 			"waypoints":	[{
-					"position":	[8, 0, 2],
+					"position":	[0.5, 0, 0.125],
 					"var":	0
 				}, {
-					"position":	[39.5, 0, 2],
+					"position":	[2.46875, 0, 0.125],
 					"var":	0
 				}, {
-					"position":	[40.5, 0, 27.5],
+					"position":	[2.53125, 0, 1.71875],
 					"var":	0
 				}, {
-					"position":	[7.5, 0, 28.5],
+					"position":	[0.46875, 0, 1.78125],
 					"var":	0
 				}, {
-					"position":	[14, 0, 16.5],
+					"position":	[0.875, 0, 1.03125],
 					"var":	0
 				}, {
-					"position":	[32, 0, 16.5],
+					"position":	[2, 0, 1.03125],
 					"var":	0
 				}]
 		}],

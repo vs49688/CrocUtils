@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	61,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -302,109 +302,109 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 458752, 196608, 0, 0, 0],
-			"position":	[47.759765625, 19.199951171875, 80.5],
+			"position":	[2.9849853515625, 1.1999969482421875, 5.03125],
 			"rotation":	[0, 0.8603515625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 458752, 196608, 0, 0, 0],
-			"position":	[47.759765625, 19.199951171875, 80.5],
+			"position":	[2.9849853515625, 1.1999969482421875, 5.03125],
 			"rotation":	[0, 0.36083984375, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[76.159912109375, 21.01318359375, 42.699951171875],
+			"position":	[4.7599945068359375, 1.313323974609375, 2.6687469482421875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 23.466552734375, 39.7998046875],
+			"position":	[4.5, 1.4666595458984375, 2.48748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[81.199951171875, 26.66650390625, 51],
+			"position":	[5.0749969482421875, 1.666656494140625, 3.1875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[89.599853515625, 30.93310546875, 62],
+			"position":	[5.5999908447265625, 1.933319091796875, 3.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 45875, 0, 0, 0],
-			"position":	[105.599853515625, 30.93310546875, 72.5],
+			"position":	[6.5999908447265625, 1.933319091796875, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 45875, 0, 0, 0],
-			"position":	[105.599853515625, 30.93310546875, 72.5],
+			"position":	[6.5999908447265625, 1.933319091796875, 4.53125],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 1310720, 45875, 0, 0, 0],
-			"position":	[105.599853515625, 30.93310546875, 72.5],
+			"position":	[6.5999908447265625, 1.933319091796875, 4.53125],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[85.19970703125, 38.39990234375, 108.89990234375],
+			"position":	[5.324981689453125, 2.399993896484375, 6.806243896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[74.39990234375, 42.66650390625, 117.499755859375],
+			"position":	[4.649993896484375, 2.666656494140625, 7.3437347412109375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 45.333251953125, 122.599853515625],
+			"position":	[4, 2.8333282470703125, 7.6624908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 16, 128],
+			"position":	[3.75, 1, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[52, 16, 128],
+			"position":	[3.25, 1, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[44, 16, 128],
+			"position":	[2.75, 1, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[38, 16, 128],
+			"position":	[2.375, 1, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 16, 128],
+			"position":	[2, 1, 8],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 35.199951171875, 96.5],
+			"position":	[6, 2.1999969482421875, 6.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]

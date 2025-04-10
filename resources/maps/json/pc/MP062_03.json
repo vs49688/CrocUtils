@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	62,
 		"sublevel":	3,
 		"checksum":	0
 	},
@@ -158,223 +158,223 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32.599609375, 16, 59.69970703125],
+			"position":	[2.0374755859375, 1, 3.731231689453125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SwitchLeft",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[28.479736328125, 16, 63.8798828125],
+			"position":	[1.7799835205078125, 1, 3.99249267578125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"SwitchForward",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32.599609375, 16, 68.19970703125],
+			"position":	[2.0374755859375, 1, 4.262481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"SwitchRight",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.979736328125, 15.146240234375, 39.399658203125],
+			"position":	[5.9987335205078125, 0.9466400146484375, 2.4624786376953125],
 			"rotation":	[0, 0, 0],
 			"name":	"RemotePlatform",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.959716796875, 18.13330078125, 39.399658203125],
+			"position":	[5.9974822998046875, 1.133331298828125, 2.4624786376953125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[76.599609375, 16, 111.2998046875],
+			"position":	[4.7874755859375, 1, 6.95623779296875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"SwitchForward",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80.07958984375, 16, 117.03955078125],
+			"position":	[5.004974365234375, 1, 7.314971923828125],
 			"rotation":	[0, 0, 0],
 			"name":	"SwitchRight",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79.979736328125, 16, 106.81982421875],
+			"position":	[4.9987335205078125, 1, 6.676239013671875],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SwitchLeft",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 16, 31],
+			"position":	[5.5, 1, 1.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.4599609375, 16, 59.7998046875],
+			"position":	[5.52874755859375, 1, 3.73748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 16, 48.599853515625],
+			"position":	[5.5, 1, 3.0374908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.2998046875, 16, 61.599853515625],
+			"position":	[4.51873779296875, 1, 3.8499908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.139892578125, 16, 47.179931640625],
+			"position":	[4.5087432861328125, 1, 2.9487457275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63, 16, 39.93994140625],
+			"position":	[3.9375, 1, 2.496246337890625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80.2998046875, 16, 23.89990234375],
+			"position":	[5.01873779296875, 1, 1.493743896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[62.879638671875, 16, 8.43994140625],
+			"position":	[3.9299774169921875, 1, 0.527496337890625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.73974609375, 16, 7.5],
+			"position":	[3.046234130859375, 1, 0.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[36.479736328125, 16, 7.059814453125],
+			"position":	[2.2799835205078125, 1, 0.4412384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.5, 16, 30.89990234375],
+			"position":	[6.46875, 1, 1.931243896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103, 16, 49.099853515625],
+			"position":	[6.4375, 1, 3.0687408447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.81982421875, 16, 60.7998046875],
+			"position":	[6.488739013671875, 1, 3.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.679931640625, 16, 86.39990234375],
+			"position":	[6.4799957275390625, 1, 5.399993896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[97.119873046875, 16, 93.419921875],
+			"position":	[6.0699920654296875, 1, 5.8387451171875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.07958984375, 16, 95.5],
+			"position":	[5.504974365234375, 1, 5.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78.539794921875, 16, 93.280029296875],
+			"position":	[4.9087371826171875, 1, 5.8300018310546875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.139892578125, 16, 85.7197265625],
+			"position":	[4.5087432861328125, 1, 5.35748291015625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.119873046875, 16, 16.5],
+			"position":	[4.5074920654296875, 1, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.599853515625, 16, 35.7998046875],
+			"position":	[3.0374908447265625, 1, 2.23748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[35.81982421875, 16, 35.33984375],
+			"position":	[2.238739013671875, 1, 2.208740234375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 23.97998046875],
+			"position":	[6, 1, 1.498748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[36.619873046875, 16, 63.83984375],
+			"position":	[2.2887420654296875, 1, 3.989990234375],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"SwitchBackward",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.81982421875, 16, 112.2197265625],
+			"position":	[5.238739013671875, 1, 7.01373291015625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"SwitchBackward",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104.139892578125, 16, 75.559814453125],
+			"position":	[6.5087432861328125, 1, 4.7224884033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 16, 75.5],
+			"position":	[5.5, 1, 4.71875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.2998046875, 16, 75.39990234375],
+			"position":	[4.51873779296875, 1, 4.712493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.5, 16, 43],
+			"position":	[6.46875, 1, 2.6875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[7.35986328125, 16, 64.179931640625],
+			"position":	[0.459991455078125, 1, 4.0112457275390625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

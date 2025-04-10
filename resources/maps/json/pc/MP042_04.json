@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	42,
 		"sublevel":	4,
 		"checksum":	15479
 	},
@@ -102,19 +102,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 7.179931640625],
+			"position":	[3, 0, 0.4487457275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.639892578125, 0, 32.039794921875],
+			"position":	[5.5399932861328125, 0, 2.0024871826171875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 62.419677734375],
+			"position":	[3, 0, 3.9012298583984375],
 			"rotation":	[0, 0, 0],
 			"name":	"WackGrimGame",
 			"waypoints":	[]

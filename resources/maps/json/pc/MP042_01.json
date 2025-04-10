@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	42,
 		"sublevel":	1,
 		"checksum":	17485
 	},
@@ -66,38 +66,38 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 7.219970703125],
+			"position":	[3, 0, 0.4512481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 56.35986328125],
+			"position":	[3, 0, 3.522491455078125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 42.599609375],
+			"position":	[3, 0, 2.6624755859375],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"ShellGame",
 			"waypoints":	[]
 		}, {
 			"params":	[52428, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 32.5],
+			"position":	[2.5, 0, 2.03125],
 			"rotation":	[0, 0.43017578125, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[40, 0, 32.5],
+					"position":	[2.5, 0, 2.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[52428, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 32.5],
+			"position":	[3.5, 0, 2.03125],
 			"rotation":	[0, 0.582763671875, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[56, 0, 32.5],
+					"position":	[3.5, 0, 2.03125],
 					"var":	0
 				}]
 		}],

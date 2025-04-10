@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	43,
 		"sublevel":	2,
 		"checksum":	21403
 	},
@@ -246,47 +246,47 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 40],
+			"position":	[3.5, 0, 2.5],
 			"rotation":	[0, 0, 0],
 			"name":	"BALNSPRG",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 88],
+			"position":	[6.5, 0, 5.5],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"BALNSPRG",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8, 0, 88],
+			"position":	[0.5, 0, 5.5],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"BALNSPRG",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 136],
+			"position":	[3.5, 0, 8.5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"BALNSPRG",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 1.43994140625, 88],
+			"position":	[3.5, 0.089996337890625, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"BalloonBoss",
 			"waypoints":	[{
-					"position":	[56, 0, 88],
+					"position":	[3.5, 0, 5.5],
 					"var":	0
 				}, {
-					"position":	[8, 0, 88],
+					"position":	[0.5, 0, 5.5],
 					"var":	0
 				}, {
-					"position":	[56, 0, 40],
+					"position":	[3.5, 0, 2.5],
 					"var":	0
 				}, {
-					"position":	[104, 0, 88],
+					"position":	[6.5, 0, 5.5],
 					"var":	0
 				}, {
-					"position":	[56, 0, 136],
+					"position":	[3.5, 0, 8.5],
 					"var":	0
 				}]
 		}],

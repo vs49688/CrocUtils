@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	45,
 		"sublevel":	5,
 		"checksum":	35336
 	},
@@ -30,121 +30,121 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 48.059814453125],
+			"position":	[2, 0, 3.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 6553600, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 48.039794921875],
+			"position":	[3, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 13107200, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 48.039794921875],
+			"position":	[4, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 19660800, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 64],
+			"position":	[4, 0, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 26214400, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 79.97998046875],
+			"position":	[4, 0, 4.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 32768000, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 80.019775390625],
+			"position":	[3, 0, 5.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 39321600, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 80.019775390625],
+			"position":	[2, 0, 5.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 45875200, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 96.059814453125],
+			"position":	[2, 0, 6.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 52428800, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 112.059814453125],
+			"position":	[2, 0, 7.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 58982400, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 112.039794921875],
+			"position":	[3, 0, 7.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 65536000, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 128.059814453125],
+			"position":	[3, 0, 8.00373840332031],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 72089600, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 128.059814453125],
+			"position":	[4, 0, 8.00373840332031],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 78643200, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 144.019775390625],
+			"position":	[4, 0, 9.00123596191406],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 85196800, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 160.059814453125],
+			"position":	[4, 0, 10.003738403320312],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 91750400, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 160.019775390625],
+			"position":	[3, 0, 10.001235961914062],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 98304000, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 159.919921875],
+			"position":	[2, 0, 9.9949951171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 192.019775390625],
+			"position":	[2, 0, 12.001235961914062],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63.97998046875, 0, 192.019775390625],
+			"position":	[3.998748779296875, 0, 12.001235961914062],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.97998046875, 0, 192.019775390625],
+			"position":	[2.998748779296875, 0, 12.001235961914062],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 104857600, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 176],
+			"position":	[2, 0, 11],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaftUp",
 			"waypoints":	[]

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	5,
 		"sublevel":	2,
 		"checksum":	0
 	},
@@ -382,55 +382,55 @@
 		}],
 	"strats":	[{
 			"params":	[1507328, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 112, 87],
+			"position":	[6.5, 7, 5.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"GobboCageWater",
 			"waypoints":	[{
-					"position":	[56, 64, 55],
+					"position":	[3.5, 4, 3.4375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.83984375, 112, 86.85986328125],
+			"position":	[6.489990234375, 7, 5.428741455078125],
 			"rotation":	[0, 0.8603515625, 0],
 			"name":	"GobboWater",
 			"waypoints":	[]
 		}, {
 			"params":	[1507328, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 64, 56],
+			"position":	[3.5, 4, 3.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Switch4Door",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 87.679931640625, 48],
+			"position":	[4, 5.4799957275390625, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Puffy",
 			"waypoints":	[{
-					"position":	[64, 88.411376953125, 48],
+					"position":	[4, 5.5257110595703125, 3],
 					"var":	0
 				}, {
-					"position":	[64, 85.851318359375, 57.079833984375],
+					"position":	[4, 5.3657073974609375, 3.5674896240234375],
 					"var":	0
 				}, {
-					"position":	[64, 85.851318359375, 38.999755859375],
+					"position":	[4, 5.3657073974609375, 2.4374847412109375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[122, 112, 57],
+			"position":	[7.625, 7, 3.5625],
 			"rotation":	[0, 0, 0],
 			"name":	"WaterMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 112, 71.5],
+			"position":	[7, 7, 4.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"WaterMine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 112, 79],
+			"position":	[8, 7, 4.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"WaterMine",
 			"waypoints":	[]

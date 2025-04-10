@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	4,
 		"sublevel":	5,
 		"checksum":	11145
 	},
@@ -166,19 +166,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 65536, 327680, 655360, 32768, 0, 0, 0],
-			"position":	[12, 0, 16],
+			"position":	[0.75, 0, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 65536, 327680, 655360, 32768, 0, 0, 0],
-			"position":	[52, 0, 16],
+			"position":	[3.25, 0, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 65536, 327680, 655360, 32768, 0, 0, 0],
-			"position":	[36, 0, 52],
+			"position":	[2.25, 0, 3.25],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]

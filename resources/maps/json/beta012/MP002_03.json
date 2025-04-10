@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	2,
 		"sublevel":	3,
 		"checksum":	0
 	},
@@ -134,37 +134,37 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 2, 88],
+			"position":	[3, 0.125, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Hammy",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 104],
+			"position":	[3.5, 0, 6.5],
 			"rotation":	[0, 5.684814453125, 0],
 			"name":	"Snappy",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[53.5, 0, 88.5],
+			"position":	[3.34375, 0, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[53.5, 0, 92.5],
+			"position":	[3.34375, 0, 5.78125],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[58.5, 0, 92.5],
+			"position":	[3.65625, 0, 5.78125],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[58.5, 0, 88],
+			"position":	[3.65625, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Seed",
 			"waypoints":	[]

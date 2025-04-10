@@ -302,86 +302,86 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[106, 0, 54],
+			"position":	[6.625, 0, 3.375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[90, 0, 52.5],
+			"position":	[5.625, 0, 3.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 57.5],
+			"position":	[4.5, 0, 3.59375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[50, 0, 75.5],
+			"position":	[3.125, 0, 4.71875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 38],
+			"position":	[4.5, 0, 2.375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[66, 0, 30],
+			"position":	[4.125, 0, 1.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 0, 24],
+			"position":	[3.75, 0, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 23.5],
+			"position":	[6.5, 0, 1.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[84, 0, 36.5],
+			"position":	[5.25, 0, 2.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78, 0, 98.5],
+			"position":	[4.875, 0, 6.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
-			"position":	[88, 0, 129.5],
+			"position":	[5.5, 0, 8.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformNormal",
 			"waypoints":	[{
-					"position":	[88, 0, 129.5],
+					"position":	[5.5, 0, 8.09375],
 					"var":	65536
 				}, {
-					"position":	[88, 32, 129.5],
+					"position":	[5.5, 2, 8.09375],
 					"var":	65536
 				}]
 		}, {
 			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
-			"position":	[86, 0, 30],
+			"position":	[5.375, 0, 1.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformNormal",
 			"waypoints":	[{
-					"position":	[86, 0, 30],
+					"position":	[5.375, 0, 1.875],
 					"var":	65536
 				}, {
-					"position":	[86, 32, 30],
+					"position":	[5.375, 2, 1.875],
 					"var":	65536
 				}]
 		}],

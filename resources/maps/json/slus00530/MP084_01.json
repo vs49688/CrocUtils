@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	84,
 		"sublevel":	1,
 		"checksum":	10318
 	},
@@ -94,7 +94,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40.39990234375, 16, 20.199951171875],
+			"position":	[2.524993896484375, 1, 1.2624969482421875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"IntroStart",
 			"waypoints":	[]

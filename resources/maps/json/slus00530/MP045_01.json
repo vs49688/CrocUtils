@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	45,
 		"sublevel":	1,
 		"checksum":	39604
 	},
@@ -90,121 +90,121 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 240, 48],
+			"position":	[3, 15, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 240, 48],
+			"position":	[4, 15, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 240, 48],
+			"position":	[5, 15, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 240, 48],
+			"position":	[6, 15, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 240, 48.019775390625],
+			"position":	[7, 15, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 252.7998046875, 33.5],
+			"position":	[3, 15.79998779296875, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 252.7998046875, 33.5],
+			"position":	[5, 15.79998779296875, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 252.7998046875, 33.5],
+			"position":	[7, 15.79998779296875, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 222.93310546875, 63.39990234375],
+			"position":	[4, 13.933319091796875, 3.962493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 224, 64],
+			"position":	[6, 14, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[131072000, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.999755859375, 225.066650390625, 80.019775390625],
+			"position":	[5.9999847412109375, 14.066665649414062, 5.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 254.1865234375, 17],
+			"position":	[3, 15.88665771484375, 1.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 254.93310546875, 16.5],
+			"position":	[7, 15.933319091796875, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 254.93310546875, 17],
+			"position":	[5, 15.933319091796875, 1.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 240, 80.5],
+			"position":	[4, 15, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 240, 80.31982421875],
+			"position":	[6, 15, 5.019989013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"SwipeFall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 240, 80.5],
+			"position":	[6, 15, 5.03125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SwipeFall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 120.699951171875],
+			"position":	[6, 1, 7.5437469482421875],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 240, 79.85986328125],
+			"position":	[6, 15, 4.991241455078125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_O",
 			"waypoints":	[]
 		}, {
 			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[127.97998046875, 240, 48.019775390625],
+			"position":	[7.998748779296875, 15, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallWarp",
 			"waypoints":	[]

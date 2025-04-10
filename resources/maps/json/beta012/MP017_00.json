@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	17,
 		"sublevel":	0,
 		"checksum":	0
 	},
@@ -166,19 +166,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 1310720, 39321, 0, 0, 0, 0],
-			"position":	[56, 0, 72.5],
+			"position":	[3.5, 0, 4.53125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 1310720, 39321, 15728640, 0, 0, 0],
-			"position":	[56, 0, 72.139892578125],
+			"position":	[3.5, 0, 4.5087432861328125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 1310720, 39321, 7864320, 0, 0, 0],
-			"position":	[56, 0, 72.139892578125],
+			"position":	[3.5, 0, 4.5087432861328125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"PlatformRotate",
 			"waypoints":	[]

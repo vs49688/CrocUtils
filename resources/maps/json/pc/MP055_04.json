@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	55,
 		"sublevel":	4,
 		"checksum":	0
 	},
@@ -210,13 +210,13 @@
 		}],
 	"strats":	[{
 			"params":	[32768, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[97.599853515625, 5.576904296875, 101.7998046875],
+			"position":	[6.0999908447265625, 0.3485565185546875, 6.36248779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"Hammy",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 4.5712890625, 104.5],
+			"position":	[3.5, 0.28570556640625, 6.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoorFloat",
 			"waypoints":	[]

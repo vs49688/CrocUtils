@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	14,
 		"sublevel":	0,
 		"checksum":	32911
 	},
@@ -210,115 +210,115 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 120.719970703125],
+			"position":	[3, 0, 7.5449981689453125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 137.539794921875],
+			"position":	[3, 1, 8.59623718261719],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 122.099853515625],
+			"position":	[3, 1, 7.6312408447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 6.66650390625, 81.5],
+			"position":	[3, 0.416656494140625, 5.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloatGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 72.5],
+			"position":	[2.5, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 72.5],
+			"position":	[3, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 72.5],
+			"position":	[3.5, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 80.5],
+			"position":	[3.5, 0, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 88],
+			"position":	[3.5, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 88],
+			"position":	[2.5, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 80.5],
+			"position":	[2.5, 0, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 88],
+			"position":	[3, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_B",
 			"waypoints":	[]
 		}, {
 			"params":	[98304, 98304, 3932160, 0, 0, 0, 0, 0],
-			"position":	[44, 0, 80.5],
+			"position":	[2.75, 0, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniTumble",
 			"waypoints":	[{
-					"position":	[44, 0, 80],
+					"position":	[2.75, 0, 5],
 					"var":	0
 				}, {
-					"position":	[53.039794921875, 0, 80],
+					"position":	[3.3149871826171875, 0, 5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[30, 0, 113],
+			"position":	[1.875, 0, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Worm",
 			"waypoints":	[{
-					"position":	[30, 0, 113],
+					"position":	[1.875, 0, 7.0625],
 					"var":	0
 				}, {
-					"position":	[38, 0, 105],
+					"position":	[2.375, 0, 6.5625],
 					"var":	0
 				}, {
-					"position":	[58, 0, 105],
+					"position":	[3.625, 0, 6.5625],
 					"var":	0
 				}, {
-					"position":	[64, 0, 113.5],
+					"position":	[4, 0, 7.09375],
 					"var":	0
 				}, {
-					"position":	[58, 0, 105],
+					"position":	[3.625, 0, 6.5625],
 					"var":	0
 				}, {
-					"position":	[38, 0, 105],
+					"position":	[2.375, 0, 6.5625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 13.066650390625, 80.059814453125],
+			"position":	[3, 0.8166656494140625, 5.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoorFloat",
 			"waypoints":	[]

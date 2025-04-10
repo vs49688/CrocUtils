@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	38,
 		"sublevel":	4,
 		"checksum":	26076
 	},
@@ -106,58 +106,58 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 72],
+			"position":	[3, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
-			"position":	[48, 0, 72],
+			"position":	[3, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
-			"position":	[48, 0, 72],
+			"position":	[3, 0, 4.5],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 45875, 0, 0, 0],
-			"position":	[48, 0, 72],
+			"position":	[3, 0, 4.5],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 3.199951171875, 72],
+			"position":	[3, 0.1999969482421875, 4.5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[48, 3.199951171875, 72],
+					"position":	[3, 0.1999969482421875, 4.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 112.039794921875],
+			"position":	[3, 0, 7.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"Jigsaw",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 92.7998046875],
+			"position":	[3.5, 0, 5.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 92.7998046875],
+			"position":	[2.5, 0, 5.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 100.83984375],
+			"position":	[3, 0, 6.302490234375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]

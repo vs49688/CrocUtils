@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"v12_old",
-		"level":	0,
+		"level":	55,
 		"sublevel":	2,
 		"checksum":	0
 	},
@@ -178,67 +178,67 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 0, 81.5],
+			"position":	[1.5, 0, 5.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"IceTornado",
 			"waypoints":	[{
-					"position":	[20.7998046875, 0, 81.5],
+					"position":	[1.29998779296875, 0, 5.09375],
 					"var":	65536
 				}, {
-					"position":	[22.079833984375, 0, 116],
+					"position":	[1.3799896240234375, 0, 7.25],
 					"var":	65536
 				}, {
-					"position":	[29, 0, 115],
+					"position":	[1.8125, 0, 7.1875],
 					"var":	0
 				}, {
-					"position":	[26.5, 0, 81.5],
+					"position":	[1.65625, 0, 5.09375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[97.5, 0, 57.5],
+			"position":	[6.09375, 0, 3.59375],
 			"rotation":	[0, 0, 0],
 			"name":	"IceTornado",
 			"waypoints":	[{
-					"position":	[97.5, 0, 57.5],
+					"position":	[6.09375, 0, 3.59375],
 					"var":	65536
 				}, {
-					"position":	[61, 0, 57.5],
+					"position":	[3.8125, 0, 3.59375],
 					"var":	65536
 				}, {
-					"position":	[60, 0, 62],
+					"position":	[3.75, 0, 3.875],
 					"var":	0
 				}, {
-					"position":	[97, 0, 61],
+					"position":	[6.0625, 0, 3.8125],
 					"var":	0
 				}]
 		}, {
 			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[36.5, 0, 120.5],
+			"position":	[2.28125, 0, 7.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[393216, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[25, 0, 58.5],
+			"position":	[1.5625, 0, 3.65625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 87.5],
+			"position":	[6.5, 0, 5.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 39.35986328125],
+			"position":	[4, 0, 2.459991455078125],
 			"rotation":	[0, 0, 0],
 			"name":	"LockedDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[7.199951171875, 0, 96.019775390625],
+			"position":	[0.4499969482421875, 0, 6.0012359619140625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

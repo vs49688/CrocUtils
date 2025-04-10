@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	6,
 		"sublevel":	23,
 		"checksum":	7701
 	},
@@ -58,20 +58,20 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32],
+			"position":	[2, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Penguin",
 			"waypoints":	[{
-					"position":	[32, 0, 32],
+					"position":	[2, 0, 2],
 					"var":	0
 				}, {
-					"position":	[32, 0, 60],
+					"position":	[2, 0, 3.75],
 					"var":	0
 				}, {
-					"position":	[60, 0, 60],
+					"position":	[3.75, 0, 3.75],
 					"var":	0
 				}, {
-					"position":	[60, 0, 36],
+					"position":	[3.75, 0, 2.25],
 					"var":	0
 				}]
 		}],

@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	12,
 		"sublevel":	5,
 		"checksum":	21546
 	},
@@ -118,55 +118,55 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 28.7998046875],
+			"position":	[2, 0, 1.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 4.5712890625, 34.099853515625],
+			"position":	[2, 0.28570556640625, 2.1312408447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 9.142822265625, 38.43994140625],
+			"position":	[2, 0.5714263916015625, 2.402496337890625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 12.7998046875, 43.759765625],
+			"position":	[2, 0.79998779296875, 2.7349853515625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[43.199951171875, 20.5712890625, 65],
+			"position":	[2.6999969482421875, 1.28570556640625, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_N",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 6.5],
+			"position":	[2, 0, 0.40625],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 16, 65.5],
+			"position":	[2, 1, 4.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[20, 16, 64.5],
+			"position":	[1.25, 1, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 13.07421875, 64.019775390625],
+			"position":	[2, 0.817138671875, 4.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]

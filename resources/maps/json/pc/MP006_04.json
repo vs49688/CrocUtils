@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	20,
 		"format":	"normal",
-		"level":	0,
+		"level":	6,
 		"sublevel":	4,
 		"checksum":	6930
 	},
@@ -58,7 +58,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[52, 1.333251953125, 48],
+			"position":	[3.25, 0.0833282470703125, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]

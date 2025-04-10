@@ -2,7 +2,7 @@
 	"_meta":	{
 		"version":	12,
 		"format":	"normal",
-		"level":	0,
+		"level":	42,
 		"sublevel":	5,
 		"checksum":	27616
 	},
@@ -134,55 +134,55 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 111.5],
+			"position":	[3, 0, 6.96875],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"BalloonMan",
 			"waypoints":	[{
-					"position":	[48, 0, 99.5],
+					"position":	[3, 0, 6.21875],
 					"var":	0
 				}, {
-					"position":	[72.15966796875, 0, 111.859619140625],
+					"position":	[4.509979248046875, 0, 6.9912261962890625],
 					"var":	65536
 				}, {
-					"position":	[47.99951171875, 0, 135.97998046875],
+					"position":	[2.999969482421875, 0, 8.498748779296875],
 					"var":	0
 				}, {
-					"position":	[23.519775390625, 0, 111.899658203125],
+					"position":	[1.4699859619140625, 0, 6.9937286376953125],
 					"var":	196608
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 7.31982421875],
+			"position":	[3, 0, 0.457489013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.97998046875, 0, 56],
+			"position":	[2.998748779296875, 0, 3.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.9599609375, 0, 63.5],
+			"position":	[2.99749755859375, 0, 3.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.9599609375, 0, 71.5],
+			"position":	[2.99749755859375, 0, 4.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.97998046875, 0, 79],
+			"position":	[2.998748779296875, 0, 4.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.9599609375, 0, 87],
+			"position":	[2.99749755859375, 0, 5.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
