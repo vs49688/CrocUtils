@@ -60,7 +60,7 @@ int map_decompile(int argc, char **argv)
     }
 
     if(argc == 3 && strcmp("-", argv[2]) != 0) {
-        fp = fopen(argv[2], "w");
+        fp = fopen(argv[2], "wb");
     } else {
         fp = stdout;
     }
