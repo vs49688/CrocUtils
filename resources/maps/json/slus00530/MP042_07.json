@@ -66,73 +66,73 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 22.89990234375],
+			"position":	[2, 0, 1.431243896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 40.47998046875],
+			"position":	[2, 0, 2.529998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 0, 33],
+			"position":	[1.375, 0, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 33.5],
+			"position":	[2.5, 0, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 50.259765625],
+			"position":	[3, 0, 3.1412353515625],
 			"rotation":	[0, 0.5966796875, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32.719970703125],
+			"position":	[2, 0, 2.0449981689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 56.679931640625],
+			"position":	[2, 0, 3.5424957275390625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 7.219970703125],
+			"position":	[2, 0, 0.4512481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 0, 21.7998046875],
+			"position":	[1.375, 0, 1.36248779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 0, 44.5],
+			"position":	[1.375, 0, 2.78125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 45],
+			"position":	[2.5, 0, 2.8125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 22.119873046875],
+			"position":	[2.5, 0, 1.3824920654296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]

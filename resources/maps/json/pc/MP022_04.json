@@ -158,43 +158,43 @@
 		}],
 	"strats":	[{
 			"params":	[3276800, 13107, 3276800, 131072, 0, 0, 0, 0],
-			"position":	[112, 0, 56],
+			"position":	[7, 0, 3.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 13107, 3276800, 131072, 0, 0, 0, 0],
-			"position":	[112, 0, 88.5],
+			"position":	[7, 0, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDip",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[111.999755859375, 0, 136.019775390625],
+			"position":	[6.9999847412109375, 0, 8.50123596191406],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 0, 120],
+			"position":	[7.5, 0, 7.5],
 			"rotation":	[0, 0.096923828125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 72.5],
+			"position":	[6.5, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120, 0, 72.5],
+			"position":	[7.5, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[111.97998046875, 0, 7.4599609375],
+			"position":	[6.998748779296875, 0, 0.46624755859375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

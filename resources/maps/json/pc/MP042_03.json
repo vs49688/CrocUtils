@@ -66,19 +66,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 7.179931640625],
+			"position":	[3, 0, 0.4487457275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 56.519775390625],
+			"position":	[3, 0, 3.5324859619140625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 40.5],
+			"position":	[3, 0, 2.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"FallGame",
 			"waypoints":	[]

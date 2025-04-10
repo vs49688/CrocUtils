@@ -98,95 +98,95 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 7.5],
+			"position":	[4, 0, 0.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[75.199951171875, 0, 23.5],
+			"position":	[4.6999969482421875, 0, 1.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[52.7998046875, 0, 23],
+			"position":	[3.29998779296875, 0, 1.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 90.259765625],
+			"position":	[4, 0, 5.6412353515625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[3276800, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 36],
+			"position":	[4, 0, 2.25],
 			"rotation":	[0, 0, 0],
 			"name":	"GuidedPlatform",
 			"waypoints":	[{
-					"position":	[52, 0, 35.5],
+					"position":	[3.25, 0, 2.21875],
 					"var":	0
 				}, {
-					"position":	[76, 0, 78.5],
+					"position":	[4.75, 0, 4.90625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[52, 2.74267578125, 48.5],
+			"position":	[3.25, 0.171417236328125, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniFly",
 			"waypoints":	[{
-					"position":	[52, 2.74267578125, 48.5],
+					"position":	[3.25, 0.171417236328125, 3.03125],
 					"var":	0
 				}, {
-					"position":	[76, 2.74267578125, 48.5],
+					"position":	[4.75, 0.171417236328125, 3.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[76, 2.74267578125, 64.5],
+			"position":	[4.75, 0.171417236328125, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniFly",
 			"waypoints":	[{
-					"position":	[76, 2.74267578125, 64.5],
+					"position":	[4.75, 0.171417236328125, 4.03125],
 					"var":	0
 				}, {
-					"position":	[52, 2.74267578125, 64],
+					"position":	[3.25, 0.171417236328125, 4],
 					"var":	0
 				}]
 		}, {
 			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[76, 0, 79],
+			"position":	[4.75, 0, 4.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[76, 0, 79],
+					"position":	[4.75, 0, 4.9375],
 					"var":	0
 				}, {
-					"position":	[58, 0, 74],
+					"position":	[3.625, 0, 4.625],
 					"var":	0
 				}, {
-					"position":	[62, 0, 63],
+					"position":	[3.875, 0, 3.9375],
 					"var":	0
 				}, {
-					"position":	[58, 0, 52.5],
+					"position":	[3.625, 0, 3.28125],
 					"var":	0
 				}, {
-					"position":	[54, 0, 41],
+					"position":	[3.375, 0, 2.5625],
 					"var":	0
 				}, {
-					"position":	[76, 0, 39.5],
+					"position":	[4.75, 0, 2.46875],
 					"var":	0
 				}, {
-					"position":	[66, 0, 45],
+					"position":	[4.125, 0, 2.8125],
 					"var":	0
 				}, {
-					"position":	[52, 0, 68.5],
+					"position":	[3.25, 0, 4.28125],
 					"var":	0
 				}, {
-					"position":	[76, 0, 52.5],
+					"position":	[4.75, 0, 3.28125],
 					"var":	0
 				}]
 		}],

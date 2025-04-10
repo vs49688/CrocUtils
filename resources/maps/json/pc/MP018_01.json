@@ -170,121 +170,121 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40.099853515625, 20.533203125, 40.19970703125],
+			"position":	[2.5062408447265625, 1.2833251953125, 2.512481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"SceneryButterfly",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[98, 20.39990234375, 66.2998046875],
+			"position":	[6.125, 1.274993896484375, 4.14373779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SceneryButterfly",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 20.739990234375],
+			"position":	[3, 1, 1.2962493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[123.119873046875, 16, 47.85986328125],
+			"position":	[7.6949920654296875, 1, 2.991241455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22.39990234375, 16, 76.7998046875],
+			"position":	[1.399993896484375, 1, 4.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SwitchPlatformSingle",
 			"waypoints":	[{
-					"position":	[98, 14.66650390625, 64.5],
+					"position":	[6.125, 0.916656494140625, 4.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 983040, 39321, 0, 0, 0],
-			"position":	[24, 16, 56.5],
+			"position":	[1.5, 1, 3.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 983040, 39321, 0, 0, 0],
-			"position":	[24, 16, 56],
+			"position":	[1.5, 1, 3.5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 56],
+			"position":	[1.5, 1, 3.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[108, 16, 49],
+			"position":	[6.75, 1, 3.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniWalk",
 			"waypoints":	[{
-					"position":	[108, 16, 49],
+					"position":	[6.75, 1, 3.0625],
 					"var":	0
 				}, {
-					"position":	[68, 16, 49],
+					"position":	[4.25, 1, 3.0625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[22, 16, 76.439697265625],
+			"position":	[1.375, 1, 4.7774810791015625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"GobboCage",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 16, 56.5],
+			"position":	[2, 1, 3.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[32, 16, 56.5],
+					"position":	[2, 1, 3.53125],
 					"var":	0
 				}, {
-					"position":	[30, 16, 48.5],
+					"position":	[1.875, 1, 3.03125],
 					"var":	0
 				}, {
-					"position":	[18, 16, 55.5],
+					"position":	[1.125, 1, 3.46875],
 					"var":	0
 				}, {
-					"position":	[16, 16, 63],
+					"position":	[1, 1, 3.9375],
 					"var":	0
 				}, {
-					"position":	[16, 16, 51],
+					"position":	[1, 1, 3.1875],
 					"var":	0
 				}, {
-					"position":	[28, 16, 67.5],
+					"position":	[1.75, 1, 4.21875],
 					"var":	0
 				}, {
-					"position":	[82, 16, 77.5],
+					"position":	[5.125, 1, 4.84375],
 					"var":	0
 				}, {
-					"position":	[82, 16, 67.5],
+					"position":	[5.125, 1, 4.21875],
 					"var":	0
 				}, {
-					"position":	[118, 16, 61],
+					"position":	[7.375, 1, 3.8125],
 					"var":	0
 				}, {
-					"position":	[100, 16, 60.5],
+					"position":	[6.25, 1, 3.78125],
 					"var":	0
 				}, {
-					"position":	[94, 16, 66],
+					"position":	[5.875, 1, 4.125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[98, 16, 81.5],
+			"position":	[6.125, 1, 5.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock_Red",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[116, 16, 65],
+			"position":	[7.25, 1, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaFall",
 			"waypoints":	[]

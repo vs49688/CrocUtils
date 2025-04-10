@@ -291,18 +291,6 @@ static int read_x1616_vec3(const cJSON *object, const char *name, croc_x1616_t *
     return 0;
 }
 
-static int read_x2012_vec3(const cJSON *object, const char *name, croc_x2012_t *x, croc_x2012_t *y, croc_x2012_t *z)
-{
-    float v[3];
-    if(read_float_array(object, name, v, 3) < 0)
-        return -1;
-
-    *x = croc_float_to_x2012(v[0]);
-    *y = croc_float_to_x2012(v[1]);
-    *z = croc_float_to_x2012(v[2]);;
-    return 0;
-}
-
 static int read_uint8_vec3(const cJSON *object, const char *name, uint8_t *r, uint8_t *g, uint8_t *b)
 {
     float v[3];
@@ -390,7 +378,7 @@ static CrocMapWaypoint *read_waypoints(const cJSON *j, const char *name, uint16_
     cJSON_ArrayForEach(val, tmp) {
         CrocMapWaypoint *wp = waypoints + i;
 
-        if(read_x2012_vec3(val, "position", &wp->x, &wp->y, &wp->z) < 0)
+        if(read_x1616_vec3(val, "position", &wp->x, &wp->y, &wp->z) < 0)
             goto fail;
 
         if(read_uint32(val, "var", &wp->var) < 0)
@@ -429,7 +417,7 @@ static CrocMapStrat *read_strats(const cJSON *j, const char *name, uint16_t *cou
         if(read_params_array(val, "params", s->params) < 0)
             goto fail;
 
-        if(read_x2012_vec3(val, "position", &s->x, &s->y, &s->z) < 0)
+        if(read_x1616_vec3(val, "position", &s->x, &s->y, &s->z) < 0)
             goto fail;
 
         if(read_x0412_vec3(val, "rotation", &s->xr, &s->yr, &s->zr) < 0)

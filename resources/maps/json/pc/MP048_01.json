@@ -86,253 +86,253 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42.719970703125, -3.519775390625, 32.5],
+			"position":	[2.6699981689453125, -0.2199859619140625, 2.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, -3.519775390625, 32.5],
+			"position":	[3, -0.2199859619140625, 2.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[53.27978515625, -3.519775390625, 32.5],
+			"position":	[3.329986572265625, -0.2199859619140625, 2.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64.159912109375, -3.519775390625, 42.739990234375],
+			"position":	[4.0099945068359375, -0.2199859619140625, 2.6712493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64.159912109375, -3.519775390625, 48.059814453125],
+			"position":	[4.0099945068359375, -0.2199859619140625, 3.0037384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64.159912109375, -3.519775390625, 53.33984375],
+			"position":	[4.0099945068359375, -0.2199859619140625, 3.333740234375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42.639892578125, -3.519775390625, 65],
+			"position":	[2.6649932861328125, -0.2199859619140625, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, -3.519775390625, 65],
+			"position":	[3, -0.2199859619140625, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[53.27978515625, -3.519775390625, 65],
+			"position":	[3.329986572265625, -0.2199859619140625, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.519775390625, 42.659912109375],
+			"position":	[2, -0.2199859619140625, 2.6662445068359375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.519775390625, 47.97998046875],
+			"position":	[2, -0.2199859619140625, 2.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -3.519775390625, 53.27978515625],
+			"position":	[2, -0.2199859619140625, 3.329986572265625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 12.47998046875, 90.679931640625],
+			"position":	[6, 0.779998779296875, 5.6674957275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 12.47998046875, 95.97998046875],
+			"position":	[6, 0.779998779296875, 5.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 12.47998046875, 101.2998046875],
+			"position":	[6, 0.779998779296875, 6.33123779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockLode",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[62, 0, 32.5],
+			"position":	[3.875, 0, 2.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniLode",
 			"waypoints":	[{
-					"position":	[54, 0, 32],
+					"position":	[3.375, 0, 2],
 					"var":	0
 				}, {
-					"position":	[48, 0, 32],
+					"position":	[3, 0, 2],
 					"var":	0
 				}, {
-					"position":	[42, 0, 32],
+					"position":	[2.625, 0, 2],
 					"var":	0
 				}, {
-					"position":	[34, 0, 32],
+					"position":	[2.125, 0, 2],
 					"var":	0
 				}, {
-					"position":	[42, 0, 32],
+					"position":	[2.625, 0, 2],
 					"var":	0
 				}, {
-					"position":	[48, 0, 32],
+					"position":	[3, 0, 2],
 					"var":	0
 				}, {
-					"position":	[54, 0, 32],
+					"position":	[3.375, 0, 2],
 					"var":	0
 				}, {
-					"position":	[62, 0, 32],
+					"position":	[3.875, 0, 2],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 62],
+			"position":	[4, 0, 3.875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniLode",
 			"waypoints":	[{
-					"position":	[64, 0, 52.5],
+					"position":	[4, 0, 3.28125],
 					"var":	0
 				}, {
-					"position":	[64, 0, 47.5],
+					"position":	[4, 0, 2.96875],
 					"var":	0
 				}, {
-					"position":	[64, 0, 42.5],
+					"position":	[4, 0, 2.65625],
 					"var":	0
 				}, {
-					"position":	[64, 0, 36],
+					"position":	[4, 0, 2.25],
 					"var":	0
 				}, {
-					"position":	[64, 0, 42.5],
+					"position":	[4, 0, 2.65625],
 					"var":	0
 				}, {
-					"position":	[64, 0, 47],
+					"position":	[4, 0, 2.9375],
 					"var":	0
 				}, {
-					"position":	[64, 0, 52.5],
+					"position":	[4, 0, 3.28125],
 					"var":	0
 				}, {
-					"position":	[64, 0, 61.5],
+					"position":	[4, 0, 3.84375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 0, 65],
+			"position":	[3.75, 0, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniLode",
 			"waypoints":	[{
-					"position":	[54, 0, 65],
+					"position":	[3.375, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[48, 0, 65],
+					"position":	[3, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[42, 0, 65],
+					"position":	[2.625, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[34, 0, 64.5],
+					"position":	[2.125, 0, 4.03125],
 					"var":	0
 				}, {
-					"position":	[42, 0, 65],
+					"position":	[2.625, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[48, 0, 65],
+					"position":	[3, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[54, 0, 65],
+					"position":	[3.375, 0, 4.0625],
 					"var":	0
 				}, {
-					"position":	[60, 0, 65],
+					"position":	[3.75, 0, 4.0625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 62],
+			"position":	[2, 0, 3.875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniLode",
 			"waypoints":	[{
-					"position":	[32, 0, 53],
+					"position":	[2, 0, 3.3125],
 					"var":	0
 				}, {
-					"position":	[32, 0, 47.5],
+					"position":	[2, 0, 2.96875],
 					"var":	0
 				}, {
-					"position":	[32, 0, 43],
+					"position":	[2, 0, 2.6875],
 					"var":	0
 				}, {
-					"position":	[32, 0, 35],
+					"position":	[2, 0, 2.1875],
 					"var":	0
 				}, {
-					"position":	[32, 0, 42.5],
+					"position":	[2, 0, 2.65625],
 					"var":	0
 				}, {
-					"position":	[32, 0, 47.5],
+					"position":	[2, 0, 2.96875],
 					"var":	0
 				}, {
-					"position":	[32, 0, 53],
+					"position":	[2, 0, 3.3125],
 					"var":	0
 				}, {
-					"position":	[32, 0, 62.5],
+					"position":	[2, 0, 3.90625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 83.5],
+			"position":	[6, 1, 5.21875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniLode",
 			"waypoints":	[{
-					"position":	[96, 16, 92],
+					"position":	[6, 1, 5.75],
 					"var":	0
 				}, {
-					"position":	[96, 16, 96.5],
+					"position":	[6, 1, 6.03125],
 					"var":	0
 				}, {
-					"position":	[96, 16, 100.5],
+					"position":	[6, 1, 6.28125],
 					"var":	0
 				}, {
-					"position":	[96, 16, 109],
+					"position":	[6, 1, 6.8125],
 					"var":	0
 				}, {
-					"position":	[96, 16, 100.5],
+					"position":	[6, 1, 6.28125],
 					"var":	0
 				}, {
-					"position":	[96, 16, 96],
+					"position":	[6, 1, 6],
 					"var":	0
 				}, {
-					"position":	[96, 16, 91.5],
+					"position":	[6, 1, 5.71875],
 					"var":	0
 				}, {
-					"position":	[96, 16, 83],
+					"position":	[6, 1, 5.1875],
 					"var":	0
 				}]
 		}, {
 			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.5, 16, 112],
+			"position":	[5.96875, 1, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"LodeKey",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.97998046875, 16, 121],
+			"position":	[5.998748779296875, 1, 7.5625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"LockedDoor",
 			"waypoints":	[]

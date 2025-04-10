@@ -278,7 +278,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 65536, 0, 0, 65536, 0, 0, 0],
-			"position":	[18.5, 0, 46],
+			"position":	[1.15625, 0, 2.875],
 			"rotation":	[0, 0, 0],
 			"name":	"JonnyBee",
 			"waypoints":	[]

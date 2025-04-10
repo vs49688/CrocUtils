@@ -70,49 +70,49 @@
 		}],
 	"strats":	[{
 			"params":	[131072000, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 240, 32.03955078125],
+			"position":	[3, 15, 2.002471923828125],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"FallRaft",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.719970703125, 16, 31.85986328125],
+			"position":	[4.5449981689453125, 1, 1.991241455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[2621440, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 240, 32],
+			"position":	[3, 15, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"SwipeFall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 240, 32],
+			"position":	[3, 15, 2],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SwipeFall",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 238.93310546875, 32.5],
+			"position":	[2, 14.933319091796875, 2.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60.7998046875, 16, 28],
+			"position":	[3.79998779296875, 1, 1.75],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60.7998046875, 16, 36],
+			"position":	[3.79998779296875, 1, 2.25],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 244.2666015625, 32],
+			"position":	[3, 15.26666259765625, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_B",
 			"waypoints":	[]

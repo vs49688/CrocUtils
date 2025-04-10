@@ -58,23 +58,23 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 32],
+			"position":	[4, 0, 2],
 			"rotation":	[0, 0.00537109375, 0],
 			"name":	"BigMunki",
 			"waypoints":	[{
-					"position":	[64.31982421875, 0, 32],
+					"position":	[4.019989013671875, 0, 2],
 					"var":	0
 				}, {
-					"position":	[44, 0, 32],
+					"position":	[2.75, 0, 2],
 					"var":	0
 				}, {
-					"position":	[32, 0, 44],
+					"position":	[2, 0, 2.75],
 					"var":	0
 				}, {
-					"position":	[48, 0, 52],
+					"position":	[3, 0, 3.25],
 					"var":	0
 				}, {
-					"position":	[64, 0, 48],
+					"position":	[4, 0, 3],
 					"var":	0
 				}]
 		}],

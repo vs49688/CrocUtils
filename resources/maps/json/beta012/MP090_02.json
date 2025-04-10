@@ -158,110 +158,110 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[28, 0, 14],
+			"position":	[1.75, 0, 0.875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[35.5, 0, 24],
+			"position":	[2.21875, 0, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[46.5, 0, 30.5],
+			"position":	[2.90625, 0, 1.90625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[61.739990234375, 0, 30.039794921875],
+			"position":	[3.8587493896484375, 0, 1.8774871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 65536, 0, 131072, 0, 0, 0],
-			"position":	[62.5, 0, 16.5],
+			"position":	[3.90625, 0, 1.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformNormal",
 			"waypoints":	[{
-					"position":	[62.5, 0, 16.5],
+					"position":	[3.90625, 0, 1.03125],
 					"var":	65536
 				}, {
-					"position":	[95, 0, 16],
+					"position":	[5.9375, 0, 1],
 					"var":	65536
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.5, 0, 31.5],
+			"position":	[5.96875, 0, 1.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[110.5, 0, 31.5],
+			"position":	[6.90625, 0, 1.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[118.5, 0, 24],
+			"position":	[7.40625, 0, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[-0.5, 9.599853515625, 0.89990234375],
+			"position":	[-0.03125, 0.5999908447265625, 0.056243896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaSpout",
 			"waypoints":	[{
-					"position":	[48, 9.599853515625, 6.199951171875],
+					"position":	[3, 0.5999908447265625, 0.3874969482421875],
 					"var":	0
 				}, {
-					"position":	[111.47998046875, 9.599853515625, 5.699951171875],
+					"position":	[6.967498779296875, 0.5999908447265625, 0.3562469482421875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[14.5, 0, 0],
+			"position":	[0.90625, 0, 0],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaSpout",
 			"waypoints":	[{
-					"position":	[79, 9.599853515625, 6.7998046875],
+					"position":	[4.9375, 0.5999908447265625, 0.42498779296875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95, 19.519775390625, 25],
+			"position":	[5.9375, 1.2199859619140625, 1.5625],
 			"rotation":	[0, 0, 0],
 			"name":	"Credit90_0",
 			"waypoints":	[{
-					"position":	[87.5, 0, 36],
+					"position":	[5.46875, 0, 2.25],
 					"var":	0
 				}, {
-					"position":	[72, 0, 30],
+					"position":	[4.5, 0, 1.875],
 					"var":	0
 				}, {
-					"position":	[65.5, 0, 16],
+					"position":	[4.09375, 0, 1],
 					"var":	0
 				}, {
-					"position":	[48, 0, 21.5],
+					"position":	[3, 0, 1.34375],
 					"var":	0
 				}, {
-					"position":	[55, 0, 33],
+					"position":	[3.4375, 0, 2.0625],
 					"var":	0
 				}, {
-					"position":	[75.5, 0, 21.5],
+					"position":	[4.71875, 0, 1.34375],
 					"var":	0
 				}, {
-					"position":	[90, 0, 17],
+					"position":	[5.625, 0, 1.0625],
 					"var":	0
 				}, {
-					"position":	[103.5, 0, 21],
+					"position":	[6.46875, 0, 1.3125],
 					"var":	0
 				}, {
-					"position":	[95, 0, 24],
+					"position":	[5.9375, 0, 1.5],
 					"var":	0
 				}]
 		}],

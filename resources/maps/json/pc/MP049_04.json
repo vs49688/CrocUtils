@@ -54,73 +54,73 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 8],
+			"position":	[3, 0, 0.5],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 32],
+			"position":	[3, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 48.019775390625],
+			"position":	[3, 0, 3.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 48.039794921875],
+			"position":	[4, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 63.97998046875],
+			"position":	[4, 0, 3.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 64.019775390625],
+			"position":	[5, 0, 4.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 80],
+			"position":	[5, 0, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 80.019775390625],
+			"position":	[6, 0, 5.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 96.019775390625],
+			"position":	[6, 0, 6.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 0, 96.039794921875],
+			"position":	[7, 0, 6.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 0, 111.97998046875],
+			"position":	[7, 0, 6.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallRaft3",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 0, 136.81982421875],
+			"position":	[7, 0, 8.551239013671875],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

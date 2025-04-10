@@ -166,110 +166,110 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.89990234375, 0, 24.699951171875],
+			"position":	[3.556243896484375, 0, 1.5437469482421875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.639892578125, 0, 48.059814453125],
+			"position":	[5.5399932861328125, 0, 3.0037384033203125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[45.83984375, 6.39990234375, 24.019775390625],
+			"position":	[2.864990234375, 0.399993896484375, 1.5012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[45.83984375, 6.39990234375, 72.5],
+			"position":	[2.864990234375, 0.399993896484375, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[45.83984375, 11.428466796875, 72.159912109375],
+			"position":	[2.864990234375, 0.7142791748046875, 4.5099945068359375],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_S",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[45.83984375, 11.428466796875, 24.139892578125],
+			"position":	[2.864990234375, 0.7142791748046875, 1.5087432861328125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_U",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.39990234375, 0, 72],
+			"position":	[3.524993896484375, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[32768, 32768, 0, 0, 0, 0, 0, 0],
-			"position":	[50, 0, 24.5],
+			"position":	[3.125, 0, 1.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniWalk",
 			"waypoints":	[{
-					"position":	[50, 0, 24.5],
+					"position":	[3.125, 0, 1.53125],
 					"var":	0
 				}, {
-					"position":	[40, 0, 24.5],
+					"position":	[2.5, 0, 1.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[32768, 32768, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 72],
+			"position":	[2.5, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniWalk",
 			"waypoints":	[{
-					"position":	[40, 0, 72],
+					"position":	[2.5, 0, 4.5],
 					"var":	0
 				}, {
-					"position":	[50, 0, 72],
+					"position":	[3.125, 0, 4.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[68, 6.85693359375, 72],
+			"position":	[4.25, 0.428558349609375, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 48.039794921875],
+			"position":	[4, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"BigWorm",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[68, 8.685546875, 72],
+			"position":	[4.25, 0.5428466796875, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[85196, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, -3.01708984375, 48.039794921875],
+			"position":	[4, -0.188568115234375, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"Spring",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[76.5, 0, 77],
+			"position":	[4.78125, 0, 4.8125],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[76.5, 0, 77],
+					"position":	[4.78125, 0, 4.8125],
 					"var":	0
 				}, {
-					"position":	[73.5, 0, 68],
+					"position":	[4.59375, 0, 4.25],
 					"var":	0
 				}, {
-					"position":	[65.5, 0, 68.5],
+					"position":	[4.09375, 0, 4.28125],
 					"var":	0
 				}, {
-					"position":	[65, 0, 79.5],
+					"position":	[4.0625, 0, 4.96875],
 					"var":	0
 				}]
 		}],

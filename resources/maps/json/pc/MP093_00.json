@@ -218,91 +218,91 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.5, 9.599853515625, 49.5],
+			"position":	[2.96875, 0.5999908447265625, 3.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"TitleCamera",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 0, 29.599853515625],
+			"position":	[1.5, 0, 1.8499908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"MrFrBall",
 			"waypoints":	[{
-					"position":	[24, 0, 29.599853515625],
+					"position":	[1.5, 0, 1.8499908447265625],
 					"var":	0
 				}, {
-					"position":	[40, 0, 28.599853515625],
+					"position":	[2.5, 0, 1.7874908447265625],
 					"var":	0
 				}, {
-					"position":	[55.97998046875, 0, 28.599853515625],
+					"position":	[3.498748779296875, 0, 1.7874908447265625],
 					"var":	0
 				}, {
-					"position":	[72.5, 0, 28.599853515625],
+					"position":	[4.53125, 0, 1.7874908447265625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 67],
+			"position":	[4.5, 0, 4.1875],
 			"rotation":	[0, 0, 0],
 			"name":	"MrFrBall",
 			"waypoints":	[{
-					"position":	[72, 0, 67],
+					"position":	[4.5, 0, 4.1875],
 					"var":	0
 				}, {
-					"position":	[56.019775390625, 0, 66.5],
+					"position":	[3.5012359619140625, 0, 4.15625],
 					"var":	0
 				}, {
-					"position":	[40, 0, 66],
+					"position":	[2.5, 0, 4.125],
 					"var":	0
 				}, {
-					"position":	[24, 0, 66.5],
+					"position":	[1.5, 0, 4.15625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[28, 0, 72],
+			"position":	[1.75, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"MrFrBall",
 			"waypoints":	[{
-					"position":	[28, 0, 72],
+					"position":	[1.75, 0, 4.5],
 					"var":	0
 				}, {
-					"position":	[27.5, 0, 56.5],
+					"position":	[1.71875, 0, 3.53125],
 					"var":	0
 				}, {
-					"position":	[27.5, 0, 40.5],
+					"position":	[1.71875, 0, 2.53125],
 					"var":	0
 				}, {
-					"position":	[28, 0, 24],
+					"position":	[1.75, 0, 1.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[67.5, 0, 24.5],
+			"position":	[4.21875, 0, 1.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"MrFrBall",
 			"waypoints":	[{
-					"position":	[67.5, 0, 24.5],
+					"position":	[4.21875, 0, 1.53125],
 					"var":	0
 				}, {
-					"position":	[67, 0, 40],
+					"position":	[4.1875, 0, 2.5],
 					"var":	0
 				}, {
-					"position":	[68, 0, 56],
+					"position":	[4.25, 0, 3.5],
 					"var":	0
 				}, {
-					"position":	[67.47998046875, 0, 72],
+					"position":	[4.217498779296875, 0, 4.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 48.039794921875],
+			"position":	[3, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 48],
+			"position":	[3, 0, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"GobboCage",
 			"waypoints":	[]

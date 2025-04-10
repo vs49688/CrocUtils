@@ -58,37 +58,37 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[5.5, 0, -0.5],
+			"position":	[0.34375, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8.5, 0, -0.5],
+			"position":	[0.53125, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_B",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[13.5, 0, -0.5],
+			"position":	[0.84375, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_O",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[17.5, 0, -0.5],
+			"position":	[1.09375, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_N",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[21.5, 0, -0.5],
+			"position":	[1.34375, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_U",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[25.5, 0, -0.5],
+			"position":	[1.59375, 0, -0.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_S",
 			"waypoints":	[]

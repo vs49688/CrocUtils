@@ -174,104 +174,104 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[7.35986328125, -1.27978515625, 16.039794921875],
+			"position":	[0.459991455078125, -0.079986572265625, 1.0024871826171875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[59.199951171875, 9.599853515625, 88],
+			"position":	[3.6999969482421875, 0.5999908447265625, 5.5],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[68.079833984375, 9.599853515625, 87.97998046875],
+			"position":	[4.2549896240234375, 0.5999908447265625, 5.498748779296875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[83.039794921875, 9.599853515625, 88],
+			"position":	[5.1899871826171875, 0.5999908447265625, 5.5],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 72],
+			"position":	[2.5, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 72.5],
+			"position":	[6.5, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 24],
+			"position":	[6.5, 0, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 40],
+			"position":	[2.5, 0, 2.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 87.5],
+			"position":	[2.5, 0, 5.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniWalk",
 			"waypoints":	[{
-					"position":	[40, 0, 87.5],
+					"position":	[2.5, 0, 5.46875],
 					"var":	0
 				}, {
-					"position":	[56, 0, 87.5],
+					"position":	[3.5, 0, 5.46875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120.7197265625, -1.27978515625, 32.039794921875],
+			"position":	[7.54498291015625, -0.079986572265625, 2.0024871826171875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 56.5],
+			"position":	[2.5, 0, 3.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 0, 56.5],
+			"position":	[6.5, 0, 3.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[77.039794921875, 9.599853515625, 87.97998046875],
+			"position":	[4.8149871826171875, 0.5999908447265625, 5.498748779296875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"ForestMonkBarSngl",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 87.5],
+			"position":	[6, 0, 5.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniWalk",
 			"waypoints":	[{
-					"position":	[96, 0, 87.5],
+					"position":	[6, 0, 5.46875],
 					"var":	0
 				}, {
-					"position":	[104, 0, 87.5],
+					"position":	[6.5, 0, 5.46875],
 					"var":	0
 				}, {
-					"position":	[104, 0, 79.5],
+					"position":	[6.5, 0, 4.96875],
 					"var":	0
 				}, {
-					"position":	[104, 0, 87],
+					"position":	[6.5, 0, 5.4375],
 					"var":	0
 				}]
 		}],

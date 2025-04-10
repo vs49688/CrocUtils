@@ -270,133 +270,133 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24.599853515625, 16, 104.5],
+			"position":	[1.5374908447265625, 1, 6.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79, 22.39990234375, 52.6396484375],
+			"position":	[4.9375, 1.399993896484375, 3.28997802734375],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79, 22.39990234375, 64.459716796875],
+			"position":	[4.9375, 1.399993896484375, 4.0287322998046875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79, 15.908447265625, 66.85986328125],
+			"position":	[4.9375, 0.9942779541015625, 4.178741455078125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.760009765625, 15.908447265625, 67],
+			"position":	[4.4850006103515625, 0.9942779541015625, 4.1875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[7, 16, 39.39990234375],
+			"position":	[0.4375, 1, 2.462493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71, 16, 31.5],
+			"position":	[4.4375, 1, 1.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88.599853515625, 16, 96.5],
+			"position":	[5.5374908447265625, 1, 6.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15, 22.39990234375, 62.159423828125],
+			"position":	[0.9375, 1.399993896484375, 3.8849639892578125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[14.97998046875, 22.39990234375, 79.95947265625],
+			"position":	[0.936248779296875, 1.399993896484375, 4.997467041015625],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78.89990234375, 22.39990234375, 85.1396484375],
+			"position":	[4.931243896484375, 1.399993896484375, 5.32122802734375],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78.9599609375, 22.39990234375, 44.179443359375],
+			"position":	[4.93499755859375, 1.399993896484375, 2.7612152099609375],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"ForestMonkBarEnd",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15, 22.39990234375, 71.059814453125],
+			"position":	[0.9375, 1.399993896484375, 4.4412384033203125],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[78.9599609375, 22.39990234375, 76.31982421875],
+			"position":	[4.93499755859375, 1.399993896484375, 4.769989013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"ForestMonkBarStr",
 			"waypoints":	[]
 		}, {
 			"params":	[983040, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[73.199951171875, 16, 142.39990234375],
+			"position":	[4.5749969482421875, 1, 8.899993896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"Jumpy",
 			"waypoints":	[{
-					"position":	[78, 16, 140.7998046875],
+					"position":	[4.875, 1, 8.79998779296875],
 					"var":	0
 				}, {
-					"position":	[62, 16, 144],
+					"position":	[3.875, 1, 9],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[20, 16, 143],
+			"position":	[1.25, 1, 8.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"Jumpy",
 			"waypoints":	[{
-					"position":	[16, 16, 137.5],
+					"position":	[1, 1, 8.59375],
 					"var":	0
 				}, {
-					"position":	[34, 16, 144.5],
+					"position":	[2.125, 1, 9.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 0, 55],
+			"position":	[1, 0, 3.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 16, 23.179931640625],
+			"position":	[1, 1, 1.4487457275390625],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.679931640625, 17.919921875, 66.699951171875],
+			"position":	[4.4799957275390625, 1.1199951171875, 4.1687469482421875],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 16, 7],
+			"position":	[5, 1, 0.4375],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

@@ -30,13 +30,13 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, -2.453125, 32],
+			"position":	[3.5, -0.1533203125, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"BigCogAntiCW",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 33],
+			"position":	[5, 0, 2.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Jigsaw",
 			"waypoints":	[]

@@ -170,152 +170,152 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[135, 0, 88.219970703125],
+			"position":	[8.4375, 0, 5.5137481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[90.5, 0, 48],
+			"position":	[5.65625, 0, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[106, 0, 49],
+			"position":	[6.625, 0, 3.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112.139892578125, 0, 58.5],
+			"position":	[7.0087432861328125, 0, 3.65625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[192, 0, 71.259765625],
+			"position":	[12, 0, 4.4537353515625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[192.659912109375, 0, 54.5],
+			"position":	[12.041244506835938, 0, 3.40625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[203.699951171875, 0, 48.5],
+			"position":	[12.731246948242188, 0, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[168, 0, 88.5],
+			"position":	[10.5, 0, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[1966080, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[152, 0, 82.5],
+			"position":	[9.5, 0, 5.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"FireJumper",
 			"waypoints":	[{
-					"position":	[152, 0, 82.5],
+					"position":	[9.5, 0, 5.15625],
 					"var":	0
 				}, {
-					"position":	[152, 0, 94.5],
+					"position":	[9.5, 0, 5.90625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[248.47998046875, 0, 48.039794921875],
+			"position":	[15.529998779296875, 0, 3.0024871826171875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 3.656982421875, 88],
+			"position":	[6.5, 0.2285614013671875, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[216, 0, 47.5],
+			"position":	[13.5, 0, 2.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 40.5],
+			"position":	[4.5, 0, 2.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"FireJumper",
 			"waypoints":	[{
-					"position":	[72, 0, 40.5],
+					"position":	[4.5, 0, 2.53125],
 					"var":	0
 				}, {
-					"position":	[72, 0, 56],
+					"position":	[4.5, 0, 3.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[983040, 65536, 0, 0, 0, 0, 0, 0],
-			"position":	[200, 0, 88.5],
+			"position":	[12.5, 0, 5.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"FireJumper",
 			"waypoints":	[{
-					"position":	[200, 0, 88.5],
+					"position":	[12.5, 0, 5.53125],
 					"var":	0
 				}, {
-					"position":	[186, 0, 88.5],
+					"position":	[11.625, 0, 5.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[1966080, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[192, -3.656982421875, 65],
+			"position":	[12, -0.2285614013671875, 4.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[1966080, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[222, -3.656982421875, 48.3798828125],
+			"position":	[13.875, -0.2285614013671875, 3.02374267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaFireBall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 8.228515625, 87.97998046875],
+			"position":	[6.5, 0.5142822265625, 5.498748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForLockedDoorFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[126, 0, 82.5],
+			"position":	[7.875, 0, 5.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[128, 0, 84.5],
+					"position":	[8, 0, 5.28125],
 					"var":	0
 				}, {
-					"position":	[142, 0, 82.5],
+					"position":	[8.875, 0, 5.15625],
 					"var":	0
 				}, {
-					"position":	[142, 0, 92.5],
+					"position":	[8.875, 0, 5.78125],
 					"var":	0
 				}, {
-					"position":	[128, 0, 94],
+					"position":	[8, 0, 5.875],
 					"var":	0
 				}, {
-					"position":	[160, 0, 83.5],
+					"position":	[10, 0, 5.21875],
 					"var":	0
 				}, {
-					"position":	[174, 0, 92.5],
+					"position":	[10.875, 0, 5.78125],
 					"var":	0
 				}, {
-					"position":	[172, 0, 82.5],
+					"position":	[10.75, 0, 5.15625],
 					"var":	0
 				}, {
-					"position":	[160, 0, 94],
+					"position":	[10, 0, 5.875],
 					"var":	0
 				}]
 		}],

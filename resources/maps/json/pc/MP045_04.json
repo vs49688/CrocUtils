@@ -106,127 +106,127 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 16, 32.019775390625],
+			"position":	[2, 1, 2.0012359619140625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 655360, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 32.039794921875],
+			"position":	[3, 1, 2.0024871826171875],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 1310720, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 16, 32.019775390625],
+			"position":	[4, 1, 2.0012359619140625],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 64.019775390625],
+			"position":	[6, 1, 4.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 327680, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 80.039794921875],
+			"position":	[6, 1, 5.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 655360, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 96.039794921875],
+			"position":	[6, 1, 6.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"CastleEngine2",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 32],
+			"position":	[2, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 32],
+			"position":	[2.5, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 32],
+			"position":	[3, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 32],
+			"position":	[3.5, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal_S",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 32],
+			"position":	[4, 0, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 64],
+			"position":	[6, 0, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 72],
+			"position":	[6, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 80],
+			"position":	[6, 0, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 88],
+			"position":	[6, 0, 5.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[104857, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 96],
+			"position":	[6, 0, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 32.019775390625],
+			"position":	[6, 1, 2.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[83.199951171875, 16, 29.5],
+			"position":	[5.1999969482421875, 1, 1.84375],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[83.199951171875, 16, 29.5],
+					"position":	[5.1999969482421875, 1, 1.84375],
 					"var":	0
 				}, {
-					"position":	[83.199951171875, 16, 37],
+					"position":	[5.1999969482421875, 1, 2.3125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 16, 120.719970703125],
+			"position":	[6, 1, 7.5449981689453125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 84],
+			"position":	[3, 1, 5.25],
 			"rotation":	[0, 0, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]

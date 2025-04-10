@@ -208,18 +208,18 @@ typedef struct CrocMapTrack
 
 typedef struct CrocMapWaypoint
 {
-    croc_x2012_t x;
-    croc_x2012_t y;
-    croc_x2012_t z;
+    croc_x1616_t x;
+    croc_x1616_t y;
+    croc_x1616_t z;
     uint32_t     var;
 } CrocMapWaypoint;
 
 typedef struct CrocMapStrat
 {
     uint32_t        params[CROC_MAP_MAX_PARAMS];
-    croc_x2012_t    x;
-    croc_x2012_t    y;
-    croc_x2012_t    z;
+    croc_x1616_t    x;
+    croc_x1616_t    y;
+    croc_x1616_t    z;
     croc_x0412_t    xr;
     croc_x0412_t    yr;
     croc_x0412_t    zr;

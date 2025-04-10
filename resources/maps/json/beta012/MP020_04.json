@@ -134,55 +134,55 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 40.5],
+			"position":	[3.5, 0, 2.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"DeathSlide",
 			"waypoints":	[{
-					"position":	[56, -14.399658203125, 40.5],
+					"position":	[3.5, -0.8999786376953125, 2.53125],
 					"var":	0
 				}, {
-					"position":	[70, 2.079833984375, 68.5],
+					"position":	[4.375, 0.1299896240234375, 4.28125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[70, 0, 78],
+			"position":	[4.375, 0, 4.875],
 			"rotation":	[0, 0, 0],
 			"name":	"DeathSlide",
 			"waypoints":	[{
-					"position":	[70, -13.759765625, 78],
+					"position":	[4.375, -0.8599853515625, 4.875],
 					"var":	0
 				}, {
-					"position":	[40, 0, 100],
+					"position":	[2.5, 0, 6.25],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[38, 0, 111],
+			"position":	[2.375, 0, 6.9375],
 			"rotation":	[0, 0, 0],
 			"name":	"DeathSlide",
 			"waypoints":	[{
-					"position":	[38, -13.27978515625, 111],
+					"position":	[2.375, -0.829986572265625, 6.9375],
 					"var":	0
 				}, {
-					"position":	[14, 0, 169.5],
+					"position":	[0.875, 0, 10.59375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[2, 0, 166],
+			"position":	[0.125, 0, 10.375],
 			"rotation":	[0, 0, 0],
 			"name":	"DeathSlide",
 			"waypoints":	[{
-					"position":	[2, -12.479736328125, 166],
+					"position":	[0.125, -0.7799835205078125, 10.375],
 					"var":	0
 				}, {
-					"position":	[24, 0, 28.5],
+					"position":	[1.5, 0, 1.78125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8, 9.599853515625, 168.5],
+			"position":	[0.5, 0.5999908447265625, 10.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]

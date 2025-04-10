@@ -146,13 +146,13 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -1.27978515625, 6.5],
+			"position":	[2, -0.079986572265625, 0.40625],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, -0.9599609375, 61.2998046875],
+			"position":	[2, -0.05999755859375, 3.83123779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"WackPengGame",
 			"waypoints":	[]

@@ -62,7 +62,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 40],
+			"position":	[3, 0, 2.5],
 			"rotation":	[0, 0, 0],
 			"name":	"ShellGame",
 			"waypoints":	[]

@@ -330,124 +330,124 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[103.5, 0, 24.5],
+			"position":	[6.46875, 0, 1.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"CaveStal",
 			"waypoints":	[{
-					"position":	[103.5, 0, 24],
+					"position":	[6.46875, 0, 1.5],
 					"var":	0
 				}, {
-					"position":	[72, 0, 24.5],
+					"position":	[4.5, 0, 1.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 12.7998046875, 116.039794921875],
+			"position":	[3.5, 0.79998779296875, 7.2524871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformTimer",
 			"waypoints":	[{
-					"position":	[103.5, 0, 84.5],
+					"position":	[6.46875, 0, 5.28125],
 					"var":	0
 				}, {
-					"position":	[56, 13.43994140625, 116.5],
+					"position":	[3.5, 0.839996337890625, 7.28125],
 					"var":	0
 				}, {
-					"position":	[104, 16, 120.5],
+					"position":	[6.5, 1, 7.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 72],
+			"position":	[4.5, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformTimer",
 			"waypoints":	[{
-					"position":	[42, 0.479736328125, 86.5],
+					"position":	[2.625, 0.0299835205078125, 5.40625],
 					"var":	0
 				}, {
-					"position":	[72, 1.27978515625, 72.5],
+					"position":	[4.5, 0.079986572265625, 4.53125],
 					"var":	0
 				}, {
-					"position":	[71.5, 16.479736328125, 72.5],
+					"position":	[4.46875, 1.0299835205078125, 4.53125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[31, 0, 93],
+			"position":	[1.9375, 0, 5.8125],
 			"rotation":	[0, 0.04150390625, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.5, 0, 24.5],
+			"position":	[3.53125, 0, 1.53125],
 			"rotation":	[0, 0.735595703125, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[124, 0, 48],
+			"position":	[7.75, 0, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[114.5, 0, 48.5],
+			"position":	[7.15625, 0, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[42, 0, 173],
+			"position":	[2.625, 0, 10.8125],
 			"rotation":	[0, 0, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[69.5, 0, 173.5],
+			"position":	[4.34375, 0, 10.84375],
 			"rotation":	[0, 0, 0],
 			"name":	"Cactus1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[116.260009765625, 14.719970703125, 117.079833984375],
+			"position":	[7.2662506103515625, 0.9199981689453125, 7.3174896240234375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.5, 16, 131.5],
+			"position":	[3.53125, 1, 8.21875],
 			"rotation":	[0, 0, 0],
 			"name":	"Grimmy",
 			"waypoints":	[{
-					"position":	[56.5, 16, 131.5],
+					"position":	[3.53125, 1, 8.21875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.5, 16, 156],
+			"position":	[3.03125, 1, 9.75],
 			"rotation":	[0, 0, 0],
 			"name":	"PalmTree",
 			"waypoints":	[]
 		}, {
 			"params":	[327680, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 174],
+			"position":	[3.5, 0, 10.875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[116.5, 17.919921875, 117.5],
+			"position":	[7.28125, 1.1199951171875, 7.34375],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 16.9599609375, 55.39990234375],
+			"position":	[4.5, 1.05999755859375, 3.462493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.179931640625, 20.7998046875, 55.3798828125],
+			"position":	[4.5112457275390625, 1.29998779296875, 3.46124267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"SeedRed",
 			"waypoints":	[]

@@ -126,14 +126,14 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[16, 0, 16],
+			"position":	[1, 0, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"TonyTestPlat",
 			"waypoints":	[{
-					"position":	[16, 0, 11.5],
+					"position":	[1, 0, 0.71875],
 					"var":	0
 				}, {
-					"position":	[15.5, 0, 50],
+					"position":	[0.96875, 0, 3.125],
 					"var":	0
 				}]
 		}],

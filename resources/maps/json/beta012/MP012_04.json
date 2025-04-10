@@ -74,13 +74,13 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[31.679931640625, 0, 48.5],
+			"position":	[1.9799957275390625, 0, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"ShellGame",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 6.31982421875],
+			"position":	[2, 0, 0.394989013671875],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

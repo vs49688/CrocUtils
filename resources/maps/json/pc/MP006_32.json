@@ -122,20 +122,20 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.199951171875, 0, 16],
+			"position":	[0.9499969482421875, 0, 1],
 			"rotation":	[0, 0, 0],
 			"name":	"Tornado",
 			"waypoints":	[{
-					"position":	[16, 0, 16],
+					"position":	[1, 0, 1],
 					"var":	0
 				}, {
-					"position":	[20, 0, 76],
+					"position":	[1.25, 0, 4.75],
 					"var":	0
 				}, {
-					"position":	[76, 0, 76],
+					"position":	[4.75, 0, 4.75],
 					"var":	0
 				}, {
-					"position":	[72, 0, 20],
+					"position":	[4.5, 0, 1.25],
 					"var":	0
 				}]
 		}],

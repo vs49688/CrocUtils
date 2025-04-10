@@ -170,125 +170,125 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[140.919677734375, 31.35986328125, 72.2998046875],
+			"position":	[8.80747985839844, 1.959991455078125, 4.51873779296875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120.7998046875, 16, 95.8798828125],
+			"position":	[7.54998779296875, 1, 5.99249267578125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 131072, 65536, 131072, 0, 0, 0, 0],
-			"position":	[88, 32, 72.5],
+			"position":	[5.5, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformTimer",
 			"waypoints":	[{
-					"position":	[68, 16, 103.5],
+					"position":	[4.25, 1, 6.46875],
 					"var":	0
 				}, {
-					"position":	[88, 32, 72],
+					"position":	[5.5, 2, 4.5],
 					"var":	65536
 				}, {
-					"position":	[88, 16, 72],
+					"position":	[5.5, 1, 4.5],
 					"var":	65536
 				}]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 16, 72],
+			"position":	[6.5, 1, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.919677734375, 31.83984375, 38.439697265625],
+			"position":	[2.9949798583984375, 1.989990234375, 2.4024810791015625],
 			"rotation":	[0, 0, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 32, 72.5],
+			"position":	[5, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 32, 72.5],
+			"position":	[4.5, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 32, 72.5],
+			"position":	[4, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 32, 72.5],
+			"position":	[6, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[104, 32, 72.5],
+			"position":	[6.5, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 32, 72.5],
+			"position":	[7, 2, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[90, 16, 93],
+			"position":	[5.625, 1, 5.8125],
 			"rotation":	[0, 0, 0],
 			"name":	"ElectricWater",
 			"waypoints":	[{
-					"position":	[90, 16, 93],
+					"position":	[5.625, 1, 5.8125],
 					"var":	0
 				}, {
-					"position":	[84, 16, 92],
+					"position":	[5.25, 1, 5.75],
 					"var":	0
 				}, {
-					"position":	[86, 16, 75],
+					"position":	[5.375, 1, 4.6875],
 					"var":	0
 				}, {
-					"position":	[92, 16, 68.5],
+					"position":	[5.75, 1, 4.28125],
 					"var":	0
 				}, {
-					"position":	[82, 16, 69],
+					"position":	[5.125, 1, 4.3125],
 					"var":	0
 				}, {
-					"position":	[90, 16, 85.5],
+					"position":	[5.625, 1, 5.34375],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 16, 60.5],
+			"position":	[5.5, 1, 3.78125],
 			"rotation":	[0, 0, 0],
 			"name":	"WaterFall",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 36.7998046875, 64.5],
+			"position":	[2.5, 2.29998779296875, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloatGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[98304, 65536, 3932160, 0, 0, 0, 0, 0],
-			"position":	[50, 32, 64.5],
+			"position":	[3.125, 2, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniThrow",
 			"waypoints":	[{
-					"position":	[50, 32, 64.5],
+					"position":	[3.125, 2, 4.03125],
 					"var":	0
 				}, {
-					"position":	[50, 32, 72.5],
+					"position":	[3.125, 2, 4.53125],
 					"var":	0
 				}]
 		}],

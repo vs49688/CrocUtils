@@ -162,73 +162,73 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.19970703125, 0, 55.419677734375],
+			"position":	[3.012481689453125, 0, 3.4637298583984375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.979736328125, 0, 48.499755859375],
+			"position":	[2.9987335205078125, 0, 3.0312347412109375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.31982421875, 0, 72.599609375],
+			"position":	[3.019989013671875, 0, 4.5374755859375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.319580078125, 0, 64.03955078125],
+			"position":	[3.0199737548828125, 0, 4.002471923828125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 66.499755859375],
+			"position":	[5, 0, 4.1562347412109375],
 			"rotation":	[0, 0, 0],
 			"name":	"Jigsaw",
 			"waypoints":	[]
 		}, {
 			"params":	[655360, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63.5, 0, 119.8798828125],
+			"position":	[3.96875, 0, 7.49249267578125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"CrystalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[26.5, 0, 61],
+			"position":	[1.65625, 0, 3.8125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[34, 0, 66.5],
+			"position":	[2.125, 0, 4.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[39.5, 0, 72.5],
+			"position":	[2.46875, 0, 4.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[38.5, 0, 62.5],
+			"position":	[2.40625, 0, 3.90625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[29.5, 0, 60],
+			"position":	[1.84375, 0, 3.75],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 96],
+			"position":	[4, 0, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"MultiJumpy",
 			"waypoints":	[]

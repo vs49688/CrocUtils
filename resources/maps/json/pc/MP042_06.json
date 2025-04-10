@@ -62,31 +62,31 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 0, 23.5],
+			"position":	[1.5, 0, 1.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"BoboRobo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 0, 24],
+			"position":	[2.5, 0, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"BoboRobo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[30, 0, 33.5],
+			"position":	[1.875, 0, 2.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"BoboRobo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 49.919677734375],
+			"position":	[3, 0, 3.1199798583984375],
 			"rotation":	[0, 0.610595703125, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 7.33984375],
+			"position":	[2, 0, 0.458740234375],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]

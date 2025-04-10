@@ -26,13 +26,13 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[-8, 0, 8],
+			"position":	[-0.5, 0, 0.5],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"MattpStrat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[8, 0, -8],
+			"position":	[0.5, 0, -0.5],
 			"rotation":	[0, 0, 0],
 			"name":	"MattpStrat2",
 			"waypoints":	[]

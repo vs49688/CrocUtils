@@ -94,97 +94,97 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 48.039794921875],
+			"position":	[2, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallCastlePlatform",
 			"waypoints":	[{
-					"position":	[32, 0, 96.039794921875],
+					"position":	[2, 0, 6.0024871826171875],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64, 0, 96.039794921875],
+			"position":	[4, 0, 6.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallCastlePlatform",
 			"waypoints":	[{
-					"position":	[64, 0, 48.059814453125],
+					"position":	[4, 0, 3.0037384033203125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[96, 0, 48.039794921875],
+			"position":	[6, 0, 3.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallCastlePlatform",
 			"waypoints":	[{
-					"position":	[96, 0, 95.919921875],
+					"position":	[6, 0, 5.9949951171875],
 					"var":	0
 				}]
 		}, {
 			"params":	[163840, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[78, 0, 17.5],
+			"position":	[4.875, 0, 1.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[78, 0, 17.5],
+					"position":	[4.875, 0, 1.09375],
 					"var":	0
 				}, {
-					"position":	[62, 0, 16.5],
+					"position":	[3.875, 0, 1.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[163840, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 129],
+			"position":	[3, 0, 8.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[48, 0, 129],
+					"position":	[3, 0, 8.0625],
 					"var":	0
 				}, {
-					"position":	[64, 0, 128.5],
+					"position":	[4, 0, 8.03125],
 					"var":	0
 				}]
 		}, {
 			"params":	[163840, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[110, 0, 129.5],
+			"position":	[6.875, 0, 8.09375],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[110, 0, 129.5],
+					"position":	[6.875, 0, 8.09375],
 					"var":	0
 				}, {
-					"position":	[96, 0, 129],
+					"position":	[6, 0, 8.0625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 0, 96.039794921875],
+			"position":	[8, 0, 6.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"FallCastlePlatform",
 			"waypoints":	[{
-					"position":	[160, 0, 96.019775390625],
+					"position":	[10, 0, 6.0012359619140625],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[184.639892578125, 0, 95.89990234375],
+			"position":	[11.539993286132812, 0, 5.993743896484375],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.97998046875, 0, 96.019775390625],
+			"position":	[2.998748779296875, 0, 6.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80, 0, 48],
+			"position":	[5, 0, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[111.97998046875, 0, 96.019775390625],
+			"position":	[6.998748779296875, 0, 6.0012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]

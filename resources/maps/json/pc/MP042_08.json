@@ -62,13 +62,13 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 50.259765625],
+			"position":	[3, 0, 3.1412353515625],
 			"rotation":	[0, 0.5966796875, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 7.219970703125],
+			"position":	[2, 0, 0.4512481689453125],
 			"rotation":	[0, 0, 0],
 			"name":	"OneWayDoor",
 			"waypoints":	[]

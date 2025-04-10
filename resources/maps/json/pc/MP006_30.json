@@ -58,20 +58,20 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0.31982421875, 32],
+			"position":	[2, 0.019989013671875, 2],
 			"rotation":	[0, 0, 0],
 			"name":	"SpookySpider",
 			"waypoints":	[{
-					"position":	[32, 0, 32],
+					"position":	[2, 0, 2],
 					"var":	0
 				}, {
-					"position":	[32, 0, 60],
+					"position":	[2, 0, 3.75],
 					"var":	0
 				}, {
-					"position":	[60, 0, 60],
+					"position":	[3.75, 0, 3.75],
 					"var":	0
 				}, {
-					"position":	[64, 0, 32],
+					"position":	[4, 0, 2],
 					"var":	0
 				}]
 		}],

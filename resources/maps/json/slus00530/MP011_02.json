@@ -150,131 +150,131 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.5, 3.679931640625, 24],
+			"position":	[0.96875, 0.2299957275390625, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48.019775390625, 4, 24.019775390625],
+			"position":	[3.0012359619140625, 0.25, 1.5012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 6.66650390625, 24],
+			"position":	[3, 0.416656494140625, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Gobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 4.77978515625],
+			"position":	[2, 0, 0.298736572265625],
 			"rotation":	[0, 0, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[57.519775390625, 0, 95.8798828125],
+			"position":	[3.5949859619140625, 0, 5.99249267578125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"BonusDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.519775390625, 6.93310546875, 24],
+			"position":	[0.9699859619140625, 0.433319091796875, 1.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Letter_N",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[19.19970703125, 0, 96],
+			"position":	[1.199981689453125, 0, 6],
 			"rotation":	[0, 0.369140625, 0],
 			"name":	"FinalExit",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 655360, 39321, 0, 0, 0],
-			"position":	[32, 0, 72],
+			"position":	[2, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 655360, 39321, 0, 0, 0],
-			"position":	[32, 0, 72],
+			"position":	[2, 0, 4.5],
 			"rotation":	[0, 0.666015625, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 655360, 39321, 0, 0, 0],
-			"position":	[32, 0, 72],
+			"position":	[2, 0, 4.5],
 			"rotation":	[0, 0.3330078125, 0],
 			"name":	"PlatformSpin",
 			"waypoints":	[]
 		}, {
 			"params":	[19660, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 72],
+			"position":	[2, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[19660, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 62.5],
+			"position":	[2, 0, 3.90625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[19660, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 82.5],
+			"position":	[2, 0, 5.15625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 112.5],
+			"position":	[2, 0, 7.03125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[32, 0, 72],
+			"position":	[2, 0, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformStepStone",
 			"waypoints":	[]
 		}, {
 			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 24.5],
+			"position":	[3.5, 0, 1.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[50, 0, 18.5],
+					"position":	[3.125, 0, 1.15625],
 					"var":	0
 				}, {
-					"position":	[50, 0, 33.5],
+					"position":	[3.125, 0, 2.09375],
 					"var":	0
 				}, {
-					"position":	[44, 0, 25],
+					"position":	[2.75, 0, 1.5625],
 					"var":	0
 				}, {
-					"position":	[14, 0, 17],
+					"position":	[0.875, 0, 1.0625],
 					"var":	0
 				}, {
-					"position":	[6, 0, 24],
+					"position":	[0.375, 0, 1.5],
 					"var":	0
 				}, {
-					"position":	[14, 0, 32],
+					"position":	[0.875, 0, 2],
 					"var":	0
 				}, {
-					"position":	[20, 0, 67.5],
+					"position":	[1.25, 0, 4.21875],
 					"var":	0
 				}, {
-					"position":	[12, 0, 77],
+					"position":	[0.75, 0, 4.8125],
 					"var":	0
 				}, {
-					"position":	[48, 0, 78],
+					"position":	[3, 0, 4.875],
 					"var":	0
 				}, {
-					"position":	[46, 0, 66.5],
+					"position":	[2.875, 0, 4.15625],
 					"var":	0
 				}, {
-					"position":	[26, 0, 82],
+					"position":	[1.625, 0, 5.125],
 					"var":	0
 				}]
 		}],

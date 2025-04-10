@@ -190,79 +190,79 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 14.506591796875, 30.89990234375],
+			"position":	[3, 0.9066619873046875, 1.931243896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15, 14.506591796875, 64.5],
+			"position":	[0.9375, 0.9066619873046875, 4.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[63, 14.506591796875, 112],
+			"position":	[3.9375, 0.9066619873046875, 7],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[31, 14.506591796875, 48.5],
+			"position":	[1.9375, 0.9066619873046875, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[31.2998046875, 14.506591796875, 113],
+			"position":	[1.95623779296875, 0.9066619873046875, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[95.7998046875, 14.506591796875, 80],
+			"position":	[5.98748779296875, 0.9066619873046875, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15.659912109375, 14.506591796875, 96.5],
+			"position":	[0.9787445068359375, 0.9066619873046875, 6.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[80.119873046875, 14.506591796875, 96],
+			"position":	[5.0074920654296875, 0.9066619873046875, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"PetePlatSection1",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.5, 16, 80.5],
+			"position":	[2.96875, 1, 5.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"MalletMan",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.5, 16, 48.5],
+			"position":	[2.96875, 1, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[15, 16, 113],
+			"position":	[0.9375, 1, 7.0625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[79, 16, 112.5],
+			"position":	[4.9375, 1, 7.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[120.559814453125, 16, 79.85986328125],
+			"position":	[7.5349884033203125, 1, 4.991241455078125],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]

@@ -210,19 +210,19 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40, 5.485595703125, 48.5],
+			"position":	[2.5, 0.3428497314453125, 3.03125],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 5.485595703125, 48],
+			"position":	[3.5, 0.3428497314453125, 3],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 22.39990234375, 76.7998046875],
+			"position":	[3, 1.399993896484375, 4.79998779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"GobboWater",
 			"waypoints":	[]

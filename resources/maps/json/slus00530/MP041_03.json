@@ -162,122 +162,122 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[71.27978515625, 16, 128.179931640625],
+			"position":	[4.454986572265625, 1, 8.01124572753906],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[196608, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[162, 16, 62],
+			"position":	[10.125, 1, 3.875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockBonus",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[162, 16, 132],
+			"position":	[10.125, 1, 8.25],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[100, 16, 63.8798828125],
+			"position":	[6.25, 1, 3.99249267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[108, 16, 64.039794921875],
+			"position":	[6.75, 1, 4.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[116, 16, 63.8798828125],
+			"position":	[7.25, 1, 3.99249267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[122, 16, 63.8798828125],
+			"position":	[7.625, 1, 3.99249267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 16, 86],
+			"position":	[10, 1, 5.375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 16, 91.5],
+			"position":	[10, 1, 5.71875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 16, 98],
+			"position":	[10, 1, 6.125],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[160, 16, 104.599853515625],
+			"position":	[10, 1, 6.5374908447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[122.559814453125, 16, 128.059814453125],
+			"position":	[7.6599884033203125, 1, 8.00373840332031],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[116, 16, 127.739990234375],
+			"position":	[7.25, 1, 7.9837493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[108.7998046875, 16, 128.059814453125],
+			"position":	[6.79998779296875, 1, 8.00373840332031],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[102, 16, 127.739990234375],
+			"position":	[6.375, 1, 7.9837493896484375],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 14.506591796875, 95.97998046875],
+			"position":	[7, 0.9066619873046875, 5.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 14.506591796875, 96.039794921875],
+			"position":	[8, 0.9066619873046875, 6.0024871826171875],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[163840, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[112, 16, 95.5],
+			"position":	[7, 1, 5.96875],
 			"rotation":	[0, 0.749267578125, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[112, 16, 95.5],
+					"position":	[7, 1, 5.96875],
 					"var":	0
 				}]
 		}, {
 			"params":	[163840, 3932160, 0, 0, 0, 0, 0, 0],
-			"position":	[128, 16, 96],
+			"position":	[8, 1, 6],
 			"rotation":	[0, 0.249755859375, 0],
 			"name":	"DantiniZap",
 			"waypoints":	[{
-					"position":	[128, 16, 96],
+					"position":	[8, 1, 6],
 					"var":	0
 				}]
 		}],

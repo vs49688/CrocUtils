@@ -170,115 +170,115 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72.099609375, 11.199951171875, 87.979736328125],
+			"position":	[4.5062255859375, 0.6999969482421875, 5.4987335205078125],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformDead",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[45.5, -0.47998046875, 98],
+			"position":	[2.84375, -0.029998779296875, 6.125],
 			"rotation":	[0, 0, 0],
 			"name":	"PushBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[64.079833984375, 0, 120.679931640625],
+			"position":	[4.0049896240234375, 0, 7.5424957275390625],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 136.679931640625],
+			"position":	[3, 1, 8.54249572753906],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 3276800, 0, 0, 0, 0, 0],
-			"position":	[40.5, 16, 67],
+			"position":	[2.53125, 1, 4.1875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniThrow",
 			"waypoints":	[{
-					"position":	[40.5, 16, 67],
+					"position":	[2.53125, 1, 4.1875],
 					"var":	0
 				}, {
-					"position":	[56, 16, 67],
+					"position":	[3.5, 1, 4.1875],
 					"var":	0
 				}]
 		}, {
 			"params":	[131072, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 22.39990234375, 120],
+			"position":	[5.5, 1.399993896484375, 7.5],
 			"rotation":	[0, 0.124755859375, 0],
 			"name":	"SmashBlockBonusFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[88, 27.199951171875, 120.3798828125],
+			"position":	[5.5, 1.6999969482421875, 7.52374267578125],
 			"rotation":	[0, 0, 0],
 			"name":	"KeyForCageFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[40.059814453125, 22.39990234375, 72.019775390625],
+			"position":	[2.5037384033203125, 1.399993896484375, 4.5012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloat",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56.079833984375, 22.39990234375, 72],
+			"position":	[3.5049896240234375, 1.399993896484375, 4.5],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlockFloatGobbo",
 			"waypoints":	[]
 		}, {
 			"params":	[65536, 65536, 3276800, 0, 0, 0, 0, 0],
-			"position":	[84.5, 16, 127.5],
+			"position":	[5.28125, 1, 7.96875],
 			"rotation":	[0, 0, 0],
 			"name":	"DantiniThrow",
 			"waypoints":	[{
-					"position":	[84.5, 16, 127.5],
+					"position":	[5.28125, 1, 7.96875],
 					"var":	0
 				}, {
-					"position":	[92.5, 16, 117],
+					"position":	[5.78125, 1, 7.3125],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 72.019775390625],
+			"position":	[1.5, 1, 4.5012359619140625],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 80],
+			"position":	[1.5, 1, 5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[23.97998046875, 16, 87.97998046875],
+			"position":	[1.498748779296875, 1, 5.498748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 96],
+			"position":	[1.5, 1, 6],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[23.97998046875, 16, 104],
+			"position":	[1.498748779296875, 1, 6.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 111.97998046875],
+			"position":	[1.5, 1, 6.998748779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[24, 16, 120],
+			"position":	[1.5, 1, 7.5],
 			"rotation":	[0, 0, 0],
 			"name":	"Crystal",
 			"waypoints":	[]

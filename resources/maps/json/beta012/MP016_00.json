@@ -210,80 +210,80 @@
 		}],
 	"strats":	[{
 			"params":	[65536, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[49.099853515625, -1.866455078125, 79.999755859375],
+			"position":	[3.0687408447265625, -0.1166534423828125, 4.9999847412109375],
 			"rotation":	[0, 0, 0],
 			"name":	"PlatformCrumble",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[46.89990234375, 16, 135.5],
+			"position":	[2.931243896484375, 1, 8.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[34, 0, 64.099853515625],
+			"position":	[2.125, 0, 4.0062408447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[61, 0, 64.099853515625],
+			"position":	[3.8125, 0, 4.0062408447265625],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[47.2998046875, 0, 100.2998046875],
+			"position":	[2.95623779296875, 0, 6.26873779296875],
 			"rotation":	[0, 0, 0],
 			"name":	"SmashBlock",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[60, 12, 107.5],
+			"position":	[3.75, 0.75, 6.71875],
 			"rotation":	[0, 0, 0],
 			"name":	"SceneryButterfly",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 120.719970703125],
+			"position":	[3, 0, 7.5449981689453125],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 16, 155.139892578125],
+			"position":	[3, 1, 9.69624328613281],
 			"rotation":	[0, 0.49951171875, 0],
 			"name":	"NormalDoor",
 			"waypoints":	[]
 		}, {
 			"params":	[262144, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[66, 0, 84.5],
+			"position":	[4.125, 0, 5.28125],
 			"rotation":	[0, 0, 0],
 			"name":	"LavaBlubs",
 			"waypoints":	[{
-					"position":	[72, 0, 82.5],
+					"position":	[4.5, 0, 5.15625],
 					"var":	0
 				}, {
-					"position":	[74, 0, 70.5],
+					"position":	[4.625, 0, 4.40625],
 					"var":	0
 				}, {
-					"position":	[76, 0, 91.5],
+					"position":	[4.75, 0, 5.71875],
 					"var":	0
 				}, {
-					"position":	[38, 0, 79.5],
+					"position":	[2.375, 0, 4.96875],
 					"var":	0
 				}, {
-					"position":	[24, 0, 73],
+					"position":	[1.5, 0, 4.5625],
 					"var":	0
 				}, {
-					"position":	[14, 0, 82.5],
+					"position":	[0.875, 0, 5.15625],
 					"var":	0
 				}, {
-					"position":	[20, 0, 91.5],
+					"position":	[1.25, 0, 5.71875],
 					"var":	0
 				}, {
-					"position":	[28, 0, 82.5],
+					"position":	[1.75, 0, 5.15625],
 					"var":	0
 				}]
 		}],

@@ -150,11 +150,11 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[72, 0, 56.5],
+			"position":	[4.5, 0, 3.53125],
 			"rotation":	[0, 0, 0],
 			"name":	"BossDante",
 			"waypoints":	[{
-					"position":	[56, 0, 72.5],
+					"position":	[3.5, 0, 4.53125],
 					"var":	0
 				}]
 		}],

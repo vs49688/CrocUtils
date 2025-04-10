@@ -58,7 +58,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, 0, 64],
+			"position":	[3, 0, 4],
 			"rotation":	[0, 0, 0],
 			"name":	"BossFlibby",
 			"waypoints":	[]

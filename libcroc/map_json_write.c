@@ -45,17 +45,6 @@ static cJSON *add_x1616_vec3(cJSON *object, const char *name, croc_x1616_t x, cr
     return add_float_array(object, name, v, 3);
 }
 
-static cJSON *add_x2012_vec3(cJSON *object, const char *name, croc_x2012_t x, croc_x2012_t y, croc_x2012_t z)
-{
-    float v[3] = {
-        croc_x2012_to_float(x),
-        croc_x2012_to_float(y),
-        croc_x2012_to_float(z)
-    };
-
-    return add_float_array(object, name, v, 3);
-}
-
 static cJSON *add_x0412_vec3(cJSON *object, const char *name, croc_x0412_t x, croc_x0412_t y, croc_x0412_t z)
 {
     float v[3] = {
@@ -115,7 +104,7 @@ static cJSON *add_waypoint_to_array(cJSON *array, const CrocMapWaypoint *wp)
     if(!cJSON_AddItemToArray(array, j))
         return NULL;
 
-    if(add_x2012_vec3(j, "position", wp->x, wp->y, wp->z) == NULL)
+    if(add_x1616_vec3(j, "position", wp->x, wp->y, wp->z) == NULL)
         return NULL;
 
     if(cJSON_AddNumberToObject(j, "var", wp->var) == NULL)
@@ -148,7 +137,7 @@ static cJSON *add_strat_to_array(cJSON *array, const CrocMapStrat *s)
             return NULL;
     }
 
-    if(add_x2012_vec3(j, "position", s->x, s->y, s->z) == NULL)
+    if(add_x1616_vec3(j, "position", s->x, s->y, s->z) == NULL)
         return NULL;
 
     if(add_x0412_vec3(j, "rotation", s->xr, s->yr, s->zr) == NULL)

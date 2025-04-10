@@ -122,7 +122,7 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[46.099853515625, 0, 58.5],
+			"position":	[2.8812408447265625, 0, 3.65625],
 			"rotation":	[0, 0, 0],
 			"name":	"IntroStart",
 			"waypoints":	[]

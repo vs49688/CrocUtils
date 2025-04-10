@@ -126,23 +126,23 @@
 		}],
 	"strats":	[{
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[56, 0, 55.5],
+			"position":	[3.5, 0, 3.46875],
 			"rotation":	[0, 0, 0],
 			"name":	"ChaseMeBlock",
 			"waypoints":	[{
-					"position":	[26, 0, 24.5],
+					"position":	[1.625, 0, 1.53125],
 					"var":	0
 				}, {
-					"position":	[72, 0, 72],
+					"position":	[4.5, 0, 4.5],
 					"var":	0
 				}]
 		}, {
 			"params":	[0, 0, 0, 0, 0, 0, 0, 0],
-			"position":	[48, -1.006103515625, 3.83984375],
+			"position":	[3, -0.0628814697265625, 0.239990234375],
 			"rotation":	[0, 0, 0],
 			"name":	"UpExit",
 			"waypoints":	[{
-					"position":	[48, 9.142578125, 5],
+					"position":	[3, 0.5714111328125, 0.3125],
 					"var":	0
 				}]
 		}],
