@@ -1,4 +1,4 @@
-{ stdenv, lib, fetchFromGitHub, cmake, cjson, version, commitHash }:
+{ stdenv, lib, fetchFromGitHub, cmake, version, commitHash }:
 let
   vsclib = fetchFromGitHub {
     owner  = "vs49688";
@@ -27,9 +27,6 @@ stdenv.mkDerivation {
   preConfigure = ''
     rm -rf vsclib
     ln -s ${vsclib} vsclib
-
-    rm -rf cJSON
-    ln -s ${cjson.src} cJSON
   '';
 
   doCheck = true;
