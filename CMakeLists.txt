@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.13)
 project(CrocUtils)
 
 add_subdirectory(cJSON EXCLUDE_FROM_ALL)
