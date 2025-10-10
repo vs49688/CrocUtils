@@ -51,6 +51,8 @@ stdenv.mkDerivation {
   '';
 
   passthru.commitHash = commitHash;
+  passthru.vsclib = vsclib;
+  passthru.brender = brender;
 
   meta = with lib; {
     description = "A small collection of utilities for Croc.";
