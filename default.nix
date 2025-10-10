@@ -1,7 +1,8 @@
-{ stdenv, lib, fetchFromGitHub, cmake, version, commitHash }:
+{ stdenv, lib, fetchFromGitea, cmake, version, commitHash }:
 let
-  vsclib = fetchFromGitHub {
-    owner  = "vs49688";
+  vsclib = fetchFromGitea {
+    domain = "git.vs49688.net";
+    owner  = "zane";
     repo   = "vsclib";
     rev    = "7c4b67f89ecbeb0899da9bbadbf3a1fcb0a2fc36";
     sha256 = "sha256-Aw4iJUW2T5irrFWCvRxKzbkiDEbEEe4eMq9Eh/cLu3k=";
