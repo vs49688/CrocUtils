@@ -8,8 +8,8 @@
     shortRev    = if (self ? shortRev) then self.shortRev else self.dirtyShortRev;
     isDirty     = self ? dirtyShortRev;
 
-    # version = "${baseVersion}-g${shortRev}";
-    version = "1.5.0";
+    version = "${baseVersion}-g${shortRev}";
+    # version = "1.5.0";
 
     commitHash = if (self ? rev) then self.rev else self.dirtyRev;
 
