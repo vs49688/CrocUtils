@@ -28,8 +28,6 @@ add_executable(croctool
 		./wad_extract_all.c
 
 		./tex_convert.c
-
-		./stb_image_write.h
 )
 
 target_include_directories(croctool PRIVATE ${CMAKE_CURRENT_BINARY_DIR})

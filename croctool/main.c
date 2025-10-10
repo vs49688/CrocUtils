@@ -54,7 +54,7 @@ static void usage(FILE *f, const char *argv0)
     fprintf(f, "       %s wad extract <base-name> <file-name> [output-dir|-]\n", argv0);
     fprintf(f, "       %s wad extract-all <base-name> [output-dir]\n", argv0);
     fprintf(f, "       %s wad dump-index <index-name.idx> [output-file.json]\n", argv0);
-    fprintf(f, "       %s tex convert [--key] <input-file.pix> [base-name]\n", argv0);
+    fprintf(f, "       %s tex convert <input-file.pix> [base-name]\n", argv0);
 }
 
 static void usage_maptool(FILE *f, const char *argv0)
