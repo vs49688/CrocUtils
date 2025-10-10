@@ -4,12 +4,14 @@
   inputs.nixpkgs.url = github:NixOS/nixpkgs;
 
   outputs = { self, nixpkgs }: let
-    version = if (self ? shortRev) then
-      "1.4.1-${toString self.revCount}-g${self.shortRev}"
-    else
-      "0.0.0-${self.lastModifiedDate}";
+    baseVersion = "1.5.0.${self.lastModifiedDate}";
+    shortRev    = if (self ? shortRev) then self.shortRev else self.dirtyShortRev;
+    isDirty     = self ? dirtyShortRev;
 
-    commitHash = if (self ? rev) then self.rev else "unknown";
+    version = "${baseVersion}-g${shortRev}";
+    # version = "1.5.0";
+
+    commitHash = if (self ? rev) then self.rev else self.dirtyRev;
 
     mkShells = packages: builtins.mapAttrs (k: v: v.overrideAttrs(old: {
       hardeningDisable = [ "all" ];
