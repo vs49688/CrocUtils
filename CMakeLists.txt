@@ -3,6 +3,13 @@ project(CrocUtils)
 
 add_subdirectory(cJSON EXCLUDE_FROM_ALL)
 
+set(BRENDER_BUILD_DRIVERS   OFF)
+set(BRENDER_BUILD_CONTRIB   OFF)
+set(BRENDER_BUILD_TOOLS     OFF)
+set(BRENDER_BUILD_EXAMPLES  OFF)
+set(BRENDER_DISABLE_INSTALL ON)
+add_subdirectory(brender EXCLUDE_FROM_ALL)
+
 set(VSCLIB_ENABLE_TESTS OFF CACHE BOOL "" FORCE)
 add_subdirectory(vsclib)
 add_subdirectory(libcroc)
