@@ -4,12 +4,12 @@
   inputs.nixpkgs.url = github:NixOS/nixpkgs;
 
   outputs = { self, nixpkgs }: let
-    baseVersion = "1.5.0.${self.lastModifiedDate}";
+    baseVersion = "1.5.1.${self.lastModifiedDate}";
     shortRev    = if (self ? shortRev) then self.shortRev else self.dirtyShortRev;
     isDirty     = self ? dirtyShortRev;
 
     version = "${baseVersion}-g${shortRev}";
-    # version = "1.5.0";
+    # version = "1.5.1";
 
     commitHash = if (self ? rev) then self.rev else self.dirtyRev;
 
