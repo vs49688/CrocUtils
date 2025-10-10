@@ -28,7 +28,5 @@
 #include "libcroc/dir.h"
 #include "libcroc/strun.h"
 #include "libcroc/mod.h"
-#include "libcroc/chunk.h"
-#include "libcroc/tex.h"
 
 #endif /* _LIBCROC_H */

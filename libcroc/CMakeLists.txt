@@ -14,8 +14,6 @@ add_library(libcroc STATIC
 		vec.c
 		col.c
 		mod.c
-		texture.c
-		chunk.c
 
 		wadc.cpp
 
@@ -37,10 +35,6 @@ add_library(libcroc STATIC
 		include/libcroc/coldef.h
 		include/libcroc/mod.h
 		include/libcroc/moddef.h
-		include/libcroc/tex.h
-		include/libcroc/texdef.h
-		include/libcroc/chunk.h
-		include/libcroc/chunkdef.h
 
 		include/libcroc/strun.h
 		include/libcroc/strun.h
