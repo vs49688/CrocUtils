@@ -3,4 +3,4 @@
 	url = https://git.vs49688.net/zane/vsclib.git
 [submodule "brender"]
 	path = brender
-	url = https://github.com:BlazingRenderer/BRender.git
+	url = https://github.com/BlazingRenderer/BRender.git
