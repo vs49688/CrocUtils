@@ -1,4 +1,4 @@
-{ stdenv, lib, fetchFromGitea, cmake, version, commitHash }:
+{ stdenv, lib, fetchFromGitHub, fetchFromGitea, cmake, perl, version, commitHash }:
 let
   vsclib = fetchFromGitea {
     domain = "git.vs49688.net";
@@ -7,13 +7,23 @@ let
     rev    = "510b1c50f8efc572bc11bd44679ed228b94a9b15";
     hash   = "sha256-UCi4Uy1h1fE9OpR/4uXOtcO69/3TdG0PoCmwJ8n9S3c=";
   };
+
+  brender = fetchFromGitHub {
+    owner  = "BlazingRenderer";
+    repo   = "BRender";
+    rev    = "db5b7b81ec0536393f2d01e55c4d230afc62ab8f";
+    hash   = "sha256-wadNdyaW7kD9ooD0i8v1xtEpyBvSfOWOVef8RYZ2ee4=";
+  };
 in
 stdenv.mkDerivation {
   inherit version;
 
   pname = "crocutils";
 
-  nativeBuildInputs = [ cmake ];
+  nativeBuildInputs = [
+    cmake
+    perl
+  ];
 
   enableParallelBuilding = true;
 
@@ -28,6 +38,9 @@ stdenv.mkDerivation {
   preConfigure = ''
     rm -rf vsclib
     ln -s ${vsclib} vsclib
+
+    rm -rf brender
+    ln -s ${brender} brender
   '';
 
   doCheck = true;
